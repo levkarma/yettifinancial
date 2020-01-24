@@ -5,10 +5,10 @@
 </template>
 
 <script>
-  import { vmgNuxtTemplatesMainLayout } from './../mixins/vmg-nuxt-templates-main-layout.js'
-  export default {
-    mixins: [vmgNuxtTemplatesMainLayout]
-  }
+import { vmgNuxtTemplatesMainLayout } from './../mixins/vmg-nuxt-templates-main-layout.js'
+export default {
+  mixins: [vmgNuxtTemplatesMainLayout]
+}
 </script>
 
 <style>
