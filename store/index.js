@@ -8,13 +8,15 @@ export const mutations = {
 }
 export const getters = {
 	// ...
-	cData: state => field => {
+	cData: state => location => {
 		if (state.data.length === 0) {
 			return ''
 		}
-		const split = field.split('.')
+		const splitLocation = location.split('.')
 		const component = state.data.filter(
-			e => e.elementName === split[0] && e.componentName === split[1]
+			e =>
+				e.componentName === splitLocation[1] &&
+				e.elementName === splitLocation[0]
 		)[0]
 		if (component.values.length > 1) {
 			return component.values

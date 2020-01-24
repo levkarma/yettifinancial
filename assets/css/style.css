@@ -272,7 +272,7 @@ h6 {
 }
 
 .main-nav a:hover,
-.main-nav .active > a,
+.main-nav .active,
 .main-nav li:hover > a {
   color: #007bff;
   text-decoration: none;

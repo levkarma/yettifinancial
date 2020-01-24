@@ -66,7 +66,8 @@ export default {
     { src: '~/plugins/vue-carousel', mode: 'client' },
     { src: '~/plugins/vue-number-animation', mode: 'client' },
     { src: '~/plugins/vue-isotopes', mode: 'client' },
-    { src: '~/plugins/vue-images-loaded', mode: 'client' }
+    { src: '~/plugins/vue-images-loaded', mode: 'client' }, 
+    { src: '~/plugins/navscroll' }
   ],
   /*
    ** Nuxt.js dev-modules

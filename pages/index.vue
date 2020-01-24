@@ -215,7 +215,10 @@
       <!--==========================
           Portfolio Section
         ============================-->
-      <section id="portfolio" class="clearfix">
+      <section id="portfolio" class="clearfix scroll-item">
+        <div id="entry-1-target">
+          test
+        </div>
         <div class="container">
           <header class="section-header">
             <h3 class="section-title">Our Portfolio</h3>
@@ -224,7 +227,14 @@
             <div class="row">
               <div class="col-lg-12">
                 <ul id="portfolio-flters">
-                  <li data-filter="*" class="filter-active" v-for="(val, key) in option.getFilterData" @click="filter(key)">{{ key }}</li>
+                  <li
+                    data-filter="*"
+                    class="filter-active"
+                    v-for="(val, key) in option.getFilterData"
+                    @click="filter(key)"
+                  >
+                    {{ key }}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -785,6 +795,13 @@ if (process.client) {
 }
 
 export default {
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    }
+  },
   data() {
     return {
       filterOption: 'All',
@@ -867,10 +884,10 @@ export default {
         this.filterOption = key
       }
     },
-    layout () {
-        this.$refs.portfolio.layout('masonry');
-    }    
-  },  
+    layout() {
+      this.$refs.portfolio.layout('masonry')
+    }
+  },
   mounted() {
     console.log(this.$isotope)
   }
