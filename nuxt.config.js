@@ -51,13 +51,14 @@ export default {
    ** Global CSS
    */
   css: [
-    '~/assets/lib/bootstrap/css/bootstrap.min.css',
-    '~/assets/lib/font-awesome/css/font-awesome.min.css',
-    '~/assets/lib/animate/animate.min.css',
-    '~/assets/lib/ionicons/css/ionicons.min.css',
-    '~/assets/lib/owlcarousel/assets/owl.carousel.min.css',
-    '~/assets/lib/lightbox/css/lightbox.min.css',
-    '~/assets/css/style.css'
+    // '~/assets/lib/bootstrap/css/bootstrap.min.css',
+    // '~/assets/lib/font-awesome/css/font-awesome.min.css',
+    // '~/assets/lib/animate/animate.min.css',
+    // '~/assets/lib/ionicons/css/ionicons.min.css',
+    // '~/assets/lib/owlcarousel/assets/owl.carousel.min.css',
+    // '~/assets/lib/lightbox/css/lightbox.min.css',
+    // '~/assets/css/style.css',
+    '~/assets/sass/main.scss'
   ],
   /*
    ** Plugins to load before mounting the App
@@ -66,7 +67,7 @@ export default {
     { src: '~/plugins/vue-carousel', mode: 'client' },
     { src: '~/plugins/vue-number-animation', mode: 'client' },
     { src: '~/plugins/vue-isotopes', mode: 'client' },
-    { src: '~/plugins/vue-images-loaded', mode: 'client' }, 
+    { src: '~/plugins/vue-images-loaded', mode: 'client' },
     { src: '~/plugins/navscroll' }
   ],
   /*
@@ -78,7 +79,7 @@ export default {
    */
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
+    // '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     'vue-scrollto/nuxt'

@@ -1,0 +1,30 @@
+$box-radius: 0px;
+@import 'bulma';
+#intro {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#intro .hero {
+	background-image: url('~assets/img/yetti-profile.jpg');
+	background-size: cover;
+	background-position: center;
+	.container {
+		margin-top: 120%;
+	}
+}
+#about .hero {
+	background-image: url('~assets/img/yetti-and-sons.jpg');
+	background-size: cover;
+	background-position: center;
+	.container {
+		margin-top: 120%;
+	}
+}
+.button {
+	margin: 1rem 0 0 0;
+}
+.top-margin {
+	margin: 1.5rem 0 0 0;
+}
+

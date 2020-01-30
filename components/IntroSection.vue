@@ -1,26 +1,37 @@
 <template>
-	<section id="intro" class="clearfix">
-		<div class="container">
-			<div class="intro-img">
-				<img src="~/assets/img/yetti-profile.jpg" alt="" />
-			</div>
-
-			<div class="intro-info">
-				<h2>
-					{{ $store.getters.cData('landing-page.short-business-statement') }}
-				</h2>
-				<div>
-					<a
-						v-for="button of $store.getters.cData(
-							'landing-page.action-buttons'
-						)"
-						href="#about"
-						class="btn-services scrollto"
-						>{{ button }}</a
-					>
+	<section id="intro" class="section is-marginless is-paddingless">
+		<section class="hero is-success is-fullheight">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+						Meet Yetti
+					</h1>
+					<h2 class="subtitle">
+						"I love to educate. So don't be shy."
+						<button class="button">Call me!</button>
+					</h2>
 				</div>
 			</div>
-		</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<h2 class="title">
+					{{ $store.getters.cData('landing-page.short-business-statement') }}
+				</h2>
+				<div class="level">
+					<div class="level-right">
+						<a
+							v-for="button of $store.getters.cData(
+								'landing-page.action-buttons'
+							)"
+							href="#about"
+							class="button level-item"
+							>{{ button }}</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
 	</section>
 </template>
 

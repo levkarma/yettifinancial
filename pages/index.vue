@@ -1,18 +1,18 @@
 <template>
   <div id="home">
-    <AppHeader></AppHeader>
+    <!-- <AppHeader></AppHeader> -->
     <IntroSection></IntroSection>
-    <main id="main">
+    <main id="section is-marginless is-paddingless">
       <AboutSection />
       <ServicesSection />
       <!-- <WhyUsSection /> -->
       <!-- <PortfolioSection /> -->
       <!-- <TestimonialsSection /> -->
-      <TeamSection />
-      <ClientsSection />
-      <ContactSection />
+      <!-- <TeamSection /> -->
+      <!-- <ClientsSection /> -->
+      <!-- <ContactSection /> -->
     </main>
-    <AppFooter></AppFooter>
+    <!-- <AppFooter></AppFooter> -->
 
     <a href="#" v-scroll-to="'#header'" class="back-to-top"
       ><i class="fa fa-chevron-up"></i

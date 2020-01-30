@@ -1,31 +1,43 @@
 <template>
-	<section id="services" class="section-bg">
-		<div class="container">
-			<header class="section-header">
-				<h3>{{ sectionHeader }}</h3>
-				<p>
-					{{ $store.getters.cData('services.section-subtitle') }}
-				</p>
-			</header>
+	<section id="services" class="section">
+		<h2 class="title">{{ sectionHeader }}</h2>
+		<h3 class="subtitle">
+			{{ $store.getters.cData('services.section-subtitle') }}
+		</h3>
 
-			<div class="row">
-				<div
-					class="col-md-6 col-lg-5 wow bounceInUp"
-					:class="{ 'offset-lg-1': index % 2 === 0 }"
-					data-wow-duration="1.4s"
-					v-for="(service, index) of services"
-				>
-					<div class="box">
-						<div class="icon">
-							<i class="ion-ios-analytics-outline" style="color: #ff689b;"></i>
-						</div>
-						<img :src="service.image" alt="" />
-						<h4 class="title">
-							<a href="" v-html="service.name"></a>
-						</h4>
-						<p class="description" v-html="service.description"></p>
+		<div class="card top-margin" v-for="(service, index) of services">
+			<header class="card-header">
+				<p class="card-header-title">
+					{{ service.name }}
+				</p>
+				<a href="#" class="card-header-icon" aria-label="more options">
+					<span class="icon">
+						<i class="fas fa-angle-down" aria-hidden="true"></i>
+					</span>
+				</a>
+			</header>
+			<div class="card-image">
+				<figure class="image is-1by1">
+					<img :src="service.image" alt="Placeholder image" />
+				</figure>
+			</div>
+			<div class="card-content">
+				<div class="media">
+					<div class="media-left">
+						<figure class="image is-48x48">
+							<img
+								src="~/assets/img/yetti-profile-tiny.jpg"
+								alt="Placeholder image"
+							/>
+						</figure>
+					</div>
+					<div class="media-content">
+						<p class="title is-4">{{ service.name }}</p>
+						<p class="subtitle is-6">@yettifinancial</p>
 					</div>
 				</div>
+
+				<div class="content" v-html="service.description"></div>
 			</div>
 		</div>
 	</section>
