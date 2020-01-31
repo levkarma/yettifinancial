@@ -15,6 +15,21 @@
 		</section>
 		<section class="section">
 			<div class="container">
+				<nuxt-link to="events" class="level is-mobile" id="events-toggle">
+					<div class="level-left">
+						<div class="level-item">
+							<p class="is-size-5">Events</p>
+							<p class="is-size-5 has-left-margin"><em>February 19</em></p>
+						</div>
+					</div>
+					<div class="level-right">
+						<div class="level-item">
+							<span class="icon"
+								><i class="fas fa-chevron-circle-right fa-lg"></i
+							></span>
+						</div>
+					</div>
+				</nuxt-link>
 				<h2 class="title">
 					{{ $store.getters.cData('landing-page.short-business-statement') }}
 				</h2>

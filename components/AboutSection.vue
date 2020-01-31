@@ -10,7 +10,7 @@
 				<figure class="image is-16by9">
 					<img src="~/assets/img/yetti-youtube-screenshot-1.png" alt="" />
 				</figure>
-				<div class="box top-margin">
+				<div class="box has-top-margin">
 					<p>
 						We help you with the true answers to some of the most important
 						financial questions that face you and your family. Questions like:
@@ -37,7 +37,7 @@
 						</ul>
 					</div>
 				</div>
-				<figure class="image is-3by1 top-margin">
+				<figure class="image is-3by1 has-top-margin">
 					<img src="~/assets/img/yetti-logo.png" alt="" />
 				</figure>
 			</div>

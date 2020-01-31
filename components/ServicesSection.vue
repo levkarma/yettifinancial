@@ -6,33 +6,31 @@
 				{{ $store.getters.cData('services.section-subtitle') }}
 			</h3>
 		</div>
-		<div class="level is-mobile is-marginless">
-			<div class="level-item is-marginless">
-				<span class="icon is-large"
-					><i class="fas fa-2x fa-long-arrow-alt-left"></i
-				></span>
-			</div>
-			<span class="is-size-4">Swipe</span>
-			<div class="level-item">
-				<span class="icon is-large"
-					><i class="fas fa-2x fa-long-arrow-alt-right"></i
-				></span>
-			</div>
-		</div>
 		<client-only>
 			<carousel
 				class="owl-carousel testimonials-carousel wow fadeInUp"
 				:perPage="1"
 				:autoplay="false"
-				:autoplayTimeout="4000"
-				:autoplayHoverPause="true"
 			>
 				<slide
 					v-for="(service, index) of services"
 					:key="index"
 					style="padding: 1.5em;"
 				>
-					<div class="card top-margin">
+					<div class="level is-mobile is-marginless">
+						<div class="level-item is-marginless">
+							<span class="icon is-large"
+								><i class="fas fa-2x fa-long-arrow-alt-left"></i
+							></span>
+						</div>
+						<span class="is-size-4">Swipe</span>
+						<div class="level-item">
+							<span class="icon is-large"
+								><i class="fas fa-2x fa-long-arrow-alt-right"></i
+							></span>
+						</div>
+					</div>
+					<div class="card has-top-margin">
 						<header class="card-header">
 							<p class="card-header-title">
 								{{ service.name }}

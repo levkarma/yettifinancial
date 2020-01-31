@@ -1,6 +1,10 @@
 <template>
-  <div id="home">
+  <div id="home" class="has-navbar-fixed-top">
     <!-- <AppHeader></AppHeader> -->
+    <NavBar
+      :menuActive="menuActive"
+      @toggleMenuActive="menuActive = !menuActive"
+    />
     <IntroSection></IntroSection>
     <main id="section is-marginless is-paddingless">
       <AboutSection />
@@ -10,13 +14,21 @@
       <!-- <TestimonialsSection /> -->
       <!-- <TeamSection /> -->
       <!-- <ClientsSection /> -->
-      <!-- <ContactSection /> -->
+      <ContactSection />
     </main>
     <!-- <AppFooter></AppFooter> -->
 
-    <a href="#" v-scroll-to="'#header'" class="back-to-top"
-      ><i class="fa fa-chevron-up"></i
-    ></a>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Yetti Financial</p>
+      </div>
+      <div class="content has-text-centered">
+        <span class="icon">
+          <i class="fab fa-2x fa-facebook"></i>
+        </span>
+        <span class="icon"><i class="fab fa-2x fa-instagram"></i></span>
+      </div>
+    </footer>
     <!-- Uncomment below i you want to use a preloader -->
     <!-- <div id="preloader"></div> -->
   </div>
@@ -35,7 +47,7 @@ import ContactSection from '~/components/ContactSection.vue'
 import ClientsSection from '~/components/ClientsSection.vue'
 import TeamSection from '~/components/TeamSection.vue'
 import TestimonialsSection from '~/components/TestimonialsSection.vue'
-
+import NavBar from '~/components/NavBar.vue'
 if (process.client) {
   const imagesLoaded = require('vue-images-loaded')
 }
@@ -49,10 +61,13 @@ export default {
     }
   },
   data() {
-    return {}
+    return {
+      menuActive: false
+    }
   },
   components: {
     AppHeader,
+    NavBar,
     IntroSection,
     AppFooter,
     IsotopeTest,
