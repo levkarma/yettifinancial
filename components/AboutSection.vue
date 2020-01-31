@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</section>
-			<div class="container section">
+			<div class="container box is-shadowless">
 				<p>
 					I pursued that dream and experienced success in various business
 					sectors of life such as Telecom and Real Estate, but it wasn’t until I

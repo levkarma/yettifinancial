@@ -1,4 +1,5 @@
 $box-radius: 0px;
+@import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import 'bulma';
 #intro {
 	position: relative;
@@ -27,4 +28,3 @@ $box-radius: 0px;
 .top-margin {
 	margin: 1.5rem 0 0 0;
 }
-

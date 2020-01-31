@@ -1,45 +1,75 @@
 <template>
-	<section id="services" class="section">
-		<h2 class="title">{{ sectionHeader }}</h2>
-		<h3 class="subtitle">
-			{{ $store.getters.cData('services.section-subtitle') }}
-		</h3>
-
-		<div class="card top-margin" v-for="(service, index) of services">
-			<header class="card-header">
-				<p class="card-header-title">
-					{{ service.name }}
-				</p>
-				<a href="#" class="card-header-icon" aria-label="more options">
-					<span class="icon">
-						<i class="fas fa-angle-down" aria-hidden="true"></i>
-					</span>
-				</a>
-			</header>
-			<div class="card-image">
-				<figure class="image is-1by1">
-					<img :src="service.image" alt="Placeholder image" />
-				</figure>
+	<section id="services" class="section is-paddingless is-marginless">
+		<div class="box is-shadowless">
+			<h2 class="title">{{ sectionHeader }}</h2>
+			<h3 class="subtitle">
+				{{ $store.getters.cData('services.section-subtitle') }}
+			</h3>
+		</div>
+		<div class="level is-mobile is-marginless">
+			<div class="level-item is-marginless">
+				<span class="icon is-large"
+					><i class="fas fa-2x fa-long-arrow-alt-left"></i
+				></span>
 			</div>
-			<div class="card-content">
-				<div class="media">
-					<div class="media-left">
-						<figure class="image is-48x48">
-							<img
-								src="~/assets/img/yetti-profile-tiny.jpg"
-								alt="Placeholder image"
-							/>
-						</figure>
-					</div>
-					<div class="media-content">
-						<p class="title is-4">{{ service.name }}</p>
-						<p class="subtitle is-6">@yettifinancial</p>
-					</div>
-				</div>
-
-				<div class="content" v-html="service.description"></div>
+			<span class="is-size-4">Swipe</span>
+			<div class="level-item">
+				<span class="icon is-large"
+					><i class="fas fa-2x fa-long-arrow-alt-right"></i
+				></span>
 			</div>
 		</div>
+		<client-only>
+			<carousel
+				class="owl-carousel testimonials-carousel wow fadeInUp"
+				:perPage="1"
+				:autoplay="true"
+				:autoplayTimeout="4000"
+				:autoplayHoverPause="true"
+			>
+				<slide
+					v-for="(service, index) of services"
+					:key="index"
+					style="padding: 1.5em;"
+				>
+					<div class="card top-margin">
+						<header class="card-header">
+							<p class="card-header-title">
+								{{ service.name }}
+							</p>
+							<a href="#" class="card-header-icon" aria-label="more options">
+								<span class="icon">
+									<i class="fas fa-angle-down" aria-hidden="true"></i>
+								</span>
+							</a>
+						</header>
+						<div class="card-image">
+							<figure class="image is-1by1">
+								<img :src="service.image" alt="Placeholder image" />
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-left">
+									<figure class="image is-48x48">
+										<img
+											src="~/assets/img/yetti-profile-tiny.jpg"
+											alt="Placeholder image"
+										/>
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="title is-4">{{ service.name }}</p>
+									<p class="subtitle is-6">@yettifinancial</p>
+								</div>
+							</div>
+
+							<div class="content" v-html="service.description"></div>
+						</div>
+					</div>
+				</slide>
+			</carousel>
+		</client-only>
 	</section>
 </template>
 <script>
