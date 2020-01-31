@@ -23,7 +23,7 @@
 			<carousel
 				class="owl-carousel testimonials-carousel wow fadeInUp"
 				:perPage="1"
-				:autoplay="true"
+				:autoplay="false"
 				:autoplayTimeout="4000"
 				:autoplayHoverPause="true"
 			>
