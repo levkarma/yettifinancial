@@ -82,7 +82,13 @@ export default {
     // '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    'vue-scrollto/nuxt'
+    [
+      'vue-scrollto/nuxt',
+      {
+        duration: 500,
+        offset: params => document.querySelector('nav').offsetHeight * -1
+      }
+    ]
   ],
   /*
    ** Axios module configuration

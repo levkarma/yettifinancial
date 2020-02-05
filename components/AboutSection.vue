@@ -106,39 +106,6 @@
 				</div>
 			</div> -->
 
-		<section class="section">
-			<div class="columns is-vcentered is-paddingless">
-				<div class="column is-half">
-					<section class="section is-paddingless">
-						<section class="hero is-success is-fullheight-with-navbar">
-							<div class="hero-body"></div>
-						</section>
-					</section>
-				</div>
-				<div class="column is-half">
-					<div class="container content box is-shadowless">
-						<h2 class="title is-size-3">About Yetti Esatu</h2>
-						<p class="subtitle">
-							When I immigrated to the United States some 30 years ago, I had an
-							American Dream – Financial Security for me and my family.
-						</p>
-						<p>
-							I pursued that dream and experienced success in various business
-							sectors of life such as Telecom and Real Estate, but it wasn’t
-							until I learned the savings, money, and retirement secrets within
-							the financial industry that I discovered the true path to that
-							American Dream I began long ago.
-						</p>
-						<p>
-							Now I educate, serve, and empower people on the secret, powerful,
-							wealth creating, retirement, and savings strategies that the super
-							rich have used for decades.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<!-- 			<div class="row about-extra">
 				<div class="col-lg-6 wow fadeInUp">
 					<img src="~/assets/img/about-extra-1.svg" class="img-fluid" alt="" />

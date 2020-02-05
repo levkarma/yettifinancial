@@ -1,6 +1,12 @@
 $box-radius: 0px;
 $navbar-height: 5rem;
 $navbar-item-img-max-height: 3rem;
+$primary: #776058;
+$info: #c8b5a7;
+$light: mix($info, #fff, 20);
+$warning: #d67c81;
+// $link: #000;
+// $link: #d67c81;
 @import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import 'bulma';
 #intro {
@@ -24,7 +30,7 @@ $navbar-item-img-max-height: 3rem;
 		}
 	}
 }
-#about .hero {
+#about-yetti .hero {
 	background-image: url('~assets/img/yetti-and-sons.jpg');
 	background-size: cover;
 	background-position: center;
@@ -35,11 +41,11 @@ $navbar-item-img-max-height: 3rem;
 .has-top-margin {
 	margin: 1.5rem 0 0 0;
 }
-#events-toggle {
-	padding: 1.5rem;
-	border-radius: 0.5rem;
-	border: 1px solid $border;
-}
+// #events-toggle {
+// 	padding: 1.5rem;
+// 	border-radius: 0.5rem;
+// 	// border: 1px solid $border;
+// }
 .footer .icon {
 	margin: 0 0.5rem 0 0.5rem;
 }

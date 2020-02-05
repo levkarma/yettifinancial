@@ -24,7 +24,7 @@
 					</div>
 				</section>
 			</div>
-			<column class="is-half is-paddingless">
+			<div class="is-half is-paddingless">
 				<section class="section">
 					<div class="container content">
 						<div class="is-hidden-mobile">
@@ -35,54 +35,39 @@
 								"I love to educate. So don't be shy."
 							</h2>
 							<button class="button is-primary">Call me!</button>
+							<a class="button is-info" v-scroll-to="'#services'"
+								>Our Services</a
+							>
 						</div>
 						<h2 class="title">
 							{{
 								$store.getters.cData('landing-page.short-business-statement')
 							}}
 						</h2>
-						<div class="level">
-							<div class="level-right">
-								<a
-									v-for="button of $store.getters.cData(
-										'landing-page.action-buttons'
-									)"
-									href="#about"
-									class="button level-item"
-									>{{ button }}</a
-								>
-							</div>
+						<div class="content">
+							<nuxt-link
+								to="events"
+								class="button is-medium is-info is-light is-block"
+							>
+								<span>Next Event: February 19</span>
+								<span class="icon"
+									><i class="fas fa-chevron-circle-right"></i
+								></span>
+							</nuxt-link>
+							<a
+								href="https://www.youtube.com/channel/UCAFPvZSFfyiirNfT2aCrz7g"
+								class="button is-medium is-info is-light is-block has-top-margin"
+								target="_blank"
+							>
+								<span>Watch my free videos!</span>
+								<span class="icon"
+									><i class="fas fa-chevron-circle-right"></i
+								></span>
+							</a>
 						</div>
-						<nuxt-link to="events" class="level is-mobile" id="events-toggle">
-							<div class="level-left">
-								<div class="level-item">
-									<p class="is-size-5 is-marginless">Events</p>
-									<p class="is-size-5 has-left-margin"><em>February 19</em></p>
-								</div>
-							</div>
-							<div class="level-right">
-								<div class="level-item">
-									<span class="icon"
-										><i class="fas fa-chevron-circle-right fa-lg"></i
-									></span>
-								</div>
-							</div>
-						</nuxt-link>
-						<nuxt-link to="videos" class="level is-mobile" id="events-toggle">
-							<div class="level-left">
-								<p class="is-size-5">Watch my free videos!</p>
-							</div>
-							<div class="level-right">
-								<div class="level-item">
-									<span class="icon"
-										><i class="fas fa-chevron-circle-right fa-lg"></i
-									></span>
-								</div>
-							</div>
-						</nuxt-link>
 					</div>
 				</section>
-			</column>
+			</div>
 		</div>
 	</section>
 </template>

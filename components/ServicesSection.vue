@@ -1,10 +1,10 @@
 <template>
-	<section id="services" class="section is-paddingless is-marginless">
+	<section id="services" class="section has-background-primary has-text-white">
 		<div class="columns is-centered is-marginless is-paddingless">
 			<div class="column is-half is-marginless is-paddingless">
-				<div class="box is-shadowless">
-					<h2 class="title">{{ sectionHeader }}</h2>
-					<h3 class="subtitle">
+				<div class="">
+					<h2 class="title has-text-white">{{ sectionHeader }}</h2>
+					<h3 class="subtitle has-text-white">
 						{{ $store.getters.cData('services.section-subtitle') }}
 					</h3>
 				</div>

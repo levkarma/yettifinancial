@@ -11,47 +11,64 @@
 					</div>
 					<div class="field">
 						<label class="label">Name</label>
-						<div class="control">
-							<input class="input" type="text" placeholder="Name" name="name" />
+						<div class="control has-icons-left">
+							<input
+								class="input is-primary"
+								type="text"
+								placeholder="Name"
+								name="name"
+							/>
+							<span class="icon is-small is-left">
+								<i class="fas fa-user"></i>
+							</span>
 						</div>
 					</div>
 					<div class="field">
 						<label class="label">Email</label>
-						<div class="control">
+						<div class="control has-icons-left">
 							<input
-								class="input"
+								class="input is-primary"
 								type="text"
 								placeholder="Email"
 								name="email"
 								required
 							/>
+							<span class="icon is-small is-left">
+								<i class="fas fa-envelope"></i>
+							</span>
 						</div>
 					</div>
 					<div class="field">
 						<label class="label">Phone Number</label>
-						<div class="control">
+						<div class="control has-icons-left">
 							<input
-								class="input"
+								class="input is-primary"
 								type="text"
 								placeholder="Phone Number"
 								name="phone-number"
 								required
 							/>
+							<span class="icon is-small is-left">
+								<i class="fas fa-phone"></i>
+							</span>
 						</div>
 					</div>
 					<div class="field">
 						<label class="label">What are you most interested in?</label>
-						<div class="control">
+						<div class="control has-icons-left">
 							<input
-								class="input"
+								class="input is-primary"
 								type="text"
 								placeholder="What are you most interested in?"
 								name="what-are-you-most-interested-in"
 								required
 							/>
+							<span class="icon is-small is-left">
+								<i class="fas fa-question-circle"></i>
+							</span>
 						</div>
 					</div>
-					<input type="submit" class="button" />
+					<input type="submit" class="button is-primary" />
 				</form>
 			</div>
 		</div>

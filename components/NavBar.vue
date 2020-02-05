@@ -29,18 +29,18 @@
 			:class="{ 'is-active': menuActive }"
 		>
 			<div class="navbar-start">
-				<a class="navbar-item">
+				<a class="navbar-item" v-scroll-to="'#about'">
 					About
 				</a>
-				<a class="navbar-item">
+				<a class="navbar-item" v-scroll-to="'services'">
 					Financial Services
 				</a>
-				<a class="navbar-item">
+				<a class="navbar-item" v-scroll-to="'coaching'">
 					Coaching and Mentoring
 				</a>
-				<a class="navbar-item">
+				<nuxt-link to="events" class="navbar-item">
 					Upcoming Events
-				</a>
+				</nuxt-link>
 			</div>
 
 			<div class="navbar-end">

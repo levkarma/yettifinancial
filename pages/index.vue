@@ -9,6 +9,7 @@
     <IntroSection></IntroSection>
     <main id="section is-marginless is-paddingless">
       <AboutSection />
+      <AboutYettiSection />
       <ServicesSection />
       <!-- <WhyUsSection /> -->
       <!-- <PortfolioSection /> -->
@@ -49,6 +50,7 @@ import ClientsSection from '~/components/ClientsSection.vue'
 import TeamSection from '~/components/TeamSection.vue'
 import TestimonialsSection from '~/components/TestimonialsSection.vue'
 import NavBar from '~/components/NavBar.vue'
+import AboutYettiSection from '~/components/AboutYettiSection.vue'
 if (process.client) {
   const imagesLoaded = require('vue-images-loaded')
 }
@@ -79,7 +81,8 @@ export default {
     ContactSection,
     ClientsSection,
     TeamSection,
-    TestimonialsSection
+    TestimonialsSection,
+    AboutYettiSection
   }
 }
 </script>
