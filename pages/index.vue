@@ -1,5 +1,6 @@
 <template>
   <div id="home" class="has-navbar-fixed-top">
+    <!-- <EventsModal /> -->
     <!-- <AppHeader></AppHeader> -->
     <NavBar
       :menuActive="menuActive"

@@ -1,45 +1,62 @@
 <template>
-	<div id="about">
+	<div id="about" class="has-background-light">
 		<section class="section">
 			<div class="container">
-				<h2 class="title">About Yetti Financial</h2>
-				<div class="box">
-					At Yetti Financial, we are focused on financial services and products
-					THAT SERVE THE FAMILY INTERESTS FIRST AND FOREMOST.
-				</div>
-				<figure class="image is-16by9">
-					<img src="~/assets/img/yetti-youtube-screenshot-1.png" alt="" />
-				</figure>
-				<div class="box has-top-margin">
-					<p>
-						We help you with the true answers to some of the most important
-						financial questions that face you and your family. Questions like:
+				<div class="content">
+					<h2 class="title is-size-3">About Yetti Financial</h2>
+					<p class="is-size-4">
+						At Yetti Financial, we are focused on financial services and
+						products
+						<strong>that serve the family interests first and foremost</strong>.
 					</p>
-					<div class="content">
-						<ul>
-							<li>
-								What’s the best way to save for retirement for me and my family?
-							</li>
-							<li>
-								What’s the best life insurance plans for me and my family?
-							</li>
-							<li>
-								What’s the best way to take advantage of my business for
-								retirement purposes?
-							</li>
-							<li>What’s the best way to grow your money tax free?</li>
-							<li>What’s the best way to save for my children’s education?</li>
-							<li>What’s the best way to create generational wealth?</li>
-							<li>
-								If you would like to find out the answers to any of these
-								questions, call us or schedule a FREE CONSULTATION below!
-							</li>
-						</ul>
+				</div>
+				<div class="columns">
+					<div class="column is-half">
+						<figure class="image is-16by9">
+							<img src="~/assets/img/yetti-youtube-screenshot-1.png" alt="" />
+						</figure>
+					</div>
+					<div class="column is-half">
+						<div class="content">
+							<p>
+								We help you with the true answers to some of the most important
+								financial questions that face you and your family. Questions
+								like:
+							</p>
+							<div class="content">
+								<ul>
+									<li>
+										What’s the best way to save for retirement for me and my
+										family?
+									</li>
+									<li>
+										What’s the best life insurance plans for me and my family?
+									</li>
+									<li>
+										What’s the best way to take advantage of my business for
+										retirement purposes?
+									</li>
+									<li>What’s the best way to grow your money tax free?</li>
+									<li>
+										What’s the best way to save for my children’s education?
+									</li>
+									<li>What’s the best way to create generational wealth?</li>
+									<li>
+										If you would like to find out the answers to any of these
+										questions, call us or schedule a FREE CONSULTATION below!
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-				<figure class="image is-3by1 has-top-margin">
-					<img src="~/assets/img/yetti-logo.png" alt="" />
-				</figure>
+				<div class="columns is-centered">
+					<div class="column is-half">
+						<figure class="image is-4by1 has-top-margin">
+							<img src="~/assets/img/yetti-logo.png" alt="" />
+						</figure>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!-- <header class="section-header"> -->
@@ -89,31 +106,36 @@
 				</div>
 			</div> -->
 
-		<section class="section is-paddingless">
-			<section class="hero is-success is-fullheight">
-				<div class="hero-body">
-					<div class="container">
-						<h2 class="title">About Yetti Esatu</h2>
+		<section class="section">
+			<div class="columns is-vcentered is-paddingless">
+				<div class="column is-half">
+					<section class="section is-paddingless">
+						<section class="hero is-success is-fullheight-with-navbar">
+							<div class="hero-body"></div>
+						</section>
+					</section>
+				</div>
+				<div class="column is-half">
+					<div class="container content box is-shadowless">
+						<h2 class="title is-size-3">About Yetti Esatu</h2>
 						<p class="subtitle">
 							When I immigrated to the United States some 30 years ago, I had an
 							American Dream – Financial Security for me and my family.
 						</p>
+						<p>
+							I pursued that dream and experienced success in various business
+							sectors of life such as Telecom and Real Estate, but it wasn’t
+							until I learned the savings, money, and retirement secrets within
+							the financial industry that I discovered the true path to that
+							American Dream I began long ago.
+						</p>
+						<p>
+							Now I educate, serve, and empower people on the secret, powerful,
+							wealth creating, retirement, and savings strategies that the super
+							rich have used for decades.
+						</p>
 					</div>
 				</div>
-			</section>
-			<div class="container box is-shadowless">
-				<p>
-					I pursued that dream and experienced success in various business
-					sectors of life such as Telecom and Real Estate, but it wasn’t until I
-					learned the savings, money, and retirement secrets within the
-					financial industry that I discovered the true path to that American
-					Dream I began long ago.
-				</p>
-				<p>
-					Now I educate, serve, and empower people on the secret, powerful,
-					wealth creating, retirement, and savings strategies that the super
-					rich have used for decades.
-				</p>
 			</div>
 		</section>
 

@@ -1,73 +1,81 @@
 <template>
 	<section id="services" class="section is-paddingless is-marginless">
-		<div class="box is-shadowless">
-			<h2 class="title">{{ sectionHeader }}</h2>
-			<h3 class="subtitle">
-				{{ $store.getters.cData('services.section-subtitle') }}
-			</h3>
-		</div>
-		<client-only>
-			<carousel
-				class="owl-carousel testimonials-carousel wow fadeInUp"
-				:perPage="1"
-				:autoplay="false"
-			>
-				<slide
-					v-for="(service, index) of services"
-					:key="index"
-					style="padding: 1.5em;"
-				>
-					<div class="level is-mobile is-marginless">
-						<div class="level-item is-marginless">
-							<span class="icon is-large"
-								><i class="fas fa-2x fa-long-arrow-alt-left"></i
-							></span>
-						</div>
-						<span class="is-size-4">Swipe</span>
-						<div class="level-item">
-							<span class="icon is-large"
-								><i class="fas fa-2x fa-long-arrow-alt-right"></i
-							></span>
-						</div>
-					</div>
-					<div class="card has-top-margin">
-						<header class="card-header">
-							<p class="card-header-title">
-								{{ service.name }}
-							</p>
-							<a href="#" class="card-header-icon" aria-label="more options">
-								<span class="icon">
-									<i class="fas fa-angle-down" aria-hidden="true"></i>
-								</span>
-							</a>
-						</header>
-						<div class="card-image">
-							<figure class="image is-1by1">
-								<img :src="service.image" alt="Placeholder image" />
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-left">
-									<figure class="image is-48x48">
-										<img
-											src="~/assets/img/yetti-profile-tiny.jpg"
-											alt="Placeholder image"
-										/>
-									</figure>
+		<div class="columns is-centered is-marginless is-paddingless">
+			<div class="column is-half is-marginless is-paddingless">
+				<div class="box is-shadowless">
+					<h2 class="title">{{ sectionHeader }}</h2>
+					<h3 class="subtitle">
+						{{ $store.getters.cData('services.section-subtitle') }}
+					</h3>
+				</div>
+				<client-only>
+					<carousel
+						class="owl-carousel testimonials-carousel wow fadeInUp"
+						:perPage="1"
+						:autoplay="false"
+					>
+						<slide
+							v-for="(service, index) of services"
+							:key="index"
+							style="padding: 1.5em;"
+						>
+							<div class="level is-mobile is-marginless">
+								<div class="level-item is-marginless">
+									<span class="icon is-large"
+										><i class="fas fa-2x fa-long-arrow-alt-left"></i
+									></span>
 								</div>
-								<div class="media-content">
-									<p class="title is-4">{{ service.name }}</p>
-									<p class="subtitle is-6">@yettifinancial</p>
+								<span class="is-size-4">Swipe</span>
+								<div class="level-item">
+									<span class="icon is-large"
+										><i class="fas fa-2x fa-long-arrow-alt-right"></i
+									></span>
 								</div>
 							</div>
+							<div class="card has-top-margin">
+								<header class="card-header">
+									<p class="card-header-title">
+										{{ service.name }}
+									</p>
+									<a
+										href="#"
+										class="card-header-icon"
+										aria-label="more options"
+									>
+										<span class="icon">
+											<i class="fas fa-angle-down" aria-hidden="true"></i>
+										</span>
+									</a>
+								</header>
+								<div class="card-image">
+									<figure class="image is-1by1">
+										<img :src="service.image" alt="Placeholder image" />
+									</figure>
+								</div>
+								<div class="card-content">
+									<div class="media">
+										<div class="media-left">
+											<figure class="image is-48x48">
+												<img
+													src="~/assets/img/yetti-profile-tiny.jpg"
+													alt="Placeholder image"
+												/>
+											</figure>
+										</div>
+										<div class="media-content">
+											<p class="title is-4">{{ service.name }}</p>
+											<p class="subtitle is-6">@yettifinancial</p>
+										</div>
+									</div>
 
-							<div class="content" v-html="service.description"></div>
-						</div>
-					</div>
-				</slide>
-			</carousel>
-		</client-only>
+									<div class="content" v-html="service.description"></div>
+								</div>
+							</div>
+						</slide>
+					</carousel>
+				</client-only>
+			</div>
+		</div>
 	</section>
 </template>
 <script>

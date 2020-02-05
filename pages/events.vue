@@ -1,6 +1,6 @@
 <template>
 	<section id="events" class="section">
-		<nuxt-link to="/" class="level is-mobile">
+		<!-- 		<nuxt-link to="/" class="level is-mobile">
 			<div class="level-left">
 				<div class="level-item">
 					<span class="icon"
@@ -11,7 +11,14 @@
 					<h1 class="title is-1">Events</h1>
 				</div>
 			</div>
-		</nuxt-link>
+		</nuxt-link> -->
+		<div class="level is-mobile">
+			<div class="level-left">
+				<div class="level-item">
+					<h1 class="title is-1">Events</h1>
+				</div>
+			</div>
+		</div>
 	</section>
 </template>
 

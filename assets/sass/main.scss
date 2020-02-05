@@ -9,19 +9,27 @@ $navbar-item-img-max-height: 3rem;
 	left: 0;
 }
 #intro .hero {
-	background-image: url('~assets/img/yetti-profile.jpg');
+	background-image: url('~assets/img/yetti-profile-without-background.png');
 	background-size: cover;
-	background-position: center;
+	background-position: center 25%;
+	.hero-body {
+		align-items: flex-end;
+	}
 	.container {
-		margin-top: 120%;
+		// margin-top: 120%;
+	}
+	.button {
+		@mixin tablet {
+			@extend .has-top-margin;
+		}
 	}
 }
 #about .hero {
 	background-image: url('~assets/img/yetti-and-sons.jpg');
 	background-size: cover;
 	background-position: center;
-	.container {
-		margin-top: 120%;
+	.hero-body {
+		align-items: flex-end;
 	}
 }
 .has-top-margin {
@@ -37,4 +45,7 @@ $navbar-item-img-max-height: 3rem;
 }
 .has-left-margin {
 	margin-left: 1rem;
+}
+.is-fullheight {
+	max-height: 100vh;
 }
