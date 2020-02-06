@@ -18,34 +18,44 @@
 					</div>
 					<div class="column is-half">
 						<div class="content">
-							<p>
-								We help you with the true answers to some of the most important
-								financial questions that face you and your family. Questions
-								like:
+							<p class="is-size-5">
+								We'll discuss topics like:
 							</p>
 							<div class="content">
-								<ul>
+								<div class="level is-mobile" v-for="question in keyQuestions">
+									<div class="level-left">
+										<div class="level-item">
+											<span class="icon">
+												<i :class="'fas fa-lg ' + question.icon"></i>
+											</span>
+										</div>
+										<div class="level-item">
+											{{ question.phrase }}
+										</div>
+									</div>
+								</div>
+								<!-- 								<ul>
 									<li>
-										What’s the best way to save for retirement for me and my
-										family?
+										<strong>Saving for retirement</strong>
 									</li>
 									<li>
-										What’s the best life insurance plans for me and my family?
+										<strong>Life insurance plans</strong>
 									</li>
 									<li>
-										What’s the best way to take advantage of my business for
-										retirement purposes?
+										<strong
+											>Take advantage of my business for retirement
+											purposes</strong
+										>
 									</li>
-									<li>What’s the best way to grow your money tax free?</li>
+									<li><strong>Grow your money tax free</strong></li>
 									<li>
-										What’s the best way to save for my children’s education?
+										<strong>Save for my children’s education</strong>
 									</li>
-									<li>What’s the best way to create generational wealth?</li>
-									<li>
-										If you would like to find out the answers to any of these
-										questions, call us or schedule a FREE CONSULTATION below!
-									</li>
-								</ul>
+									<li><strong>Create generational wealth</strong></li>
+									<button class="button is-primary">
+										Schedule a free consultation
+									</button>
+								</ul> -->
 							</div>
 						</div>
 					</div>
@@ -152,7 +162,34 @@
 export default {
 	name: 'AboutSection',
 	data() {
-		return {}
+		return {
+			keyQuestions: [
+				{
+					phrase: 'Saving for retirement',
+					icon: 'fa-glass-cheers'
+				},
+				{
+					phrase: 'Life insurance plans',
+					icon: 'fa-heartbeat'
+				},
+				{
+					phrase: 'Taking advantage of my business for retirement purposes',
+					icon: 'fa-building'
+				},
+				{
+					phrase: 'Growing your money tax free',
+					icon: 'fa-chart-line'
+				},
+				{
+					phrase: 'Saving for my children’s education',
+					icon: 'fa-university'
+				},
+				{
+					phrase: 'Creating generational wealth',
+					icon: 'fa-hand-holding-usd'
+				}
+			]
+		}
 	}
 }
 </script>
