@@ -5,6 +5,8 @@
 				<form action="/" method="post" name="contact-form">
 					<div class="content">
 						<h2 class="title is-size-3">Contact</h2>
+						<p class="is-size-4">703-362-4773</p>
+						<p class="is-size-4">info@yettifinancial.com</p>
 						<p class="is-size-5">
 							Request a free consultation and/or financial analysis.
 						</p>

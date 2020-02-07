@@ -55,3 +55,7 @@ $warning: #d67c81;
 .is-fullheight {
 	max-height: 100vh;
 }
+.expanding-button {
+	@extend .button;
+	height: 100%;
+}

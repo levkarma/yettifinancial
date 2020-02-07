@@ -32,10 +32,10 @@
 				<a class="navbar-item" v-scroll-to="'#about'">
 					About
 				</a>
-				<a class="navbar-item" v-scroll-to="'services'">
+				<a class="navbar-item" v-scroll-to="'#services'">
 					Financial Services
 				</a>
-				<a class="navbar-item" v-scroll-to="'coaching'">
+				<a class="navbar-item" v-scroll-to="'#contact'">
 					Coaching and Mentoring
 				</a>
 				<nuxt-link to="events" class="navbar-item">
@@ -46,7 +46,7 @@
 			<div class="navbar-end">
 				<div class="navbar-item">
 					<div class="buttons">
-						<a class="button is-primary">
+						<a class="button is-primary" v-scroll-to="'#contact'">
 							<strong>Free Consultation</strong>
 						</a>
 					</div>

@@ -18,18 +18,24 @@
 					</div>
 					<div class="column is-half">
 						<div class="content">
-							<p class="is-size-5">
-								We'll discuss topics like:
-							</p>
+							<div class="level">
+								<div class="level-left">
+									<div class="level-item has-text-centered">
+										<p class="is-size-5">
+											We'll discuss topics like:
+										</p>
+									</div>
+								</div>
+							</div>
 							<div class="content">
-								<div class="level is-mobile" v-for="question in keyQuestions">
+								<div class="level" v-for="question in keyQuestions">
 									<div class="level-left">
 										<div class="level-item">
 											<span class="icon">
 												<i :class="'fas fa-lg ' + question.icon"></i>
 											</span>
 										</div>
-										<div class="level-item">
+										<div class="level-item has-text-centered">
 											{{ question.phrase }}
 										</div>
 									</div>

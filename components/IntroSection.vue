@@ -12,12 +12,17 @@
 									</h1>
 								</div>
 								<div class="level-right">
-									<button class="button level-item is-primary">Call me!</button>
+									<button
+										v-scroll-to="'#contact'"
+										class="button level-item is-primary"
+									>
+										Call me!
+									</button>
 								</div>
 							</div>
 							<div class="level">
 								<h2 class="subtitle is-size-5 level-item">
-									"I love to educate. So don't be shy."
+									"I love to educate. So don't be shy!"
 								</h2>
 							</div>
 						</div>
@@ -56,10 +61,12 @@
 							</nuxt-link>
 							<a
 								href="https://www.youtube.com/channel/UCAFPvZSFfyiirNfT2aCrz7g"
-								class="button is-medium is-info is-light is-block has-top-margin"
+								class="expanding-button is-medium is-info is-light is-block has-top-margin"
 								target="_blank"
 							>
-								<span>Watch my free videos!</span>
+								<span>Watch my free videos!</span><br /><span class="is-size-6"
+									>1k Subscribers</span
+								>
 								<span class="icon"
 									><i class="fas fa-chevron-circle-right"></i
 								></span>
