@@ -54,7 +54,7 @@
 								to="events"
 								class="button is-medium is-info is-light is-block"
 							>
-								<span>Next Event: February 19</span>
+								<span>Next Event: Talk on February 19</span>
 								<span class="icon"
 									><i class="fas fa-chevron-circle-right"></i
 								></span>
