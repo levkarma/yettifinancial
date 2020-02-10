@@ -13,7 +13,14 @@
 				<div class="columns">
 					<div class="column is-half">
 						<figure class="image is-16by9">
-							<img src="~/assets/img/yetti-youtube-screenshot-1.png" alt="" />
+							<iframe
+								class="has-ratio"
+								src="https://www.youtube.com/embed/videoseries?list=PLEMDtyFuzwKajsLKrhwEk9HoL2NVDz5qJ"
+								frameborder="0"
+								allow="autoplay; encrypted-media"
+								allowfullscreen
+							></iframe>
+							<!-- <img src="~/assets/img/yetti-youtube-screenshot-1.png" alt="" /> -->
 						</figure>
 					</div>
 					<div class="column is-half">
@@ -185,6 +192,11 @@ export default {
 				{
 					phrase: 'Growing your money tax free',
 					icon: 'fa-chart-line'
+				},
+				{
+					phrase:
+						'Leverage up to 3 to 1 bank matching for tax-free retirement savings',
+					icon: 'fa-percent'
 				},
 				{
 					phrase: 'Saving for my children’s education',

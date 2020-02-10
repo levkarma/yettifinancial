@@ -39,7 +39,9 @@
 							<h2 class="subtitle">
 								"I love to educate. So don't be shy."
 							</h2>
-							<button class="button is-primary">Call me!</button>
+							<button v-scroll-to="'#contact'" class="button is-primary">
+								Call me!
+							</button>
 							<a class="button is-info" v-scroll-to="'#services'"
 								>Our Services</a
 							>

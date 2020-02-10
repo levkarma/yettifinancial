@@ -58,15 +58,30 @@
 					<div class="field">
 						<label class="label">What are you most interested in?</label>
 						<div class="control has-icons-left">
-							<input
-								class="input is-primary"
-								type="text"
-								placeholder="What are you most interested in?"
-								name="what-are-you-most-interested-in"
-								required
-							/>
+							<div class="select is-primary">
+								<select>
+									<option v-for="option in contact.interestedOptions">{{
+										option
+									}}</option>
+								</select>
+							</div>
 							<span class="icon is-small is-left">
 								<i class="fas fa-question-circle"></i>
+							</span>
+						</div>
+					</div>
+					<div class="field">
+						<label class="label">Interested in anything else?</label>
+						<div class="control has-icons-left">
+							<div class="select is-primary">
+								<select>
+									<option v-for="option in contact.interestedOptions">{{
+										option
+									}}</option>
+								</select>
+							</div>
+							<span class="icon is-small is-left">
+								<i class="fas fa-question"></i>
 							</span>
 						</div>
 					</div>
@@ -80,7 +95,22 @@
 export default {
 	name: 'ContactSection',
 	data() {
-		return {}
+		return {
+			contact: {
+				interestedOptions: [
+					'FREE Financial Analysis',
+					'Retirement Savings Plan',
+					'Life Insurance Quotes',
+					'401k Rollover',
+					"Children's Educational Funds",
+					'Tax Optimization',
+					'Financial Literacy Education',
+					'Career/Job Opportunities',
+					'Business Related Financial Products',
+					'Business Coaching and Mentoring'
+				]
+			}
+		}
 	}
 }
 </script>

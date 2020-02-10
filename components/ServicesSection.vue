@@ -1,13 +1,14 @@
 <template>
 	<section id="services" class="section has-background-primary has-text-white">
-		<h2 class="title has-text-white">{{ sectionHeader }}</h2>
-		<h3 class="subtitle has-text-white">
-			{{ $store.getters.cData('services.section-subtitle') }}
-		</h3>
-		<div class="columns is-multiline is-hidden-mobile">
-			<div class="column is-one-third" v-for="(service, index) in services">
+		<div
+			class="modal"
+			:class="{ 'is-active': serviceModalActive }"
+			@click="serviceModalActive = false"
+		>
+			<div class="modal-background"></div>
+			<div class="modal-content" @click.capture="">
 				<div class="card has-top-margin">
-					<header class="card-header">
+					<!-- 					<header class="card-header">
 						<p class="card-header-title  is-size-6">
 							{{ service.name }}
 						</p>
@@ -16,7 +17,68 @@
 								<i class="fas fa-angle-down" aria-hidden="true"></i>
 							</span>
 						</a>
-					</header>
+					</header> -->
+					<!-- 					<div class="card-image">
+						<div class="box is-shadowless">
+
+						</div>
+					</div> -->
+					<div class="card-content">
+						<div class="media">
+							<div class="media-left">
+								<figure class="image is-48x48">
+									<img
+										src="~/assets/img/yetti-profile-tiny.jpg"
+										alt="Placeholder image"
+									/>
+								</figure>
+							</div>
+							<div class="media-content">
+								<p class="title is-4">{{ serviceModelService.name }}</p>
+								<p class="subtitle is-6">@yettifinancial</p>
+							</div>
+						</div>
+						<div class="">
+							<div class="preview-container">
+								<div class="columns">
+									<div class="column is-one-quarter">
+										<figure class="image is-1by1">
+											<img :src="serviceModelService.image" alt="" />
+										</figure>
+									</div>
+									<div class="column content is-three-quarters">
+										<!-- <p class="is-size-5">{{ serviceModelService.name }}</p> -->
+										<div v-html="serviceModelService.description"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="modal-close is-large" aria-label="close"></button>
+		</div>
+		<h2 class="title has-text-white content">{{ sectionHeader }}</h2>
+		<!-- 		<h3 class="subtitle has-text-white">
+			{{ $store.getters.cData('services.section-subtitle') }}
+		</h3> -->
+		<div class="columns is-multiline is-hidden-mobile">
+			<div
+				class="column is-one-third"
+				v-for="(service, index) in services"
+				@click="toggleServiceModal(service)"
+			>
+				<div class="card has-top-margin">
+					<!-- 					<header class="card-header">
+						<p class="card-header-title  is-size-6">
+							{{ service.name }}
+						</p>
+						<a href="#" class="card-header-icon" aria-label="more options">
+							<span class="icon">
+								<i class="fas fa-angle-down" aria-hidden="true"></i>
+							</span>
+						</a>
+					</header> -->
 					<!-- 					<div class="card-image">
 						<div class="box is-shadowless">
 
@@ -37,90 +99,78 @@
 								<p class="subtitle is-6">@yettifinancial</p>
 							</div>
 						</div> -->
-						<div class="content">
+						<div class="">
 							<figure class="image is-1by1">
 								<img :src="service.image" alt="Placeholder image" />
 							</figure>
-							<div v-html="service.description"></div>
+							<div class="content preview-container">
+								<p class="is-size-5">{{ service.name }}</p>
+								<div class="preview">
+									<div v-html="service.description"></div>
+									<div class="preview-gradient"></div>
+								</div>
+								<p><a>Read more...</a></p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div
-			class="columns is-centered is-marginless is-paddingless is-hidden-tablet"
-		>
-			<div class="column is-half is-marginless is-paddingless">
-				<client-only>
-					<carousel
-						class="owl-carousel testimonials-carousel wow fadeInUp"
-						:perPage="1"
-						:autoplay="false"
-					>
-						<slide v-for="(service, index) of services" :key="index">
-							<!-- 							<div class="level is-mobile is-marginless">
-								<div class="level-item is-marginless">
-									<span class="icon is-large"
-										><i class="fas fa-2x fa-long-arrow-alt-left"></i
-									></span>
-								</div>
-								<span class="is-size-4">Swipe</span>
-								<div class="level-item">
-									<span class="icon is-large"
-										><i class="fas fa-2x fa-long-arrow-alt-right"></i
-									></span>
-								</div>
-							</div> -->
-							<div class="columns is-centered">
-								<div class="column is-three-quarters">
-									<div class="card has-top-margin">
-										<header class="card-header">
-											<p class="card-header-title">
-												{{ service.name }}
-											</p>
-											<a
-												href="#"
-												class="card-header-icon"
-												aria-label="more options"
-											>
-												<span class="icon">
-													<i class="fas fa-angle-down" aria-hidden="true"></i>
-												</span>
-											</a>
-										</header>
-										<div class="card-image">
-											<div class="box is-shadowless">
-												<figure class="image is-1by1">
-													<img :src="service.image" alt="Placeholder image" />
-												</figure>
-											</div>
-										</div>
-										<div class="card-content">
-											<div class="media">
-												<div class="media-left">
-													<figure class="image is-48x48">
-														<img
-															src="~/assets/img/yetti-profile-tiny.jpg"
-															alt="Placeholder image"
-														/>
-													</figure>
-												</div>
-												<div class="media-content">
-													<p class="title is-4">{{ service.name }}</p>
-													<p class="subtitle is-6">@yettifinancial</p>
-												</div>
-											</div>
-
-											<div class="content" v-html="service.description"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</slide>
-					</carousel>
-				</client-only>
+		<div class="columns is-multiline is-mobile is-hidden-tablet">
+			<div
+				class="column has-background-white is-one-third"
+				v-for="service in services"
+				@click="toggleServiceModal(service)"
+			>
+				<figure class="image is-1by1">
+					<img :src="service.image" alt="" />
+				</figure>
+				<p class="is-size-7 has-text-centered has-text-primary">
+					{{ service.name }}
+				</p>
 			</div>
 		</div>
+		<!-- 		<div class="columns is-centered">
+			<div class="column is-three-quarters">
+				<div class="card has-top-margin">
+					<header class="card-header">
+						<p class="card-header-title">
+							{{ service.name }}
+						</p>
+						<a href="#" class="card-header-icon" aria-label="more options">
+							<span class="icon">
+								<i class="fas fa-angle-down" aria-hidden="true"></i>
+							</span>
+						</a>
+					</header>
+					<div class="card-image">
+						<div class="box is-shadowless">
+							<figure class="image is-1by1">
+								<img :src="service.image" alt="Placeholder image" />
+							</figure>
+						</div>
+					</div>
+					<div class="card-content">
+						<div class="media">
+							<div class="media-left">
+								<figure class="image is-48x48">
+									<img
+										src="~/assets/img/yetti-profile-tiny.jpg"
+										alt="Placeholder image"
+									/>
+								</figure>
+							</div>
+							<div class="media-content">
+								<p class="title is-4">{{ service.name }}</p>
+								<p class="subtitle is-6">@yettifinancial</p>
+							</div>
+						</div>
+
+						<div class="content" v-html="service.description"></div>
+					</div>
+				</div>
+			</div>
+		</div> -->
 	</section>
 </template>
 <script>
@@ -177,7 +227,15 @@ export default {
 					description: `Looking for a career change? Perhaps extra money? Maybe you want to change the world?<br>Well, believe it or not, not only is a career in financial services one of the most lucrative industries to establish a career, but it happens to be a great way to make a real difference in the world.<br>The fact is most people are unaware of the powerful financial products that exist today, and its costing them thousands of dollars and a lifetime of unnecessary stress.<br>I am always looking for people who are eager to learn, make money, and make a difference. If you think you might be interested, click here so I can tell you more!`,
 					image: require('~/assets/img/svg/career-opportunities.svg')
 				}
-			]
+			],
+			serviceModalActive: false,
+			serviceModelService: {}
+		}
+	},
+	methods: {
+		toggleServiceModal(service = {}) {
+			this.serviceModelService = service
+			this.serviceModalActive = !this.serviceModalActive
 		}
 	}
 }

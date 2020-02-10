@@ -1,6 +1,6 @@
 $box-radius: 0px;
-$navbar-height: 5rem;
-$navbar-item-img-max-height: 3rem;
+$navbar-height: 6rem;
+$navbar-item-img-max-height: 5rem;
 $primary: #776058;
 $info: #c8b5a7;
 $light: mix($info, #fff, 20);
@@ -58,4 +58,28 @@ $warning: #d67c81;
 .expanding-button {
 	@extend .button;
 	height: 100%;
+}
+nav {
+	// box-shadow: 0 0 1px 0 $primary;
+}
+.card {
+	.preview-container {
+		cursor: pointer;
+		.preview-gradient {
+			background-image: linear-gradient(
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 1)
+			);
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+		}
+		.preview {
+			@extend .is-relative;
+			height: 100px;
+			overflow: hidden;
+		}
+	}
 }
