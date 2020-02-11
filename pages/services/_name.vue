@@ -40,6 +40,9 @@ export default {
 	},
 	data() {
 		return {}
+	},
+	mounted() {
+		document.querySelector('html').scrollTop = 0
 	}
 }
 </script>

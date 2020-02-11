@@ -202,9 +202,7 @@ export default {
 			e.preventDefault()
 		}
 	},
-	mounted() {
-		console.log('services section activated')
-	}
+	mounted() {}
 }
 </script>
 <style></style>
