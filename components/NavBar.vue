@@ -32,9 +32,9 @@
 				<a class="navbar-item" v-scroll-to="'#about'">
 					About
 				</a>
-				<a class="navbar-item" v-scroll-to="'#services'">
+				<nuxt-link class="navbar-item" :to="'/#services'">
 					Financial Services
-				</a>
+				</nuxt-link>
 				<a class="navbar-item" v-scroll-to="'#contact'">
 					Coaching and Mentoring
 				</a>

@@ -7,6 +7,7 @@
 				</nuxt-link>
 			</div>
 		</div>
+		<h2 class="is-hidden-tablet title">{{ service.name }}</h2>
 		<div class="columns">
 			<div class="column is-one-quarter">
 				<figure class="image is-1by1">
@@ -15,7 +16,7 @@
 			</div>
 			<div class="column is-three-quarter">
 				<div class="content">
-					<h2>{{ service.name }}</h2>
+					<h2 class="is-hidden-mobile">{{ service.name }}</h2>
 					<div v-html="service.description"></div>
 				</div>
 			</div>
@@ -42,12 +43,12 @@ export default {
 		return {}
 	},
 	mounted() {
-		document.querySelector('html').scrollTop = 0
-		document.querySelector('body').scrollTop = 0
+		const scrollElement = document.scrollingElement
+		scrollElement.scrollTop = 0
 	},
 	activated() {
-		document.querySelector('html').scrollTop = 0
-		document.querySelector('body').scrollTop = 0
+		const scrollElement = document.scrollingElement
+		scrollElement.scrollTop = 0
 	}
 }
 </script>
