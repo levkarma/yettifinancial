@@ -196,12 +196,6 @@ export default {
 			console.log(e.target)
 			e.preventDefault()
 		}
-	},
-	mounted() {
-		document.addEventListener('scroll', this.handleScroll)
-	},
-	destroyed() {
-		document.removeEventListener('scroll', this.handleScroll)
 	}
 }
 </script>

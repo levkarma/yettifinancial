@@ -30,8 +30,10 @@ export default {
 	props: ['fromRoute'],
 	computed: {
 		service() {
+			if (!this.$route.params.name) {
+				return {}
+			}
 			return servicesData.filter(service => {
-				console.log(service.name, this.$route.params.name.split('_').join(' '))
 				return service.name === this.$route.params.name.split('_').join(' ')
 			})[0]
 		}

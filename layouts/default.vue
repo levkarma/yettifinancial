@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <nuxt :fromRoute="fromRoute" />
+    <nuxt keep-alive :fromRoute="fromRoute" />
   </div>
 </template>
 
