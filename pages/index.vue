@@ -68,14 +68,13 @@ export default {
   },
   methods: {
     ensureScroll(px) {
-      document.querySelector('body').scrollTop = px
-      document.querySelector('html').scrollTop = px
+      const scrollElement = document.scrollingElement
+      scrollElement.scrollTop = px
     },
     scrollToAdjustedPosition() {
       const adjustedLastHomepageScrollPosition = this.$store.getters.lastTimeFromRoute(
         'index'
       ).scrollY
-      console.log('adjusted position', adjustedLastHomepageScrollPosition)
       return this.ensureScroll(adjustedLastHomepageScrollPosition)
     },
     handleInitalScrollPosition() {

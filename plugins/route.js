@@ -2,13 +2,12 @@ export default ({ store, app }) => {
 	// 	// Every time the route changes (fired on initialization too)
 	if (process.client) {
 		app.router.beforeEach((to, from, next) => {
-			console.log('in plugin html', document.querySelector('html').scrollTop)
-			console.log('in plugin body', document.querySelector('body').scrollTop)
+			const scrollElement = document.scrollingElement
 			from = {
 				name: from.name,
 				path: from.path,
 				hash: from.hash,
-				scrollY: document.querySelector('html').scrollTop
+				scrollY: scrollElement.scrollTop
 			}
 			to = {
 				name: to.name,
