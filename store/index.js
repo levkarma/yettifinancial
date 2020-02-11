@@ -1,7 +1,8 @@
 export const state = () => ({
 	data: [],
-	lastHomepageScrollPosition: 25,
-	route: { to: {}, from: {} }
+	lastHomepageScrollPosition: false,
+	route: { to: {}, from: {} },
+	routeHistory: []
 })
 export const mutations = {
 	data(state, payload) {
@@ -10,8 +11,15 @@ export const mutations = {
 	route(state, payload) {
 		state.route = payload
 	},
-	lastHomepageScrollPosition(state, payload) {
-		state.lastHomepageScrollPosition = payload
+	routeHistory(state, payload) {
+		const index = state.routeHistory.findIndex(
+			object => object.name === payload.name
+		)
+		if (index === -1) {
+			state.routeHistory.push(payload)
+		} else {
+			state.routeHistory[index] = payload
+		}
 	}
 }
 export const getters = {
@@ -30,5 +38,8 @@ export const getters = {
 			return component.values
 		}
 		return component.values[0]
+	},
+	lastTimeFromRoute: state => name => {
+		return state.routeHistory.filter(route => route.name === name)[0]
 	}
 }

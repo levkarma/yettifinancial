@@ -2,7 +2,7 @@
 	<section class="section" id="service">
 		<div class="level is-mobile">
 			<div class="level-left">
-				<nuxt-link class="level-item button is-primary" to="/">
+				<nuxt-link class="level-item button is-primary" to="/#services">
 					<span class="icon fas fa-arrow-left"></span><span>Services</span>
 				</nuxt-link>
 			</div>

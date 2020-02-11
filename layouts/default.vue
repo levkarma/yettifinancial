@@ -1,13 +1,14 @@
 <template>
   <div>
     <NavBar />
-    <nuxt :fromRoute="fromRoute" />
+    <nuxt keep-alive :fromRoute="fromRoute" />
   </div>
 </template>
 
 <script>
 import { vmgNuxtTemplatesMainLayout } from './../mixins/vmg-nuxt-templates-main-layout.js'
 import NavBar from '../components/NavBar.vue'
+import _ from 'lodash'
 export default {
   data() {
     return {
@@ -17,16 +18,7 @@ export default {
   components: {
     NavBar
   },
-  mixins: [vmgNuxtTemplatesMainLayout],
-  watch: {
-    $route(to, from) {
-      this.$store.commit('route', { from: from, to: to })
-      if (from.name === 'index' && to.name === 'services-name') {
-        this.$store.commit('lastHomepageScrollPosition', window.scrollY)
-        console.log('committed lastHomepageScrollPostiion')
-      }
-    }
-  }
+  mixins: [vmgNuxtTemplatesMainLayout]
 }
 </script>
 

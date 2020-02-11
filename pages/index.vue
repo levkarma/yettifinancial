@@ -47,6 +47,7 @@ import TeamSection from '~/components/TeamSection.vue'
 import TestimonialsSection from '~/components/TestimonialsSection.vue'
 import NavBar from '~/components/NavBar.vue'
 import AboutYettiSection from '~/components/AboutYettiSection.vue'
+import _ from 'lodash'
 if (process.client) {
   const imagesLoaded = require('vue-images-loaded')
 }
@@ -69,6 +70,12 @@ export default {
     ensureScroll(px) {
       document.querySelector('body').scrollTop = px
       document.querySelector('html').scrollTop = px
+    },
+    scrollToAdjustedPosition() {
+      const adjustedLastHomepageScrollPosition = this.$store.getters.lastTimeFromRoute(
+        'index'
+      ).scrollY
+      return this.ensureScroll(adjustedLastHomepageScrollPosition)
     }
   },
   components: {
@@ -87,19 +94,17 @@ export default {
     TestimonialsSection,
     AboutYettiSection
   },
-  mounted() {
+  activated() {
     if (
+      this.$store.getters.lastTimeFromRoute('index') &&
       this.$store.state.route.from.name === 'services-name' &&
       this.$store.state.route.to.name === 'index'
     ) {
-      console.log('scrolling to adjusted position')
-      const adjustedLastHomepageScrollPosition = this.$store.state
-        .lastHomepageScrollPosition
-      // document.querySelector('nav').offsetHeight
-      this.ensureScroll(adjustedLastHomepageScrollPosition)
-    } else {
-      console.log('scrolling to 0')
+      this.scrollToAdjustedPosition()
+    } else if (this.$store.state.route.to.hash === '') {
       return this.ensureScroll(0)
+    } else if (this.$store.state.route.to.hash) {
+      this.$scrollTo(this.$store.state.route.to.hash)
     }
   }
 }

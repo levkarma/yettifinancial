@@ -70,7 +70,8 @@ export default {
     { src: '~/plugins/vue-number-animation', mode: 'client' },
     { src: '~/plugins/vue-isotopes', mode: 'client' },
     { src: '~/plugins/vue-images-loaded', mode: 'client' },
-    { src: '~/plugins/navscroll' }
+    { src: '~/plugins/navscroll' },
+    { src: '~/plugins/route.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules
