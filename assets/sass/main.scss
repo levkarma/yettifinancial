@@ -9,6 +9,9 @@ $warning: #d67c81;
 // $link: #d67c81;
 @import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import 'bulma';
+#home {
+	min-height: 5234px;
+}
 #intro {
 	position: relative;
 	top: 0;

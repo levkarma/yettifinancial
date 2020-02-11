@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <nuxt keep-alive :fromRoute="fromRoute" />
+    <nuxt :fromRoute="fromRoute" />
   </div>
 </template>
 
@@ -20,7 +20,23 @@ export default {
   mixins: [vmgNuxtTemplatesMainLayout],
   watch: {
     $route(to, from) {
-      this.fromRoute = from
+      this.$store.commit('route', { from: from, to: to })
+      if (to.name === 'services-name') {
+        this.$store.commit('lastHomepageScrollPosition', window.scrollY)
+      }
+      if (from.name === 'services-name' && to.name === 'index') {
+        console.log(document.querySelector('body').offsetHeight)
+        setTimeout(() => {
+          this.$nextTick(() => {
+            console.log('to', this.$store.state.lastHomepageScrollPosition)
+            return (document.querySelector('html').scrollTop =
+              this.$store.state.lastHomepageScrollPosition -
+              document.querySelector('nav').offsetHeight +
+              7)
+          })
+        }, 100)
+      }
+      return (document.querySelector('html').scrollTop = 0)
     }
   }
 }

@@ -58,7 +58,10 @@
 			</div>
 			<button class="modal-close is-large" aria-label="close"></button>
 		</div>
-		<h2 class="title has-text-white content">{{ sectionHeader }}</h2>
+		<div class="content has-text-white content">
+			<h2 class="has-text-white">{{ sectionHeader }}</h2>
+			<p>Read about the services I can help you with!</p>
+		</div>
 		<!-- 		<h3 class="subtitle has-text-white">
 			{{ $store.getters.cData('services.section-subtitle') }}
 		</h3> -->

@@ -52,6 +52,7 @@ if (process.client) {
 }
 
 export default {
+  scrollToTop: false,
   head() {
     return {
       script: [

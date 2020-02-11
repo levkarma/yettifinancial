@@ -1,9 +1,17 @@
-export const state = () => {
-	data: []
-}
+export const state = () => ({
+	data: [],
+	lastHomepageScrollPosition: 25,
+	route: { to: {}, from: {} }
+})
 export const mutations = {
 	data(state, payload) {
 		state.data = payload
+	},
+	route(state, payload) {
+		state.route = payload
+	},
+	lastHomepageScrollPosition(state, payload) {
+		state.lastHomepageScrollPosition = payload
 	}
 }
 export const getters = {
