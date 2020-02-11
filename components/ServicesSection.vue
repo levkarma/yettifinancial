@@ -117,9 +117,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="columns is-multiline is-mobile is-hidden-tablet">
+		<div
+			class="columns is-multiline is-mobile is-hidden-tablet has-background-white "
+		>
 			<nuxt-link
-				class="column has-background-white is-one-third"
+				class="column is-one-third"
 				v-for="service in services"
 				:key="service.name"
 				:to="'/services/' + service.name.split(' ').join('_')"
