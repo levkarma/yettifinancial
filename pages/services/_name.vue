@@ -43,10 +43,11 @@ export default {
 	},
 	mounted() {
 		document.querySelector('html').scrollTop = 0
-		// document.querySelector('body').scrollTop = 0
+		document.querySelector('body').scrollTop = 0
 	},
 	activated() {
 		document.querySelector('html').scrollTop = 0
+		document.querySelector('body').scrollTop = 0
 	}
 }
 </script>
