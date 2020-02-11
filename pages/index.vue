@@ -79,9 +79,6 @@ export default {
       return this.ensureScroll(adjustedLastHomepageScrollPosition)
     },
     handleInitalScrollPosition() {
-      setTimeout(() => {
-        document.querySelector('html').scrollTop = 200
-      }, 5000)
       if (
         this.$store.getters.lastTimeFromRoute('index') &&
         this.$store.state.route.from.name === 'services-name'
