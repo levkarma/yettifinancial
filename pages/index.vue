@@ -70,13 +70,13 @@ export default {
     ensureScroll(px) {
       document.querySelector('body').scrollTop = px
       document.querySelector('html').scrollTop = px
-      console.log(document.querySelector('html').scrollTop)
     },
     scrollToAdjustedPosition() {
       const adjustedLastHomepageScrollPosition = this.$store.getters.lastTimeFromRoute(
         'index'
       ).scrollY
-      console.log(adjustedLastHomepageScrollPosition)
+      console.log('adjusted position', adjustedLastHomepageScrollPosition)
+
       return this.ensureScroll(adjustedLastHomepageScrollPosition)
     },
     handleInitalScrollPosition() {
@@ -84,13 +84,10 @@ export default {
         this.$store.getters.lastTimeFromRoute('index') &&
         this.$store.state.route.from.name === 'services-name'
       ) {
-        console.log('previous position')
         return this.scrollToAdjustedPosition()
       } else if (this.$store.state.route.to.hash === '') {
-        console.log('top')
         return this.ensureScroll(0)
       } else if (this.$store.state.route.to.hash) {
-        console.log('hash')
         this.$scrollTo(this.$store.state.route.to.hash)
       }
     }
