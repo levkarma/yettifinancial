@@ -65,6 +65,12 @@ export default {
       menuActive: false
     }
   },
+  methods: {
+    ensureScroll(px) {
+      document.querySelector('body').scrollTop = px
+      document.querySelector('html').scrollTop = px
+    }
+  },
   components: {
     AppHeader,
     NavBar,
@@ -80,6 +86,21 @@ export default {
     TeamSection,
     TestimonialsSection,
     AboutYettiSection
+  },
+  mounted() {
+    if (
+      this.$store.state.route.from.name === 'services-name' &&
+      this.$store.state.route.to.name === 'index'
+    ) {
+      console.log('scrolling to adjusted position')
+      const adjustedLastHomepageScrollPosition = this.$store.state
+        .lastHomepageScrollPosition
+      // document.querySelector('nav').offsetHeight
+      this.ensureScroll(adjustedLastHomepageScrollPosition)
+    } else {
+      console.log('scrolling to 0')
+      return this.ensureScroll(0)
+    }
   }
 }
 </script>
