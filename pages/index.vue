@@ -76,6 +76,18 @@ export default {
         'index'
       ).scrollY
       return this.ensureScroll(adjustedLastHomepageScrollPosition)
+    },
+    handleInitalScrollPosition() {
+      if (
+        this.$store.getters.lastTimeFromRoute('index') &&
+        this.$store.state.route.from.name === 'services-name'
+      ) {
+        this.scrollToAdjustedPosition()
+      } else if (this.$store.state.route.to.hash === '') {
+        return this.ensureScroll(0)
+      } else if (this.$store.state.route.to.hash) {
+        this.$scrollTo(this.$store.state.route.to.hash)
+      }
     }
   },
   components: {
@@ -95,17 +107,10 @@ export default {
     AboutYettiSection
   },
   activated() {
-    if (
-      this.$store.getters.lastTimeFromRoute('index') &&
-      this.$store.state.route.from.name === 'services-name' &&
-      this.$store.state.route.to.name === 'index'
-    ) {
-      this.scrollToAdjustedPosition()
-    } else if (this.$store.state.route.to.hash === '') {
-      return this.ensureScroll(0)
-    } else if (this.$store.state.route.to.hash) {
-      this.$scrollTo(this.$store.state.route.to.hash)
-    }
+    this.handleInitalScrollPosition()
+  },
+  mounted() {
+    this.handleInitalScrollPosition()
   }
 }
 </script>
