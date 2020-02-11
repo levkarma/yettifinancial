@@ -76,10 +76,11 @@ export default {
         'index'
       ).scrollY
       console.log('adjusted position', adjustedLastHomepageScrollPosition)
-
       return this.ensureScroll(adjustedLastHomepageScrollPosition)
     },
     handleInitalScrollPosition() {
+      console.log(rebuild)
+
       if (
         this.$store.getters.lastTimeFromRoute('index') &&
         this.$store.state.route.from.name === 'services-name'
