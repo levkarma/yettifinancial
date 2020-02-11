@@ -2,10 +2,6 @@
   <div id="home" class="has-navbar-fixed-top">
     <!-- <EventsModal /> -->
     <!-- <AppHeader></AppHeader> -->
-    <NavBar
-      :menuActive="menuActive"
-      @toggleMenuActive="menuActive = !menuActive"
-    />
     <IntroSection></IntroSection>
     <main id="section is-marginless is-paddingless">
       <AboutSection />

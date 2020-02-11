@@ -1,13 +1,28 @@
 <template>
   <div>
-    <nuxt />
+    <NavBar />
+    <nuxt :fromRoute="fromRoute" />
   </div>
 </template>
 
 <script>
 import { vmgNuxtTemplatesMainLayout } from './../mixins/vmg-nuxt-templates-main-layout.js'
+import NavBar from '../components/NavBar.vue'
 export default {
-  mixins: [vmgNuxtTemplatesMainLayout]
+  data() {
+    return {
+      fromRoute: {}
+    }
+  },
+  components: {
+    NavBar
+  },
+  mixins: [vmgNuxtTemplatesMainLayout],
+  watch: {
+    $route(to, from) {
+      this.fromRoute = from
+    }
+  }
 }
 </script>
 

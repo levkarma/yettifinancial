@@ -15,7 +15,7 @@
 				aria-label="menu"
 				aria-expanded="false"
 				data-target="navbarBasicExample"
-				@click="$emit('toggleMenuActive')"
+				@click="menuActive = !menuActive"
 			>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
@@ -58,9 +58,11 @@
 <script>
 export default {
 	name: 'NavBar',
-	props: ['menuActive'],
+	// props: ['menuActive'],
 	data() {
-		return {}
+		return {
+			menuActive: false
+		}
 	}
 }
 </script>

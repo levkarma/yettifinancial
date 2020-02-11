@@ -1,3 +1,5 @@
+const servicesData = require('./assets/data/services-data.json')
+
 export default {
   mode: 'universal',
   /*
@@ -110,5 +112,13 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  generate: {
+    routes(callback) {
+      let routes = servicesData.map(service => {
+        return '/services/' + service.name.split(' ').join('_')
+      })
+      callback(null, routes)
+    }
   }
 }
