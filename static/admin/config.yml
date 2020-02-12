@@ -1,17 +1,17 @@
-media_folder: static/img
-  public_folder: /img
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
 
-  collections:
-    - name: 'blog'
-      label: 'Blog'
-      format: 'json'
-      folder: 'assets/content/blog'
-      create: true
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-      editor:
-        preview: false
-      fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-        - { label: 'Description', name: 'description', widget: 'string' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+media_folder: static/img
+public_folder: /img
+collections:
+  - label: 'Event'
+    name: 'event'
+    folder: '_posts/event'
+    create: true
+    fields:
+      - { label: 'Event Name', name: 'event_name', widget: 'string' }
+      - { label: 'Event Date', name: 'date', widget: 'datetime' }
+      - { label: 'Featured Image', name: 'featured_image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
