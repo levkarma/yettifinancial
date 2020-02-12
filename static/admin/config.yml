@@ -7,9 +7,12 @@ media_folder: static/img
 public_folder: /img
 collections:
   - label: 'Event'
+    format: 'json'
     name: 'event'
     folder: 'assets/content/event'
     create: true
+    identifier_field: event_name
+    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     fields:
       - { label: 'Event Name', name: 'event_name', widget: 'string' }
       - { label: 'Event Date', name: 'date', widget: 'datetime' }

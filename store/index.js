@@ -1,7 +1,8 @@
 export const state = () => ({
 	data: [],
 	route: { to: {}, from: {} },
-	routeHistory: []
+	routeHistory: [],
+	events: []
 })
 export const mutations = {
 	data(state, payload) {
@@ -19,6 +20,9 @@ export const mutations = {
 		} else {
 			state.routeHistory[index] = payload
 		}
+	},
+	setEvents(state, events) {
+		state.events = events
 	}
 }
 export const getters = {
@@ -43,3 +47,16 @@ export const getters = {
 	}
 }
 
+export const actions = {
+	async nuxtServerInit({ commit }) {
+		let files = await require.context('~/assets/content/event/', false, /\.md$/)
+		console.log(files.keys())
+		let events = files.keys().map(key => {
+			let res = files(key)
+			res.slug = key.slice(2, -5)
+			return res
+		})
+		console.log(events)
+		await commit('setEvents', events)
+	}
+}

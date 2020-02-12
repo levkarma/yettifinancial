@@ -1,5 +1,6 @@
 <template>
 	<section id="events" class="section">
+		<div v-for="event in events" v-html="event.default"></div>
 		<!-- 		<nuxt-link to="/" class="level is-mobile">
 			<div class="level-left">
 				<div class="level-item">
@@ -25,7 +26,11 @@
 <script>
 export default {
 	name: 'events',
-
+	computed: {
+		events() {
+			return this.$store.state.events
+		}
+	},
 	data() {
 		return {}
 	}
