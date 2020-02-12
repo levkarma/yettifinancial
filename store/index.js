@@ -1,6 +1,5 @@
 export const state = () => ({
 	data: [],
-	lastHomepageScrollPosition: false,
 	route: { to: {}, from: {} },
 	routeHistory: []
 })
