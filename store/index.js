@@ -49,14 +49,16 @@ export const getters = {
 
 export const actions = {
 	async nuxtServerInit({ commit }) {
-		let files = await require.context('~/assets/content/event/', false, /\.md$/)
-		console.log(files.keys())
+		let files = await require.context(
+			'~/assets/content/event/',
+			false,
+			/\.json$/
+		)
 		let events = files.keys().map(key => {
 			let res = files(key)
 			res.slug = key.slice(2, -5)
 			return res
 		})
-		console.log(events)
 		await commit('setEvents', events)
 	}
 }

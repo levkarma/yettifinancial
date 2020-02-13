@@ -1,6 +1,5 @@
 <template>
 	<section id="events" class="section">
-		<div v-for="event in events" v-html="event.default"></div>
 		<!-- 		<nuxt-link to="/" class="level is-mobile">
 			<div class="level-left">
 				<div class="level-item">
@@ -19,6 +18,11 @@
 					<h1 class="title is-1">Events</h1>
 				</div>
 			</div>
+		</div>
+		<div class="content" v-for="event in events">
+			<h2 v-html="event.event_name"></h2>
+			<img class="flyer" :src="event.featured_image" />
+			<p v-html="event.body"></p>
 		</div>
 	</section>
 </template>
