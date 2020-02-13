@@ -122,5 +122,8 @@ export default {
       })
       callback(null, routes)
     }
+  },
+  markdownit: {
+    injected: true
   }
 }
