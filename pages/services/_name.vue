@@ -14,7 +14,7 @@
 					<img :src="service.image" alt="" />
 				</figure>
 			</div>
-			<div class="column is-three-quarter">
+			<div class="column is-half has-text-justified">
 				<div class="content">
 					<h2 class="is-size-5 is-hidden-mobile">{{ service.name }}</h2>
 					<figure v-if="service.youtube" class="image is-16by9">

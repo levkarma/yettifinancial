@@ -38,7 +38,6 @@ export const getters = {
 	lastTimeFromRoute: state => name => {
 		for (var i = state.routeHistory.length - 1; i >= 0; i--) {
 			if (state.routeHistory[i].name === name) {
-				console.log(state.routeHistory[i])
 				return state.routeHistory[i]
 			}
 		}
