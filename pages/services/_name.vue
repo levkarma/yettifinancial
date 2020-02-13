@@ -16,18 +16,30 @@
 			</div>
 			<div class="column is-three-quarter">
 				<div class="content">
-					<h2 class="is-hidden-mobile">{{ service.name }}</h2>
-					<div v-html="service.description"></div>
+					<h2 class="is-size-5 is-hidden-mobile">{{ service.name }}</h2>
+					<figure v-if="service.youtube" class="image is-16by9">
+						<iframe
+							class="has-ratio"
+							:src="service.youtube"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</figure>
+					<div style="white-space: pre-line" v-html="service.description"></div>
 				</div>
 			</div>
 		</div>
+		<ContactSection />
 	</section>
 </template>
 
 <script>
 const servicesData = require('~/assets/data/services-data.json')
+const ContactSection = require('~/components/ContactSection.vue').default
 export default {
 	name: 'ServicePage',
+	components: { ContactSection },
 	props: ['fromRoute'],
 	computed: {
 		service() {

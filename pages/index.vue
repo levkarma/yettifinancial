@@ -79,7 +79,8 @@ export default {
     },
     handleInitalScrollPosition() {
       if (
-        this.$store.getters.lastTimeFromRoute('index') &&
+        this.$store.getters.routeBeforeLast() &&
+        this.$store.getters.routeBeforeLast().name === 'index' &&
         this.$store.state.route.from.name === 'services-name'
       ) {
         return this.scrollToAdjustedPosition()
@@ -88,6 +89,11 @@ export default {
       } else if (this.$store.state.route.to.hash) {
         this.$scrollTo(this.$store.state.route.to.hash)
       }
+    }
+  },
+  watch: {
+    $route(to, from) {
+      this.handleInitalScrollPosition()
     }
   },
   components: {

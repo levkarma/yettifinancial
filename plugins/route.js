@@ -15,7 +15,7 @@ export default ({ store, app }) => {
 				hash: to.hash
 			}
 			store.commit('route', { from: from, to: to })
-			store.commit('routeHistory', from)
+			store.commit('pushRouteHistory', from)
 			next()
 		})
 	}

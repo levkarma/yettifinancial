@@ -11,15 +11,8 @@ export const mutations = {
 	route(state, payload) {
 		state.route = payload
 	},
-	routeHistory(state, payload) {
-		const index = state.routeHistory.findIndex(
-			object => object.name === payload.name
-		)
-		if (index === -1) {
-			state.routeHistory.push(payload)
-		} else {
-			state.routeHistory[index] = payload
-		}
+	pushRouteHistory(state, payload) {
+		const index = state.routeHistory.push(payload)
 	},
 	setEvents(state, events) {
 		state.events = events
@@ -43,7 +36,17 @@ export const getters = {
 		return component.values[0]
 	},
 	lastTimeFromRoute: state => name => {
-		return state.routeHistory.filter(route => route.name === name)[0]
+		for (var i = state.routeHistory.length - 1; i >= 0; i--) {
+			if (state.routeHistory[i].name === name) {
+				console.log(state.routeHistory[i])
+				return state.routeHistory[i]
+			}
+		}
+		return false
+	},
+	routeBeforeLast: state => name => {
+		console.log(state.routeHistory[state.routeHistory.length - 2])
+		return state.routeHistory[state.routeHistory.length - 2]
 	}
 }
 

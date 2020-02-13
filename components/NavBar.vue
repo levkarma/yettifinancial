@@ -29,15 +29,15 @@
 			:class="{ 'is-active': menuActive }"
 		>
 			<div class="navbar-start">
-				<a class="navbar-item" v-scroll-to="'#about'">
+				<nuxt-link class="navbar-item" :to="'/#about'">
 					About
-				</a>
+				</nuxt-link>
 				<nuxt-link class="navbar-item" :to="'/#services'">
 					Financial Services
 				</nuxt-link>
-				<a class="navbar-item" v-scroll-to="'#contact'">
+				<nuxt-link class="navbar-item" to="/#contact">
 					Coaching and Mentoring
-				</a>
+				</nuxt-link>
 				<nuxt-link to="events" class="navbar-item">
 					Upcoming Events
 				</nuxt-link>
@@ -46,9 +46,9 @@
 			<div class="navbar-end">
 				<div class="navbar-item">
 					<div class="buttons">
-						<a class="button is-primary" v-scroll-to="'#contact'">
+						<nuxt-link class="button is-primary" to="/#contact">
 							<strong>Free Consultation</strong>
-						</a>
+						</nuxt-link>
 					</div>
 				</div>
 			</div>
