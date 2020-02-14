@@ -48,6 +48,7 @@ import TestimonialsSection from '~/components/TestimonialsSection.vue'
 import NavBar from '~/components/NavBar.vue'
 import AboutYettiSection from '~/components/AboutYettiSection.vue'
 import _ from 'lodash'
+import dayjs from 'dayjs'
 if (process.client) {
   const imagesLoaded = require('vue-images-loaded')
 }
@@ -64,6 +65,16 @@ export default {
   data() {
     return {
       menuActive: false
+    }
+  },
+  computed: {
+    events() {
+      return this.$store.state.events
+    },
+    nextEventFormattedDate() {
+      const nextEvent = events.slice(-1)
+      date = dayjs(nextEvent.date).format('MMM dd')
+      return
     }
   },
   methods: {

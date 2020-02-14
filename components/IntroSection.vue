@@ -56,7 +56,7 @@
 								to="events"
 								class="button is-medium is-info is-light is-block"
 							>
-								<span>Next Event: Talk on 2/19</span>
+								<span>Next Event: Talk on {{ nextEventFormattedDate }}</span>
 								<span class="icon"
 									><i class="fas fa-chevron-circle-right"></i
 								></span>
@@ -82,11 +82,23 @@
 </template>
 
 <script>
+import dayjs from 'dayjs'
+
 export default {
 	name: 'IntroSection',
 
 	data() {
 		return {}
+	},
+	computed: {
+		events() {
+			return this.$store.state.events
+		},
+		nextEventFormattedDate() {
+			const [nextEvent] = this.events.slice(-1)
+			const date = dayjs(nextEvent.date).format('MM/DD')
+			return date
+		}
 	}
 }
 </script>
