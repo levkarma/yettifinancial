@@ -61,6 +61,6 @@ export const actions = {
 			res.slug = key.slice(2, -5)
 			return res
 		})
-		await commit('setEvents', events)
+		await commit('setEvents', events.reverse())
 	}
 }
