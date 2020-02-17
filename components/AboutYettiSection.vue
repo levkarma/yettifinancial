@@ -1,14 +1,12 @@
 <template>
 	<section class="section" id="about-yetti">
-		<div class="columns is-vcentered is-paddingless">
-			<div class="column is-half">
-				<section class="section is-paddingless">
-					<section class="hero is-success is-fullheight-with-navbar">
-						<div class="hero-body"></div>
-					</section>
-				</section>
+		<div class="columns is-vcentered is-paddingless is-marginless">
+			<div class="column is-half is-marginless">
+				<figure class="image is-2by3">
+					<img src="~/assets/img/yetti-and-sons.jpg" alt="" />
+				</figure>
 			</div>
-			<div class="column is-half">
+			<div class="column is-half is-marginless">
 				<div class="container content box is-shadowless">
 					<h2 class="title is-size-3">About Yetti Esatu</h2>
 					<p class="subtitle">

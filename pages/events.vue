@@ -23,13 +23,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="columns content is-centered" v-for="event in events">
+		<div class="columns is-centered event" v-for="event in events">
 			<div class="column is-one-third">
 				<figure class="image">
 					<img class="flyer" :src="event.featured_image" />
 				</figure>
 			</div>
-			<div class="column is-one-third">
+			<div class="column is-one-third content">
 				<h2 v-html="event.event_name"></h2>
 				<p class="is-size-5" v-html="formatDate(event.date).date"></p>
 				<p class="is-size-5" v-html="formatDate(event.date).time"></p>

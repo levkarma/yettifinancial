@@ -26,7 +26,10 @@
 							allowfullscreen
 						></iframe>
 					</figure>
-					<div style="white-space: pre-line" v-html="service.description"></div>
+					<div
+						style="white-space: pre-line"
+						v-html="$md.render(service.description)"
+					></div>
 				</div>
 			</div>
 		</div>
@@ -35,7 +38,7 @@
 </template>
 
 <script>
-const servicesData = require('~/assets/data/services-data.json')
+const servicesData = require('~/assets/data/services-data-with-markdown.json')
 const ContactSection = require('~/components/ContactSection.vue').default
 export default {
 	name: 'ServicePage',

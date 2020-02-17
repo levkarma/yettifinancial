@@ -1,4 +1,5 @@
 const servicesData = require('./assets/data/services-data.json')
+const fse = require('fs-extra')
 
 export default {
   mode: 'universal',
@@ -125,5 +126,24 @@ export default {
   },
   markdownit: {
     injected: true
+  },
+  hooks: {
+    build: {
+      before(builder) {
+        const newServicesData = servicesData.slice()
+        for (let service of newServicesData) {
+          const file = fse.readFileSync(
+            __dirname + '/assets/data/' + service.description,
+            'utf8'
+          )
+          service.description = file
+        }
+        fse.ensureDirSync(__dirname + '/assets/data')
+        fse.writeFileSync(
+          __dirname + '/assets/data/services-data-with-markdown.json',
+          JSON.stringify(newServicesData)
+        )
+      }
+    }
   }
 }

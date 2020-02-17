@@ -9,9 +9,6 @@ $warning: #d67c81;
 // $link: #d67c81;
 @import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import 'bulma';
-#home {
-	min-height: 5234px;
-}
 #intro {
 	position: relative;
 	top: 0;
@@ -28,17 +25,9 @@ $warning: #d67c81;
 		// margin-top: 120%;
 	}
 	.button {
-		@mixin tablet {
-			@extend .has-top-margin;
-		}
-	}
-}
-#about-yetti .hero {
-	background-image: url('~assets/img/yetti-and-sons.jpg');
-	background-size: cover;
-	background-position: center;
-	.hero-body {
-		align-items: flex-end;
+		// @include tablet {
+		// 	@extend .has-top-margin;
+		// }
 	}
 }
 .has-top-margin {
@@ -83,9 +72,18 @@ nav {
 			@extend .is-relative;
 			height: 100px;
 			overflow: hidden;
+			h3 {
+				font-size: 1rem;
+			}
 		}
 	}
 }
 #events img.flyer {
 	max-width: 20rem;
+}
+
+#events .event {
+	@include mobile {
+		margin-bottom: 5rem;
+	}
 }

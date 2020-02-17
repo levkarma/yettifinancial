@@ -1,6 +1,5 @@
 <template>
   <div id="home" class="has-navbar-fixed-top">
-    <!-- <EventsModal /> -->
     <!-- <AppHeader></AppHeader> -->
     <IntroSection></IntroSection>
     <main id="section is-marginless is-paddingless">

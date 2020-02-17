@@ -37,7 +37,7 @@
 							<div class="content preview-container">
 								<p class="is-size-5">{{ service.name }}</p>
 								<div class="preview">
-									<div v-html="service.description"></div>
+									<div v-html="$md.render(service.description)"></div>
 									<div class="preview-gradient"></div>
 								</div>
 								<p class="has-text-primary">Read more...</p>
@@ -108,7 +108,7 @@
 	</section>
 </template>
 <script>
-const servicesData = require('~/assets/data/services-data.json')
+const servicesData = require('~/assets/data/services-data-with-markdown.json')
 export default {
 	name: 'ServicesSection',
 	data() {
