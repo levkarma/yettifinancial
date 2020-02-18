@@ -12,16 +12,11 @@
 				</div>
 				<div class="columns">
 					<div class="column is-half">
-						<figure class="image is-16by9">
-							<iframe
-								class="has-ratio"
-								src="https://www.youtube.com/embed/videoseries?list=PLEMDtyFuzwKajsLKrhwEk9HoL2NVDz5qJ"
-								frameborder="0"
-								allow="autoplay; encrypted-media"
-								allowfullscreen
-							></iframe>
-							<!-- <img src="~/assets/img/yetti-youtube-screenshot-1.png" alt="" /> -->
-						</figure>
+						<YoutubeVideo
+							:src="
+								'https://www.youtube.com/embed/videoseries?list=PLEMDtyFuzwKajsLKrhwEk9HoL2NVDz5qJ'
+							"
+						/>
 					</div>
 					<div class="column is-half">
 						<div class="content">
@@ -172,8 +167,12 @@
 	</div>
 </template>
 <script>
+import YoutubeVideo from '../components/YoutubeVideo.vue'
 export default {
 	name: 'AboutSection',
+	components: {
+		YoutubeVideo
+	},
 	data() {
 		return {
 			keyQuestions: [

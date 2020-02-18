@@ -116,6 +116,8 @@ export default {
     this.handleInitalScrollPosition()
   },
   mounted() {
+    this.$webpSupport()
+    this.$delayHeavyElements()
     this.handleInitalScrollPosition()
   }
 }

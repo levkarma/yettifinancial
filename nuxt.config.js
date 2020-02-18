@@ -72,7 +72,9 @@ export default {
     { src: '~/plugins/vue-isotopes', mode: 'client' },
     { src: '~/plugins/vue-images-loaded', mode: 'client' },
     { src: '~/plugins/navscroll' },
-    { src: '~/plugins/route.js', mode: 'client' }
+    { src: '~/plugins/route.js', mode: 'client' },
+    { src: '~/plugins/webp-support.js', mode: 'client' },
+    { src: '~/plugins/delay-heavy-elements.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules

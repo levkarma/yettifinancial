@@ -44,7 +44,6 @@ export const getters = {
 		return false
 	},
 	routeBeforeLast: state => name => {
-		console.log(state.routeHistory[state.routeHistory.length - 2])
 		return state.routeHistory[state.routeHistory.length - 2]
 	}
 }
@@ -61,6 +60,12 @@ export const actions = {
 			res.slug = key.slice(2, -5)
 			return res
 		})
-		await commit('setEvents', events.reverse())
+		let sortedEvents = events.slice()
+		sortedEvents.sort((a, b) => {
+			a = new Date(a.date)
+			b = new Date(b.date)
+			return b.valueOf() - a.valueOf()
+		})
+		await commit('setEvents', sortedEvents)
 	}
 }

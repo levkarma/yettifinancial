@@ -95,9 +95,17 @@ export default {
 			return this.$store.state.events
 		},
 		nextEventFormattedDate() {
-			const [nextEvent] = this.events.slice(-1)
+			const futureEvents = getFutureEvents(this.events)
+			// already sorted
+			const nextEvent = futureEvents.pop()
 			const date = dayjs(nextEvent.date).format('MM/DD')
 			return date
+
+			function getFutureEvents(events) {
+				return events.filter(event => {
+					return new Date(event.date).valueOf() > Date.now()
+				})
+			}
 		}
 	}
 }

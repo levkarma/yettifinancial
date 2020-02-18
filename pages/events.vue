@@ -61,6 +61,14 @@ export default {
 				})
 			}
 		}
+	},
+	mounted() {
+		const scrollElement = document.scrollingElement
+		scrollElement.scrollTop = 0
+	},
+	activated() {
+		const scrollElement = document.scrollingElement
+		scrollElement.scrollTop = 0
 	}
 }
 </script>
