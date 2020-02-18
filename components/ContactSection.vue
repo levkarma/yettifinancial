@@ -2,7 +2,7 @@
 	<section id="contact" class="section">
 		<div class="columns is-centered">
 			<div class="column is-half">
-				<form action="/" method="post" name="contact-form" netlify>
+				<form action="/" method="post" name="contact-form">
 					<div class="content">
 						<h2 class="title is-size-3">Contact</h2>
 						<p class="is-size-4">703-362-4773</p>
