@@ -48,6 +48,10 @@ function getAdjustedRootMargin(desiredMarginPx) {
 	const highestElement = elementsInOrderOfClosestToTop[0]
 	const bottomOfViewportToTopOfHighestElement =
 		highestElement.getBoundingClientRect().top - window.innerHeight
+	const elementIsAlreadyInViewOnLoad = bottomOfViewportToTopOfHighestElement < 0
+	if (elementIsAlreadyInViewOnLoad) {
+		return desiredMarginPx
+	}
 	if (bottomOfViewportToTopOfHighestElement < desiredMarginPx) {
 		return bottomOfViewportToTopOfHighestElement - 1
 	}
