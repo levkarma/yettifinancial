@@ -19,10 +19,18 @@
 						<div class="media">
 							<div class="media-left">
 								<figure class="image is-48x48">
-									<img
-										src="~/assets/img/yetti-profile-tiny.jpg"
-										alt="Placeholder image"
-									/>
+									<picture>
+										<source
+											data-srcset="~/assets/img/yetti-profile-tiny.jpg.webp"
+										/>
+										<source data-srcset="~/assets/img/yetti-profile-tiny.jpg" />
+										<img
+											class="lazy-picture"
+											data-src="~/assets/img/yetti-profile-tiny.jpg"
+											alt="Placeholder
+										image"
+										/>
+									</picture>
 								</figure>
 							</div>
 							<div class="media-content">
@@ -32,7 +40,7 @@
 						</div>
 						<div class="">
 							<figure class="image is-1by1">
-								<img :src="service.image" alt="Placeholder image" />
+								<img :data-src="service.image" alt="" class="lazy-image" />
 							</figure>
 							<div class="content preview-container">
 								<p class="is-size-5">{{ service.name }}</p>
@@ -57,7 +65,7 @@
 				:to="'/services/' + service.name.split(' ').join('_')"
 			>
 				<figure class="image is-1by1">
-					<img :src="service.image" alt="" />
+					<img :data-src="service.image" alt="" class="lazy-image" />
 				</figure>
 				<p class="is-size-7 has-text-centered has-text-primary">
 					{{ service.name }}

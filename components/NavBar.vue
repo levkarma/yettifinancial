@@ -6,7 +6,11 @@
 	>
 		<div class="navbar-brand">
 			<a class="navbar-item" href="/">
-				<img src="~/assets/img/yetti-logo.png" />
+				<picture>
+					<source srcset="~/assets/img/yetti-logo.png.webp" />
+					<source srcset="~/assets/img/yetti-logo.png" />
+					<img src="~/assets/img/yetti-logo.png" alt="" />
+				</picture>
 			</a>
 
 			<a

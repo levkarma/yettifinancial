@@ -1,8 +1,10 @@
 import Vue from 'vue'
-const possibleClasses = '.lazy-youtube, .lazy-instagram, .lazy-google-maps'
+const possibleClasses =
+	'.lazy-youtube, .lazy-instagram, .lazy-google-maps, .lazy-picture, .lazy-image'
 const intersectionObserverOptions = {
-	rootMargin: getAdjustedRootMargin(300) + 'px'
+	// rootMargin: getAdjustedRootMargin(300) + 'px'
 }
+console.log('rootMargin', intersectionObserverOptions.rootMargin)
 const DelayHeavyElements = {
 	install: function(Vue, options) {
 		Vue.prototype.$delayHeavyElements = function(methodOptions) {
@@ -25,13 +27,23 @@ const DelayHeavyElements = {
 
 			function loadElement(element) {
 				if (element.classList.contains('lazy-instagram')) {
-					const src = document
+					document.getElementById(
+						'instagram-embed-script'
+					).src = document
 						.getElementById('instagram-embed-script')
 						.getAttribute('data-src')
-					document.getElementById('instagram-embed-script').src = src
 				} else if (element.nodeName === 'IFRAME') {
-					const src = element.getAttribute('data-src')
-					element.src = src
+					element.src = element.getAttribute('data-src')
+				} else if (element.classList.contains('lazy-picture')) {
+					element.parentNode.childNodes.forEach(node => {
+						if (node.nodeName === 'IMG') {
+							node.src = node.getAttribute('data-src')
+						} else if (node.nodeName === 'SOURCE') {
+							node.srcset = node.getAttribute('data-srcset')
+						}
+					})
+				} else if (element.classList.contains('lazy-image')) {
+					element.src = element.getAttribute('data-src')
 				}
 			}
 		}
@@ -40,6 +52,8 @@ const DelayHeavyElements = {
 Vue.use(DelayHeavyElements)
 
 function getAdjustedRootMargin(desiredMarginPx) {
+	const scrollPosition = document.scrollingElement.scrollTop
+
 	const elementsInOrderOfClosestToTop = Array.from(
 		document.querySelectorAll(possibleClasses)
 	).sort((a, b) => {
@@ -48,11 +62,14 @@ function getAdjustedRootMargin(desiredMarginPx) {
 	const highestElement = elementsInOrderOfClosestToTop[0]
 	const bottomOfViewportToTopOfHighestElement =
 		highestElement.getBoundingClientRect().top - window.innerHeight
+	console.log(
+		'bottomOfViewportToTopOfHighestElement',
+		bottomOfViewportToTopOfHighestElement
+	)
 	const elementIsAlreadyInViewOnLoad = bottomOfViewportToTopOfHighestElement < 0
 	if (elementIsAlreadyInViewOnLoad) {
 		return desiredMarginPx
-	}
-	if (bottomOfViewportToTopOfHighestElement < desiredMarginPx) {
+	} else if (bottomOfViewportToTopOfHighestElement < desiredMarginPx) {
 		return bottomOfViewportToTopOfHighestElement - 1
 	}
 	return desiredMarginPx

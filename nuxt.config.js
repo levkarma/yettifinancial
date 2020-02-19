@@ -23,27 +23,27 @@ export default {
       // check
       { href: '~/assets/img/favicon.png', rel: 'icon' },
       // check
-      { href: '~/assets/img/apple-touch-icon.png', rel: 'apple-touch-icon' },
-      {
-        href:
-          'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700',
-        rel: 'stylesheet'
-      }
+      { href: '~/assets/img/apple-touch-icon.png', rel: 'apple-touch-icon' }
+      // {
+      //   href:
+      //     'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700',
+      //   rel: 'stylesheet'
+      // }
     ],
     script: [
-      { src: '/lib/jquery/jquery.min.js', body: true },
-      { src: '/lib/jquery/jquery-migrate.min.js', body: true },
-      { src: '/lib/bootstrap/js/bootstrap.bundle.min.js', body: true },
-      { src: '/lib/easing/easing.min.js', body: true },
-      { src: '/lib/mobile-nav/mobile-nav.js', body: true },
-      { src: '/lib/wow/wow.min.js', body: true },
-      { src: '/lib/waypoints/waypoints.min.js', body: true },
-      { src: '/lib/counterup/counterup.min.js', body: true },
-      { src: '/lib/owlcarousel/owl.carousel.min.js', body: true },
-      { src: '/lib/isotope/isotope.pkgd.min.js', body: true },
-      { src: '/lib/lightbox/js/lightbox.min.js', body: true },
-      { src: '/contactform/contactform.js', body: true },
-      { src: '/js/main.js', body: true }
+      // { src: '/lib/jquery/jquery.min.js', body: true },
+      // { src: '/lib/jquery/jquery-migrate.min.js', body: true },
+      // { src: '/lib/bootstrap/js/bootstrap.bundle.min.js', body: true },
+      // { src: '/lib/easing/easing.min.js', body: true },
+      // { src: '/lib/mobile-nav/mobile-nav.js', body: true },
+      // { src: '/lib/wow/wow.min.js', body: true },
+      // { src: '/lib/waypoints/waypoints.min.js', body: true },
+      // { src: '/lib/counterup/counterup.min.js', body: true },
+      // { src: '/lib/owlcarousel/owl.carousel.min.js', body: true },
+      // { src: '/lib/isotope/isotope.pkgd.min.js', body: true },
+      // { src: '/lib/lightbox/js/lightbox.min.js', body: true },
+      // { src: '/contactform/contactform.js', body: true },
+      // { src: '/js/main.js', body: true }
     ]
   },
   /*
@@ -116,7 +116,10 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, { isClient, loaders }) {
+      loaders.vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+      loaders.vue.transformAssetUrls.img = ['data-src', 'src']
+    }
   },
   generate: {
     routes(callback) {

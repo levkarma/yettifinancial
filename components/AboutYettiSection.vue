@@ -3,7 +3,15 @@
 		<div class="columns is-vcentered is-paddingless is-marginless">
 			<div class="column is-half is-marginless">
 				<figure class="image is-2by3">
-					<img src="~/assets/img/yetti-and-sons.jpg" alt="" />
+					<picture>
+						<source data-srcset="~/assets/img/yetti-and-sons.jpg.webp" />
+						<source data-srcset="~/assets/img/yetti-and-sons.jpg" />
+						<img
+							class="lazy-picture"
+							data-src="~/assets/img/yetti-and-sons.jpg"
+							alt=""
+						/>
+					</picture>
 				</figure>
 			</div>
 			<div class="column is-half is-marginless">

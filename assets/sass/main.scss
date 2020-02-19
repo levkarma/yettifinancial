@@ -7,7 +7,7 @@ $light: mix($info, #fff, 20);
 $warning: #d67c81;
 // $link: #000;
 // $link: #d67c81;
-@import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
+// @import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import 'bulma';
 #intro {
 	position: relative;
@@ -15,7 +15,6 @@ $warning: #d67c81;
 	left: 0;
 }
 #intro .hero {
-	background-image: url('~assets/img/yetti-profile-without-background.png');
 	background-size: cover;
 	background-position: center 25%;
 	.hero-body {
@@ -29,6 +28,9 @@ $warning: #d67c81;
 		// 	@extend .has-top-margin;
 		// }
 	}
+}
+.webp #intro .hero {
+	background-image: url('~assets/img/yetti-profile-without-background.png.webp');
 }
 .has-top-margin {
 	margin: 1.5rem 0 0 0;
