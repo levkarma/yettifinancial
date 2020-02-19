@@ -7,7 +7,7 @@ $light: mix($info, #fff, 20);
 $warning: #d67c81;
 // $link: #000;
 // $link: #d67c81;
-// @import '~/node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '~/lib/@fortawesome/fontawesome-free/css/all.min.css';
 @import 'bulma';
 #intro {
 	position: relative;

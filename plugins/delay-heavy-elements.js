@@ -2,9 +2,9 @@ import Vue from 'vue'
 const possibleClasses =
 	'.lazy-youtube, .lazy-instagram, .lazy-google-maps, .lazy-picture, .lazy-image'
 const intersectionObserverOptions = {
-	// rootMargin: getAdjustedRootMargin(300) + 'px'
+	rootMargin: getAdjustedRootMargin(300) + 'px'
 }
-console.log('rootMargin', intersectionObserverOptions.rootMargin)
+// console.log('rootMargin', intersectionObserverOptions.rootMargin)
 const DelayHeavyElements = {
 	install: function(Vue, options) {
 		Vue.prototype.$delayHeavyElements = function(methodOptions) {
@@ -62,10 +62,10 @@ function getAdjustedRootMargin(desiredMarginPx) {
 	const highestElement = elementsInOrderOfClosestToTop[0]
 	const bottomOfViewportToTopOfHighestElement =
 		highestElement.getBoundingClientRect().top - window.innerHeight
-	console.log(
-		'bottomOfViewportToTopOfHighestElement',
-		bottomOfViewportToTopOfHighestElement
-	)
+	// console.log(
+	// 	'bottomOfViewportToTopOfHighestElement',
+	// 	bottomOfViewportToTopOfHighestElement
+	// )
 	const elementIsAlreadyInViewOnLoad = bottomOfViewportToTopOfHighestElement < 0
 	if (elementIsAlreadyInViewOnLoad) {
 		return desiredMarginPx
