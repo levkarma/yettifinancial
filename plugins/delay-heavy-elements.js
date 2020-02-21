@@ -4,7 +4,7 @@ const possibleClasses =
 const intersectionObserverOptions = {
 	rootMargin: getAdjustedRootMargin(300) + 'px'
 }
-// console.log('rootMargin', intersectionObserverOptions.rootMargin)
+console.log('rootMargin', intersectionObserverOptions.rootMargin)
 const DelayHeavyElements = {
 	install: function(Vue, options) {
 		Vue.prototype.$delayHeavyElements = function(methodOptions) {
@@ -53,24 +53,31 @@ Vue.use(DelayHeavyElements)
 
 function getAdjustedRootMargin(desiredMarginPx) {
 	const scrollPosition = document.scrollingElement.scrollTop
-
-	const elementsInOrderOfClosestToTop = Array.from(
+	const elementsWithBoundingClientRectInfo = addBoundingClientRectInfo(
 		document.querySelectorAll(possibleClasses)
-	).sort((a, b) => {
-		return a.getBoundingClientRect().top - b.getBoundingClientRect().top
+	)
+	const windowHeight = window.innerHeight
+	const elementsNotInViewport = elementsWithBoundingClientRectInfo.filter(
+		element => {
+			return element.boundingClientRect.top - windowHeight > 0
+		}
+	)
+	const elementsNotInViewportInOrder = elementsNotInViewport.sort((a, b) => {
+		return a.boundingClientRect.top - b.boundingClientRect.top
 	})
-	const highestElement = elementsInOrderOfClosestToTop[0]
+	const highestElementNotInViewport = elementsNotInViewportInOrder[0]
 	const bottomOfViewportToTopOfHighestElement =
-		highestElement.getBoundingClientRect().top - window.innerHeight
-	// console.log(
-	// 	'bottomOfViewportToTopOfHighestElement',
-	// 	bottomOfViewportToTopOfHighestElement
-	// )
-	const elementIsAlreadyInViewOnLoad = bottomOfViewportToTopOfHighestElement < 0
-	if (elementIsAlreadyInViewOnLoad) {
-		return desiredMarginPx
-	} else if (bottomOfViewportToTopOfHighestElement < desiredMarginPx) {
-		return bottomOfViewportToTopOfHighestElement - 1
+		highestElementNotInViewport.boundingClientRect.top - windowHeight
+	console.log(
+		'bottomOfViewportToTopOfHighestElement',
+		bottomOfViewportToTopOfHighestElement
+	)
+	return bottomOfViewportToTopOfHighestElement - 1
+
+	function addBoundingClientRectInfo(elements) {
+		return Array.from(elements).map(element => {
+			element.boundingClientRect = element.getBoundingClientRect()
+			return element
+		})
 	}
-	return desiredMarginPx
 }
