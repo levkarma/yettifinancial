@@ -150,7 +150,7 @@ export default {
 			this.submittingForm = true
 			axios({
 				method: 'post',
-				url: 'http://127.0.0.1:8000/api/form-submission',
+				url: 'https://homebase.vinmediagroup.com/api/form-submission',
 				headers: { 'Content-Type': 'application/json' },
 				data: JSON.stringify({
 					email: 'levko.k9@gmail.com',
