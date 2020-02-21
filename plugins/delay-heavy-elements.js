@@ -4,7 +4,6 @@ const possibleClasses =
 const intersectionObserverOptions = {
 	rootMargin: getAdjustedRootMargin(300) + 'px'
 }
-console.log('rootMargin', intersectionObserverOptions.rootMargin)
 const DelayHeavyElements = {
 	install: function(Vue, options) {
 		Vue.prototype.$delayHeavyElements = function(methodOptions) {
@@ -68,10 +67,6 @@ function getAdjustedRootMargin(desiredMarginPx) {
 	const highestElementNotInViewport = elementsNotInViewportInOrder[0]
 	const bottomOfViewportToTopOfHighestElement =
 		highestElementNotInViewport.boundingClientRect.top - windowHeight
-	console.log(
-		'bottomOfViewportToTopOfHighestElement',
-		bottomOfViewportToTopOfHighestElement
-	)
 	return bottomOfViewportToTopOfHighestElement - 1
 
 	function addBoundingClientRectInfo(elements) {
