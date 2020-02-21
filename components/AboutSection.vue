@@ -71,13 +71,15 @@
 				<div class="columns is-centered">
 					<div class="column is-half">
 						<figure class="image is-4by1 has-top-margin">
-							<source data-srcset="~/assets/img/yetti-logo.png.webp" />
-							<source data-srcset="~/assets/img/yetti-logo.png" />
-							<img
-								:data-src="'~/assets/img/yetti-logo.png'"
-								class="lazy-picture"
-								alt=""
-							/>
+							<picture>
+								<source data-srcset="~/assets/img/yetti-logo.png.webp" />
+								<source data-srcset="~/assets/img/yetti-logo.png" />
+								<img
+									:data-src="'~/assets/img/yetti-logo.png'"
+									class="lazy-picture"
+									alt=""
+								/>
+							</picture>
 						</figure>
 					</div>
 				</div>
