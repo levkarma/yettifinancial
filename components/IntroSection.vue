@@ -1,6 +1,6 @@
 <template>
 	<section id="intro" class="section is-marginless is-paddingless">
-		<div class="columns is-marginless is-vcentered">
+		<div class="columns is-marginless">
 			<div class="column is-half is-paddingless">
 				<section class="hero is-fullheight-with-navbar">
 					<div class="hero-body">
@@ -29,53 +29,47 @@
 					</div>
 				</section>
 			</div>
-			<div class="is-half is-paddingless">
-				<section class="section">
-					<div class="container content">
-						<div class="is-hidden-mobile">
-							<h1 class="title is-size-1">
-								Meet Yetti
-							</h1>
-							<h2 class="subtitle">
-								"I love to educate. So don't be shy."
-							</h2>
-							<button v-scroll-to="'#contact'" class="button is-primary">
-								Call me!
-							</button>
-							<a class="button is-info" v-scroll-to="'#services'"
-								>Our Services</a
-							>
-						</div>
-						<h2 class="title">
-							{{
-								$store.getters.cData('landing-page.short-business-statement')
-							}}
+			<div class="column is-half is-paddingless right-content">
+				<div class="box is-shadowless content">
+					<div class="is-hidden-mobile">
+						<h1 class="title is-size-1">
+							Meet Yetti
+						</h1>
+						<h2 class="subtitle">
+							"I love to educate. So don't be shy."
 						</h2>
-						<div class="content">
-							<nuxt-link
-								to="events"
-								class="button is-medium is-info is-light is-block"
-							>
-								<span>Next Event: Talk on {{ nextEventFormattedDate }}</span>
-								<span class="icon"
-									><i class="fas fa-chevron-circle-right"></i
-								></span>
-							</nuxt-link>
-							<a
-								href="https://www.youtube.com/channel/UCAFPvZSFfyiirNfT2aCrz7g"
-								class="expanding-button is-medium is-info is-light is-block has-top-margin"
-								target="_blank"
-							>
-								<span>Watch my free videos!</span><br /><span class="is-size-6"
-									>1k Subscribers</span
-								>
-								<span class="icon"
-									><i class="fas fa-chevron-circle-right"></i
-								></span>
-							</a>
-						</div>
+						<button v-scroll-to="'#contact'" class="button is-primary">
+							Call me!
+						</button>
+						<a class="button is-info" v-scroll-to="'#services'">Our Services</a>
 					</div>
-				</section>
+					<h2 class="title">
+						{{ $store.getters.cData('landing-page.short-business-statement') }}
+					</h2>
+					<div class="content">
+						<nuxt-link
+							to="events"
+							class="button is-medium is-info is-light is-block"
+						>
+							<span>Next Event: Talk on {{ nextEventFormattedDate }}</span>
+							<span class="icon"
+								><i class="fas fa-chevron-circle-right"></i
+							></span>
+						</nuxt-link>
+						<a
+							href="https://www.youtube.com/channel/UCAFPvZSFfyiirNfT2aCrz7g"
+							class="expanding-button is-medium is-info is-light is-block has-top-margin"
+							target="_blank"
+						>
+							<span>Watch my free videos!</span><br /><span class="is-size-6"
+								>2.3k Subscribers</span
+							>
+							<span class="icon"
+								><i class="fas fa-chevron-circle-right"></i
+							></span>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

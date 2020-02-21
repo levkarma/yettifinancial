@@ -13,6 +13,12 @@ $warning: #d67c81;
 	position: relative;
 	top: 0;
 	left: 0;
+	.right-content {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+	}
 }
 #intro .hero {
 	background-size: cover;

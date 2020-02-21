@@ -37,9 +37,10 @@
 												<i :class="'fas fa-lg ' + question.icon"></i>
 											</span>
 										</div>
-										<div class="level-item has-text-centered">
-											{{ question.phrase }}
-										</div>
+										<div
+											class="level-item has-text-centered-mobile"
+											v-html="question.phrase"
+										></div>
 									</div>
 								</div>
 								<!-- 								<ul>
@@ -193,7 +194,7 @@ export default {
 					icon: 'fa-heartbeat'
 				},
 				{
-					phrase: 'Taking advantage of my business for retirement purposes',
+					phrase: 'Taking advantage of my business<br> for retirement purposes',
 					icon: 'fa-building'
 				},
 				{
@@ -202,7 +203,7 @@ export default {
 				},
 				{
 					phrase:
-						'Leverage up to 3 to 1 bank matching for tax-free retirement savings',
+						'Leverage up to 3 to 1 bank matching<br> for tax-free retirement savings',
 					icon: 'fa-percent'
 				},
 				{

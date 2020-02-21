@@ -20,9 +20,11 @@
         <p>Yetti Financial</p>
       </div>
       <div class="content has-text-centered">
-        <span class="icon">
-          <i class="fab fa-2x fa-facebook"></i>
-        </span>
+        <a href="https://www.facebook.com/yettifinancial">
+          <span class="icon">
+            <i class="fab fa-2x fa-facebook"></i>
+          </span>
+        </a>
         <span class="icon"><i class="fab fa-2x fa-instagram"></i></span>
       </div>
     </footer>
