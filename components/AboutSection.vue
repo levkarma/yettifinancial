@@ -73,10 +73,16 @@
 					<div class="column is-half">
 						<figure class="image is-4by1 has-top-margin">
 							<picture>
-								<source data-srcset="~/assets/img/yetti-logo.png.webp" />
-								<source data-srcset="~/assets/img/yetti-logo.png" />
+								<source
+									data-srcset="~/assets/img/yetti-logo.png.webp"
+									type="image/webp"
+								/>
+								<source
+									data-srcset="~/assets/img/yetti-logo.png"
+									type="image/png"
+								/>
 								<img
-									:data-src="'~/assets/img/yetti-logo.png'"
+									data-src="~/assets/img/yetti-logo.png"
 									class="lazy-picture"
 									alt=""
 								/>

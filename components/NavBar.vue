@@ -7,8 +7,8 @@
 		<div class="navbar-brand">
 			<a class="navbar-item" href="/">
 				<picture>
-					<source srcset="~/assets/img/yetti-logo.png.webp" />
-					<source srcset="~/assets/img/yetti-logo.png" />
+					<source type="image/webp" srcset="~/assets/img/yetti-logo.png.webp" />
+					<source type="image/png" srcset="~/assets/img/yetti-logo.png" />
 					<img src="~/assets/img/yetti-logo.png" alt="" />
 				</picture>
 			</a>

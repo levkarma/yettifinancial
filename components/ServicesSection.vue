@@ -21,9 +21,13 @@
 								<figure class="image is-48x48">
 									<picture>
 										<source
+											type="image/webp"
 											data-srcset="~/assets/img/yetti-profile-tiny.jpg.webp"
 										/>
-										<source data-srcset="~/assets/img/yetti-profile-tiny.jpg" />
+										<source
+											type="image/jpeg"
+											data-srcset="~/assets/img/yetti-profile-tiny.jpg"
+										/>
 										<img
 											class="lazy-picture"
 											data-src="~/assets/img/yetti-profile-tiny.jpg"

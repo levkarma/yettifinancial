@@ -4,8 +4,14 @@
 			<div class="column is-half is-marginless">
 				<figure class="image is-2by3">
 					<picture>
-						<source data-srcset="~/assets/img/yetti-and-sons.jpg.webp" />
-						<source data-srcset="~/assets/img/yetti-and-sons.jpg" />
+						<source
+							data-srcset="~/assets/img/yetti-and-sons.jpg.webp"
+							type="image/webp"
+						/>
+						<source
+							type="image/jpeg"
+							data-srcset="~/assets/img/yetti-and-sons.jpg"
+						/>
 						<img
 							class="lazy-picture"
 							data-src="~/assets/img/yetti-and-sons.jpg"

@@ -34,6 +34,7 @@ const DelayHeavyElements = {
 				} else if (element.nodeName === 'IFRAME') {
 					element.src = element.getAttribute('data-src')
 				} else if (element.classList.contains('lazy-picture')) {
+					console.log('lazy picture triggered')
 					element.parentNode.childNodes.forEach(node => {
 						if (node.nodeName === 'IMG') {
 							node.src = node.getAttribute('data-src')
