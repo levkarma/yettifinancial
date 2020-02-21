@@ -25,7 +25,9 @@
             <i class="fab fa-2x fa-facebook"></i>
           </span>
         </a>
-        <span class="icon"><i class="fab fa-2x fa-instagram"></i></span>
+        <a href="">
+          <span class="icon"><i class="fab fa-2x fa-instagram"></i></span>
+        </a>
       </div>
     </footer>
     <!-- Uncomment below i you want to use a preloader -->
@@ -57,8 +59,13 @@ export default {
   scrollToTop: false,
   head() {
     return {
+      title: 'Yetti Financial',
       script: [
-        // { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+        {
+          src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+          defer: true,
+          async: true
+        }
       ]
     }
   },
