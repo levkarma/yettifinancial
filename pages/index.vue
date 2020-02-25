@@ -96,6 +96,9 @@ export default {
       } else if (this.$store.state.route.to.hash === '') {
         return this.ensureScroll(0)
       } else if (this.$store.state.route.to.hash) {
+        // document
+        //   .querySelectorAll('.lazy-picture')
+        //   .forEach(node => (node.src = node.dataset.src))
         this.$scrollTo(this.$store.state.route.to.hash)
       }
     }
