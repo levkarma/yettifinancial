@@ -96,3 +96,16 @@ nav {
 		margin-bottom: 5rem;
 	}
 }
+.image {
+	display: block;
+	position: relative;
+	&.is-4by1 {
+		padding-top: 25%;
+		img,
+		.has-ratio {
+			@extend %overlay;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}

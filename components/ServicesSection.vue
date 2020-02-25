@@ -31,8 +31,7 @@
 										<img
 											class="lazy-picture"
 											data-src="~/assets/img/yetti-profile-tiny.jpg"
-											alt="Placeholder
-										image"
+											alt="Yetti"
 										/>
 									</picture>
 								</figure>
