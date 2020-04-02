@@ -1,0 +1,1899 @@
+/*
+=================================================
+				UP FROM 1400PX
+=================================================
+*/ 
+@media (min-width: 1421px) {
+	.dl-menuwrapper .dl-menu{
+		z-index: 999999999;	
+	}
+}
+/*============	Media Between Start ============ */
+@media screen and (min-width: 1321px) and (max-width: 1420px) {
+	
+}
+/*============	Media Between Start ============ */
+@media screen and (min-width: 1200px) and (max-width: 1320px) {
+	
+}
+
+/*============	Media Between Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.kf_content-des{
+
+	}
+
+	#kode-responsive-navigation{
+		display: none;
+	}
+	.kode-navigation-wrapper{
+		display: block;
+	}
+	.dl-menuwrapper{
+		float: right;
+		margin-top: 0px;
+		z-index: 999;
+	}
+	.kode-up3-financial-navigaion{
+		margin-bottom: 30px;
+	}
+	.dl-menuwrapper button::after{
+		top:13px;
+	}
+	.dl-menuwrapper button{
+		height: 48px;
+	}
+	.kode-peoples-data {
+    	text-align: center;
+	}
+	.kode-peoples-data figure {
+	    display: inline-block;
+	    float: none;
+	    margin: 0;
+	    padding: 10px 0;
+	    text-align: center;
+	}
+	.kdoe-peoples-says{
+		float: left;
+		width:100%;
+		margin-top: 0px;
+		padding: 20px;
+	}
+	.wordpress-logical-footer h4{
+		display: block;
+		padding: 12px 0 15px;
+	}
+	.kode-financial-silde figure img {
+	    min-height: 310px;
+	    width: 100%;
+	}
+	.financial-slide-caption h6{
+		display: none;
+	}
+	.kode-item.kode-divider-item{
+		margin: 0px;
+	}
+	.navigation .menu li a{
+		padding: 29px 20px;
+	}
+	.kode-up-financial-cols{
+		width:48%;
+		float: left;
+	}
+	.kode-up-financial-form {
+	    float: left;
+	    padding: 3px 0 0;
+	    width: 100%;
+	}
+	.kode-finacial-col h5{
+		font-size: 16px;
+	}
+	.kode-finacial-teams-cols{
+		margin-bottom: 50px;
+	}
+	.financial-slide-caption h3{
+		display: block;
+	}
+	.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption{
+		padding: 25px 20px;
+	}
+	.kode-financial-brands .kode-financial-awards li a{
+		padding: 0px;
+	}
+	.wordpress-logical-footer h4{
+		display: inline-block;
+		float: none;
+	}
+	.kode-up-financial-cols span{
+		float: left;
+		display: inline-block;
+		margin-bottom: 0px;
+	}
+	.kode-finacial-logo3 {
+	    float: left;
+	    padding: 25px 0 0;
+	}
+	.kode-up-financial-cols{
+		text-align: left;
+		margin-right: 7px;
+		margin-bottom: 20px;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt::before{
+		
+	}
+	.kode-logo-wrapper.logo-wrapper{
+		float: none;
+		width:auto;
+	}
+	.kode-logo-wrapper.logo-wrapper > img{
+		float: none;
+		width:100%;
+	}
+	.kode-finacial-planing-service a{
+		position: absolute;
+		top:0px;
+		left:0px;
+		right: 0px;
+		width:100%;
+		margin: 0 auto;
+		padding: 0px 15px;
+	}
+	.kode-finacial-planing-service a i{
+		top:0px;
+		position: relative;
+		float: none;
+		display: inline-block;
+		width:100%;
+		left:0px;
+		right: 0px;
+	}
+	.kode-finacial-planing-service a i:after{
+		display: none;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		width:100%;
+		float: left;
+		margin-top: 75px;
+	}
+	.kode-finacial-planing-service{
+		min-height: 194px;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		padding: 20px 20px 0;
+	}
+	.col-md-12.without-padding{
+			float: left;
+			width:100%;
+	}
+	.kf_content-des .col-sm-6.col-md-12.columns{
+		width:100%;
+	}
+	.wordpress-logical-footer a {
+		float: left;
+    	width: 100%;
+	}
+	.wordpress-logical-footer ul {
+	    float: right;
+	    list-style: outside none none;
+	    margin: 0;
+	    padding: 6px 0 0;
+	    text-align: center;
+	    width: 100%;
+	}
+	.wordpress-logical-footer ul li{
+		float: none;
+		display: inline-block;
+	}
+	.kode-traders-datail h2{
+		font-size: 20px;
+		padding: 3px 0px 0px;
+	}
+	.kode-consultant-menu-blog.columns{
+	    float: left;
+	    width: 50%;
+	}
+	.our_service_area .columns{
+	}
+	.financial-consultent-caption {
+	    margin-bottom: 30px;
+	    padding: 74px 20px 0;
+	    text-align: center;
+	}
+	.financial-consultent-caption i{
+		position: absolute;
+		left:0px;
+		right: 0px;
+		margin: 0 auto;
+		top:0px;
+	}
+	#kode-parallax-wrapper-3::after{
+		display: none;
+	}
+	.our_service_area {
+    	padding-top: 20px;
+	}
+	.about-us-img {
+	    bottom: 0;
+	    display: block;
+	    position: absolute;
+	    right: 0;
+	}
+	.kode-checked ul{
+		float: left;
+	}
+	.appointment-heading h6 span{
+		display: block;
+	}
+	.kode-Invest-Business-cols > span{
+		margin-top: 6px;
+	}
+	.kode-financial-pkg .kode-financial-title span{
+		margin-left: 3px;
+	}
+	.kode-case-lt-section h2{
+		font-size: 20px;
+	}
+	.kode-case-rt-section ul{
+		padding-left:0px;
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	.kode-case-rt-section a,
+	.kode-case-rt-section ul li small{
+		font-size: 12px;
+	}
+	.kode-graph-services-case{
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.kode-case-lt-section > figure{
+		margin-bottom: 26px;
+	}
+	.kode-graph-lt figure{
+		float: left;
+		width:100%;
+		margin-right: 0px;
+	}
+	.kode-case-rt-section ul li small{
+		padding-left: 20px;
+	}
+	.kode-style-style-3.kode_work_wrapper_forest {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.kode-case3-caption a i{
+		display: none;
+	}
+	.kode-case-3-cols figure img {
+	    min-height: 245px;
+	}
+	.kode-case3-caption {
+	    height: 215px;
+	    min-height: auto;
+	    opacity: 0;
+	    padding: 7px 20px;
+	    top:50%;
+	}
+	.kode-case-3-cols:hover .kode-case3-caption{
+		opacity: 1;
+		right: 5%;
+	}
+	.kode-case3-caption h4{
+		font-size: 16px;
+	}
+	.kode-style-style-1.kode_work_wrapper_forest{
+		padding: 0px 15px;
+	}
+	.kode-financial-errors{
+		padding: 0px;
+	}
+	.kode-financial-blog2-cols .kode-financial-blog2-caption{
+		margin: -81px 14px 0;
+	}
+	.kode-financial-blog2-caption h4{
+		font-size: 18px;
+	}
+	.kode-our-expert-cols.blog-page03 figure{
+
+	}
+	.kode-item.kode-blog-medium {
+	    float: left;
+	    width: 100%;
+	    padding: 0px 15px;
+	}
+	.kode-our-expert-cols.blog-page03 figure{
+		width:100%;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.kode-caption-expert.blog-3{
+		width:100%;
+	}
+	.kode-blog-post-img p img {
+	    float: left;
+	    margin: 0 0 0 2px;
+	    width: 33%;
+	    margin-bottom: 20px;
+	}
+	.blog-info.blog-tag > a{
+		font-size: 13px;
+		padding: 0 4px 0 0;
+	}
+	.kode-tags-cols h6 a i{
+	    margin: 0;
+	    padding-right: 4px;
+	}
+	.replay-form-name {
+    	margin-right: 11px;
+	}
+	.kode-contect-service-cols h6 b{
+		display: block;
+	}
+	.kode-contect-service-cols{
+		padding-top: 35px;
+	}
+	.kodeslider-section .kode-financial-silde{
+		overflow: hidden;
+		padding: 0 13px;
+	}
+	.kodeslider-section .kode-financial-silde figure{
+		overflow: hidden;
+		padding: 0px 15px;
+	}
+	.kodeslider-section .kode-financial-silde figure img{
+
+	}
+	.theme-detail-sm-caption small{
+		margin-bottom: 0px;
+	}
+	.kode-finacial-teams-section.them-detail-pg{
+		margin-bottom: 30px;
+	}
+	.kode-column2-accodien .accordion-close h6 a {
+	    padding: 15px 20px 16px 14px;
+
+	}
+	.kode-accodien-3title-mark h6 a{
+		padding: 17px 20px 0 14px;
+	}
+	.kode-accodien-3title-mark h6 a::before{
+		right: 0px;
+	}
+	.kode-simple-heading .kode-financial-title h2{
+		font-size: 20px;
+	}
+	.tags-parent{
+		line-height: 16px;
+		margin-bottom: 20px;
+		padding: 9px 0 0;
+	}
+	.blog-info span {
+	    margin: -3px 9px 0 0;
+	    transform: translateX(-4px) scale(1.1);
+	}
+	.kode-tags-cols h6 {
+	    text-align: left;
+	}
+	.kode-tags-cols ul li {
+	    display: inline-block;
+	    padding-left: 2px;
+	}
+	.blog-info.blog-tag{
+		padding-left: 15px;
+	}
+
+
+}
+/*============	Media 991Px Start ============ */ 
+@media (max-width: 991px) {
+	.kode-consultant-menu-blog h5 a{
+		font-size: 14px;
+	}
+	.kode-financial-logoplus-wrap,
+	.kode-financial-socialicons{
+		margin: 0px;
+		padding: 0px;
+	}
+	.kode-up-financial-cols{
+		text-align: center;
+	}
+	.kode-logo-wrapper.logo-wrapper{
+		float: none;
+		width:auto;
+	}
+	.wordpress-logical-footer h4{
+		display: inline-block;
+		float: none;
+	}
+	.kode-up-financial-cols span{
+		float: left;
+		margin-bottom: 0px;
+		margin-right: 10px;
+	}
+	.kode-up-financial-cols{
+		text-align: left;
+	}
+	.kode-logo-wrapper.logo-wrapper > img{
+		float: none;
+		width:100%;
+	}
+	.kode-financial-logoplus-wrap .kode-finacial-logo3 {
+	    display: inline-block;
+	    margin-bottom: 0;
+	    margin-right: 0;
+	    padding: 8px 15px 0 0;
+	    width:auto;
+	}
+	.kode-financial-searchplus {
+	    float: none;
+	    overflow: hidden;
+	    width: auto;
+	}
+	.kode-financial-searchplus .kode-up-financial-cols {
+	    float: right;
+	    padding: 0 10px;
+	    text-align: left;
+	    width: 50%;
+	    margin-bottom: 20px;
+	}
+	.kode-up-financial-form {
+	    float: left;
+	    padding: 3px 0 0;
+	    width: 100%;
+	}
+	.kode-navigation-wrapper nav{
+		display: none;
+	}
+	#kode-responsive-navigation{
+		display: block;
+		float: left;
+		margin-top: 0px;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt{
+		padding: 8px 33px;
+		float: none;
+		font-size: 16px;
+		float: right;
+	}
+	.kode-financial-banner .financial-silder .financial-silder-caption{
+		display: none;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt:before{
+		left: 0px;
+	}
+	.kode-up3-financial-navigaion #kode-responsive-navigation button{
+		background: #004981 !important;
+	}
+	.kode-up3-financial-navigaion {
+		float: left;
+		margin-bottom: 30px;
+		margin-top: -40px;
+		width: 29%;
+	}
+	.kode-up3-financial-navigaion .dl-menuwrapper ul{
+		z-index: 999;
+		right: auto;
+		left: 0px;
+	}
+	.kode-financial-banner{
+		
+	}
+	.kode-financial-title{
+		width:100%;
+		padding: 40px 10px 0;
+	}
+	.kode-traders-datail h2,
+	.kode-financial-title h2{
+		font-size: 20px;
+	}
+	.kode-form-section {
+	    padding: 60px 0;
+	}
+	.kode-finacial-planing-service a{
+		position: absolute;
+		top:0px;
+		left:0px;
+		right: 0px;
+		width:100%;
+		margin: 0 auto;
+		padding: 0px 15px;
+	}
+	.kode-finacial-planing-service a i{
+		top:0px;
+		position: relative;
+		float: none;
+		display: inline-block;
+		width:100%;
+		left:0px;
+		right: 0px;
+	}
+	.kode-finacial-planing-service a i:after{
+		display: none;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		width:100%;
+		float: left;
+		margin-top: 75px;
+	}
+	.kode-finacial-planing-service{
+		min-height: 194px;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		padding: 20px 20px 0;
+	}
+	.kf_content-des .col-md-12.columns{
+		width:100%;
+	}
+	.kode-finacial-teams-cols{
+		margin-bottom: 40px;
+	}
+	.kode-financial-title{
+		margin-bottom: 50px;
+	}
+	.kode-peoples-data{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.kode-peoples-data figure{
+		float: none;
+		display: inline-block;
+		margin-right: 0px;
+	}
+	.kdoe-peoples-says{
+		float: left;
+		padding: 10px 20px;
+		width:100%;
+	}
+	.kode-financial-awards ul{
+		float: left;
+		width:100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.kode-financial-awards ul li a{
+		display: inline-block;
+		padding: 0px;
+	}
+	.wordpress-logical-footer{
+		text-align: center;
+	}
+	.kode-finacial-logo3,
+	.wordpress-logical-footer ul{
+		float: left;
+		width:100%;
+		text-align: center;
+	}
+	.wordpress-logical-footer ul li,
+	.wordpress-logical-footer a{
+		float: none;
+		display: inline-block;
+	}
+	.kode-traders-datail figure::before{
+		opacity: 0.95;
+	}
+	.kode-form-section {
+    	padding: 30px 30px 50px;
+	}
+	.wordpress-logical-footer h4{
+		display: block;
+		padding: 12px 0 15px;
+	}
+	.kode-financial-silde figure img {
+	    min-height: 310px;
+	    width: 100%;
+	}
+	.financial-slide-caption h6{
+		display: none;
+	}
+	.kode-item.kode-divider-item{
+			margin: 0px;
+	}
+	.navigation .menu li a{
+		padding: 29px 20px;
+	}
+	.col-md-12.without-padding {
+	    float: left;
+	    width: 50%;
+	}
+	.financial-slide-caption h3{
+		display: block;
+	}
+	.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption{
+		margin-top: -155px;
+	}
+	.kode-financial-silde figure img {
+	    min-height: 340px;
+	    width: 100%;
+	    min-width: 350px;
+	}
+	.financial-consultent-caption {
+	    margin-bottom: 30px;
+	    padding: 74px 20px 0;
+	    text-align: center;
+	}
+	.financial-consultent-caption i{
+		position: absolute;
+		left:0px;
+		right: 0px;
+		margin: 0 auto;
+		top:0px;
+	}
+	#kode-parallax-wrapper-3:after{
+		width:0px !important;
+	}
+	.row > .col-md-6.columns .row > .kode-form-wrap{
+		width:100%;
+	}
+	#kode-heading-9 {
+	    margin-top: 0;
+	    padding-top: 0;
+	}
+	.kode-financial-rt-slider-id .owl-controls{
+		bottom:0px;
+		right: 20px;
+	}
+	.kode-item.kd-accordion,
+	.kode-financial-rt-slider-id{
+		padding: 0px 15px;
+		float: left;
+		width:100%;
+	}
+	.kode-testimonial-about-us figure{
+		width: 60px;
+		margin-right: 7px;
+	}
+	.textimonial-ab-caption{
+		padding: 12px 13px 0;
+	}
+	.our_service_area .columns {
+	    float: left;
+	}
+	.kode-consultant-menu-blog {
+	    float: left;
+	    position: relative;
+	    width: 100%;
+	}
+	.section-container.container{
+		position: relative;
+	}
+	.about-us-img{
+		position: absolute;
+		bottom:0px;
+		opacity: 0.2;
+		left: 0px;
+		right: 0px;
+		margin: 0 auto;
+		text-align: center;
+		z-index: -1;
+	}
+	.our_service_simple .column{
+		width:50%;
+	}
+	.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption {
+    	padding: 21px 12px;
+	}
+	.kode-counter-width-upside {
+	    margin-bottom: 50px;
+	}
+	.financial-slide-caption h3 > a{
+		font-size: 20px;
+	}
+	.service-style-2{
+		padding: 53px 0 50px;
+	}
+	.appointment-heading h6 span{
+		display: block;
+	}
+	.kode-left-sidebar{
+		padding-top: 70px;
+	}
+	.kode-inner-page-bnr-capion h1{
+		font-size: 24px;
+	}
+	.kode-case-lt-section h2{
+		font-size: 20px;
+	}
+	.kode-case-rt-section ul{
+		padding-left:0px;
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	.kode-case-rt-section a,
+	.kode-case-rt-section ul li small{
+		font-size: 12px;
+	}
+	.kode-graph-services-case{
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.kode-case-lt-section > figure{
+		margin-bottom: 26px;
+	}
+	.kode-graph-lt figure{
+		float: left;
+		width:100%;
+		margin-right: 0px;
+	}
+	.kode-case-rt-section ul li small{
+		padding-left: 20px;
+	}
+	.our_service_area .kode-our-services02{
+		margin-bottom: 86px;
+	}
+	.our_service_area .columns:last-of-type .kode-our-services02{
+		margin-bottom: 0px;
+	}
+	.portfolio-section .clear{
+		display: none;
+	}
+	.kode-style-style-3.kode_work_wrapper_forest {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.kode-case3-caption a i{
+		display: none;
+	}
+	.kode-case-3-cols figure img {
+	    min-height: 245px;
+	}
+	.kode-case3-caption {
+	    height: 215px;
+	    min-height: auto;
+	    opacity: 0;
+	    padding: 7px 20px;
+	    top:17px;
+	}
+	.kode-case-3-cols:hover .kode-case3-caption{
+		opacity: 1;
+		right: 5%;
+	}
+	.kode-case3-caption h4{
+		font-size: 16px;
+	}
+	.kode-style-style-1.kode_work_wrapper_forest{
+		padding: 0px 15px;
+	}
+	.kode-financial-blog2-cols .kode-financial-blog2-caption{
+		margin: -81px 35px 0;
+	}
+	.kode-grid-blog .clear{
+		display: none;
+	}
+	.theme-detail-social-icons {
+	    float: left;
+	    margin-bottom: 14px;
+	    width: 100%;
+	}
+	.kode-content-area.business-staff {
+		margin-bottom: 30px;
+		float: left;
+		width:100%;
+	}
+	.kode-item.kode-blog-medium {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.kode-our-expert-cols.blog-page03 figure{
+		width:100%;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.kode-caption-expert.blog-3{
+		width:100%;
+	}
+	.kode-caption-expert.blog-3 a{
+		float: right;
+	}
+	.kode-financial-recent-posts{
+		 width: 50%;
+	}
+	.kode-blog-post-img p img{
+		margin: 0px;
+	}
+	.blog-info.blog-tag > a{
+		font-size: 13px;
+		padding: 0 4px 0 0;
+	}
+	.kode-tags-cols h6 a i{
+	    margin: 0;
+	    padding-right: 9px;
+	}
+	.replay-form-name {
+    	margin-right: 11px;
+	}
+	.kodeslider-section .kode-financial-silde{
+		overflow: hidden;
+		padding: 0 13px;
+	}
+	.kodeslider-section .kode-financial-silde figure{
+		overflow: hidden;
+	}
+	.kodeslider-section .kode-financial-silde figure img{
+		
+	}
+	.kode-financial-sm-slider-min-div figure img{
+		width:auto;
+	}
+	.tags-parent {
+	    float: left;
+	    line-height: 16px;
+	    margin-bottom: 10px;
+	    padding: 0;
+	}
+	.kode-tags-cols{
+		padding: 15px 0 15px;
+	}
+	.blog-info.blog-tag > a {
+	    font-size: 15px;
+	    padding: 0 4px 0 0;
+	}
+	.blog-info span {
+	    margin: -3px 9px 0 0;
+	    transform: translateX(-4px) scale(1.1);
+	}
+	.kode-tags-cols h6 {
+	    text-align: left;
+	}
+	.kode-tags-cols ul li {
+	    display: inline-block;
+	    padding-left: 2px;
+	}
+	.blog-info.blog-tag{
+		padding-right: 15px;
+	}
+	.tags-parent{
+		line-height: 16px;
+		margin-bottom: 20px;
+		padding: 9px 0 0;
+	}
+	.blog-info span {
+	    margin: -3px 9px 0 0;
+	    transform: translateX(-4px) scale(1.1);
+	}
+	.kode-tags-cols h6 {
+	    text-align: left;
+	}
+	.kode-tags-cols ul li {
+	    display: inline-block;
+	    padding-left: 2px;
+	}
+	.blog-info.blog-tag{
+		padding-left: 15px;
+	}
+	.kode-contect-service-cols h6 b{
+		display: block;
+		padding: 0px;
+	}
+
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1150px){
+	
+}
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	
+}
+/*============	Media 768Px Start ============ */ 
+@media (max-width: 767px) {
+	
+	.kode-consultant-menu-blog h5 a{
+		font-size: 14px;
+	}
+	.kode-financial-logoplus-wrap,
+	.kode-financial-socialicons{
+		margin: 0px;
+		padding: 0px;
+	}
+	.kode-up-financial-cols{
+		text-align: center;
+	}
+	.kode-logo-wrapper.logo-wrapper{
+		float: none;
+		width:auto;
+	}
+	.wordpress-logical-footer h4{
+		display: inline-block;
+		float: none;
+	}
+	.kode-up-financial-cols span{
+		float: none;
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.kode-up-financial-cols{
+		text-align: center;
+	}
+	.kode-logo-wrapper.logo-wrapper > img{
+		float: none;
+		width:100%;
+	}
+	.kode-finacial-logo3 {
+		 display: inline-block;
+		float: none;
+		margin-right: 20px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.kode-financial-searchplus{
+		float: left;
+		width:100%;
+	}
+	.kode-financial-searchplus .kode-up-financial-cols{
+		float: left;
+		width: 50%;
+		text-align: left;
+	}
+	.kode-up-financial-form {
+	    float: left;
+	    padding: 3px 0 0;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.kode-up-financial-form {
+	    float: left;
+	    padding: 3px 0 0;
+	    width: 100%;
+	}
+	.kode-up-financial-cols span {
+	    display: inline-block;
+	    float: left;
+	    margin-bottom: 10px;
+	    margin-right: 10px;
+	}
+	.kode-navigation-wrapper nav{
+		display: none;
+	}
+	#kode-responsive-navigation{
+		display: block;
+		float: right;
+		margin-top: 0px;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt{
+		padding: 8px 33px;
+		float: none;
+		font-size: 16px;
+		float: left;
+	}
+	.kode-financial-banner .financial-silder .financial-silder-caption{
+		display: none;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt:before{
+		left: 0px;
+	}
+	.kode-up3-financial-navigaion #kode-responsive-navigation button{
+		background: #004981 !important;
+	}
+	.kode-up3-financial-navigaion{
+		margin-bottom: 30px;
+		width:100%;
+		margin-top: 0px;
+	}
+	.kode-financial-logoplus-wrap .kode-finacial-logo3 {
+	    display: inline-block;
+	    margin-bottom: 20px;
+	    margin-right: 0;
+	    padding: 8px 15px 0 0;
+	    width: 100%;
+	}
+	.kode-up3-financial-navigaion .dl-menuwrapper ul{
+		z-index: 999;
+	}
+	.kode-financial-banner{
+		
+	}
+	.kode-financial-title{
+		width:100%;
+		padding: 40px 10px 0;
+	}
+	.kode-traders-datail h2,
+	.kode-financial-title h2{
+		font-size: 20px;
+	}
+	.kode-form-section {
+	    padding: 60px 0;
+	}
+	.kode-finacial-planing-service a{
+		position: absolute;
+		top:0px;
+		left:0px;
+		right: 0px;
+		width:100%;
+		margin: 0 auto;
+		padding: 0px 15px;
+	}
+	.kode-finacial-planing-service a i{
+		top:0px;
+		position: relative;
+		float: none;
+		display: inline-block;
+		width:100%;
+		left:0px;
+		right: 0px;
+	}
+	.kode-finacial-planing-service a i:after{
+		display: none;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		width:100%;
+		float: left;
+		margin-top: 75px;
+	}
+	.kode-finacial-planing-service{
+		min-height: 194px;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		padding: 20px 20px 0;
+	}
+	.kf_content-des .col-md-12.columns{
+		width:100%;
+	}
+	.kode-finacial-teams-cols{
+		margin-bottom: 40px;
+	}
+	.kode-financial-title{
+		margin-bottom: 50px;
+	}
+	.kode-peoples-data{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.kode-peoples-data figure{
+		float: none;
+		display: inline-block;
+		margin-right: 0px;
+	}
+	.kdoe-peoples-says{
+		float: left;
+		padding: 10px 20px;
+		width:100%;
+	}
+	.kode-financial-awards ul{
+		float: left;
+		width:100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.kode-financial-awards ul li a{
+		display: inline-block;
+		padding: 0px;
+	}
+	.wordpress-logical-footer{
+		text-align: center;
+	}
+	.kode-finacial-logo3,
+	.wordpress-logical-footer ul{
+		float: left;
+		width:100%;
+		text-align: center;
+	}
+	.wordpress-logical-footer ul li,
+	.wordpress-logical-footer a{
+		float: none;
+		display: inline-block;
+	}
+	.kode-traders-datail figure::before{
+		opacity: 0.95;
+	}
+	
+	.kode-form-section {
+    	padding: 60px 30px;
+	}
+	.wordpress-logical-footer h4{
+		display: block;
+		padding: 12px 0 15px;
+	}
+	.kode-financial-silde figure img {
+	    min-height: 310px;
+	    width: 100%;
+	}
+	.financial-slide-caption h6{
+		display: none;
+	}
+	.kode-item.kode-divider-item{
+			margin: 0px;
+	}
+	.navigation .menu li a{
+		padding: 29px 20px;
+	}
+	.col-md-12.without-padding {
+	    float: left;
+	    width: 50%;
+	}
+	.financial-slide-caption h3{
+		display: block;
+	}
+	.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption{
+		margin-top: -155px;
+	}
+	.kode-financial-silde figure img {
+	    min-height: 340px;
+	    width: 100%;
+	}
+	.financial-consultent-caption {
+	    margin-bottom: 30px;
+	    padding: 74px 20px 0;
+	    text-align: center;
+	}
+	.financial-consultent-caption i{
+		position: absolute;
+		left:0px;
+		right: 0px;
+		margin: 0 auto;
+		top:0px;
+	}
+	#kode-parallax-wrapper-3:after{
+		width:0px !important;
+	}
+	.kode-form-wrap{
+		width:100%;
+	}
+	#kode-heading-9 {
+	    margin-top: 0;
+	    padding-top: 0;
+	}
+	.kode-financial-rt-slider-id .owl-controls{
+		bottom:0px;
+		right: 20px;
+	}
+	.kode-item.kd-accordion,
+	.kode-financial-rt-slider-id{
+		padding: 0px 15px;
+		float: left;
+		width:100%;
+	}
+	.kode-testimonial-about-us figure{
+		width: 60px;
+		margin-right: 7px;
+	}
+	.textimonial-ab-caption{
+		padding: 12px 13px 0;
+	}
+	.kode-consultant-menu-blog {
+	    float: left;
+	    position: relative;
+	    width: 100%;
+	}
+	.about-us-img{
+		display: none;
+	}
+	.our_service_simple .column{
+		width:50%;
+	}
+	.kode-Invest-Business-cols{
+		padding:16px 20px;
+		text-align: center;
+	}
+	.kode-Invest-Business-cols > span{
+	    margin-bottom: 10px;
+	    float: left;
+	    margin-right: 0px;
+	    margin-top: 20px;
+	}
+	.kode-checked ul{
+		float: left !important;
+		list-style: none;
+		list-style: none;
+	}
+	.appointment-heading h6 span{
+		display: block;
+	}
+	.kode-financial-inner-pages-setting{
+		padding: 70px 0px;
+	}
+	.kode-left-sidebar{
+		padding-top: 30px;
+	}
+	.kode-financial-pkg .kode-financial-title{
+		margin-bottom: 0px;
+	}
+	.kode-case-lt-section h2{
+		font-size: 20px;
+	}
+	.kode-case-rt-section ul{
+		padding-left:0px;
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	.kode-case-rt-section a,
+	.kode-case-rt-section ul li small{
+		font-size: 12px;
+	}
+	.kode-graph-services-case{
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.kode-case-lt-section > figure{
+		margin-bottom: 26px;
+	}
+	.kode-graph-lt figure{
+		float: left;
+		width:100%;
+		margin-right: 0px;
+	}
+	.kode-inner-page-bnr-capion h1{
+		font-size: 24px;
+	}
+	.our_service_area .kode-our-services02{
+		margin-bottom: 86px;
+	}
+	.our_service_area .columns:last-of-type .kode-our-services02{
+		margin-bottom: 0px;
+	}
+	.kode-style-style-3.kode_work_wrapper_forest {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.portfolio-section .clear{
+		display: none;
+	}
+	.kode-financial-blog2-cols .kode-financial-blog2-caption{
+		margin: -80px 21px 0;
+	}
+	.kode-our-expert-cols.blog-page03 figure{
+		width:100%;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.kode-caption-expert.blog-3{
+		width:100%;
+	}
+	.kode-caption-expert.blog-3 a{
+		float: right;
+	}
+	.kode-content-area .kode-financial-title{
+		margin-top: 0px;
+	}
+	.recent-post-infomation{
+		padding: 8px 0px 0px;
+	}
+	.kode-item.kode-blog-medium {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.kode-blog-post-img p img {
+	    margin: 0px 0px 30px;
+	    width: 100%;
+	}
+	.blog-info.blog-tag > a{
+		font-size: 15px;
+	}
+	.comment-form .kode-left-comment-sec .replay-form-name {
+	    float: left;
+	    width: 100%;
+	}
+	.kode-financial-recent-posts {
+    	width: 100%;
+	}
+	.recent-post-infomation{
+		padding: 0px;
+	}
+	.kode-contect-service-cols h6 b{
+		display: block;
+		padding: 0px;
+	}
+	.kode-finacial-col h5{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+	.kode-up3-financial-navigaion .dl-menuwrapper .dl-menu{
+		left: auto;
+		right: 0px;
+	}
+	.financial-comment-sender .kode-comments-box a.comment-reply-link{
+		position:relative;
+		float:left;
+	}
+	.financial-comment-box-caption a.comment-edit-link{
+		float:left;
+	}
+	.financial-comment-box-caption{
+		width:100%;
+	}
+}
+
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	.financial-comment-sender .kode-comments-box a.comment-reply-link{
+		position:relative;
+	}
+	.kode-content-area .kode-financial-title{
+		margin-top: 50px;
+	}
+	.section-container.container {
+	    padding-top: 50px;
+	}
+	.kode-up-financial-topbar{
+		padding: 10px 0px;
+	}
+	.kode-financial-infomation {
+	    float: left;
+	    margin-bottom: 10px;
+	    width: 100%;
+	    text-align: center;
+	}
+	.kode-financial-infomation p{
+		padding: 0px;
+		float: none;
+	}
+	.kode-financial-socialicons{
+		float: left;
+		width:100%;
+		margin:0 0 20px;
+		padding: 0px;
+		text-align: center;
+	}
+	.kode-financial-socialicons li{
+		float: none;
+		display: inline-block;
+	}
+	.kode-finacial-logo3 {
+	    display: inline-block;
+	    float: none;
+	    margin-bottom: 40px;
+	    margin-right: 0px;
+	    text-align: center;
+	}
+	.kode-logo-wrapper.logo-wrapper > img {
+    	float: none;
+    	width: 100%;
+	}
+	.kode-logo-wrapper.logo-wrapper{
+		float: none;
+		display: inline-block;
+	}
+	.kode-financial-searchplus {
+	    padding: 0;
+	    float: left;
+	    margin-bottom: 0px;
+	    text-align: left;
+	    width: 100%;
+	}
+	.kode-financial-searchplus .kode-up-financial-cols{
+		margin-bottom: 25px;
+		padding: 0;
+	}
+	.kode-up-financial-form{
+		margin-bottom: 10px;
+	}
+	.widget.widget-search{
+		margin-bottom: 20px;
+	}
+	.widget.widget-search,
+	.kode-up-financial-cols {
+	    float: left;
+	    width: 100%;
+	}
+	.kode-up-financial-form {
+	    float: left;
+	    padding: 3px 0 0;
+	    width: 100%;
+	}
+	.kode-navigation-wrapper nav{
+		display: none;
+	}
+	#kode-responsive-navigation{
+		display: block;
+		float: right;
+		margin-top: 0px;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt{
+		padding: 8px 33px;
+		float: none;
+		font-size: 16px;
+		float: left;
+	}
+	.kode-financial-banner .financial-silder .financial-silder-caption{
+		display: none;
+	}
+	.kodeplaning-section.owl-carousel.owl-theme.owl-center.owl-loaded {
+    	list-style: outside none none;
+    	margin: 0;
+    	
+    }
+    .kode-finacial-recent-projects .owl-item.active.center,
+    .kode-finacial-recent-projects, .kode-finacial-project-caption,
+    .kode-finacial-project-cols, .kode-finacial-recent-projects .item{
+    	padding: 0px 0px;
+    }
+    .kode-finacial-project-cols .kode-finacial-project-caption h3 {
+	    font-size: 16px;
+	    font-weight: bold;
+	    margin-bottom: 5px;
+	}
+	.kode-up3-financial-navigaion .kode-quote-bt:before{
+		left: 0px;
+	}
+	.kode-up3-financial-navigaion #kode-responsive-navigation button{
+		background: #004981 !important;
+	}
+	.kode-up3-financial-navigaion{
+		margin-bottom: 30px;
+	}
+	.kode-up3-financial-navigaion .dl-menuwrapper ul{
+		z-index: 999;
+	}
+	.kode-financial-banner{
+		
+	}
+	.kode-financial-title{
+		width:100%;
+		padding: 0px 10px;
+	}
+
+	.kode-form-section {
+	    padding: 60px 0;
+	}
+	.home-page-form .submit-btn{
+		float:none;
+	}
+	.kode-main-accodien .for-accodien h6 i {
+	    float: left;
+	    padding: 10px 0;
+	    vertical-align: bottom;
+	    width: 30px;
+	}
+	.kode-finacialService-slider .kodeslider-section .owl-item.active.center .kode-financial-silde figure{
+		width:100%;
+	}
+	.kodeslider-section .owl-item.active .kode-financial-silde{
+		margin-top: 0px;
+		background-color: transparent;
+	}
+	.kode-financial-silde figure img {
+	    min-height: 340px;
+	    width: 100%;
+	}
+	.kode-traders-datail figure::before{
+		opacity: 0.95;
+	}
+	.section-container.container .col-md-12.simple-column p{
+		margin-bottom: 30px;
+	}  
+	.kode-finacial-planing-service a{
+		position: absolute;
+		top:0px;
+		left:0px;
+		right: 0px;
+		width:100%;
+		margin: 0 auto;
+		padding: 0px 15px;
+	}
+	.kode-finacial-planing-service a i{
+		top:0px;
+		position: relative;
+		float: none;
+		display: inline-block;
+		width:100%;
+		left:0px;
+		right: 0px;
+	}
+	.kode-finacial-planing-service a i:after{
+		display: none;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		width:100%;
+		float: left;
+		margin-top: 75px;
+	}
+	.kode-finacial-planing-service{
+		min-height: 194px;
+	}
+	.kode-finacial-planing-service .kode-finacial-col{
+		padding: 20px 20px 0;
+	}
+	.kode-financial-silde{
+		padding: 0px 40px;
+	}
+	.kode-item.kode-divider-item{
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+	.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols{
+		margin-bottom: 0px; 
+	}
+	.simple-figure-caption, .kode-finacial-project-cols .kode-finacial-project-caption{
+		bottom:20px;
+	}
+	.kodeplaning-section .kode-finacial-recent-projects .owl-item.active.center{
+		width:100%;
+		float: left;
+	}
+	.kode-finacial-recent-projects, .kode-finacial-project-caption, .kode-finacial-project-cols, .kode-finacial-recent-projects .item {
+	    float: left;
+	    width: 100% ;
+	    padding: 0px ;
+	}
+	.kode-item.kd-accordion,
+	.kode-blog-grid-small {
+	    margin-bottom: 50px;
+	}
+	.kode-testimonial-section.owl-carousel.owl-theme.owl-loaded{
+		margin-bottom: 30px;
+	}
+	.kode-team-grid .col-md-3.columns{
+		float: left;
+		width:100%;
+	}
+	.kode-finacial-request-section::before{
+		background-color: rgba(51,51,51,0.85);
+	}
+	.kode-caption-expert h3 a,
+	.kode-financial-consulting h2{
+		font-size: 20px;
+	}
+	.kode-financial-consulting > a {
+	    display: block;
+	    margin-bottom: 20px;
+	    margin-right: 0;
+	}
+	.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption{
+		margin-top: -140px;
+	}
+	.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols{
+		transform: scale(1);
+	}
+	.kode-peoples-data{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.kode-peoples-data figure{
+		float: none;
+		display: inline-block;
+		margin-right: 0px;
+	}
+	.kdoe-peoples-says{
+		float: left;
+		padding: 10px 20px;
+		width:100%;
+	}
+	.kode-financial-awards ul{
+		float: left;
+		width:100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.kode-financial-awards ul li a{
+		display: inline-block;
+		padding: 0px;
+	}
+	.wordpress-logical-footer{
+		text-align: center;
+	}
+	.kode-finacial-logo3,
+	.wordpress-logical-footer ul{
+		float: left;
+		width:100%;
+		text-align: center;
+	}
+	.wordpress-logical-footer ul li,
+	.wordpress-logical-footer a{
+		float: none;
+		display: inline-block;
+	}
+	.kode-logo-wrapper.logo-wrapper{
+		width:auto;
+	}
+	.row .col-md-3.columns {
+	    display: inline-block;
+	    float: left;
+	    width: 100%;
+	}
+	.kode-financial-consulting-section{
+		padding: 0px 10px;
+	}
+	.col-md-12.without-padding {
+    	float: left;
+    	width: 100%;
+	}
+	.kode-financial-title {
+    	margin-top: 40px;
+	}
+	.section-container.container {
+	    padding-bottom: 70px;
+	    padding-top: 40px;
+	}
+	.kode-form-section {
+    	padding: 30px 0 49px;
+	}
+	.financial-consultent-caption{
+		text-align: center;
+	}
+	.financial-consultent-caption i{
+		float: none;
+		margin:0px 0px 10px;
+		position: relative;
+	}
+	.our_service_area .col-md-4.columns:last-of-type{
+		margin-bottom: 0px;
+	}
+	#kode-parallax-wrapper-3::after{
+		display: none;
+	}
+	.kode-brands-section{
+		margin: 0px 0px;
+		list-style: none;
+		padding: 0px;
+	}
+
+	.kode-financial-home2brands ul li .kode-social-brands a{
+		padding: 5px;
+	}
+	.kode-financial-home2brands .owl-stage-outer{
+		margin-bottom: 0px;
+	}
+	#content-section-4 #kode-parallax-wrapper-2{
+		padding-top: 40px;
+		margin-bottom: 65px;
+	}
+	.kode-form-wrap{
+		margin-bottom: 30px;
+	}
+	.kode-form-wrap .kode-financial-title{
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	#kode-heading-9{
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.kode-financial-home2brands .owl-controls .owl-dots{
+		padding:10px 0px 0px; 
+	}
+	.kode-accodien-3title-mark h6 a::before{
+		right: -10px;
+	}
+	.kode-accodien-3title-mark h6 a{
+		padding: 15px 0 0;
+	}
+	.kode-accodien-3-for-data p{
+		margin-top: 15px;
+		padding: 0 0 4px;
+	}
+	.kode-column2-accodien .accordion-close h6 a{
+		padding: 15px 12px 15px 0;
+	}
+	.kode-financial-rt-slider-id{
+		padding: 0px 15px;
+		float: left;
+		width:100%;
+	}
+	.content{
+		margin-bottom: 0px;
+	}
+	.kode-financial-rt-slider-id .owl-controls{
+		right: 14px;
+	}
+	.wordpress-logical-footer > a{
+		margin-bottom: 7px;
+	}
+	.kode-wpress-copyright{
+		padding: 10px 0 0px;
+	}
+	.kode-item.kd-accordion{
+		margin-bottom: 0px;
+	}
+	.financial-consultent-caption {
+	    margin-bottom: 0px;
+	    padding: 74px 20px 0;
+	    text-align: center;
+	}
+	.financial-consultent-caption i{
+		position: absolute;
+		left:0px;
+		right: 0px;
+		margin: 0 auto;
+		top:0px;
+	}
+	.about-us-img{
+		display: none;
+	}
+	.kode-form-wrap-simple-form .kode-form-button input{
+		margin-bottom: 50px;
+	}
+	.kode-financial-inner-pages-setting{
+		padding: 30px 0px;
+	}
+	.kode-inner-page-bnr-capion h1{
+		font-size: 24px;
+	}
+	.kode-checked ul{
+		float: left !important;
+		list-style: none;
+	}
+	.appointment-heading h6 span{
+		display: block;
+	}
+	.kode-financial-pkg .kode-financial-title{
+		margin: 0px;
+	}
+	.kode-Invest-Business-cols{
+		padding:16px 20px;
+		text-align: center;
+	}
+	.kode-Invest-Business-cols > span{
+	    margin-bottom: 10px;
+	    float: none;
+	    margin-top: 10px;
+	    margin-right: 0px;
+	}
+	.kode-case-lt-section h2{
+		font-size: 20px;
+	}
+	.kode-case-rt-section ul{
+		padding-left:0px;
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	.kode-case-rt-section a,
+	.kode-case-rt-section ul li small{
+		font-size: 12px;
+	}
+	.kode-graph-services-case{
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.kode-case-lt-section > figure{
+		margin-bottom: 26px;
+	}
+	.our_service_area .kode-our-services02{
+		margin-bottom: 86px;
+	}
+	.our_service_area .columns:last-of-type .kode-our-services02{
+		margin-bottom: 0px;
+	}
+	.kode-style-style-3.kode_work_wrapper_forest {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.kode-case3-caption a i{
+		display: none;
+	}
+	.kode-case-3-cols figure img {
+	    min-height: 245px;
+	}
+	.kode-case3-caption {
+	    height: 215px;
+	    min-height: auto;
+	    opacity: 0;
+	    padding: 7px 20px;
+	}
+	.kode-case-3-cols:hover .kode-case3-caption{
+		opacity: 1;
+		right: 5%;
+	}
+	.kode-case3-caption h4{
+		font-size: 16px;
+	}
+	.kode-style-style-1.kode_work_wrapper_forest{
+		padding: 0px 15px;
+	}
+	.kode-financial-error404 h2{
+		line-height: normal;
+	}
+	.kode-financial-error404 h2 i{
+		margin-top: 60px;
+	}
+	.kode-financial-error404 ul{
+
+	}
+	.kode-financial-error404 ul li{
+		padding: 0px;
+		margin: 0px 0px 30px;
+	}
+	.kode-team.kode-team-simple{
+		padding: 0px 15px;
+	}
+	.kode-financial-blog2-cols .kode-financial-blog2-caption{
+		margin: -80px 13px 0;
+	}
+	.kode-our-expert-cols.blog-page03 figure{
+		width:100%;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.kode-caption-expert.blog-3{
+		width:100%;
+	}
+	.kode-caption-expert.blog-3 a{
+		float: right;
+	}
+	.kode-item.kode-blog-medium {
+	    float: left;
+	    padding: 0 15px;
+	    width: 100%;
+	}
+	.kode-blog-post-img blockquote{
+		padding: 40px 10px !important;
+	}
+	.kode-blog-post-img p img {
+	    margin: 0 0px 20px;
+	    width: 100%;
+	}
+	.blog-info.blog-tag > a{
+		font-size: 12px;
+	}
+	.comment-form .kode-left-comment-sec .replay-form-name {
+	    float: left;
+	    width: 100%;
+	}
+	.kode-financial-recent-posts {
+    	width: 100%;
+	}
+	.recent-post-infomation{
+		padding: 0px;
+	}
+	.kode-contect-service-cols h6 b{
+		display: block;
+		padding: 0px;
+	}
+	.kode-financial-searchplus .kode-up-financial-cols {
+	    float: left;
+	    text-align: left;
+	    width: 100%;
+	}
+	.kode-financial-logoplus-wrap .kode-finacial-logo3 {
+	    display: inline-block;
+	    margin-bottom: 45px;
+	    margin-right: 0;
+	    padding: 0 15px 0 0;
+	    width: 100%;
+	}
+	.kode-up3-financial-navigaion .dl-menuwrapper .dl-menu{
+		left: auto;
+		right: 0px;
+	}
+	.kf_pagination ul li{
+		float: left;
+		width:100%;
+		margin-bottom: 30px;
+	}
+	.kode-contect-service-cols{
+		margin-bottom: 30px;
+	}
+	.tags-parent{
+		line-height: 16px;
+		margin-bottom: 20px;
+		padding: 9px 0 0;
+	}
+	.blog-info span {
+	    margin: -3px 9px 0 0;
+	    transform: translateX(-4px) scale(1.1);
+	}
+	.kode-tags-cols h6 {
+	    text-align: left;
+	}
+	.kode-tags-cols ul li {
+	    display: inline-block;
+	    padding-left: 2px;
+	}
+	.blog-info.blog-tag {
+	    padding: 10px 0 0;
+	}
+	blockquote p::before, 
+	.kode-blog-post-img blockquote p::before{
+		left: 0px;
+	}
+	.financial-comment-box-caption a.comment-edit-link{
+		float:left;
+	}
+	.financial-comment-box-caption{
+		width:100%;
+	}
+}
+
+/*============ Media 320Px Star ============ */
+@media (max-width: 320px) {}

@@ -1,0 +1,8489 @@
+@charset "utf-8";
+/*
+Theme Name: Business Hub
+Theme URI: http://aladinthemes.com/wp-demo/financialhub
+Description: Business Hub WordPress Theme
+Author: Aladin Themes
+Author URI: http://aladinthemes.com/
+Version: 1.0
+License: 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: featured-images, theme-options
+Text Domain: business-hub
+*/
+
+/**
+ * Table of Contents :
+ *
+* 1.0 - Default Css
+* 2.0 - financial Banner
+* 2.5 - financial Banner 02
+* 3.0 - Financial Services HUB Slider
+* 4.0 - Financial Traders 
+* 5.0 - Financial Planing
+* 6.0 - Financial Recent Projects
+* 7.0 - Financial Counter
+* 8.0 - Financial Team page
+* 9.0 - Financial Progress section
+* 10.0 - Financial Request section
+* 11.0 - Financial Price Table 
+* 11.1 - Financial Consulting section
+* 12.0 - Financial Our expert 
+* 13.0 - Financial Peoples says 
+* 14.0 - Financial Brands and Accodien 
+* 15.0 - Financial Content  
+* 16.0 - Financial services 02 
+* 17.0 - Financial progress Velue 
+* 18.0 - Financial progress Bars  
+* 19.0 - Financial business wraper 
+* 20.0 - Financial Gallery
+* 21.0 - Financial Accordian 2 
+* 22.0 - Financial Team Mumbers
+* 22.1 - Financial latest blog 
+* 22.2 - Financial Playvideos 
+* 22.3 - Financial testimonial service 
+* 22.4 - Financial setting service 
+* 22.5 - Financial Team Detail 
+* 23.0 - Financial Skills Experience 
+* 24.0 - Financial Blog section
+* 25.0 - Financial Services Leftside 
+* 26.0 - Financial Appointment form 
+* 27.0 - Financial Download paket 
+* 28.0 - Financial services rightside 
+* 29.0 - Financial Service Other/investment
+* 30.0 - Financial Contact 2 Services 
+* 31.0 - Financial Case Left section
+* 32.0 - Financial Graph Section 
+* 32.1 - Financial Mesnorey Gallery  
+* 33.0 - Financial project case page 1
+* 34.0 - Financial project case page 4 
+* 35.0 - Financial project case page 5 
+* 35.1 - Financial Services Blog 1
+* 36.0 - Financial services Blog 2 
+* 37.0 - Financial Services Blog 3
+* 38.0 - Financial Blog 
+* 39.0 - Financial Blog 4
+* 40.0 - Financial contact us 
+* 41.0 - Financial Blog detail  
+* 42.0 - Financial Blog/comments box
+* 43.0 - Financial Comments Box send
+* 44.0 - Financial Search 02 
+* 45.0 - Financial Filker Gallery  
+* 46.0 - Financial slider minsmall 
+* 47.0 - Financial Blog page 4 
+* 48.0 - Financial Blog post
+* 49.0 - Financial About us page
+* 50.0 - Financial Consultant Menu Blog 
+* 51.0 - Financial Our Services
+* 52.0 - Financial brand slider 02 
+* 53.0 - Financial Comming Soon  
+* 54.0 - Financial errors page
+* 55.0 - Financial prettyPhoto
+
+[Color codes]
+
+Background:	#ffffff (White)
+Content:	#999999 (Light black)
+Header h1:	#004981/#0a1e31 (MidnightBlue/dodgerblue)
+Header h2:	#0a1e31/#004981 (dodgerblue/MidnightBlue)
+Header h3:	#004981 (MidnightBlue)
+Header h4:	#0a1e31 (DeepSkyBlue)
+
+Footer F1:	#081929 (Cyprus)
+Footer F2:	#0a1e31/#004981 (dodgerblue/MidnightBlue)
+
+a (standard):	#ffffff (white)
+a (visited):	#ffffff (white)
+a (active):	#ffffff (white)
+
+[Typography]
+  
+Body copy:		14px/ 'Open Sans', sans-serif;
+Headers:		"Raleway",sans-serif;
+Input, textarea:	'Open Sans', sans-serif;
+Sidebar heading:	'Montserrat', sans-serif;
+
+-------------------------------------------------------------------*/
+/*
+	===============================================
+		Financial default
+	===============================================
+*/
+.textwidget{
+	font-weight: 400;
+	color:#97a6b6;
+}
+.kode-fter-cols form input{
+	height: 44px;
+}
+.theme-margin{
+	float: left;
+	width: 100%;
+	margin-top: 70px;
+}
+.gallery-caption,
+.bypostauthor{
+	float:left;
+	width:100%;
+}
+.content-wrapper > ul{
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;
+}
+section,
+.simple-team-sec{
+	float:left;
+	width:100%;
+}
+.kode-blog-detail .no-margin-bottom{
+	margin-bottom: 0px;
+}
+.margin-bottom{
+	float:left;
+	width:100%;
+}
+.margin-bottom,
+.kode-team-mumbers-home2.kode-team-blue-home1 .kode-team-home2-cols{
+	margin-bottom: 50px;
+}
+.kode-wrapper .kode-financial-title{
+	position:relative;
+	z-index:999;	
+	padding: 0px 0px;
+}
+.kode-wrapper{
+	float: left;
+	width:100%;
+	overflow: hidden;
+}
+.aladin_home_map{
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+.kode-team-mumbers-home2{
+	padding: 70px 0px 44px;
+}
+.kode-testimonial-section-home2{
+	padding: 0;
+}
+.kode-consultant-blog-us{
+	padding: 70px 0 33px;
+}
+.kode-accodien-section3{
+	padding: 70px 0px 60px;
+}
+.kode-financial-errors{
+	padding: 67px 0px 70px;
+}
+.contact-services-main{
+	padding: 68px 0px 70px;	
+}
+.kode-our-expert.section-blog01{
+	padding: 70px 0px 70px;
+}
+.kode-blog-detail.kode-blog-5{
+	padding: 70px 0px;
+}
+.case-studies-01{
+
+}
+body{
+	-webkit-scroll-behavior:smooth;
+	-os-scroll-behavior:smooth;
+	scroll-behavior:smooth;
+	-moz-scroll-behavior:smooth;
+}
+.kode_financial_wraper{
+	padding: 30px 0px 0px;
+}
+.kode-question-answer-accodien.team-detail-brands{
+	padding-bottom: 50px;
+}
+.kode-financial-blog2-section{
+	padding-bottom: 74px;
+}
+.kode-navigation-sticky.kf_sticky{
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    padding-top: 0px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	===============================================
+		financial Banner'S
+	===============================================
+*/
+.kode-financial-banner,
+.bottom-buttons,
+.kodeslider-section,
+.kode-finacialService,
+.kode-financial-topper,
+.kode-financial-logical-section{
+	float:left;
+	width:100%;
+}
+.kode-financial-banner{
+	
+}
+.kode-financial-up-navigaion-4.kode-up3-financial-navigaion .dl-menuwrapper ul li:hover a{
+	background-color: #000;
+	color:#fff;
+}
+.kode-financial-banner2 .kode-financial-banner figure::before{
+	background-color: rgba(0,0,0,0.50);
+}
+.kode-financial-banner figure,
+.kode-financial-banner{
+	position:relative;
+}
+.financial-silder .slides li a{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.financial-silder .slides li{
+	line-height: normal;
+	margin-bottom: 0px;
+}
+.section-class-img{
+	margin-bottom: 0px;
+
+}
+.owl-carousel .owl-item img{
+	transform-style:none; 
+}
+.financial-silder .slides li a:before,
+.kode-financial-banner figure:before{
+	position:absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	content:"";
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+	z-index: 99999;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption.position-right{
+	left: auto;
+    right: 0;
+    text-align: left;
+	width: 50%;
+	overflow: hidden;
+	padding-right: 80px;
+}
+.financial-silder .financial-silder-caption.position-right h4{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+.financial-silder .financial-silder-caption.position-right h3{
+	margin-bottom: 35px;
+}
+.financial-silder .financial-silder-caption.position-right,
+.financial-silder .financial-silder-caption.position-right h4,
+.financial-silder .financial-silder-caption.position-right h3,
+.financial-silder .financial-silder-caption.position-right a{
+	text-align: left;
+	display: inline-block;
+}
+.financial-silder .financial-silder-caption.position-right h4,
+.financial-silder .financial-silder-caption.position-right h3{
+	display: block;
+	text-align: left;
+}
+
+.financial-silder .financial-silder-caption.position-left{
+	text-align: right;
+	left:0px;
+	padding-left: 80px;
+}
+.financial-silder .financial-silder-caption.position-left h4,
+.financial-silder .financial-silder-caption.position-left h3,
+.financial-silder .financial-silder-caption.position-left a{
+	text-align: right;
+	float: none;
+	display: block;
+}
+.kode-financial-banner .position-center h3,
+.kode-financial-banner .position-center{
+	text-align:left;
+	z-index: 99999;
+}
+.financial-silder .financial-silder-caption.position-center{
+    left: 10%;
+    overflow: hidden;
+    padding: 35px 0;
+    text-align: center;
+    width: 50%;
+    right: 0px;
+}
+.financial-silder .financial-silder-caption.position-center h4,
+.financial-silder .financial-silder-caption.position-center h3,
+.financial-silder .financial-silder-caption.position-center a{
+	text-align: center;
+	float: none;
+}
+
+.financial-silder .financial-silder-caption.slide04{
+    left: 0%;
+    overflow: hidden;
+    padding: 35px 0;
+    width:50%;
+    text-align: right;
+    padding-left: 30px;
+}
+.financial-silder .financial-silder-caption.slide04 h4,
+.financial-silder .financial-silder-caption.slide04 h3,
+.financial-silder .financial-silder-caption.slide04 a{
+	text-align: right;
+	float: none;
+	display: inline-block;
+}
+
+.financial-silder .owl-controls{
+	 position: static;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.financial-silder .owl-controls .owl-nav .owl-prev{
+	position: absolute;
+	left:-100px;
+	top:0px;
+	bottom:0px;
+	width:5%;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 0px;
+}
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-prev,
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-next{
+	height:100%;
+}
+.financial-silder.big-images.owl-carousel.owl-theme.owl-loaded.owl-text-select-on{
+	overflow: hidden;
+}
+.kode-financial-banner:hover .financial-silder .owl-controls .owl-nav .owl-prev{
+	left:0px;
+}
+.kode-financial-banner:hover .financial-silder .owl-controls .owl-nav .owl-next{
+	right:0px;
+}
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-prev:after{
+	bottom: 0;
+    color: #fff;
+    content: "\f104";
+    font-family: fontawesome;
+    font-size: 60px;
+    left: 0;
+    margin: -30px 30px;
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+}
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-next{
+	position: absolute;
+	right:-100px;
+	top:0px;
+	bottom:0px;
+	width:5%;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 0px;
+}
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-next:after{
+	bottom: 0;
+    color: #fff;
+    content: "\f105";
+    font-family: fontawesome;
+    font-size: 60px;
+    right: 0;
+    margin: -30px 30px;
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+}
+.kode-financial-banner .financial-silder-caption .btn-custom{
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  	border-radius: 4px;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption{
+	width:50%;
+	margin: -20px auto 0;
+	position: absolute;
+	top: 38%;
+	z-index: 99999;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption h6{
+ 	font-size:20px;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption h2{
+	font-size:60px;
+	margin-bottom:16px;
+	color:#fff;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption h3{
+	margin-bottom: 15px;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption h3{
+	font-size:46px;
+	color:#fff;
+}
+.kode-financial-banner .financial-silder .position-center h3{
+	text-align:center;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption h4{
+	font-weight:bold;	
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.kode-financial-banner .financial-silder .financial-silder-caption h3,
+.kode-financial-banner .financial-silder .financial-silder-caption h2{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion > a{
+	margin-top:8px;
+}
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion > a:hover{
+	
+}
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion nav ul{
+	padding:0px 0px;
+}
+.bottom-buttons{
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	z-index: 9999;
+	float: left;
+	width: 100%;
+}
+.kode-financial-banner #sync1 .owl-nav.disabled{
+	display: none;
+}
+.kode-financial-banner .bottom-buttons.owl.carousel .owl-item.active{
+	float: left;
+}
+/*==============================================
+			Financial-Banner-2
+/*=============================================*/
+.kode-financial-banner2 .bx-controls{
+	display:none;
+}
+.kode-financial-banner2,
+.kode-banner-picture{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode-financial-banner2-caption h2{
+	font-size:40px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:1px;
+}
+.kode-financial-banner2-caption h1{
+	font-size:56px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#615f60;
+	margin-bottom:1px;
+}
+.kode-financial-banner2-caption h3{
+	color:#615f60;
+	margin-bottom:48px;
+}
+.kode-banner2-caption ol{
+	float:left;
+	width:100%;
+	margin-bottom:69px;
+}
+.kode-banner2-caption ol li{
+	display:inline-block;
+	margin-right:22px;
+}
+.kode-banner2-caption ol li a{
+	width:96px;
+	height:96px;
+	color:#fff;
+	text-align:center;
+	line-height:99px;
+	display:inline-block;
+	border-radius:100%;
+	font-size:50px;
+}
+.kode-banner2-caption {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 228px;
+    width: 1140px;
+}
+.kode-banner2-caption > a{
+	line-height:40px;
+	border:none;
+	box-shadow:2px 2px 0px 0px rgba(217,218,220,0.5);
+}
+/*==============================================
+			Financial Services HUB Slider
+/*=============================================*/
+.financial-slide-caption i,
+.finance-background-caption i{
+	font-size:43px;
+	margin-bottom:13px;
+}
+.financial-slide-caption h6,
+.finance-background-caption h6{
+	font-size:16px;
+	color:#615f60;
+	font-style:italic;
+	margin-bottom:22px;
+}
+.financial-slide-caption h3,
+.finance-background-caption h3{
+	display: inline-block;
+    float: left;
+    margin-bottom: 11px;
+    width: 100%;
+}
+.financial-slide-caption h3 > a,
+.finance-background-caption h3 > a{
+	font-size:24px;
+	font-weight:bold;
+	color:#615f60;
+	text-transform:uppercase;
+	margin-bottom:0px;
+	display: inline-block;
+}
+.financial-slide-caption h3 > a:hover,
+.finance-background-caption h3 > a:hover{
+	background-color: transparent;
+}
+.financial-slide-caption > a,
+.finance-background-caption > a{
+	display:inline-block;
+	font-size:16px;
+	font-weight:bold;
+	width:133px;
+	height:40px;
+	border:1px solid #fff;
+	line-height:36px;
+	margin:0 auto;
+}
+.financial-slide-caption > p,
+.finance-background-caption > p{
+	margin-bottom: 16px;
+	line-height: 24px;
+
+}
+
+.kode-financial-silde figure .finance-background-caption{
+	 left: 0;
+    margin-top: -35px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    z-index: 12;
+    padding: 0px 20px;
+}
+.kode-financial-silde figure:before{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.8;
+	bottom:0px;
+}
+.kode-financial-silde figure{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.kode-financial-silde figure img{
+	width:100%;
+}
+.kode-financial-silde figure:after,
+.kode-financial-silde figure:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right: 0px;
+	bottom:0px;
+	z-index: 9;
+}
+.kode-financial-silde:hover figure:after{
+	opacity: 0;
+}
+.kode-financial-silde figure:after{
+	background-color: #fff;
+	opacity: 1;
+	z-index: 10;
+}
+
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .kode-financial-silde p{
+	margin-bottom:18px;
+}
+.kode-finacialService-slider ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .financial-slide-caption i,
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .financial-slide-caption h6,
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .financial-slide-caption h3,
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .financial-slide-caption p,
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .financial-slide-caption a,
+.kode-finacialService-slider .kodeslider-section .kode-financial-silde:hover figure .financial-slide-caption i,
+.kode-finacialService-slider .kodeslider-section .kode-financial-silde:hover figure .financial-slide-caption h6,
+.kode-finacialService-slider .kodeslider-section .kode-financial-silde:hover figure .financial-slide-caption h3,
+.kode-finacialService-slider .kodeslider-section .kode-financial-silde:hover figure .financial-slide-caption p,
+.kode-finacialService-slider .kodeslider-section .kode-financial-silde:hover figure .financial-slide-caption a,
+.kode-financial-services2 .kode-financial-silde:hover i,
+.kode-financial-services2 .kode-financial-silde:hover h6,
+.kode-financial-services2 .kode-financial-silde:hover h3,
+.kode-financial-services2 .kode-financial-silde:hover p,
+.kode-financial-services2 .kode-financial-silde:hover a{
+	position:relative;
+	z-index:99999;
+	color: #fff;
+
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center .kode-financial-silde{
+
+}
+.kode-financial-services2 .kode-financial-silde i,
+.kode-financial-services2 .kode-financial-silde h6,
+.kode-financial-services2 .kode-financial-silde h3,
+.kode-financial-services2 .kode-financial-silde p,
+.kode-financial-services2 .kode-financial-silde a{
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .kode-financial-silde figure:before{
+	background-color: #2f94cf;
+	opacity: 0.7;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption > a{
+	display:block;
+	visibility: visible;
+	opacity: 1;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .kode-financial-silde{
+	padding: 0;
+    transform: none;
+    width: 100%;
+}
+.kode-finacialService-slider .kodeslider-section .financial-slide-caption > a{
+	opacity: 0;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .kode-financial-silde figure{
+	 float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption {
+    margin-top: -144px;
+    padding: 6px 20px;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .kode-financial-silde figure:before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center .kode-financial-silde figure:after{
+	opacity: 0;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center div .kode-financial-silde .financial-slide-caption > a{
+	border-width: 1px;
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+}
+.kodeslider-section .kode-financial-silde{
+	background-color:#f9f9f9;
+	padding:21px 23px;
+	position:relative;
+	text-align:center;
+}
+.kode-financial-silde {
+    background-color: #f9f9f9;
+    margin-top: 35px;
+    padding: 35px 23px 34.5px;
+    position: relative;
+    text-align: center;
+    z-index: 9999;
+}
+
+
+.financial-slide-caption {
+    float: left;
+    left: 0;
+    margin: -139px auto 0;
+    padding: 33px 20px 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100%;
+    z-index: 999;
+}
+.financial-slide-caption h3 a{
+}
+.kode-finacialService-slider{
+	float: left;
+	width:100%;
+	padding-bottom: 1px;
+}
+.kode-finacialService .kode-financial-title{
+	padding-bottom: 0px;
+}
+
+
+
+
+
+/*==============================================
+			Financial Traders
+/*=============================================*/
+
+.kode-financial-traders-section,
+.kode-traders-datail{
+	float:left;
+	width:100%;
+}
+.kode-financial-traders-section{
+	position:relative;
+	padding: 0px;
+}
+.kode-traders-datail{
+}
+.kode-traders-datail{
+	float: left;
+	width:100%;
+	position: relative;
+}
+.kode-traders-datail figure{
+	position: absolute;
+	float: left;
+	top:0px;
+	bottom:0px;
+	left: 0px;
+	right: 0px;
+	width:100%;
+	z-index: -1;
+}
+.kode-traders-datail figure:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	background-color: rgba(0,0,0,0.85);
+	z-index: 99999;
+	right: 0px;
+}
+.kode-traders-datail figure img{
+	width:100%;
+	min-height: 100%;
+}
+
+.kode-traders-datail .col-md-6.columns:hover figure:before{
+	background: rgba(26,157,237,1);
+	background-image: none;
+}
+.kode-traderscaption{
+    margin-top: -7px;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 999;
+}
+.section-container.container{
+	position: relative;
+}
+.kode-traders-datail{
+	position:relative;
+	z-index:99999;
+	text-align:center;
+	padding:0px 0px;
+	overflow:hidden;
+}
+.kode-financial-traders-section .kode-traders-datail.just-margin-bottom{
+}
+.service-style-2{
+	float: left;
+	width: 100%;
+	position: relative;
+	padding: 100px 0;
+}
+.kode-item.kode-blog-full.service-detail {
+    float: left;
+    width: 100%;
+}
+.kode-traders-datail h2{
+	display:inline-block;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:14px;
+	line-height: normal;
+}
+.kode-traders-datail p{
+	color:#fff;
+	margin-bottom:23px;
+}
+.kode-financial-buttons-medium a:hover{
+	border-color:#fff;
+	color:#333;
+	background-color: #fff;
+}
+/*
+	==============================================
+			Financial planing section
+	==============================================
+*/
+
+.kode-finacial-planing-section,
+.kode-finacial-planing-service,
+.kode-finacial-planing-section-columns{
+	float:left;
+	width:100%;
+}
+.kode-finacial-planing-section,
+.kode-finacial-planing-section .kode-financial-title{
+	position:relative;
+}
+.kode-finacial-planing-section-columns{
+	padding-top: 115px;
+}
+.kode-finacial-planing-section:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url(https://yettifinancial.com/wp-content/themes/business-hub/images/plan-service-center-img01.png);
+	background-repeat:no-repeat;
+	background-size:inherit;
+	background-position:center bottom;
+}
+.margin-bottom{
+	margin-bottom:35px;
+}
+.col-md-12.simple-column p .aligncenter{
+	
+}  
+.kode-finacial-col{
+	float:left;
+	width:84%;
+	border:1px solid #efeeee;
+	padding:27px 17px 27px 17px;
+}
+.kode-finacial-col h5{
+	color:#666666;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.kode-finacial-col p{
+	font-size:13px;
+	color:#999999;
+}
+.kode-finacial-planing-service a{
+	display:inline-block;
+	position:relative;
+	color:#9b9b9b;
+}
+.kode-finacial-planing-service a i{
+	display:inline-block;
+	font-size:47px;
+	float:right;
+	width:85px;
+	height:75px;
+	background-color:#f6f6f6;
+	text-align:center;
+	position:absolute;
+	top:20px;
+	right:-69px;
+	line-height:75px;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3);
+}
+.kode-finacial-planing-service a i:after{
+	position:absolute;
+	top:-9px;
+	left:0px;
+	content:"";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 9px 16px;
+	border-color: transparent transparent #f6f6f6 transparent;
+}
+.right-side-plan .kode-finacial-col{
+	padding:27px 17px 27px 36px;
+	background-color: #fff;
+	box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.1);
+}
+.right-side-items-sections .right-side-plan .kode-finacial-col{
+	margin-right: 0px;
+}
+.kode-finacial-planing-service:hover a i::after{
+	border-color: transparent transparent #0a1e31;
+}
+.right-side-plan:hover a i:after{
+	border-color: transparent transparent transparent #0a1e31;
+}
+.right-side-plan a i{
+	right:-74px;
+}
+.right-side-plan a i:after{
+	position:absolute;
+	top:-9px;
+	right:1px;
+	content:"";
+	margin:0 0 0 auto;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 9px 0 0 16px;
+	border-color: transparent transparent transparent #f6f6f6 ;
+}
+/*==============================================
+		Financial Recent Projects 
+/*=============================================*/
+
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols figure{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.kode-finacial-recent-projects .kode-financial-title{
+	padding-bottom: 0px;
+}
+.kodeplaning-section{
+}
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.58);
+	z-index:9999;
+}
+.kode-finacial-recent-projects .owl-item{
+	height:100%;
+}
+.kode-finacial-recent-projects .owl-item.active.center{
+	height:100%;
+    width: 100%;
+    z-index: 999;
+    margin-bottom: 0px;
+}
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols{
+  	height:auto;
+    margin-top: 0px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 0px;
+    position: relative;
+}
+#kode-parallax-wrapper-4 .container-fluid .row{
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+}
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols figure figcaption{
+	opacity:1;
+	z-index:999999;
+}
+.kode-finacial-recent-projects .owl-item .kode-finacial-project-cols:before{
+	content:"";
+	top:0px;
+	left:0px;
+	position: absolute;
+	height: 0%;
+	width:0%;
+	opacity: 0;
+	z-index: 99999;
+}
+.kode-finacial-recent-projects .owl-item .kode-finacial-project-cols:after{
+	content:"";
+	bottom:0px;
+	position: absolute;
+	right:0px;
+	height: 0%;
+	width:0%;
+	opacity: 0;
+}
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols:before,
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols:after{
+	height: auto;
+	width:100%;
+	opacity: 1;
+	z-index: 99;
+}
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-caption{
+	opacity:1;
+	z-index:9999;
+}
+.kode-finacial-recent-projects,
+.kode-finacial-project-caption,
+.kode-finacial-project-cols,
+.kode-finacial-recent-projects .item{
+	float:left;
+	width:100% ;
+}
+.kode-finacial-recent-projects .item{
+}
+.kode-finacial-recent-projects{
+	background:#f6f6f6;
+	z-index: 9999;
+	position: relative;
+}
+.kode-finacial-project-cols figure{
+	overflow:hidden;
+}
+.kode-finacial-project-cols figure,
+.kode-finacial-project-cols{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.kode-finacial-project-cols{
+	padding-top: 0px;
+}
+.kode-finacial-project-cols figure figcaption{
+	position:absolute;
+	top:20px;
+	right:20px;
+	opacity:0;
+	transform:translateX(0px) translateY(0px);
+}
+.simple-figure-caption a,
+.kode-finacial-project-cols figure figcaption a{
+	padding: 8px 0px;
+}
+.simple-figure-caption a,
+.kode-finacial-project-cols figure figcaption a,
+.simple-figure figure figcaption a{
+	display:inline-block;
+	width:45px;
+	height:45px;
+	background-color:#ffffff;
+	color:#959595;
+	font-size:16px;
+	text-align:center;
+	margin-right:9px;
+	float:left;
+}
+.simple-figure figure figcaption a{
+	padding: 11px 0px 0px;
+}
+.simple-figure-caption a:first-child,
+.kode-finacial-project-cols figure figcaption a:first-child{
+	line-height: 25.3px;
+}
+.kode-finacial-project-cols figure figcaption a .fa-link{
+}
+.simple-figure-caption a:last-child,
+.kode-finacial-project-cols figure figcaption a:last-child,
+.simple-figure figure figcaption a:last-child{
+	margin-right:0px;
+}
+.simple-figure-caption,
+.kode-finacial-project-cols .kode-finacial-project-caption{
+	position:absolute;
+	bottom:46px;
+	left:20px;
+	opacity:0;
+}
+.simple-figure img{
+	width:100%;	
+}
+.kode-replay-box-form .replay-form-name,
+.kode-replay-box-form .replay-form-email,
+.kode-replay-box-form .replay-form-message{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.comment-form .kode-left-comment-sec .replay-form-name{
+	float: left;
+	width:49.3%;
+}
+.replay-form-name input,
+.kode-left-comment-sec input{
+	border:1px solid;
+}
+.kode-finacial-project-cols .kode-finacial-project-caption h3{
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:15px;
+}
+.kode-finacial-project-cols .kode-finacial-project-caption h6{
+	color:#fff;
+}
+
+.kode-finacial-recent-projects .owl-controls{
+	bottom: 39px;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    width: 0;
+}
+.kodeplaning-section .owl-controls .owl-nav{
+   top:0px;
+   display: block;
+}
+.kodeplaning-section .owl-stage-outer{
+	margin-bottom: 20px;
+}
+.kodeplaning-section .owl-controls .owl-prev,
+.kodeplaning-section .owl-controls .owl-next{
+	font-size:0px;
+}
+.kodeplaning-section .owl-controls .owl-nav div {
+    border: none;
+    color: transparent;
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    margin-left: 0px;
+    text-align: center;
+    width: auto;
+    position: relative;
+}
+.kodeplaning-section .owl-controls div:hover:before{
+	background-color: #000;
+	color:#fff;
+}
+.kodeplaning-section .owl-controls .owl-prev:before,
+.kodeplaning-section .owl-controls .owl-next:before{
+	 background: #eee none repeat scroll 0 0;
+    color: #333;
+    font-family: fontawesome;
+    font-size: 34px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 40px;
+    z-index: 1;
+    opacity: 0;
+    margin: 0 45px;
+
+}
+.kodeplaning-section:hover .owl-controls .owl-prev:before,
+.kodeplaning-section:hover .owl-controls .owl-next:before{
+	opacity: 1;
+}
+
+.kodeplaning-section .owl-controls .owl-prev:before{
+	content:"\f104";
+	left:-100px;
+}
+.kodeplaning-section .owl-controls .owl-next:before{
+	content:"\f105";
+	right:-100px;
+}
+/*==============================================
+		Financial Counter  
+/*=============================================*/
+.kode-finacial-counter{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kode-counter-width-upside,
+.counter-up{
+	float:left;
+	width:100%;
+}
+.kode-finacial-counter .kode-simple-heading.kode-align-center{
+	margin-bottom: 0px;
+}
+.kode-finacial-countup h2{
+	font-size:36px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:19px;
+}
+.kode-finacial-counter .counter-up{
+	line-height: normal;
+}
+.kode-finacial-counter .counter-up .counter{
+	font-size:46px;
+	font-weight:bold;
+	color:#fff;
+	position:relative;
+	margin-bottom: 12px;
+	display:inline-block;
+	padding-bottom: 9px;
+	border-bottom:2px solid #fff;
+}
+.kode-finacial-counter .counter-up .counter:after{
+	color: #fff;
+    content: "";
+    font-family: fontawesome;
+    font-size: 30px;
+    position: absolute;
+    right: auto;
+    top: auto;
+    margin-top: 18px;
+}
+
+.kode-finacial-counter h5{
+	font-size:16px;
+	color:#fff;
+	display: inline-block;
+}
+/*==============================================
+		Financial Team page
+/*=============================================*/
+.kode-finacial-team,
+.kode-finacial-teams-cols,
+.kode-finacial-social-icons,
+.kode-finacial-social-icons ul,
+.kode-finacial-teams-cols figure,
+.kode-finacial-teams-cols .kode-finacial-social-icons ul{
+	float:left;
+	width:100%;
+}
+
+.simple-team-sec .kode-finacial-teams-cols,
+.simple-team-sec .kode-team-home2-cols{
+	margin-bottom: 50px;
+}
+.kode-team-mumbers-home2.simple-team-sec{
+	padding: 60px 0 70px;
+}
+.simple-team-sec .kode-team-home2-cols{
+
+}
+.kode-finacial-team.in-aboutus .kode-finacial-teams-section{
+	margin-bottom: 0px;
+	padding: 2px 0px;
+}
+.kode-finacial-social-icons{
+    bottom: 0px;
+    left: 0;
+    margin:0 auto -26px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 99999;
+}
+.kode-finacial-teams-cols{
+	text-align:center;
+	padding:17px;
+	position:relative;
+	margin-bottom: 30px;
+}
+.kode-finacial-teams-cols figure{
+	position:relative;
+	outline:2px solid #2bc5f7;
+	outline-offset:15px;
+	padding:20px;
+	background-color:#f6f6f6;
+	position:relative;
+}
+.kode-finacial-teams-cols figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0;
+}
+.kode-finacial-teams-cols:hover figure:before{
+	opacity:0.42;
+}
+.kode-finacial-teams-cols figure figcaption{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	opacity:1;
+	transform:scale(1);
+}
+.kode-finacial-teams-cols figure figcaption a{
+	color:#fff;
+	background-color:#333333;
+	/*padding:19px 23px 19px 23px;*/
+	width:170px;
+	height:61px;
+	line-height:61px;
+	text-align:center;
+	display:inline-block;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:500;
+}
+.kode-finacial-social-icons > a{
+	color:#fff;
+	background-color:#333333;
+	padding:19px 23px 19px 23px;
+	display:inline-block;
+	font-size:16px;
+	text-transform:capitalize;
+	font-weight:500;
+	opacity:0;
+	transform:scale(0);
+}
+.kode-finacial-social-icons > a small{
+	font-size:12px;
+	display:block;
+}
+.kode-finacial-teams-cols .kode-finacial-social-icons ul{
+	float: none;
+    margin: -14px auto 0px;
+    text-align: center;
+    width: 100%;
+	display:inline-block;
+	opacity:0;
+	padding-left: 0px;
+}
+.kode-finacial-teams-cols .kode-finacial-social-icons ul li{
+	display:inline-block;
+	margin:0px -8px;
+	padding-left:1px;
+}
+.kode-finacial-teams-cols .kode-finacial-social-icons ul li:first-child{
+	padding:0px;
+}
+.kode-finacial-teams-cols .kode-finacial-social-icons ul li a{
+	display:inline-block;
+	font-size:16px;
+	color:#fff;
+	width:32px;
+	height:32px;
+	text-align:center;
+	line-height:32px;
+	background-color:#333333;
+}
+.kode-finacial-teams-cols:hover figure figcaption{
+	opacity:0;
+	transform:scale(0);
+}
+.kode-finacial-teams-cols:hover .kode-finacial-social-icons ul li{
+	margin:0px -2px;
+}
+.kode-finacial-teams-cols:hover .kode-finacial-social-icons ul{
+	transform:translateY(8px);
+	opacity:1;
+}
+.kode-finacial-teams-cols:hover .kode-finacial-social-icons > a{
+	opacity:1;
+	transform:scale(1);
+}
+.kode-finacial-teams-cols:hover .kode-finacial-social-icons ul li:hover a,
+.kode-finacial-teams-cols:hover .kode-finacial-social-icons > a{
+	color:#fff;
+}
+/*==============================================
+		Financial Progress section  
+/*=============================================*/
+.kode-finacial-teams-section{
+	/*margin-bottom:115px;*/
+	margin-bottom: 41px;
+}
+.kode-finacial-progress-section,
+.kode-finacial-progress-section .progress-name,
+.kode-finacial-progress-section .progress-name .progressbar,
+.kode-finacial-progress-section .progress-name .progressbar .bar,
+.kode-finacial-progress-section .progress-name .progressbar .label,
+.kode-finacial-teams-section{
+	float:left;
+	width:100%;
+}
+.kode-finacial-progress-section .progress-section{
+	margin-bottom: 26px;
+	overflow: hidden;
+	padding-bottom: 4px;
+}
+.kode-finacial-progress-section .progress-section h6{
+	font-size:15px;
+	color:#484848;
+	text-transform:capitalize;
+	margin-bottom:17px;
+}
+.kode-finacial-progress-section .progressbar{
+	position:relative;
+	height:2px;
+	background:#484848;
+}
+.kode-finacial-progress-section .progressbar .bar{
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+}
+.kode-finacial-progress-section .progressbar .bar span{
+    border-radius: 100%;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 10px;
+}
+.kode-finacial-progress-section .progressbar .label .perc{
+	position:absolute;
+	right:0px;
+	top:-30px;
+	color:#484848;
+	font-size:14px;
+}
+.kode-finacial-progress-section .progressbar .bar{
+   width:352px;
+}
+/*==============================================
+		Financial Request section  
+/*=============================================*/
+.kode-finacial-request-section{
+	float:left;
+	width:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	padding:0px;
+}
+.kode-finacial-request-section .kode-financial-title .dots-white{
+	background-color:#fff;
+}
+.kode-form-section{
+	padding:60px 30px;
+}
+.kode-finacial-request-section .kode-financial-title{
+	text-align:left;
+	width:100%;
+}
+.kode-finacial-request-section .kode-financial-title h2,
+.kode-finacial-request-section .kode-financial-title h6{
+	color:#fff;
+}
+.kode-finacial-request-section:before{
+	position:absolute;
+	top:0px;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+.kode-form-section{
+	float:left;
+	width:100%;
+	background-color:rgba(51,51,51,0.9);
+}
+.kode-request-form{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+}
+.kode-input-texting{
+	position:relative;
+	float: left;
+	width:100%;
+}
+.home-page-form .submit-btn:hover{
+	border-color:transparent;
+}
+
+.kode-input-texting span input{
+	float:left;
+	width:100%;
+	font-style:italic;
+	font-size:16px;
+	background-color:transparent;
+	height:50px;
+	border:none;
+	border-top:1px solid #797979;
+	padding-left:8px;
+	position:relative;
+	color:#ffffff;
+}
+.kode-input-texting i{
+	 font-size: 18px;
+    margin-right: 14px;
+    margin-top: -33px;
+    float: right;
+}
+.select{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-bottom: 19px;
+}
+.home-page-form .selectric-selectric-selectpicker{
+	margin-bottom: 80px;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric{
+	float:left;
+	width:100%;
+	font-size:16px;
+	background:transparent;
+	border-color:#797979;
+	color:#ffffff;
+	height: 60px;
+	font-style:italic;
+	padding:0px;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric-items{
+	top:100%;
+	bottom: auto;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric .label{
+	background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 0px;
+    width: auto;
+    line-height: 50px;
+    margin-right: 0px;
+    font-weight: normal;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric-items li{
+ 	color: #ffffff;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 0px;
+    width: auto;
+    margin-right: 0px;
+    font-weight: normal;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric-items .selectric-scroll ul li:hover,
+.home-page-form .selectric-selectric-selectpicker .selectric-items .selectric-scroll ul li.selected{
+	color:#fff;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric .button::after{
+	top:20px;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric{
+	border:none;
+	border-top:1px solid #797979;
+	border-bottom: 1px solid #797979;
+	height: 49px;
+}
+.home-page-form.select{	
+}
+.home-page-form .selectric-selectric-selectpicker .selectric .label{
+	line-height: 40px;
+	margin-left: 0px;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric .button::after{
+	top:10px;
+}
+.home-page-form .selectric-selectric-selectpicker .selectric-items{
+	z-index: 99999;
+	text-align: left;
+	background-color: #333;
+	top:48px;
+	border-color:#797979; 
+	box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.kode-request-form form .select{
+	float:left;
+	width:100%;
+	color:#adadad;
+	-moz-appearance: none;
+	line-height: 0px;
+}
+.kode-request-form .arrow-select{
+	position:relative;
+	float: left;
+	width:100%;
+}
+.selectric-selectric-selectpicker{
+	margin-bottom: 30px;
+}
+.home-page-form .submit-btn{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #797979;
+    box-shadow: none;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 172px;
+}
+.kode-request-form form button:hover{
+	color:#fff;
+}
+/*==============================================
+		Financial Price Table  
+/*=============================================*/
+
+.kode-financial-pricetable,
+.kode-financial-pricetable-cols,
+.kode-financial-pricetable-cols ul,
+.kode-financial-price-bgcolor{
+	float:left;
+	width:100%;
+}
+.kode-financial-pricetable-cols{
+	text-align:center;
+	background: #eee;
+	padding: 0px 0px 50px;
+	transform:scale(0.94);
+}
+.kode-financial-pricetable-cols h3{
+	color:#666666;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding: 19px 0px;
+}
+.kode-financial-pricetable-cols h2{
+	font-size:36px;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+.kode-financial-price-bgcolor{
+	background-color:#f6f6f6;
+	padding:24px 0;
+	border-bottom:1px solid #f1f1f1;
+}
+.kode-financial-pricetable-cols h2 small{
+	font-size:16px;
+	color:#666;
+	font-weight:bold;
+	padding-left:17px;
+}
+.kode-financial-pricetable-cols h6,
+.picetag-meta ul li{
+	font-size:15px;
+	color:#999999;
+}
+.picetag-meta{
+	padding:30px 0px 0px;
+	margin: 0px;
+	margin-bottom:40px;
+}
+.picetag-meta li{
+	padding:15px 0px 8px;
+	border-bottom:1px solid #f1f1f1;
+	width:270px;
+	margin:0 auto;
+	list-style: none;
+}
+.picetag-meta li:first-child{
+}
+.picetag-meta li a i{
+	color:#55b6f2;
+	padding-right:14px;
+}
+.kode-financial-pricetable-cols:hover{
+	background-color: #f9f9f9;
+}
+.kode-financial-pricetable-cols:hover > a{
+	color:#fff;
+}
+
+
+
+
+.center-table{
+	transform:scale(1);
+	background: #eee;
+}
+/*==============================================
+		Financial Consulting section  
+/*=============================================*/
+.kode-financial-consulting-section,
+.kode-financial-consulting{
+	float:left;
+	width:100%;
+}
+.kode-financial-consulting-section{
+	position: relative;
+	text-align:center;
+}
+.kode-financial-consulting{
+	position: relative;
+	z-index: 9999;
+}
+.kode-financial-consulting h2{
+	font-size:40px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:23px;
+	text-transform:uppercase;
+}
+.kode-financial-consulting h6{
+	font-size:16px;
+	color:#fff;
+	margin-bottom:31px;
+}
+.kode-financial-consulting a{
+	display:inline-block;
+	font-size:14px;
+	color:#fff;
+	margin-right:24px;
+}
+.container .kode-financial-consulting a:hover{
+	color:#fff;
+}
+/*==============================================
+		Financial Our expert 
+/*=============================================*/
+
+.kdoe-our-expert,
+.kdoe-our-expert-cols{
+	float:left;
+	width:100%;
+}
+.kdoe-our-expert-cols figure{
+	margin-bottom:15px;
+}
+.kode-caption-expert small{
+	padding: 7px 20px;
+	display:inline-block;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	margin-bottom:21px;
+}
+.kode-caption-expert h3 a{
+	font-size:24px;
+	font-weight:700;
+	display: inline-block;
+	text-transform:capitalize;
+	margin-bottom:14px;
+	color:#666666;
+}
+.kode-caption-expert p{
+	color:#999999;
+	margin-bottom: 7px;
+    padding-bottom: 7px;
+	border-bottom:1px solid #e8e8e8;
+}
+.kode-caption-expert h6{
+	color: #999;
+    font-size: 14px;
+    padding: 10px 10px 0;
+    float: left;
+    overflow: hidden;
+    width: auto;
+}
+.kode-caption-expert h6 a{
+	display:inline-block;
+	font-size:14px;
+	text-transform:capitalize;
+}
+.kode-caption-expert figure{
+	border-radius: 100%;
+	float: left;
+}
+.kode-caption-expert figure img{
+	border-radius:100%;
+}
+.kdoe-our-expert .kode-financial-title{
+	text-align:center;
+}
+.kdoe-our-expert .kode-financial-title h2,
+.kdoe-our-expert .kode-financial-title h6{
+	color:#666666;
+}
+/*==============================================
+		Financial peoples says
+/*=============================================*/
+.kdoe-peoples-says,
+.kode-peoples-says-section,
+.kode-peoples-data{
+		float:left;
+		width:100%;
+}
+/*===========Slider Nav buttons=================*/
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav .owl-prev,
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav .owl-next{
+	font-size:0px;
+}
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav{
+	position:absolute;
+	left:0px;
+	right:0px;
+	/*margin:41px auto 0px;*/
+	margin:22px auto 0px;
+}
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav .owl-next:before,
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav .owl-prev:before{
+	position:absolute;
+	font-family:fontawesome;
+	width:30px;
+	border:1px solid #e3e2e2;
+	color:#737373;
+	font-size:20px;
+	text-align:center;
+	margin:0 auto;
+	height:30px;
+}
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav .owl-prev:before{
+	right:-65px;
+	left:0;
+	content:"\f105";
+}
+.kode-peoples-says-section .owl-carousel .owl-controls .owl-nav .owl-next:before{
+	left:-25px;
+	right:0;
+	content:"\f104";
+}
+/*===========Slider Nav buttons ends=================*/
+.kode-peoples-says-section{
+	background:#f7f9f8;
+}
+.kode-peoples-data figure{
+	 float: left;
+    margin-right: 25px;
+    text-align: center;
+    width: 90px;
+    padding: 10px 0px;
+}
+.kode-peoples-data figure img{
+	border-radius:100%;
+	width:100%;
+}
+.kode-peoples-data figure figcaption h6{
+	margin-top:18px;
+}
+.kdoe-peoples-says{
+	float:left;
+	width:79%;
+}
+.kdoe-peoples-says{
+	background:#fff;
+	/*padding:34px 20px 36px 30px;*/
+	padding: 34px 40px 36px 30px;
+	position:relative;
+	border-left:1px solid #eef0ef;
+	border-bottom:1px solid #eef0ef;
+	border-right:1px solid #eef0ef;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.1);
+	margin: 10px 0px;
+}
+.kdoe-peoples-says:before{
+	position:absolute;
+	content:"";
+	top:38px;
+	left:-9px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #fff transparent transparent;
+}
+.kdoe-peoples-says:after{
+	  border-bottom-color: rgba(51,51,51,0.1);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    content: "";
+    left: -11px;
+    position: absolute;
+    top: 53px;
+    transform: rotate(30deg);
+    width: 11px;
+}
+.kdoe-peoples-says p{
+	font-size:14px;
+	color:#666666;
+	/*letter-spacing:0.8px;*/
+	margin-bottom:24px;
+}
+.kdoe-peoples-says ul {
+    float: left;
+    list-style: outside none none;
+    margin: 3px 10px 0 0;
+    padding-left: 0;
+    width: auto;
+}
+.kdoe-peoples-says ul li{
+	float:left;
+	line-height: normal;
+	margin-bottom: 0px;
+}
+.kdoe-peoples-says ul li a{
+	display:inline-block;
+	font-size:15px;
+	color:#faa634;
+}
+.kdoe-peoples-says small,
+.kdoe-peoples-says > h6,
+.kode-peoples-data figure figcaption h6{
+	font-size:15px;
+	color:#999999;
+}
+.kdoe-peoples-says > h6{
+	float:right;
+	padding:5px 0px 0px;
+}
+/*==============================================
+		Financial Brands and Accodien
+/*=============================================*/
+.kode-question-answer-accodien,
+.kode-financial-brands,
+.kode-main-accodien,
+.financial-accordien-section-div{
+	float:left;
+	width:100%;
+}
+.kode-question-answer-accodien .kode-min-margin{
+	margin-left:4px;
+}
+.kode-question-answer-accodien .kode-financial-title{
+	width:100%;
+	text-align:left;
+	float: left;
+}
+.kode-main-accodien .kode-accodien{
+	padding:15px 20px;
+	box-shadow:0 5px 9px 0px rgba(0, 0, 0, 0.1);
+	/*margin-bottom:23px;*/
+	margin-bottom: 12px;
+	cursor:pointer;
+}
+.kode-main-accodien .kode-accodien h6{
+	display:inline-block;
+	font-weight:700;
+	color:#666666;
+	position:relative;
+	width:100%;
+	line-height: normal;
+}
+.kode-main-accodien .kode-accodien.accordion-close h6:before{
+	content:"\f106";
+	font-family:fontawesome;
+	font-size:16px;
+}
+.kode-main-accodien .kode-accodien h6:before{
+	position:absolute;
+	content:"\f107";
+	font-family:fontawesome;
+	font-size:16px;
+	right:0px;
+	top:0px;
+	width:20px;
+	height:20px;
+	/*background-color:#eeeeee;*/
+	color:#666666;
+	border-radius:100%;
+	text-align:center;
+}
+.kode-main-accodien .for-accodien h6 i{
+	padding-right:20px;
+}
+.kode-main-accodien .for-accodien p{
+	margin-left:20px;
+	padding-left:16px;
+	border-style:none none none dotted;
+	border-width:4px;
+	margin-bottom:25px;
+	border-color:#e4e3e3;
+}
+.kode-financial-brands .no-margin-right{
+	margin:0px;
+}
+.kode-financial-brands ul li{
+	background:transparent;
+	border:none;
+	box-shadow:none;
+	margin-bottom:20px;	
+	list-style: none;
+}
+.kode-financial-brands ul li a{
+	display:inline-block;
+	border:1px solid #e4e3e3;
+	padding:12px;
+	text-align:center;
+	width:100%;
+	 background-color: #fff;
+    border: medium none;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.1);
+}
+/*===============================================*/
+/* 				Financial Content 				 */
+/*===============================================*/
+.content{
+	float:left;
+	width:100%;
+	margin-bottom:40px;
+}
+/*
+	===============================================
+			Content SERVICES BLOG 2 
+			Financial Services 02
+	===============================================
+*/
+.kode-financial-services2{
+	float:left;
+	width:100%;
+	position:relative;
+	height: 100%;
+}
+
+
+
+.financial-slide-caption h3 a{
+
+}
+.financial-slide-caption i{
+	width:67px;
+	height:63px;
+	border:2px solid #e5e5e5;
+	text-align:center;
+	line-height:63px;
+	margin-bottom:22px;
+}
+.financial-slide-caption > a{
+	display:inline-block;
+	visibility:hidden;
+	opacity:0;
+}
+.financial-slide-caption  p{
+	margin-bottom:25px;
+}
+.kode-financial-silde:hover .financial-slide-caption > a{	
+}
+.kode-financial-silde{
+	 float: left;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    z-index: 999;
+    width:100%;
+}
+.kode-financial-silde:hover{
+}
+.kodeslider-section .owl-item.center.active{
+	margin-top: 0px;
+}
+.kodeslider-section .owl-item.active .kode-financial-silde{
+}
+/*
+===============================================
+		Financial progress velue 
+===============================================
+*/
+.kode_financial_wraper{	
+}
+.kode-financial-progress-and-velue,
+.kode_financial_read,
+.kode_financial_caption,
+.kode_financial_span,
+.kode_financial_hdg,
+.kode_financial_progres,
+.kode_financial_fig,
+.kode_financial_wraper{
+	float:left;
+	width:100%;
+}
+.kode-financial-progress-and-velue{
+	position: relative;
+	padding: 50px 0px;
+}
+.kode-financial-progress-and-velue .kode-financial-title{
+	width:100%;
+	text-align: left;
+}
+.kode-financial-progress-and-velue:before{
+	 background-image: url("https://yettifinancial.com/wp-content/themes/business-hub/images/kode-hub.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 40%;
+}
+.kode_financial_progres{	
+}
+.kode_financial_hdg h5{
+	font-style:italic;
+	margin-bottom:17px;
+}
+.kode_financial_hdg h3{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:8px;
+}
+.kode_financial_hdg.hdg_2 {
+    text-align: center;
+	margin-bottom: 35px;
+}
+.kode_financial_span.span_2{
+	margin:0px;
+}
+.kode_financial_span span{
+	height:5px;
+	width:5px;
+	text-align:center;
+	display:inline-block;
+	margin-right:1px;
+}
+.kode_financial_span{
+	margin-left:5px;
+	margin-bottom:15px;
+}
+.kode_financial_span .kode_financial_black{
+	background-color:#666666;
+}
+.kode_financial_caption{
+	padding-bottom:34px;
+}
+.kode_financial_caption p{
+	padding-right:75px;
+}
+/*	 Progress Bar Wrap CSS Start*/
+/*
+===============================================
+			Financial progress bars 
+===============================================
+*/
+.kode_financial_wraper .progress-names{
+	float:left;
+	width:100%;	
+	margin-bottom:30px;
+}
+.kode_financial_wraper .progress-names h6{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:15px;
+}
+.kode_financial_wraper .progress-names span{
+	font-size:15px;
+	color:#666666;
+	margin-bottom:25px;
+	display:block;
+}
+.kode_financial_wraper .progressbar{
+    position:relative;
+    width:100%;
+    height:11px;
+    padding:0;
+    margin:0 auto;
+	background-color: #484848;
+}
+.kode_financial_wraper .bar {
+	position:absolute;
+	display:block;
+	width:0px;
+	height:11px;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+}
+.kode_financial_wraper .label {
+	position:absolute;
+	display:block;
+	width:45px;
+	height:30px;
+	line-height:27px;
+	top:-38px;
+	right:0px;
+	font-weight:bold;
+	font-size:16px;
+	color:#000;
+	text-align:center;
+	margin-left: -13px;	
+	border-radius:0;
+}
+.kode_financial_wraper .label span {
+	position:absolute;
+	height:13px;
+	top:26px;
+	left:14px;
+}
+.kode_financial_wraper .kode_financial_read a{
+	display:inline-block;
+	font-weight:bold;
+	color:#615f60;
+	text-transform:uppercase;
+	padding-top:0px;
+}
+.kode_financial_wraper .kode_financial_read a i{
+	margin-left:15px;
+}
+.kode_financial_read a{
+	font-size: 16px;
+	font-weight: bold;
+}
+/*
+===============================================
+		Financial business wraper 
+===============================================
+*/
+.kode_financial_business_wraper{
+	float:left;
+	width:100%;
+}
+.kode_financial_business_fig{
+	background-color:#efefef;
+	outline:5px solid transparent;
+	overflow:hidden;
+	outline-offset:0px;
+	margin-bottom:30px;
+	padding:15px;
+	position:relative;
+}
+.kode_financial_business_fig:hover{
+	background-color:transparent;
+    outline: 5px solid ;
+    outline-offset: -10px;
+}
+.kode_financial_business_fig img{
+	width:100%;
+}
+.kode_financial_business_fig figure{
+	position:relative;
+}
+.kode_financial_business_fig .kode_financial_business_caption{
+	transform: translateY(-35px);
+	-webkit-transform: translateY(-35px);
+    padding: 17px 0 8px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+	z-index:999;
+}
+.kode-financial-service-blog-3 .kode_financial_business_fig .kode_financial_business_caption{
+}
+.kode-financial-service-blog-2 .kode_financial_business_fig:hover .kode_financial_business_caption{
+	background:transparent;	
+	transform:translateY(-47px);
+	-webkit-transform: translateY(-47px);
+}
+.kode_financial_business_fig figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:1;
+}
+.kode_financial_business_fig:hover figure:before{
+	background-color:#000;
+	opacity:0.80;
+}
+.kode-financial-service-blog-3 .kode_financial_business_fig:hover figure:before{
+	opacity:0.90;
+	background-color:#000;
+}
+.kode-financial-service-blog-3 .kode_financial_business_fig{
+	outline:10px solid transparent;
+	padding:10px;
+}
+.kode_financial_business_fig:hover .kode_financial_business_caption{
+
+
+
+    background-color: transparent;
+    bottom: 50%;
+    padding: 0px 0px;
+    transform: translateY(77px);
+    margin-top: -25px;
+}
+.kode-financial-service-blog-3 .kode_financial_business_fig:hover .kode_financial_business_caption{
+	padding: 0px 20px;
+}
+.kode-financial-service-h2-p1 .kode_financial_business_fig:hover .kode_financial_business_caption{
+	margin-bottom: -100px;
+}
+.kode-financial-service-h1-p3 .kode_financial_business_fig:hover .kode_financial_business_caption{
+	margin-bottom: -100px;
+}
+.kode-financial-service-blog-3 .kode_financial_business_fig .kode_financial_business_caption a:hover{
+	border-color:transparent;	
+}
+.kode_financial_business_fig figure .kode_financial_business_caption p{
+	opacity:0;
+}
+.kode_financial_business_fig:hover figure .kode_financial_business_caption p{
+	opacity:1;	
+}
+.kode_financial_business_caption{
+	z-index: 99;
+}
+.kode_financial_business_caption:before{
+
+}
+.kode_financial_business_fig:hover .kode_financial_business_caption:before{
+	opacity: 0;
+}
+.kode_financial_business_caption:before{
+	position: absolute;
+	content:"";
+	bottom:0px;
+	left:0px;
+	top:0px;
+	right: 0px;
+	opacity: 1;
+	z-index: -1;
+}
+.kode_financial_business_caption h5,
+.kode-bussiness-caption-gallery h5{
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:5px;
+	color:#fff;
+	font-size: 16px;
+}
+.kode_financial_business_fig:hover .kode_financial_business_caption p,
+.kode_financial_business_fig:hover .kode_financial_business_caption h5,
+.kode-bussiness-caption-gallery h5,
+.kode-bussiness-caption-gallery p{
+	color:#fff;
+}
+.kode_financial_business_fig:hover .kode_financial_business_caption p,
+.kode_financial_business_fig:hover .kode-bussiness-caption-gallery p{
+	padding:0px 0px;
+}
+.kode_financial_business_caption p,
+.kode_financial_business_fig .kode-bussiness-caption-gallery p{
+	padding:0px 0px;
+	margin-bottom:10px;
+}
+.kode-bussiness-caption-gallery a,
+.kode_financial_business_caption a{
+	display:inline-block;
+	/*padding:6px 26px 5px 26px;*/
+	font-size: 13px;
+    padding: 3px 15px 3px;
+	border:1px solid #fff;
+	color:#fff;
+}
+.kode_financial_view{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kode_financial_view a{
+	display:inline-block;
+	padding:11px 35px 11px 35px;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.kode_financial_view a:hover{
+	background-color:#000;
+}
+/*
+===============================================
+		Financial Gallery
+===============================================
+*/
+.hotel-masonery-thumb > img{
+	width:100%;
+	height: auto;
+}
+.kode_financial_work_gallery,
+.kode_financial_work_tag,
+.kode_financial_work_wraper,
+.kode-gallery.buttons{
+	float:left;
+	width:100%;
+}
+.kode_financial_work_wraper{
+	background-color:#f5f5f5;
+}
+.no-padding{
+	padding:0px;
+}
+.kode_financial_work_fig_1{
+	float:left;
+	width:100%;
+}
+.kode_financial_work_fig_1 img{
+	width:100%;
+}
+.filterable-item{
+}
+
+.kode_financial_work_tag{
+	text-align:center;
+	margin-bottom:40px;
+}
+.kode-gallery.buttons > ul li{
+	display:inline-block;
+}
+.kode-gallery.buttons > .filterable-item{
+	padding: 0px;
+}
+.kode-gallery.buttons > ul li a{
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:6px 19px 7px;
+	margin-right:12px;
+	border:1px solid transparent;
+	color:#666666;
+}
+.kode-gallery.buttons > li:hover a,
+.kode-gallery.buttons > li.active a{
+	border-color:#d7d7d7;
+}
+.kode_financial_work_fig_1 figure{
+	position:relative;
+	/*outline: 10px solid ;
+    outline-offset: -9px;*/
+}
+.kode_financial_work_fig_1 figure{
+	width:100%;
+}
+.kode_financial_work_fig_1 figure:after{
+	position:absolute;
+	content:"";
+	top:100px;
+	left:100px;
+	right:100px;
+	bottom:100px;
+}
+.kode_financial_work_fig_1:hover figure:after{
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#2b2b2b;
+	opacity:0.85;
+}
+.kode_financial_work_caption{
+	left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 4px;
+    z-index: 999;
+	opacity:0;
+}
+.kode_financial_work_fig_1:hover .kode_financial_work_caption{
+	opacity:1;
+	top:50%;
+	margin-top:-54px;
+}
+.kode_financial_work_caption h4{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:7px;
+}
+.kode_financial_work_caption p{
+	color:#fff;
+	margin-bottom:30px;
+	position:relative;
+}
+.kode_financial_work_caption p:after{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:-14px;
+	background:none;
+	opacity:1;
+	border-bottom:1px solid ;
+	width:130px;
+	margin:auto;
+}
+.kode_financial_work_caption a{
+	height:36px;
+	width:41px;
+	display:inline-block;
+	text-align:center;
+	line-height:36px;
+	border:1px solid #fff;
+	color:#fff;
+	margin-right:7px;
+}
+/*
+	===============================================
+			Content financial work Section ENDS
+	===============================================
+*/
+
+/*
+	===============================================
+			Financial Accordian 2
+	===============================================
+*/
+.kode_financial_accordin_wraper,
+.kode_financial_acordin_row,
+.kode-financial-accordian2,
+.kode-data-accordian,
+.kode-financial-accordian-button2,
+.kode-financial-accordian-min-height,
+.kode-heading-accodian{
+	float:left;
+	width:100%;
+}
+.kode-heading-accodian h2{
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	display:inline-block;
+	line-height: 1;
+}
+.kode-financial-accordian-min-height{
+	padding: 30px 0 0;
+}
+.kode_financial_accordin_wraper{
+	position:relative;
+	padding-bottom:0px;
+	overflow:hidden;
+	height:auto;
+}
+.kode_financial_accordin_wraper:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url("https://yettifinancial.com/wp-content/themes/business-hub/images/petran.png");
+	background-position:left;
+	width:100%;
+}
+.kode_financial_accordin_wraper:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:18%;
+	bottom:0px;
+	background-image:url("https://yettifinancial.com/wp-content/themes/business-hub/images/accordian.png");
+	background-position:right bottom;
+	width:31%;
+	background-repeat:no-repeat;
+	background-size:100%;
+	display:none;
+}
+.kode_financial_acordin_row{
+	margin-bottom: 15px;
+}
+.kode-data-accordian{
+	margin-bottom:0px;
+	padding: 10px 0px;
+}
+.kode_financial_acordin_row .kode-financial-accordian2.for-accodien.accordian.accordion-close h4:before{
+	content:"\f067";
+	font-family:fontawesome;
+}
+.kode_financial_acordin_row .kode-financial-accordian2.for-accodien.accordian.accordion-open h4:before{
+	content:"\f068";
+	font-family:fontawesome;
+}
+.kode_financial_acordin_row .accordian-content,
+.kode-financial-accordian2 h4{
+	padding-left:54px;
+}
+.kode_financial_acordin_row .kode-financial-accordian2 h4{
+	font-weight:bold;
+	text-transform:capitalize;
+	position:relative;
+	color:#fff;
+	display:inline-block;
+	cursor:pointer;
+	padding: 7px 0px 7px 55px;
+	line-height: normal;
+}
+.kode_financial_accordin_wraper .kode_financial_acordin_row .kode-financial-accordian2 h4:before{
+	position:absolute;
+	content:"\f068";
+	font-family:fontawesome;
+	font-size:10px;
+	top:2px;
+	left:0px;
+	width:36px;
+
+	background-color: #fff;
+	height:35px;
+	border-radius:100%;
+	text-align:center;
+	line-height:37px;
+}
+.kode-data-accordian p{
+	color:#fff;
+	line-height:27px;
+	margin-bottom: 0px;
+}
+.kode-financial-accordian-button2 a{
+	font-weight:bold;
+}
+.kode-align-left {
+    float: left;
+    text-align: left !important;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.kode-align-center{
+	float: left;
+    text-align: center !important;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.kode-align-right{
+	float: right;
+	text-align: right !important;
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+}
+/*
+	===============================================
+			Financial Team Mumbers
+	===============================================
+*/
+.kode-team-mumbers-home2,
+.kode-team-home2-cols,
+.kode-home2-caption{
+	float:left;
+	width:100%;
+}
+.kode-team-mumbers-home2.kode-team-blue-home1 .kode-team-mumbersh2-sc{
+	margin-bottom: 0px;
+}
+.kode-team-mumbersh2-sc{
+	margin-bottom:40px;
+}
+.kode-team-home2-cols{
+	margin-bottom: 30px;
+}
+.kode-team-home2-cols figure{
+	position:relative;
+	padding:20px 20px 0px ;
+	float:left;
+	width:100%;
+}
+.simple-team-sec .kode-team-home2-cols:hover figure:after{
+	border-left:2px solid #44b976;
+	border-right:2px solid #44b976;
+	border-top:2px solid #44b976;
+	border-bottom:none;
+}
+.kode-team-home2-cols figure figcaption{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	left:0px;
+}
+.kode-team-home2-cols figure img{
+	width:100%;
+}
+.kode-team-home2-cols figure:after{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	margin:0 auto;
+	bottom:0px;
+	border:1px solid #dbdbdb;
+	border-bottom:none;
+}
+.kode-team-home2-cols figure:before{
+	position:absolute;
+	content:"";
+	bottom:0px;
+	right:0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 52px 52px;
+	border-color: transparent transparent #004981 transparent;
+	margin-right:0px;
+	z-index:999;
+}
+.kode-team-home2-cols:hover figure:before{
+	border-color: transparent transparent #0c253c transparent;
+}
+.kode-team-home2-cols:hover figure:after{
+
+}
+.kode-team-home2-cols{
+	background:#f5f5f5;
+	text-align:center;
+	overflow:hidden;
+}
+.kode-team-home2-cols:hover .kode-home2-caption{
+	background:#0c253c;
+}
+.kode-home2-caption{
+	background-color:#666666;
+	padding:8px 0;
+}
+.kode-home2-caption h5 a{
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:5px;
+	display: inline-block;
+}
+.kode-home2-caption h6{
+	color:#fff;
+	margin-bottom:2px;
+}
+.kode-social-icons-home2{
+	top:-50px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.kode-social-icons-home2 li{
+	float:none;
+	display: inline-block;
+}
+.kode-social-icons-home2 li a{
+	padding:0 9px 0px 22px;
+	font-size:16px;
+}
+.kode-social-icons-home2 li ul{
+	margin-top:17px;
+	margin-left:-140px;
+	background-color:#666666;
+	color:#fff;
+	opacity:0;
+	display: block; 
+	width:80%;
+	left:-11px;
+	border-radius:0px;
+	box-shadow:none;
+	border:none;
+	text-align: center;
+}
+.kode-social-icons-home2 .open > .dropdown-menu{
+	margin-left:0px;
+	opacity:1;
+	background:#0c253c;
+}
+.kode-social-icons-home2 .open button{
+	color:#fff;
+	z-index:9999;
+}
+.kode-social-icons-home2 li ul li a{
+	color:#fff;
+	background-color:transparent;
+	padding: 3px 10px;
+}
+.kode-social-icons-home2 li ul li:hover a{
+	background-color:transparent;
+}
+.kode-social-icons-home2 li button{
+	 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    bottom: -61px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    right: -20px;
+    z-index: 9999;
+}
+.kode-finacial-teams-cols.fadeInRight.wow > figure{
+	padding: 0px;
+}
+.kode-finacial-teams-cols.fadeInRight.wow > figure img{
+	width:100%;
+}
+/*
+	===============================================
+			Financial Form and Brands
+	===============================================
+*/
+
+.kode-form-and-brands{
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.kode-form-wrap-simple-form{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode-form-and-brands:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url(https://yettifinancial.com/wp-content/themes/business-hub/images/kode-form&brand-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:right bottom;
+	width:50%;
+}
+.kode-brands-wrap{
+	float:right;
+	width:50%;
+    margin-right:0px;
+	position: relative;
+    z-index: 999;
+    padding-left: 120px;
+    padding-right: 15px;
+    line-height: 1;
+}
+.kode-form-and-brands:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-color: rgba(10,30,49,0.5);
+	width:50%;
+}
+.kode-form-wrap{
+	padding: 0px;
+}
+.kode-form-wrap-simple-form{
+	padding: 0px 15px;
+	text-align: left;
+}
+.kode-form-wrap-simple-form form input,
+.kode-form-wrap-simple-form form select{
+	background-color:transparent;
+	width:100%;
+	height:59px;
+	margin-bottom:19px;
+	font-style:italic;
+	color:#fff;
+	font-size:15px;
+	padding-left:19px;
+}
+.kode-form-wrap-input input,
+.kode-form-wrap-input form select{
+	border:1px solid #797979;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	hite-space:nowrap;
+	text-overflow:ellipsis;
+}
+.kode-form-wrap-simple-form form select option{ 
+	background-color: transparent !important;
+	padding: 5px 0px;
+}
+.kode-form-wrap-simple-form form .select span .selectric-wrapper .selectric .button::after {
+    top: 20px;
+}
+.kode-form-wrap-simple-form form .select span .selectric-wrapper .selectric {
+    background: transparent none repeat scroll 0 0;
+    border-color: #fff;
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-style: italic;
+    height: 60px;
+    padding: 0;
+    width: 100%;
+}
+.kode-form-wrap-simple-form form .select span .selectric-wrapper .selectric .label {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 50px;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: auto;
+}
+.kode-form-wrap-simple-form form .select span .selectric-items li:hover,
+.kode-form-wrap-simple-form form .select span .selectric-items li.selected{
+	color:#fff;
+}
+.kode-form-wrap-simple-form form .select span .selectric-wrapper .selectric-items {
+    background-color: #fff;
+    top: 60px;
+}
+.kode-form-button input[type="submit"]:hover {
+    background-color: #000;
+}
+.kode-form-wrap-simple-form .kode-financial-title,
+.kode-form-wrap-simple-form  form .kode-form-button {
+	float: left;
+	width:auto;
+}
+.kode-form-wrap-simple-form .kode-financial-title{
+	width:100%;
+	text-align: left;
+	padding: 0px 15px;
+}
+.kode-form-wrap-simple-form .kode-form-button input{
+    color: #fff;
+    font-weight: 600;
+    height: 51px;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    width: 167px;
+}
+.kode-form-wrap-simple-form form .select br{
+	display: none;
+}
+.kode-form-wrap-input{
+	float:left;
+	width:100%;
+}
+.kode-form-wrap-simple-form,
+.kode-form-wrap .kode-financial-title,
+.kode-brands-wrap .kode-financial-title{
+	text-align:left;
+	width:100%;
+}
+.kode-form-and-brands .kode-financial-title{
+	padding-bottom:24px;
+}
+.kode-form-wrap-simple-form .kode-financial-title h6,
+.kode-form-wrap-simple-form .kode-financial-title h2,
+.kode-form-wrap-simple-form .kode-financial-title h6,
+.kode-form-wrap-simple-form .kode-financial-title h2{
+	color:#fff;
+}
+.kode-form-wrap .kode-financial-title h2{
+}
+.kode-brands-section.tosilder{
+	display: none;
+}
+.kode-form-and-brands .kode-financial-title h6{
+	margin-bottom:7px;
+}
+.kode-financial-home2brands .owl-carousel .owl-controls{
+	margin-left:5px;
+}
+.kode-financial-home2brands .owl-carousel .owl-controls .owl-dot{
+	float:left;
+	margin-top:5px;
+}
+.kode-financial-home2brands .owl-carousel .owl-controls .owl-dot span{
+	width:11px;
+	height:11px;
+	border-radius:100%;
+	background-color:#fff;
+	display:inline-block;
+	margin-right:12px;
+	transform:scale(1);
+}
+.kode-financial-home2brands .owl-carousel .owl-controls .owl-dot.active  span{
+	border:3px solid #13803f;
+	transform:scale(1.8);
+}
+.kode-financial-home2brands ul li .kode-social-brands a{
+	float:left;
+	width:100%;
+	height: 100%;
+	background-color:#fff;
+	display:inline-block;
+	text-align:center;
+	margin:0px 20px 30px 0px;
+	border:1px solid #e4e3e3;
+	padding:20px;
+}
+.kode-form-wrap-input input{
+}
+.kode-form-wrap-simple-form form .arrow-select{
+	float: left;
+	width:100%;
+}
+/*
+	===============================================
+			Financial latest blog
+	===============================================
+*/
+/*==========================*/
+.kode-blog-list-grid .owl-controls .owl-prev,
+.kode-blog-list-grid .owl-controls .owl-next{
+	font-size:0;
+}
+.kode-blog-list-grid .owl-controls{
+	bottom: 0;
+    float: left;
+    left: 0;
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+.kode-blog-list-grid .owl-controls .owl-prev:before,
+.kode-blog-list-grid .owl-controls .owl-next:before{
+	position:absolute;
+	width:31px;
+	height:31px;
+	top:0px;
+	font-family:fontawesome;
+	text-align:center;
+	font-size:20px;
+	margin:0 auto;
+	border:1px solid #666;
+	line-height:28px;
+	color:#666;
+}
+.kode-blog-list-grid .owl-controls .owl-prev:before{
+	content:"\f104";
+	left:0px;
+	right:50px;
+}
+.kode-blog-list-grid .owl-controls .owl-next:before{
+	content:"\f105";
+	left:50px;
+	right:0px;
+}
+.kode-blog-list-grid .owl-controls .owl-prev:hover:before,
+.kode-blog-list-grid .owl-controls .owl-next:hover:before{
+	color:#fff;
+	border-color:transparent;
+}
+.kode-blog-list-grid .owl-controls .owl-nav{
+	position: relative;
+	top:auto;
+}
+/*==========================*/
+.kode-blog-list-grid,
+.kode-financial-blog-home2{
+	float:left;
+	width:100%;
+}
+.kode-financial-blog-home2 > figure{
+	float:left;
+	width:47%;
+	margin-right:30px;
+	position:relative;
+}
+.kode-financial-blog-home2:hover > figure:before{
+	opacity:1;
+}
+.kode-financial-blog-home2 > figure:before{
+	position:absolute;
+	top:10px;
+	left:10px;
+	opacity:0;
+	right:10px;
+	margin:0 auto;
+	bottom:10px;
+	content:"";
+	background-color:rgba(0,0,0,0.5);
+	z-index:9999;
+}
+.kode-financial-blog-home2 > figure img{
+	width:100%;
+}
+.kode-financial-blog-home2 figure figcaption{
+	position:absolute;
+	bottom:0px;
+	left:20px;
+	opacity:0;
+}
+.kode-financial-blog-home2 figure figcaption a{
+	 background-color: #333333;
+    border: 1px solid #fff;
+    color: #ffffff;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 35px;
+    z-index: 9999;
+}
+.kode-financial-blog-caption{
+	float:right;
+	width:47%;
+}
+.kode-financial-blog-home2:hover figure figcaption{
+	bottom:20px;
+	opacity:1;
+}
+.kode-financial-blog-caption small{
+	font-size:14px;
+	width:113px;
+	height:33px;
+	color:#fff;
+	background-color:#383e42;
+	text-align:center;
+	line-height:33px;
+	display:inline-block;
+	text-transform:capitalize;
+	margin-bottom:21px;
+}
+.kode-financial-blog-caption h3{
+	font-weight:bold;
+	color:#333333;
+	text-transform:capitalize;
+	margin-bottom:34px;
+	position:relative;
+}
+.kode-financial-blog-caption h3:before{
+	position:absolute;
+	content:"";
+	bottom:-20px;
+	left:0px;
+	border-bottom:1px solid ;
+	width:20%;
+}
+.kode-financial-blog-caption p{
+	color:#666666;
+	border-bottom:1px solid;
+	padding-bottom:20px;
+	margin-bottom:11px;
+}
+.kode-financial-blog-caption figure{
+	float:left;
+	margin-right:23px;
+	width:auto;
+}
+.kode-financial-blog-caption figure img{
+	border-radius:100%;
+}
+.kode-financial-blog-caption h5{
+	color:#cccccc;
+	padding:20px 0px 0px;
+}
+.kode-financial-blog-caption h5,
+.kode-financial-blog-caption h5 a{
+	font-size:14px;
+	text-transform:capitalize;
+}
+.kode-financial-blog-caption h5 a{
+	display:inline-block;
+	color:#333;
+	margin:0px;
+}
+
+.kode-financial-blog-caption > h5 {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.kode-financial-banner .flexslider{
+	float: left;
+	width: 100%;
+}
+/*
+	===============================================
+			Financial Playvideos service
+	===============================================
+*/
+.kode-playvideo-service{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+}
+.kode-playvideo-service .modal-dialog{
+	 margin: 0px auto;
+    width: 600px;
+}
+.kode-playvideo-service .modal-content{
+	  background-clip: padding-box;
+    background-color: transparent;
+    border:none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.kode-playvideo-service button.close{
+	font-size: 40px;
+    color: #fff;
+    opacity: 0.3;
+}
+.kode-playvideo-service .modal-header{
+	border:none;
+	box-shadow: none;
+}
+.kode-playvideo-service .modal-body{
+	padding: 0px;
+}
+.kode-playvideo-service .modal.in .modal-dialog{
+	transform: translate(0px, 200px);
+}
+.kode-playvideo-service > button{
+	display:inline-block;
+	font-size:89px;
+	color:#fff;
+	margin-bottom:30px;
+	background: transparent;
+    line-height: 0px;
+    margin-top: -5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.kode-playvideo-service h3{
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:36px;
+}
+.kode-playvideo-service #videoplay{
+	display: none;
+}
+/*
+	===============================================
+			Financial testimonial service
+	===============================================
+*/
+.kode-testimonial-section-home2,
+.kode-testimonial-home2-caption{
+	float:left;
+	width:100%;
+}
+.kode-testimonial-section.owl-carousel.owl-theme.owl-loaded{
+	padding:0px 0px 0px;
+}
+.kode-testimonial-home2-caption{
+	text-align:center;
+	position:relative;
+	padding:33px 120px;
+}
+.kode-testimonial-section-home2 .kode-financial-title{
+	padding-bottom:0px;
+}
+.kode-testimonial-section-home2 .kode-financial-title h2{
+	margin-bottom:14px;
+}
+.kode-testimonial-section-home2 .kode-financial-title h6{
+	font-style:normal;
+	color:#666;
+	margin-bottom:8px;
+}
+.kode-testimonial-home2 .owl-controls .owl-dots{
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom:-5px;
+    text-align: center;
+}
+.kode-testimonial-home2 .owl-controls .owl-dots .owl-dot{
+	width:10px;
+	height: 10px;
+	background-color: #666666;
+	display: inline-block;
+	margin-right: 10px;
+}
+.kode-testimonial-home2 .owl-controls .owl-dots .owl-dot:last-of-type{
+	margin-right: 0px;
+}
+.kode-testimonial-section-home2.section-blue .owl-controls .owl-dots .owl-dot.active{
+	background-color:#1f94d2;
+}
+.kode-testimonial-section-home2.green-page .owl-controls .owl-dots .owl-dot.active{
+	/*background-color: #1a9ded;*/
+	background-color:#27ae61;
+}
+.kode-testimonial-home2-caption p{
+	position:relative;
+	margin-bottom:37px;
+}
+.kode-testimonial-home2-caption p:before{
+	position:absolute;
+	content:"\f10d";
+	font-family:fontawesome;
+	font-size:99px;
+	left:0px;
+	top:0px;
+	color:rgba(0,0,0,0.1);
+}
+.kode-testimonial-home2-caption figure{
+	width:10%;
+	background-color:#dedede;
+	border-radius:100%;
+	margin:0 auto 25px;
+}
+.kode-testimonial-home2-caption figure img{
+	border-radius:100%;
+}
+.kode-testimonial-home2-caption h6{
+	font-size:16px;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.kode-testimonial-home2-caption small{
+	font-size:12px;
+	color:#999999;
+}
+.kode-testimonial-section-home2 .owl-controls .owl-prev{
+	left:0px;
+}
+.kode-testimonial-section-home2 .owl-controls .owl-next{
+	right:0px;
+}
+.kode-testimonial-section-home2 .owl-controls .owl-prev,
+.kode-testimonial-section-home2 .owl-controls .owl-next{
+	font-size:0;
+	position:absolute;
+}
+.kode-testimonial-section-home2 .owl-controls .owl-nav{
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:80px;
+}
+.kode-testimonial-section-home2  .owl-controls .owl-prev:before{
+	content:"\e902";
+	left:0px;
+}
+.kode-testimonial-section-home2  .owl-controls .owl-next:before{
+	content:"\e901";
+	right:0px;
+}
+.kode-testimonial-section-home2  .owl-controls .owl-prev:hover:before,
+.kode-testimonial-section-home2  .owl-controls .owl-next:hover:before{
+	color:#fff;
+}
+.kode-testimonial-section-home2  .owl-controls .owl-prev:before,
+.kode-testimonial-section-home2  .owl-controls .owl-next:before{
+	position:absolute;
+	width:30px;
+	height:31px;
+	font-family: icomoon;
+	top:0px;
+	text-align:center;
+	font-size:17px;
+	margin:0 auto;
+	font-weight: bold;
+	line-height:30px;
+	color:#fff;
+	background-color:#666666;
+}
+
+
+/*		INNER PAGES STARTS		*/
+
+/*
+	===============================================
+			Financial setting service
+	===============================================
+*/
+.financial-inner-pages-setting{
+	float:left;
+	width:100%;
+}
+.kode-financial-banner.kode-financial-inner-pages-setting figure{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.kode-financial-banner.kode-financial-inner-pages-setting figure:before{
+	z-index:1;
+}
+.kode-financial-inner-pages-setting{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 5;
+	text-align: center;
+	background-image:url(images/inner-banner.jpg);
+	padding: 70px 0px;
+}
+.kode-financial-inner-pages-setting:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	background-color: rgba(0,0,0,0.7);
+	z-index: -1;
+}
+.kode-financial-banner.kode-financial-inner-pages-setting figure figcaption{
+
+	position: absolute;
+
+	top:50%;
+
+	left:0px;
+
+	right: 0px;
+
+	margin-top: -32px;
+
+}
+
+.kode-inner-page-bnr-capion{
+
+	float: left;
+
+	width:100%;
+
+	position: relative;
+
+	z-index: 1;
+
+	text-align: center;
+
+}
+.kode-inner-page-bnr-capion h1{
+	font-size:48px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:9px;
+	line-height: normal;
+}
+.kode-inner-page-bnr-capion ul li a{
+	display:inline-block;
+	font-weight:bold;
+	color:#fff;
+	font-style:italic;
+	text-transform:capitalize;
+}
+.kode-inner-page-bnr-capion ul li{
+	position:relative;
+	display:inline-block;
+	padding-right:25px;
+}
+.kode-inner-page-bnr-capion ul li:before{
+	position:absolute;
+	content:"\f105";
+	top:1px;
+	font-family:fontawesome;
+	font-size:14px;
+	right:8px;
+	color:#fff;
+}
+.kode-inner-page-bnr-capion ul li:last-child:before{
+	display:none;
+}
+.kode-inner-page-bnr-capion ul li:last-child{
+	padding:0px;
+}
+/*
+	======== INNER PAGE BANNER ENDS ===========
+*/
+
+/*
+	===============================================
+			Financial Team Detail
+	===============================================
+*/
+.them-detail-pg{
+	float:left;
+	width:100%;
+	margin:0px;
+}
+.theme-detail-team-caption{
+	padding:3px 0;
+	float: left;
+	width:100%;
+}
+.theme-detail-sm-caption h2{
+	font-weight:bold;
+	color:#333333;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.theme-detail-sm-caption small{
+	font-size:14px;
+	color:#333333;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	display:inline-block;
+}
+.theme-detail-sm-caption p{
+	color:#999999;
+	margin-bottom:9px;
+}
+.theme-detail-social-icons h3{
+	font-weight:bold;
+	color:#333333;
+	text-transform:uppercase;
+	margin-bottom:15px;
+}
+.theme-detail-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+}
+.theme-detail-social-icons ul li{
+	display:inline-block;
+	padding-right:7px;
+}
+.theme-detail-social-icons ul li a{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	color:#fff;
+	line-height:32px;
+	text-align:center;
+}
+.team-detail-brands{
+	background-color:#f4f4f4;
+}
+.team-detail-brands .kode-main-accodien p{
+	
+}
+.team-detail-brands .kode-financial-title h6,
+.team-detail-brands .kode-financial-title h2{
+	color:#333;
+}
+.kode-financial-awards li{
+	box-shadow:0px 4px 11px 1px rgba(0, 0, 0, 0.1);
+	background-color:#fff;
+	border:none;
+}
+.kode-financial-awards ul{
+	margin: 0px;
+	padding: 0px;
+}
+.kode-financial-brands .kode-financial-awards li a{
+	display:inline-block;
+	color:#999999;
+}
+.kode-financial-brands .kode-financial-awards li a i{
+	font-size:52px;
+	margin-bottom:0px;
+}
+.kode-financial-brands .kode-financial-awards li a small{
+	font-size:14px;
+	display:block;
+	font-style:italic;
+	
+}
+/*
+	===============================================
+			Financial Skills Experience
+	===============================================
+*/
+.kode-Skills-experience,
+.kode-main-Skills-experience,
+.kode-Skills-experience-sec,
+.financial-details-certifications{
+	float:left;
+	width:100%;
+}
+.kode-Skills-experience-sec{
+	border-bottom:1px solid #e7e7e7;
+	padding-bottom:50px;
+}
+.kode-Skills-experience{
+	padding-bottom:0px;
+}
+.kode-Skills-experience .kode-financial-title{
+	padding-bottom:20px;
+}
+.kode-financial-blog2-section .kode-financial-title h2,
+.kode-Skills-experience .kode-financial-title h2,
+.kode-Skills-experience .kode-financial-title h6{
+	color:#333;
+}
+.kode-Skills-experience .progress-section{
+	padding-bottom:3px;
+}
+.kode-Skills-experience .progress-section h6{
+	margin-bottom:18px;
+}
+.kode-Skills-experience .kode-financial-certification h6{
+	color:#333;
+	text-transform:uppercase;
+	position:relative;
+	padding-left:30px;
+	margin-bottom:9px;
+}
+.kode-Skills-experience .kode-financial-certification{
+	margin-bottom:12px;
+	float: left;
+	width:100%;
+}
+.kode-Skills-experience .kode-financial-certification h6:before{
+	position:absolute;
+	content:"\f0a9";
+	top:0px;
+	font-family:fontawesome;
+	font-size:16px;
+	left:0px;
+}
+.kode-Skills-experience .kode-financial-certification p{
+	margin-bottom:4px;
+}
+.kode-Skills-experience .kode-financial-certification p small{
+	display:inline-block;
+	font-size:14px;
+}
+.kode-main-Skills-experience{
+	margin-bottom:30px;
+}
+/*
+	===============================================
+			Financial Blog section
+	===============================================
+*/
+.kode-financial-blog2-section,
+.kode-financial-blog2-cols,
+.kode-financial-blog2-cols figure,
+.kode-financial-blog2-caption{
+	float:left;
+	width:100%;
+}
+.kode-financial-blog2-cols figure img{
+	width:100%;
+}
+.kode-financial-blog2-cols figure{
+	position: relative;
+
+}
+.kode-financial-blog2-cols figure:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	
+}
+.kode-financial-blog2-cols .simple-figure figure:before{
+	outline:none;
+}
+.kode-financial-blog2-cols:hover figure:before{
+	background-color: rgba(255,255,255,0.4);
+}
+.kode-financial-blog2-cols{
+	background-color:#f5f5f5;
+	position:relative;
+	border-bottom:2px solid #ececec;
+	padding: 0px 15px;
+	margin-bottom:30px;
+}
+.portfolio-section{
+	
+}
+.business-project-list .kode-financial-blog2-cols .kode-financial-blog2-caption{
+	 background-color: #f5f5f5;
+    margin-left: 16px;
+    margin-right: 0;
+    margin-top: -30px;
+    padding: 20px 11px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.business-project-list .kode-financial-blog2-cols:hover .kode-financial-blog2-caption a{
+	color:#fff;
+}
+.business-project-list .kode-financial-blog2-cols:hover .kode-financial-blog2-caption{
+	background-color: #f5f5f5;
+}
+.kode-financial-blog2-cols .kode-financial-blog2-caption{
+    margin: -80px 17px 0px;
+    background-color: #f5f5f5;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    padding: 20px 11px;
+}
+.kode-financial-blog2-cols:before{
+	position:absolute;
+	left:0px;
+	bottom:-2px;
+	content:"";
+	border-bottom:2px solid #ececec;
+	z-index:999;
+	width:0%;
+	opacity:0;
+}
+.kode-financial-blog2-cols:hover:before {
+	width:100%;
+	opacity:1;
+}
+.kode-financial-blog2-cols:hover .kode-financial-blog2-caption h4,
+.kode-financial-blog2-cols:hover .kode-financial-blog2-caption p,
+.kode-financial-blog2-cols:hover .kode-financial-blog2-caption > a{
+
+}
+.kode-financial-blog2-caption h4{
+	font-weight:bold;
+	font-size: 22px;
+	color:#333333;
+	text-transform:capitalize;
+	margin-bottom:10px;
+}
+.kode-financial-blog2-caption p{
+	margin-bottom:40px;
+	color:#666666;
+}
+.kode-financial-blog2-caption > a{
+	 background-color: #ececec;
+    bottom: -16px;
+    color: #999999;
+    display: inline-block;
+    height: 38px;
+    left: 0;
+    line-height: 39px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 113px;
+    z-index: 9999;
+}
+/*
+	===============================================
+			financial team simple section
+	===============================================
+*/
+.kode-finacial-team.in-aboutus{
+	padding: 70px 0px;
+}
+.kode-finacial-team{
+
+}
+.simple-team-sec .kode-team-mumbersh2-sc{
+	margin:0px;
+}
+.simple-team-sec .kode-finacial-teams-section{
+	margin:0px;
+}
+.kode-finacial-teams-cols,
+.kode-team-home2-cols,
+{
+	
+}
+/*
+	===============================================
+			Financial Services Leftside
+	===============================================
+*/
+/*
+	=======*SERVICES PAGE PART 1 LEFTSIDE*==========
+*/
+.kode-mein-services,
+.tabs-services ul,
+.tabs-services{
+	float:left;
+	width:100%;
+}
+.kode-mein-services .col-md-4.col-sm-4{
+}
+
+.tabs-services{
+	margin-bottom:30px;
+}
+.tabs-services ul{
+	border:1px solid #e2e2e2;
+	padding-left: 0px;
+	margin: 0px;
+}
+.tabs-services ul li{
+	margin-bottom: 0px;
+}
+.kode-sidebar .tabs-services ul li a{
+	display:inline-block;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#666;
+	position:relative;
+	width:100%;
+	border-bottom:1px solid #e2e2e2;
+	padding:16px 20px;
+	transform:rotateY(0deg) translate(0px);
+}
+.kode-sidebar .tabs-services ul li a:before{
+	position:absolute;
+	top:14px;
+	right:26px;
+	content:"\f105";
+	font-family:fontawesome;
+	font-size:16px;
+	color:#747474;
+}
+.kode-sidebar .tabs-services ul li a:after{
+	border-color: #1a9ded transparent transparent;
+    border-style: solid;
+    border-width: 11px 0px 0 0;
+    bottom: -11px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+	opacity:0;
+}
+.tabs-services ul li:hover a:before{
+	color:#fff;
+}
+.tabs-services ul li:last-child a{
+	border-bottom:none;
+}
+.tabs-services ul li:hover a{
+	color:#fff;
+	transform:rotateY(0deg) translate(10px);
+}
+.tabs-services ul li:hover a:after{
+	 border-width: 11px 11px 0 0;
+	opacity:1;
+}
+/* Kode */
+/*
+	===============================================
+			Financial Appointment form
+	===============================================
+*/
+.kode-Appointment-form,
+.appointment-heading,
+.kode-dummitext,
+.kode-Appointment-form form,
+.kode-Appointment-form button,
+.kode-Appointment-form p span textarea,
+.tabs-services{
+	float:left;
+	width:100%;
+}
+.kode-Appointment-form{
+	
+}
+.appointment-heading h6{
+	display:inline-block;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:16px 0px 15px;
+	text-transform:uppercase;
+	line-height:21px;
+	width:100%;
+	float: left;
+}
+.appointment-heading h6 span{
+	font-size:14px;
+	display:inline-block;
+	
+}
+.kode-Appointment-form form{
+	padding:30px 20px 0px;
+	border:1px solid #e2e2e2;
+}
+.kode-dummitext,
+.kode-dummitext span input{
+	position:relative;
+}
+.kode-dummitext span input{
+	height:40px;
+	font-size: 14px;
+	height: 39px;
+	padding:0px 10px;
+}
+.kode-dummitext span input,
+.kode-Appointment-form p span textarea{
+	width:100%;
+	border:1px solid #e2e2e2;
+	margin-bottom:20px;
+}
+.kode-dummitext i{
+	position: absolute;
+    right: 20px;
+    top: 13px;
+}
+.kode-dummitext span input, 
+.kode-Appointment-form p span textarea {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.kode-Appointment-form p span textarea{
+	resize:none;
+	height:auto;
+	padding: 4px 10px;
+}
+.kode-Appointment-form p .wpcf7-submit{
+	padding:18px;
+	background-color:#666666;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom: 0px;
+}
+.kode-Appointment-form p{
+	margin-bottom: 0px;
+}
+.kode-Appointment-form p input{
+	margin-bottom: 0px;
+}
+.kode-Appointment-form .div.wpcf7 img.ajax-loader{
+	display: none;
+}
+/*
+	===============================================
+			Financial Download paket
+	===============================================
+*/
+.kode-financial-pkg,
+.kode-download-heading,
+.kode-download-paket,
+.kode-financial-pkg .kode-financial-title,
+.kode-download-paket ul{
+	float:left;
+	width:100%;
+}
+.kode-download-paket ul{
+	padding-left: 0px;
+	margin: 0px;
+}
+.kode-financial-pkg .kode-financial-title{
+	text-align:left;
+	padding:0px;
+	padding-bottom:11px;
+}
+.kode-financial-pkg .kode-financial-title h4{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#333;
+}
+.kode-item.kd-accordion {
+    float: left;
+    min-height: 340px;
+    overflow: hidden;
+}
+.kode-widget .kode-financial-pkg p{
+	color:#666;
+	margin-bottom:29px;
+}
+
+.kode-widget .kode-download-paket ul li{
+	margin-bottom:10px;
+}
+
+.kode-widget .kode-download-paket ul li a{
+	display:inline-block;
+	position:relative;
+	width:100%;
+	padding:20px 12px 19px;
+	color:#fff;
+	font-weight:bold;
+}
+.kode-widget .kode-download-paket ul li a i{
+	position:absolute;
+	right:10px;
+	color:#fff;
+	top:12px;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	background-color:#fff;
+	text-align:center;
+	line-height:41px;
+}
+/*
+	=======*SERVICES PAGE PART 2 RIGHTSIDE*==========
+*/
+/*
+	===============================================
+		Financial services rightside section
+	===============================================
+*/
+.kode-service-rt-section,
+.kode-service-rt-section figure,
+.kode-service-page-rt-caption,
+.kode-checked{
+	float:left;
+	width:100%;
+}
+.kode-checked ul{
+	padding-left: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.kode-service-rt-section img{
+	width:100%;
+}
+.kode-service-rt-section figure{
+	margin-bottom:37px;
+}
+.kode-service-page-rt-caption h3{
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:18px;
+}
+.kode-service-page-rt-caption p{
+	margin-bottom:28px;
+	color:#999999;
+}
+.kode-checked{
+	margin-bottom:23px;
+}
+.kode-checked,
+.kode-checked ul li{
+	position:relative;
+}
+.kode-checked ul li{
+	padding-left:24px;
+	padding-right:20px;
+	padding-bottom:12px;
+}
+.kode-checked ul li:before{
+	position:absolute;
+	content:"\f046";
+	font-family:fontawesome;
+	font-size:16px;
+	top:0px;
+	left:0px;
+}
+.kode-service-page-rt-caption.paragrph p{
+	border-bottom:1px solid #eeeeee;
+	padding-bottom:38px;
+	margin-bottom:35px;
+}
+/*
+	===============================================
+		financial Service Other/investment
+	===============================================
+*/
+.kode-service-other{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #eeeeee;
+	padding-bottom:39px;
+	/*margin-bottom:50px;*/
+}
+.kode-service-investment h5{
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:22px;
+}
+.kode-service-investment{
+	float:left;
+	width:60%;
+	padding-right:45px;
+}
+.kode-invester-picture{
+	float:right;
+	width:40%;
+}
+.kode-service-investment p{
+	margin-bottom:20px;
+}
+.kode-invester-picture figure{
+	float:left;
+	width:100%;
+	border:1px solid #eeeeee;
+}
+.kode-invester-picture figure img{
+	width:100%;
+}
+.kode-Invest-Business-cols:hover{
+	border-color:transparent;
+}
+.kode-Invest-Business-cols:hover > span{
+	background-color:#fff;
+}
+.kode-Invest-Business-cols:hover h6 a,
+.kode-Invest-Business-cols:hover p{
+	color:#fff;
+}
+.kode-Invest-Business-cols{
+	float:left;
+	width:100%;
+	padding:16px 33px;
+	border:1px solid #e8e8e8;
+	margin-bottom:30px;
+}
+.kode-Invest-Business-cols > span{
+	 background-color: #666666;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 35px;
+    height: 94px;
+    line-height: 92px;
+    margin-right: 20px;
+    text-align: center;
+    width: 94px;
+}
+.kode-Invest-Business-cols h6 a{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#666666;
+	font-size: 16px;
+	display: inline-block;
+	padding:14px 0 0;
+	margin-bottom:4px;
+}
+.kode-Invest-Business-cols p{
+	color:#999999;
+}
+/*
+	===============================================
+		financial Contact 2 Services
+	===============================================
+*/
+.kode-contect-services2-cols,
+.kode-contect-services2-cols ul,
+.contact-services-main{
+	float:left;
+	width:100%;
+}
+.kode-contect-services2-cols{
+	border-bottom:1px solid #e8e8e8;
+	margin-bottom:50px;
+}
+.kode-contect-services2-cols figure img{
+	width:100%;
+}
+.kode-contect-services2-cols ul{
+	padding-left:0px;
+	margin: 0px;
+	list-style: none;
+}
+.kode-contect-services2-cols:hover{
+	border-bottom:1px solid;
+}
+.kode-contect-services2-cols h5{
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:22px;
+}
+.kode-contect-services2-cols figure{
+	margin-bottom:26px;
+	position:relative;
+	border:10px solid transparent;
+}
+.kode-contect-services2-cols figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.40);
+	opacity:0;
+}
+.kode-contect-services2-cols:hover figure:before{
+	opacity:1;
+}
+.kode-contect-services2-cols figure figcaption{
+	position:absolute;
+	bottom:0px;
+	top:50%;
+	margin:-25px auto;
+	left:0px;
+	right:0px;
+	text-align:center;
+	z-index:9999;
+}
+.kode-contect-services2-cols figure figcaption a{
+	display:inline-block;
+	width:45px;
+	height:45px;
+	background-color:#fff;
+	color:#666;
+	text-align:center;
+	line-height:45px;
+	margin-right:100px;
+	opacity:0;
+}
+.kode-contect-services2-cols figure figcaption a:hover{
+	color:#fff;
+}
+.kode-contect-services2-cols:hover figure figcaption a{
+	margin-right:5px;
+	opacity:1;
+}
+.kode-contect-services2-cols:hover h5,
+.kode-contect-services2-cols:hover ul li:before{
+	opacity:1;
+}
+.kode-contect-services2-cols p{
+	color:#666666;
+	margin-bottom:20px;
+}
+.kode-contect-services2-cols ul{
+	margin-bottom:19px;
+}
+.kode-contect-services2-cols ul li p{
+	color:#666666;
+	margin-bottom:7px;
+}
+.kode-contect-services2-cols ul li{
+	position:relative;
+	padding-left:20px;
+}
+.kode-contect-services2-cols ul li:before{
+	position:absolute;
+	content:"\f04b";
+	font-family:fontawesome;
+	top:3px;
+	left:0px;
+	color:#666;
+	font-size:9px;
+}
+.kode-contect-services2-cols > a{
+	display:inline-block;
+	padding:6px 20px;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	text-transform:uppercase;
+	text-align:left;
+	opacity:0;
+}
+.kode-contect-services2-cols:hover > a{
+	opacity:1;
+
+}
+.kode-contect-services2-cols:hover > a:hover{
+	color:#fff;
+}
+/*
+	===============================================
+		Financial Case Left section
+	===============================================
+*/
+.kode-case-lt-section,
+.kode-case-lt-section figure,
+.kode-case-rt-section,
+.kode-case-rt-section ul{
+	float:left;
+	width:100%;
+}
+.kode-case-lt-section{
+	position: relative;
+	z-index: 9999;
+}
+.kode-case-lt-section h2{
+	font-weight:bold;
+	color:#2d2c2f;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+.kode-case-lt-section p{
+	color:#999999;
+}
+.kode-case-rt-section ul li{
+	display:inline-block;
+	text-transform:uppercase;
+	color:#666666;
+	border:1px solid #e7e7e7;
+	padding:12px 18px;
+	width:100%;
+	position:relative;
+	margin-bottom:12px;
+}
+.kode-case-Studies-mein-section .kode-case-rt-section ul li small a,
+.kode-case-rt-section ul li a{
+	display:inline-block;
+	color:#666666;
+}
+.kode-case-rt-section ul li small:after{
+	position:absolute;
+	content:":";
+	top:-4px;
+	left:14px;
+	font-weight:bold;
+}
+.kode-case-rt-section ul{
+	padding-left: 0px;
+	margin: 0px;
+	margin-bottom: 68px;
+}
+.kode-case-rt-section ul li i{
+	padding-right:14px;
+	color:#666666;
+}
+.kode-case-rt-section ul li small{
+	font-size:15px;
+	padding-left:38px;
+	color:#999999;
+	position:relative;
+}
+.kode-case-bottom,
+.kode-case-bottom figure{
+	float:left;
+	width:100%;
+}
+.kode-case-bottom figure:last-of-type{
+	margin-bottom: 0px;
+}
+.kode-case-bottom figure{
+	margin-bottom:30px;
+}
+.kode-case-bottom figure img{
+	width:100%;
+}
+/*
+	===============================================
+		financial Graph section
+	===============================================
+*/
+.kode-graph-lt,
+.kode-case-Studies-mein-section,
+.kode-graph,
+.kode-graph figure,
+.kode-graph-services-case{
+	float:left;
+	width:100%;
+}
+.kode-graph-lt{
+}
+.kode-graph #curve_chart{
+	float: left;
+    height: 460px;
+    margin-top: -50px;
+    width: 100%;
+}
+.kode-case-Studies-mein-section,
+.kode-graph-services-case{
+	margin-bottom:20px !important;
+	border-bottom:1px solid #e1e1e1;
+	padding-bottom: 30px;
+}
+.kode-graph-lt figure{
+	float:left;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+.kode-graph-lt figure img{
+	width:100%;
+}
+.kode-graph-lt-caption h4{
+	font-weight:bold;
+	color:#2d2c2f;
+	text-transform:uppercase;
+	margin-bottom:13px;
+}
+.kode-graph-lt-caption p{
+	
+}
+.kode-graph figure{
+	width:560px;
+}
+.kode-graph-services-case{
+	margin-bottom:0px;
+}
+/*
+	===============================================
+		Financial project case page 1
+	===============================================
+*/
+.kode-case-studio-3,
+.kode-case-3-cols,
+.kode-case3-caption{
+	float:left;
+	width:100%;
+}
+.kode-case-3-cols,
+.kode-case-3-cols figure{
+	position:relative;
+	overflow: hidden;
+	z-index: 2;
+}
+.kode-case-3-cols img{
+	width:100%;
+	transform: scale(1) rotate(0deg);
+}
+.kode-case-3-cols:hover img{
+	transform: scale(1.4) rotate(10deg);
+}
+.kode-case-3-cols{
+	/*margin-bottom:50px;*/
+	margin-bottom: 30px;
+}
+.button-small a, .kode-financial-error404 ul li a{
+	background-color: #000;
+}
+.kode-case-3-cols figure:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	opacity: 0;
+	bottom:0px;
+}
+.kode-case-3-cols:hover figure:before{
+	background: rgba(26, 157, 237, 0.6);
+	opacity: 1;
+}
+.kode-case3-caption{
+    left: 0;
+    min-width: auto;
+    padding: 0px 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -77px;
+    right: 0;
+    width: 100%;
+    bottom:0px;
+    z-index: 9;
+    opacity: 0;
+}
+.kode-case3-caption:before{
+	position:absolute;
+	content:"";
+	top:-73px;
+	left:0px;
+	border-top:2px solid #fff;
+	width:30px;
+	border-left:2px solid #fff;
+	height:30px;
+}
+.kode-case3-caption:after{
+	position:absolute;
+	content:"";
+	bottom:0px;
+	right:0px;
+	border-bottom:2px solid #fff;
+	width:30px;
+	border-right:2px solid #fff;
+	height:30px;
+}
+.kode-case-3-cols:hover .kode-case3-caption{	
+	opacity: 1;
+}
+.kode-case-3-cols:hover .kode-case3-caption:before,
+.kode-case-3-cols:hover .kode-case3-caption:after{
+	opacity:0;
+}
+.kode-case-3-cols:hover .kode-case3-caption p{
+}
+.kode-case-3-cols .kode-case3-caption a:hover{
+	background: #ccc;
+	color:#fff;
+}
+.kode-case3-caption span{
+	font-size:50px;
+	color:#fff;
+	display: none;
+	margin-bottom:12px;
+}
+.kode-case3-caption h4{
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:12px;
+}
+.kode-case3-caption p{
+	color: #fff;
+    margin-bottom: 19px;
+    width: 100%;
+}
+.kode-case3-caption a{
+	font-size:14px;
+	display:inline-block;
+	position:relative;
+	padding:8px 20px 7px;
+	color:#fff;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.5);
+}
+.kode-case3-caption a i{
+	color:#fff;
+	text-align:center;
+	margin-left:10px;
+	font-size: 17px;
+}
+/*
+	===============================================
+			Financial project case page 4
+			Financial Mesnorey Gallery
+	===============================================
+*/
+.kode-case-studies-blog-4,
+.kode-case-studies-blog-cols-4,
+.kode-mesnorey-gallery,
+.kode-mesnorey-gallery ul{
+	float:left;
+	width:100%;
+}
+.kode-mesnorey-gallery{
+	text-align:center;
+}
+.kode-mesnorey-gallery ul li{
+	display:inline-block;
+	padding-right:22px;
+}
+.kode-mesnorey-gallery ul li:last-child{
+	padding:0px;
+}
+.kode-finacial-project-cols img{
+	width:100%;
+}
+.kode-mesnorey-gallery ul li button{
+	background-color:transparent;
+	font-weight:bold;
+	font-size:14px;
+	text-transform:capitalize;
+}
+.kode-mesnorey-gallery ul li button b{
+	float:left;
+	width:100%;
+	line-height:11px;
+}
+.kode-mesnorey-gallery ul{
+	margin-bottom:34px;
+}
+.kode-mesnorey-gallery ul li .kode-financial-title{
+	padding:0px;
+}
+.kode-mesnorey-gallery ul li.active span,
+.kode-mesnorey-gallery ul li:hover span{
+	opacity:1;
+}
+.kode-mesnorey-gallery ul li  span{
+	opacity:0;
+}
+.kode-mesnorey-gallery ul li .kode-financial-title span{
+	line-height:0px;
+	margin-top:-6px;
+}
+.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols figure{
+	border:0px;
+	border-width:0px;
+	outline:10px solid transparent;
+	outline-offset:-10px;
+}
+.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols{
+	margin-bottom:50px;
+}
+.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols figure img{
+	width:100%;
+}
+.kode-financial-blog2-cols:hover{
+	background-color:#fff;
+}
+.kode-financial-blog2-cols:hover .kode-financial-blog2-caption p{
+	color:#999999;
+}
+.kode-financial-blog2-cols:hover .kode-financial-blog2-caption{
+	
+}
+/*
+	===============================================
+		Financial project case page 5
+	===============================================
+*/
+.kode-case-studies-blog-5 .kode-finacial-project-cols,
+.kode-case-studies-blog-5,
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure
+{
+	float:left;
+	width:100%;
+}
+.kode-case-studies-blog-5,
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure{
+	position:relative;
+}
+.kode-case-studies-blog-5 .col-md-3{
+	width:24.98%;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:9999;
+	background-color:rgba(0,0,0,0.58);
+	opacity: 0;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover figure:before{
+	background-color:rgba(0,0,0,0.58);
+	opacity: 1;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover figure figcaption{
+	transform:translateX(0px) translateY(0px);
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols{
+	/*margin-top: -55px;*/
+	padding-top: 0;
+	overflow:hidden;
+	border:5px solid transparent;
+	/*transform:translateY(16px) translateX(-56px);*/
+	margin-bottom:30px;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure figcaption{
+	opacity:1;
+	z-index:99999;
+	right:6px;
+	top:-100px;
+	opacity:0;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover figure figcaption{
+	opacity:1;
+	top:9px;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure figcaption a{
+	width:39px;
+	height:39px;
+	line-height:15px;
+	color:#fff;
+}
+.kode-finacial-project-cols figure figcaption a:hover{
+	color:#fff;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption h6,
+.kode-financial-blog-5-heading h6{
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:3px;
+}
+.kode-finacial-project-caption > p{
+	line-height: normal;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure{
+	overflow:hidden;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure{
+	
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption{
+	left:0px;
+	bottom:0px;
+	padding:17px 15px 13px;
+	background-color:#f5f5f5;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover .kode-finacial-project-caption{
+	background-color:transparent;
+	bottom:24px;
+	padding:0px 10px;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover .kode-finacial-project-caption h6{
+	color:#fff;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover .kode-finacial-project-caption p{
+	opacity:1;
+	margin:0px;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption p{
+	opacity:0;
+	margin:-22px 0;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols:hover .kode-finacial-project-caption p{
+	color:#fff;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption h6{
+	color:#333333;
+}
+.kode-case-studies-blog-5 .kode-finacial-project-caption{
+	opacity:1;
+	z-index:99999;
+}
+/*
+	===============================================
+		Financial Services Blog 1
+	===============================================
+*/
+.kode-financial-sm-slider{
+	float:left;
+	width:100%;
+	margin-bottom:30px;	
+}
+.simple-figure{
+	float: left;
+	width:100%;
+	margin-bottom:0px;
+	position: relative;
+	margin-bottom: 15px;
+}
+.simple-figure figure{
+	margin: 0px;
+}
+.section-blog01{
+}
+.kode-blog-grid-small,
+.kode-our-expert-cols > figure{
+	float:left;
+	width:100%;
+}
+.kode-blog-grid-small{
+	margin-bottom: 30px;
+}
+.kode-blog-grid-small-ux .kode-our-expert-cols .kode-blog-thumbnail{
+	margin-bottom: 24px;
+}
+.kode-our-expert-cols > figure img{
+	width:100%;	
+}
+.kode-our-expert-cols.blog-page01 figure{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-bottom:15px;
+}
+.kode-our-expert-cols.blog-page01 figure:before{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	background:rgba(0,0,0,0.8);
+	opacity:0;
+	outline: 12px solid ;
+    outline-offset: -10px;
+}
+.kode-our-expert-cols.blog-page01:hover figure:before{
+	opacity:1;
+	outline-offset:0px;
+}
+.simple-figure-caption{
+	left: 0;
+    margin: -25px auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    letter-spacing:40px;
+    text-align: center;
+    top: 50%;
+}
+.kode-our-expert-cols .simple-figure-caption a:hover{
+	color:#fff;
+}
+.kode-our-expert-cols:hover .simple-figure-caption,
+.kode-financial-blog2-cols:hover .simple-figure-caption{
+	opacity:1;
+	letter-spacing:0px;
+}
+.kode-our-expert-cols .simple-figure-caption a,
+.kode-our-expert-cols.blog-page01 .simple-figure-caption a{
+	display:inline-block;
+	float: none;
+}
+.kode-our-expert-cols.blog-page01,
+.kode-our-expert-cols.blog-page01 .kode-caption-expert{
+	width:100%;
+	float:left;
+}
+.kode-our-expert-cols.blog-page01 .kode-caption-expert{
+	padding:0px 0px 24px;
+	border-bottom:1px solid #d1d1d1;
+	margin-bottom:24px;
+	position:relative;
+}
+.kode-our-expert-cols.blog-page01 .kode-caption-expert p{
+	margin:0px 0px 10px;
+	padding:0px;
+	border:none;
+}
+.kode-our-expert-cols.blog-page01 .kode-caption-expert a{
+	font-weight:bold;
+	color:#666666;
+}
+.kode-our-expert-cols.blog-page01 .kode-caption-expert a i{
+	padding-left:15px;	
+	color:#a9a9a9;
+}
+/*
+	===============================================
+		Financial services Blog 2
+	===============================================
+*/
+.kode-financial-service-blog-2{
+	float:left;
+	width:100%;
+}
+.kode-financial-service-blog-2 .kode_financial_business_fig .kode_financial_business_caption > p{
+	letter-spacing:-0.2px;
+	text-align:center;
+	padding:0px 20px;
+}
+/*
+	===============================================
+		Financial Services Blog 3
+	===============================================
+*/
+.kode-financial-service-blog-3{
+	float:left;
+	width:100%;
+}
+.kode-bussiness-caption-gallery{
+	text-align:center;
+}
+.kode-bussiness-caption-gallery{
+	bottom: -104px;
+    left: 0;
+    position: absolute;
+}
+.kode-bussiness-caption-gallery h5{
+	color:#666;
+	margin-bottom:12px;
+}
+.kode-bussiness-caption-gallery p{
+	margin-bottom:29px;
+	opacity:0;
+}
+/*
+	===============================================
+		Financial Blog
+	===============================================
+*/
+.kode-our-expert.section-blog02,
+.kode-financial-blog2-cols,
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols ul{
+	float:left;
+	width:100%;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols{
+	padding-bottom:30px;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols figure{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols figure:before{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	background-color:rgba(0,0,0,0.8);	
+	opacity:0;
+	transform:scale(0);
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover figure:before{
+	opacity:1;
+	transform:scale(1);
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols figure figcaption{
+	 left: 0;
+    margin: -25px auto 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0%;	
+	opacity:0;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover figure figcaption{
+	opacity:1;
+	top:50%;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols figure figcaption a{
+	display:inline-block;
+	position:relative;
+	color:#fff;
+}
+.kode-financial-blog2-caption{
+	padding-left: 0px;
+	margin: 0px;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-caption h4{
+	margin-bottom:19px;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-caption{
+	padding:28px 11px 0px;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols ul{
+	margin-bottom:20px;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols ul li{
+	display:inline-block;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols ul li a{
+	display:inline-block;
+	color:#333333;
+	text-transform:capitalize;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols ul li i{
+	padding:5px 10px;
+	color:#999999;
+	float: left;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover ul li,
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover ul li a,
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover p{
+	color:#666;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols p{
+	margin:0px 0px 26px;
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols .kode-financial-blog2-caption > a{
+	margin:0px;
+	position:relative;
+	bottom:0px;
+	width:153px;
+	height: 42px;
+    line-height: 43px;
+	background:#333333;
+	color:#fff;
+	margin-bottom: 0px;
+}
+.kode-financial-blog2-caption > a:hover,
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover .kode-financial-blog2-caption > a{
+	color:#fff;	
+}
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover .kode-financial-blog2-caption h4{
+	
+}
+/*
+	===============================================
+		Financial Blog 4
+	===============================================
+*/
+.kode-financial-service-blog-4 .kode_financial_business_fig{
+	padding:11px;
+}
+.kode-financial-service-blog-4 .kode_financial_business_caption h5{
+	
+}
+.kode-financial-service-blog-4 .kode_financial_business_fig .kode_financial_business_caption{
+	 margin-bottom: -137px;
+		padding:20px 0px;
+}
+.kode-financial-service-blog-4 .kode_financial_business_fig:hover .kode_financial_business_caption h5{
+		font-size:24px;	
+}
+/*
+	===============================================
+		Financial contact us
+	===============================================
+*/
+.kode-contect-us,
+.kode-contect-us-services,
+.kode-drop-min-form,
+.kode-contect-form,
+.kode-contect-button,
+.kode-form-textaera,
+.kode-entry-mail{
+	float:left;
+	width:100%;
+}
+.margin-contact-us {
+    margin-top: -50px;
+}
+.kode-contect-us iframe{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	position:relative;
+}
+.kode-contect-us figure figcaption{
+	left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 200px;
+    text-align: center;
+    top: 108px;
+}
+.kode-contect-us figure figcaption a{
+	width:38px;
+	height:38px;
+	display:inline-block;
+	border:2px solid;
+	border-radius:100%;
+	background-color:#fff;
+	position:relative;
+}
+.kode-contect-us figure figcaption a:before{
+	position:absolute;
+	content:"";
+	top:14px;
+	left:0px;
+	right:0px;
+	border-radius:100%;
+	width:5px;
+	height:5px;
+	text-align:center;
+	margin:0 auto;
+	line-height:50px;
+}
+.kode-contect-address{
+	width:415px;
+	height:207px;
+	text-align:center;
+	border-radius:310px 310px 0 0;
+	padding:50px 0px;
+	float:right;
+	margin-top:-207px;
+	position:relative;
+}
+.kode-drop-line-form .kode-financial-title{
+	padding:0px 0px 35px;
+}
+.kode-drop-line-form .kode-financial-title h6{
+	margin-bottom:14px;
+}
+.kode-contect-us-services{
+	padding: 10px 0px 0px;
+}
+.kode-contect-service-cols{
+	text-align:center;
+	position:relative;
+	z-index:99999;
+	border-left:10px solid #fff;
+	padding:45px 0;
+	background-color:#ebebeb;
+	margin:0 15px 0;
+}
+.border-none{
+	border:none;
+}
+.kode-contect-service-cols:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url(https://yettifinancial.com/wp-content/themes/business-hub/images/contect-service-blog-img01.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	z-index:-1;
+	opacity:0;
+}
+.kode-contect-service-cols:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(26,157,237,0.8);
+	z-index:-1;
+	opacity:0;
+}
+.kode-contect-service-cols:hover:after,
+.kode-contect-service-cols:hover:before{
+	opacity:1;
+}
+.kode-contect-service-cols .kode-financial-title{
+	padding:0 0 12px;
+	margin: 10px auto 17px;
+}
+.kode-contect-service-cols:hover a,
+.kode-contect-service-cols:hover h4,
+.kode-contect-service-cols:hover h6{
+	color:#fff;
+	border-color:#fff;
+}
+.kode-contect-service-cols:hover span{
+	background-color:#fff;
+}
+.kode-contect-service-cols a{
+	font-size:33px;
+	border:1px solid #cbcbcb;
+	width:82px;
+	height:82px;
+	border-radius:100%;
+	color:#676666;
+	display:inline-block;
+	text-align:center;
+	line-height:82px;
+	color:#676666;
+	margin-bottom:17px;
+}
+.kode-contect-service-cols:hover a{
+	background:#fff;
+}
+.kode-contect-address a{
+	margin-bottom:18px;
+	display:inline-block;
+	color:#fff;
+}
+.kode-contect-service-cols h4{
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.kode-contect-address h5{
+	color:#fff;
+	line-height:24px;
+	color:#fff;
+}
+.kode-contect-service-cols h6{
+	color:#666666;
+	line-height: normal;
+}
+.kode-contect-service-cols h6 b{
+	padding-left:22px;
+	font-weight:normal;
+}
+.kode-contect-service-cols{
+	margin-bottom: 20px;
+}
+.kode-contect-form{
+
+}
+.kode-contect-form span input{
+	height:49px;
+	padding:1px 20px 0px;	
+}
+.kode-contect-form span input,
+.kode-form-textaera span textarea{
+	float:left;
+	width:100%;
+	border:1px solid #d8d8d8;
+	resize:none;
+	font-style:italic;
+	font-size:14px;
+}
+.kode-form-textaera span textarea{
+	height:306px;
+	padding:30px 20px;
+}
+.kode-contect-form,
+.kode-form-textaera{
+	margin-bottom:40px;
+}
+.kode-contect-button{
+	text-align:center;
+}
+.kode-contect-button input{
+	display:inline-block;
+	width:280px;
+	height:47px;
+	color:#fff;
+	line-height:47px;
+	font-weight:bold;
+	text-align:center;
+	background-color: #000;
+}
+.bottom2-footer{
+	padding:46px 0 50px;	
+}
+.bottom2-footer,
+.bottom2-footer .kode-entery-subcribe{
+	float:left;
+	width:100%;
+}
+.bottom2-footer .kode-entery-subcribe h3{
+	color:#fff;
+	font-weight:bold;	
+	font-style:italic;
+	padding:19px 0px 0px;
+}
+.kode-entry-mail form button{
+	font-size: 18px;
+    height: 49px;
+    line-height: 49px;
+    width: 186px;
+}
+/*
+	===============================================
+		financial Blog detail
+	===============================================
+*/
+.kode-admin-posted{
+	float: left;
+	width:100%;
+}
+
+.kode-admin-posted > figure{
+    float: left;
+    margin-bottom: 14px;
+    padding: 16px 0px 0px;
+    margin-right: 16px;
+}
+.kode-admin-posted figure img{
+	border-radius: 100%;
+	 width: 50px;
+	 height: 50px;
+}
+.kode-admin-post-caption{
+	padding:16px 0px;
+	float: left;	
+}
+.kode-admin-post-caption small{
+	font-size:14px;
+	color:#666666;
+}
+.kode-admin-post-caption small b{
+	color:#333333;
+}
+.kode-blog-heading,
+.kode-blog-post-img,
+.kode-blockqode{
+	float:left;
+	width:100%;
+}
+.kode-blog-post-img{
+	margin-bottom:26px;	
+}
+.kode-blog-heading h3{
+	font-weight:bold;
+	color:#333333;
+	text-transform:uppercase;
+	display: inline-block;	
+	position: relative;
+	z-index: 9999999;	
+	margin: 0 0 31px;
+}
+.kode-admin-post-caption small a{
+	display:inline-block;
+	font-size:14px;
+	color:#62b3f1;
+	text-transform:capitalize;
+}
+.kode-blog-post-img figure{
+	margin-bottom:34px;
+}
+.blog-info span {
+   color: #333;
+    display: inline-block;
+    font-size: 20px;
+    margin: -1px 9px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    transform: translateX(-4px) scale(1.1);
+    width: 5px;
+}
+
+/*
+	===============================================
+		financial  Blog/comments box
+	===============================================
+*/
+.kode-blog-sm-columns > figure,
+blockquote,
+.kode-blog-sm-cols-caps,
+.kode-blog-main-cols,
+.kode-tags-cols,
+.financial-comment-sender{
+	float:left;
+	width:100%;	
+}
+.kode-blog-main-cols figure img{
+	width:100%;
+}
+blockquote,
+blockquote p,
+.kode-blog-sm-cols-caps{
+	position:relative;
+}
+blockquote p,
+.kode-blog-post-img blockquote p{
+	font-style:italic;
+	font-weight:600;
+	font-size:17px;
+	color:#999999;	
+	line-height:24px;
+}
+blockquote,
+.kode-blog-post-img blockquote{
+	padding:40px 64px !important;
+	background:#f9f9f9;
+	text-align:center;
+	border-left:2px solid;
+}
+blockquote p:before,
+.kode-blog-post-img blockquote p:before{
+	position:absolute;
+	content:"\f10d";
+	font-family:fontawesome;
+	font-size:60px;
+	top:-6px;
+	left:-40px;
+	color:rgba(0,0,0,0.1);
+}
+.kode-blog-main-cols{
+	padding:40px 0px 36px;	
+}
+.kode-blog-sm-cols-caps p{
+	}
+.kode-blog-sm-cols-caps{
+	margin-bottom:38px;
+}
+.kode-tags-cols{
+	padding:15px 0 5px;
+	border-top:1px solid #e9e9e9;
+	border-bottom:1px solid #e9e9e9;
+	margin-bottom:30px;
+}
+.tags-parent i,
+.kode-tags-cols h6 a i{
+	font-size:13px;
+	color:#333333;
+	padding-right:9px;
+}
+.tags-parent,
+.tags-parent a,
+.kode-tags-cols h6,
+.kode-tags-cols h6 a{
+	 color: #333333;
+    display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0px 11px 0 0;
+}
+.kode-tags-cols h6{
+	text-align: left;
+	line-height: 35px;
+	float: left;
+}
+.tags-parent {
+    float: left;
+    line-height: 16px;
+    margin-bottom: 20px;
+    padding: 9px 0 0;
+}
+.blog-info.blog-tag {
+    float: right;
+    padding-left: 20px;
+}
+.kode-tags-cols h6 small{
+	color:#999999;
+	text-transform:uppercase;
+	display:inline-block;
+	padding-left:0px;
+	font-style:normal;
+	display: inline-block;
+	padding-top:0px;
+	margin-left: 10px;
+}
+.kode-tags-cols h6 i{
+	margin: 0 10px;
+}
+.kode-tags-cols ul {
+    float: right;
+    margin: 0;
+	width:auto;
+    padding: 0;
+}
+.financial-comment-box-caption ul li,
+.kode-tags-cols ul li{
+	display:inline-block;	
+	padding-left:6px;
+}
+.kode-pull-rt-share{
+	padding:0 0px 0px 40px;	
+}
+.financial-comment-box-caption ul li a,
+.kode-tags-cols ul li a{
+	width:35px;
+	height:35px;
+	border-radius:100%;
+	border:1px solid #000;
+	text-align:center;
+	line-height:35px;
+	color:#666666;
+	display:inline-block;
+	border:1px solid rgba(51,51,51,0.2);
+}
+.financial-comment-box-caption ul li:hover a,
+.kode-tags-cols ul li:hover a{
+	color:#fff;	
+}
+.kode-comments-box{
+	float:left;
+	width:100%;
+	background-color:#f7f9f8;
+	padding:31px 30px 26px;
+	margin-bottom:20px;
+}
+.kode-comments-box > figure{
+	float:left;
+	width:auto;
+	margin-right:12px;	
+}
+.kode-comments-box > figure img{
+	border-radius:100%;	
+}
+.comment-reply-title .financial-comment-title h3{
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:18px;
+}
+.financial-comment-sender .kode-comments-box{
+	background:transparent;
+	padding:31px 0px 26px; 
+	margin:0px;
+	border-bottom:1px solid #dbdbdb;
+}
+.financial-comment-sender .kode-comments-box small{	
+	font-size:13px;
+	display:inline-block;
+	float: left;
+	line-height: normal;
+	margin-bottom:10px;
+}
+.financial-comment-sender .kode-comments-box .kode-finance-comment-box-sec h5{
+	color:#666666;	
+	text-transform:capitalize;
+	margin-bottom:10px;
+	float: left;
+	margin-right: 10px;
+}
+.financial-comment-sender .replay-box{
+	padding:31px 0 26px 130px;
+}
+.financial-comment-sender .kode-comments-box p{
+	float: left;
+	width: 100%;
+}
+.financial-comment-sender .kode-comments-box > a{
+	width:108px;
+	height:34px;
+	background:#666666;
+	color:#fff;
+	text-align:center;
+	line-height:34px;
+	display:inline-block;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.financial-comment-sender .kode-comments-box a.comment-reply-link{
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	height: auto;
+	width: auto;
+
+}
+.kode-comments-box h5{
+	font-weight:600;
+	color:#333333;
+	text-transform:uppercase;
+	margin-bottom:12px;
+}
+.kode-comments-box p{
+	margin-bottom:12px;
+}
+.kode-comments-box ul li{
+	display:inline-block;	
+	padding-right:12px;
+}
+.kode-comments-box ul li a{
+	font-size:14px;
+	color:#666666;	
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/*
+	===============================================
+		Financial Comments Box send
+	===============================================
+*/
+.kode-replay-box-form,
+.replay-form-name,
+.replay-form-email,
+.replay-form-message{
+	float:left;
+	width:100%;	
+}
+.kode-replay-box-form{
+	padding:25px 25px 15px;	
+}
+.kode-replay-box-form input,
+.replay-form-name input,
+.replay-form-email input,
+.replay-form-message textarea,
+.kode-financial-replay-message-bottom{
+	float:left;
+	width:100%;	
+}
+
+.replay-form-name input{
+	border: 1px solid;
+    color: #666666;
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+    resize: none;
+    height:50px;
+}
+#kode-email,
+#kode-author{
+	height:50px;
+	border:1px solid #999999;
+}
+.replay-form-name input,
+.replay-form-email input{
+	height:50px;
+	margin-bottom:30px;
+	padding:2px 0px 0px 20px;
+}
+.replay-form-name{
+	margin-right: 14px;
+}
+.replay-form-name:last-of-type{
+	margin: 0px;
+}
+.replay-form-name input,
+.replay-form-email input,
+.replay-form-message textarea{
+	border:1px solid #dbdbdb;
+	position:relative;
+	resize:none;
+	font-size:15px;
+	font-style:italic;
+	color:#666666;
+}
+.replay-form-message textarea{
+	height:172px;	
+	padding:16px 0px 0px 20px;
+	margin-bottom:30px;
+}
+.replay-form-name label,
+.kode-replay-box-form i{
+	 margin-right: 30px;
+    margin-top: 17px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+.replay-form-name label{
+	left: 15px;
+	right: auto;
+}
+.replay-form-name input[type="text"]{
+	padding-left: 40px;
+}
+.kode-replay-box-form input::-moz-placeholder,
+.replay-form-message textarea::-moz-placeholder{
+	color:#666666;
+}
+.form-submit{
+	float: left;
+}
+
+.comment-form .form-submit input{
+	width:183px;
+	height:40px;
+	color:#fff;
+	text-align:center;
+	line-height:10px;
+	display:inline-block;
+	font-weight:bold;
+	background-color: #333;
+}
+.kode-financial-rightside,
+.kode-form-section,
+.kode-financial-inner-page-title{
+	float:left;
+	width:100%;	
+}
+.kode-financial-inner-page-title{
+	padding:0px 0px 15px;
+	text-align:left;	
+}
+.kode-form-section{
+	
+}
+.widget-search #kode-searchform input{
+	margin-bottom: 0px;
+	height: 40px;
+}
+.widget-search #kode-searchform button{
+	width:35px;
+	height: 35px;
+}
+.kode-financial-inner-page-title h5{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:7px;
+}
+.kode-financial-inner-page-title form input{
+	background:transparent;	
+}
+/*
+	===============================================
+		Financial Search 02
+	===============================================
+*/
+.kode-search-02 input,
+.kode-search-02,
+.kode-search-blog,
+.blog-list-items,
+.kode-rs-blog-recent-posts{
+	float:left;
+	width:100%;
+}
+#kode-searchform,
+.kode-search-02{
+	position:relative;
+	margin-bottom:0px;
+}
+#kode-searchform input,
+.kode-search-02 form input{
+	border:1px solid #e8e8e8;	
+    float: left;
+    height: 52px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-transform: capitalize;
+}
+#kode-searchform input{
+	padding-left: 15px;
+}
+#kode-searchform input::-moz-placeholder,
+.kode-search-02 input::-moz-placeholder{
+	text-transform:uppercase;
+}
+#kode-searchform button,
+.kode-search-02 button{
+	background: #38b4ff none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    height: 46px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 3px;
+    width: 46px;
+}
+.kode-right-sidebar .kode-financial-title{
+	width:100%;
+	text-align: left;
+	margin-top: 0px;
+}
+.kode-right-sidebar .kode-financial-title span{
+	margin: 0 2px;
+}
+.widget_categories ul,
+.widget_categories{
+	float:left;
+	width:100%;	
+}
+.widget_categories ul ul{
+	padding-left: 10px;
+}
+#categories-2 ul li a{
+	color:#666666;
+}
+.social-note-list,
+.kode-rs-blog-recent-posts
+{
+	margin-bottom:48px;
+}
+.kode-filker-gallery{
+	margin-bottom:43px;	
+}
+.kode-financial-rightside .margin-left-dots{
+	margin-left:4px;
+}
+.widget_categories ul li{
+	position:relative;
+	float:left;
+	width:100%;	
+	padding-left:15px;	
+	border-top:1px solid #e9e9e9;
+	/*padding-bottom:12px;*/
+	padding-top:9px;
+	font-size:15px;
+	margin-right:20px;
+	color:#999;
+	font-weight: 400;
+	line-height: normal;
+	text-align: right;
+}
+footer .widget_categories ul li:hover{
+	color: #fff;
+}
+.widget_categories > ul > li:first-child{
+	border: none;
+}
+.widget_categories ul li a{
+	display:inline-block;
+	color:#666666;
+	text-transform:capitalize;
+}
+.widget_categories ul li:before{
+	position:absolute;
+	content:"\f105";
+	font-family:fontawesome;
+	top:8px;
+	left:0px;
+	font-size:15px;	
+	color:#38b4ff;
+	transition: all 0.3s ease-in-out;
+}
+.widget_categories ul li:hover:before{
+	left:8px;
+}
+.kode-financial-recent-posts{
+	float:left;
+	padding:20px 0px;
+	border-bottom:1px solid #e9e9e9;
+	width:100%;	
+}
+.kode-financial-recent-posts > figure{
+	width:21%;
+	float:left;	
+	margin-right:19px;
+}
+.recent-post-infomation{
+	float: left;
+	width:70%;
+	padding-top: 0px;
+}
+.recent-post-infomation h6 a{
+	font-size:14px;
+	color:#666666;
+	margin-bottom:10px;
+	display: inline-block;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.recent-post-infomation > a{
+	font-size:14px;
+	color:#666666;	
+	font-style:italic;
+	padding-right:17px;
+}
+.recent-post-infomation a i{
+	padding-right:11px;	
+}
+.kode-rs-blog-recent-posts .kode-financial-inner-page-title{
+	border-bottom:1px solid #e9e9e9;	
+	padding-bottom: 16px;
+	margin-bottom: 0px;
+}
+/*
+	===============================================
+		Financial Filker Gallery
+	===============================================
+*/
+.kode-filker-gallery,
+.kode-filker-gallery-cols,
+.kode-filker-img .kode-filker-gallery-cols figure{
+	float:left;
+	width:100%;	
+}
+.kode-filker-img .kode-filker-gallery-cols{
+	padding:5px;	
+}
+.kode-filker-img .kode-filker-gallery-cols figure{
+	position:relative;
+	overflow:hidden;
+}
+.kode-filker-img .kode-filker-gallery-cols figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0;	
+	z-index:999;
+	transform:translateX(100px);
+}
+.kode-filker-gallery-cols img{
+	width:100%;	
+}
+.kode-filker-img .kode-filker-gallery-cols figure figcaption{
+	position:absolute;
+	top:0%;
+	left:0px;
+	right:0px;
+	margin:-10px auto;	
+	z-index:99999;
+	text-align:center;
+	opacity:0;
+}
+.kode-filker-img .kode-filker-gallery-cols:hover figure:before{
+	opacity:0.58;	
+	transform:translateX(0px);
+}
+.kode-filker-img .kode-filker-gallery-cols:hover figure figcaption{
+	opacity:1;	
+	top:50%;
+}
+.kode-filker-img .kode-filker-gallery-cols figure figcaption a{
+	color:#fff;
+}
+.kode-filker-img li a{
+	display:inline-block;
+	width:100%;		
+}
+.kode-filker-img li a img{
+	width:100%;	
+}
+.kode-filker-img .col-md-4{
+	padding:0px;	
+}
+/*
+	===============================================
+		Financial slider minsmall
+	===============================================
+*/
+.kode-financial-sm-slider-min-div,
+.kode-financial-sm-slider-capion,
+.kode-financial-sm-slider-capion > ul,
+.kode-financial-rt-slider-id{
+	float:left;
+	width:100%;	
+}
+.kode-financial-sm-slider ul{
+	margin: 0px;
+	padding-left: 0px;
+}
+.kode-financial-sm-slider .kode-financial-inner-page-title{
+	padding-bottom:16px;
+}
+.kode-financial-sm-slider-min-div{
+	text-align:center;	
+	background:#efefef;
+	padding:29px 20px 0;
+}
+.kode-financial-sm-slider-min-div figure{
+	margin:0 auto 26px;
+	width:40%;	
+}
+.kode-financial-sm-slider-min-div figure img{
+	border-radius:100%;	
+}
+.kode-financial-sm-slider-capion ul{
+	margin: 0px;
+	padding: 0px;
+}
+.kode-financial-sm-slider-capion h4{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#333333;	
+	margin-bottom:10px;
+}
+.kode-financial-sm-slider-capion{
+	overflow:hidden;	
+	position:relative;
+}
+.kode-financial-sm-slider-min-div .kode-financial-sm-slider-capion p{
+	color:#666666;	
+	margin-bottom:74px;
+}
+.kode-financial-sm-slider-capion ul li{
+	display:inline-block;	
+	margin:0px -1px;
+}
+.kode-financial-sm-slider-capion ul{
+	position:absolute;
+	bottom:0px;	
+}
+.kode-financial-sm-slider-min-div .kode-financial-sm-slider-capion ul li a{
+	width:32px;
+	height:32px;
+	background:#333;
+	color:#fff;
+	text-align:center;
+	line-height:32px;
+	display:inline-block;
+	margin:-5px 0px 0px;	
+}
+.kode-financial-sm-slider-capion ul li:hover a i{
+	 transform:translateY(-5px);
+}
+.kode-financial-sm-slider-capion ul li:hover a{
+	height: 42px;
+	padding-top:10px;
+	color:#fff;
+}
+/*
+	===============================================
+		Financial Blog page 4
+	===============================================
+*/
+.kode-blog-detail.kode-blog-3,
+.kode-our-expert-cols.blog-page03{
+	float:left;
+	width:100%;	
+}
+.kode-blog3-leftside{
+	float: left;
+	width:100%;
+	margin-bottom: 50px;
+}
+.kode-blog-detail.kode-blog-3 .kode-filker-gallery{
+	margin-bottom: 0px;
+}
+.kode-our-expert-cols.blog-page03{
+	margin-bottom:30px;
+	border-bottom:1px solid #e9e9e9;
+	padding-bottom:10px;
+}
+.kode-our-expert-cols.blog-page03 figure{
+	float:left;
+	width:35%;
+	margin-right:30px;	
+	position:relative;
+}
+.kode-our-expert-cols.blog-page03 figure:before{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	background:rgba(0,0,0,0.5);	
+	opacity:0;
+	transform:translateX(20px);
+}
+.kode-our-expert-cols.blog-page03:hover figure:before{
+	opacity:1;
+	transform:translateX(0px);
+}
+.kode-our-expert-cols.blog-page03 figure figcaption{
+	position:absolute;
+	bottom:0px;
+	left:30px;
+	opacity:0;
+}
+.kode-our-expert-cols.blog-page03:hover figure figcaption{
+	bottom:25px;	
+	opacity:1;
+}
+.kode-our-expert-cols.blog-page03 figure figcaption a{
+	width:34px;
+	height:34px;
+	line-height:34px;
+	background:#808284;
+	color:#fff;	
+	display:inline-block;
+	text-align:center;
+	border:1px solid #fff;
+}
+.kode-caption-expert.blog-3 small{
+	color:#fff;
+}
+.kode-caption-expert.blog-3:hover small,
+.kode-our-expert-cols.blog-page03 figure figcaption a:hover{
+	border-color:transparent;
+	color:#fff;
+}
+.kode-caption-expert.blog-3 h4{
+	margin-bottom:33px;
+	position:relative;	
+	color:#666666;
+}
+.kode-caption-expert.blog-3 h4:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:-17px;	
+	border-bottom:1px solid #e9e9e9;
+	width:45px;
+}
+.kode-caption-expert.blog-3{
+	width:61%;
+	float:left;
+	padding:0px 0;
+}
+.kode-caption-expert.blog-3 a i{
+	padding-left:19px;	
+}
+/*
+	===============================================
+		Financial Blog post section
+	===============================================
+*/
+.kode-bloger-posts,
+.bloger-min-caption{
+	float:left;
+	width:100%;	
+}
+.kode-bloger-posts{
+	margin-bottom:30px;	
+	padding:30px;
+	background:#f9f9f9;
+}
+.bloger-min-caption{
+	margin-bottom:17px;
+	padding-bottom:22px;	
+	border-bottom:1px solid #e9e9e9;	
+}
+.kode-prety-photo-zoom{
+	float:left;	
+	margin-right:20px;
+}
+.kode-prety-photo-zoom a{
+	display:inline-block;
+	width:53px;
+	height:53px;
+	line-height:53px;
+	text-align:center;
+	border-radius:100%;	
+	color:#666;
+	background:#f4f4f4;
+	box-shadow:0px 1px 1px 0px rgba(51,51,51,0.3);
+}
+/*
+.kode-bloger-caption{
+	float:left;	
+}
+*/
+.kode-bloger-caption{
+	float: none;
+	overflow: hidden;
+	width: auto;
+}
+.bloger-min-caption{
+	position: relative;
+}
+.kode-bloger-posts figure{
+	margin-bottom:40px;	
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+}
+.kode-bloger-posts figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	outline:10px solid transparent;
+	opacity:0;
+	z-index:9999;
+}
+.kode-bloger-posts figure:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	background:rgba(0,0,0,0.8);	
+	transform:skewX(-30deg) translateX(770px);
+	opacity:0;
+	z-index:999;
+}
+.kode-bloger-posts:hover figure:after{
+	transform:skewX(0deg) translateX(0px);
+	opacity:1;
+}
+.kode-bloger-posts:hover figure:before{
+	outline-offset:-10px;
+	transform:skewX(0deg) translateX(0px);
+	opacity:1;
+}
+.kode-pull-posts-bloger{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.kode-pull-posts-bloger a{
+	display:inline-block;
+	color:#999999;
+	font-size:13px;
+	text-transform:capitalize;
+	padding:0 0 0 5px;
+}
+.kode-pull-posts-bloger a i{
+	color:#666666;	
+	padding-right:12px;
+}
+.kode-bloger-caption small{
+	color:#848484;
+	display:inline-block;
+	font-size:14px;
+	margin-bottom:3px;
+}
+.kode-bloger-posts:hover .kode-bloger-caption small b,
+.kode-bloger-posts:hover .kode-bloger-caption h3{
+	color:#01aeff;	
+}
+.kode-bloger-posts:hover .kode-prety-photo-zoom a{
+	background:#01aeff;
+	color:#fff;
+	box-shadow:none;
+}
+.kode-bloger-caption small b{
+	font-weight:normal;
+	color:#848484;	
+}
+.kode-bloger-caption h3{
+	font-weight:600;
+	color:#666666;
+	text-transform:uppercase;
+	font-size:30px;
+}
+.kode-bloger-caption h3 a{
+	font-size:30px;
+}
+.kode-bloger-posts > p{
+	float:left;
+	width:100%;	
+	color:#999999;
+	margin-bottom:27px;
+}
+.kode-financial-rt-mediem-button{
+	padding-top:18px;	
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+.kode-bloger-posts .button-small{
+	float:left;
+	width:50%;	
+}
+.kode-bloger-posts .button-small a{
+	border:1px solid #e8e8e8;
+	color:#666666;	
+	font-weight:bold;
+}
+.kode-small-business-hub .button-small a{
+	line-height:normal;
+	color:#fff;
+	width:auto;
+	height:auto;
+}
+.kode-bloger-posts .kode-small-business-hub .button-small{
+	width:auto;
+}
+.kode-bloger-posts .kode-small-business-hub .kode-financial-rt-mediem-button{
+	padding-top:0px;
+	margin-bottom:0px;
+}
+.kode-small-business-hub .button-small a i{
+	margin-left:10px;
+}
+.kode-bloger-posts .button-small a:hover{
+	display:inline-block;
+	background:#01aeff;
+	color:#fff;
+}
+.kode-pull-posts-bloger,
+.kode-financial-rt-mediem-button{
+	float:right;	
+}
+.kode-financial-rt-mediem-button li{
+	display:inline-block;	
+	padding-left:16px;
+}
+.kode-financial-rt-mediem-button li a{
+	display:inline-block;
+	font-size:13px;
+	font-weight:bold;
+	color:#999999;	
+	text-transform:uppercase;	
+	background:#f4f4f4;
+	line-height:27px;
+	text-align:center;
+	border:1px solid #eee;
+	padding: 5px 10px;
+}
+.kode-financial-rt-mediem-button li i{
+	margin-right: 5px;
+	display: none;
+}
+/*
+	==============================================
+		Financial About Us Page
+	===============================================
+*/
+/*
+	==============================================
+		Financial Consultant Menu Blog
+	===============================================
+*/
+.kode-consultant-menu-blog,
+.main-financial-blog-consultent-8col,
+.kode-consultant-blog-us,
+.financial-consultent-caption{
+	float:left;
+	width:100%;	
+}
+.kode-consultant-blog-us{
+	position: relative;
+}
+.kode-consultant-blog-us:before{
+	position: absolute;
+	content: "";
+	right: 0px;
+	bottom:0px;
+	background-image: url(https://yettifinancial.com/wp-content/themes/business-hub/images/consultant-erning-img.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	width:30%;
+	background-position: right bottom;
+	height: 100%;
+}
+.main-financial-blog-consultent-8col{
+	padding-top:0px;
+}	
+.financial-consultent-caption {
+    margin-top: 26px;
+}
+.financial-consultent-caption i{
+	position: relative;
+}
+.financial-consultent-caption:hover i{
+	box-shadow: none;
+}
+.financial-consultent-caption:hover i:after{
+	background-color: #1a9ded;
+}
+.financial-consultent-caption:hover i:before{
+	color:#fff;
+	z-index: 9999;
+}
+.financial-consultent-caption i:after{
+	box-shadow: 0px -11px 20px transparent;
+	position: absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	width:100%;
+	height: 100%;
+	z-index: -1;
+	border-radius: 100%;
+}
+.kode-consultant-menu-blog .kode-financial-title{
+	float:left;
+	padding:0px 0px 36px;
+	text-align:left;
+	width:100%;	
+}
+.kode-consultant-menu-blog .kode-financial-title h6{
+	margin-bottom:14px;
+}
+.kode-consultant-menu-blog .kode-financial-title h2{
+	margin-bottom:5px;	
+}
+.kode-consultant-menu-blog .kode-financial-title p{
+	margin-top:18px;	
+}
+.kode-consultant-menu-blog i{
+	font-size:36px;
+	width:82px;
+	height:82px;
+	border-radius:100%;
+
+	display:inline-block;
+	text-align:center;
+	line-height:82px;
+	float:left;
+	color:#999999;
+	margin-right:15px;
+	box-shadow:7px 10px 10px 0px rgba(0,0,0,0.2);
+}
+.kode-consultant-menu-blog h5{
+	display:inline-block;}
+.kode-consultant-menu-blog h5 a{
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	display:inline-block;
+	margin-bottom:10px;
+}	
+.kode-consultant-menu-blog p{
+	color:#999999;	
+}
+.kode-consultent-rt-caption{
+	float:right;	
+	width:77%;
+}
+/*
+	===============================================
+		Financial Our Services
+	===============================================
+*/
+.kode-our-services,
+.kode-our-services02,
+.kode-extend-cols,
+.kode-financial-ourservice2{
+	float:left;
+	width:100%;	
+}
+.kode-financial-ourservice2 .kode-financial-title{
+	padding:0px 0px 93px;	
+}
+.kode-our-services h6{	
+}
+.kode-our-services02{
+	text-align:center;	
+	box-shadow:0 0px 1px 0 rgba(0, 0, 0, 0.3);
+	padding:0px 20px 20px;;
+	position:relative;
+}
+.kode-extend-cols{
+	position:relative;
+	z-index:999999;	
+}
+.kode-our-services02:hover:before{
+	opacity:0.4;
+}
+.kode-our-services02:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0;
+	bottom:0px;	
+}
+.kode-our-services02:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;	
+	opacity:0;
+}
+.kode-our-services02:hover i{
+	border:1px solid #d9d9d9;
+}
+.kode-our-services02:hover:after{
+	opacity:0.85;	
+}
+.kode-our-services02:hover .kode-extend-cols p{
+	color:#fff;	
+}
+.kode-our-services02:hover .kode-extend-cols h6 a{
+	color:#fff;	
+}
+.kode-our-services02:hover .kode-extend-cols > a{
+	background:#fff;
+	color:#747474;
+	border-color:#d1d1d1;	
+}
+.kode-our-services02 i{
+	font-size:57px;
+	width:118px;
+	height:118px;
+	background-color:#fff;
+	box-shadow:0 0 0px 0 rgba(0, 0, 0, 0.1);
+	border-radius:100%;
+	border:1px solid #d9d9d9;
+	text-align:center;
+	line-height:121px;
+	display:inline-block;
+	margin-top:-65px;
+	margin-bottom:28px;
+}
+.kode-extend-cols h6 a{
+	display:inline-block;
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:23px;
+}
+.kode-extend-cols p{
+	color:#999999;	
+	margin-bottom:25px;
+}
+.kode-extend-cols > a{
+	width:153px;
+	height:46px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#666666;	
+	text-align:center;
+	line-height:45px;
+	border:1px solid #d9d9d9;
+	display:inline-block;
+}	
+/*
+	===============================================
+		Financial brand slider 02
+	===============================================
+*/
+.kode-brand-about-us.kode-form-and-brands:hover:after{
+	opacity:0.85;
+}
+.kode-brand-about-us.kode-form-and-brands .owl-carousel .owl-controls .owl-dot.active span{
+	border:3px solid #0371b8;	
+}
+.kode-brand-about-us.kode-form-and-brands .kode-form-button a{
+}
+.kode-accodien-section3,
+.kode-column2-accodien,
+.kode-testimonial-about-us,
+.textimonial-caps-muli{
+	float:left;
+	width:100%;	
+}
+.kode-financial-rt-slider-id .owl-controls{
+	position: absolute;
+	right: 0px;
+	bottom:12px;
+	width:20px;
+}
+.kode-financial-rt-slider-id .owl-controls .owl-dots .owl-dot{
+	width:15px;
+	height: 15px;
+	border-radius: 100%;
+	border:1px solid #e0e0e0;
+	float: right;
+	margin-bottom: 5px;
+}
+.kode-financial-rt-slider-id .owl-controls .owl-dots .owl-dot span{
+	display: none;
+}
+.kode-financial-rt-slider-id .owl-controls .owl-dots .owl-dot.active{
+	background-color: #1a9ded;
+	border-color:transparent;
+}
+.kode-accodien-section3 .kode-financial-title{
+	text-align:left;
+	width:100%;
+	float:left;	
+}
+.kode-column2-accodien{
+	border:6px solid#ececec;
+	margin-bottom:10px;
+}
+.kode-column2-accodien .accordion-close .kode-accodien-3title-mark h6 a:before{
+	content:"+";
+}
+.kode-column2-accodien.accordion-close{
+	border-width:1px;	
+}
+.kode-column2-accodien .accordion-close h6 a{
+	padding:15px 7px 16px 14px;
+}
+.kode-column2-accodien .accordion-close h6 a:before{
+	transition: all 0.5s ease-in-out;
+	top:14px;
+	content:"+";
+	font-size:30px;
+	line-height:20px;
+}
+.kode-accodien-3title-mark h6 a{
+	font-weight:bold;
+	color:#666666;
+	display:inline-block;
+	text-transform:capitalize;
+	position:relative;
+	width:100%;
+	padding:17px 0px 0px 14px;
+}
+.kode-accodien-3title-mark h6 a:before{
+	position:absolute;
+	content:"-";
+	top:14px;
+	right:14px;
+	bottom:0px;	
+	width:19px;
+	height:20px;
+	border-radius:100%;
+	background:#666666;
+	color:#fff;
+	text-align:center;
+	line-height:15px;
+	font-size:20px;
+}
+.kode-accodien-3-for-data p{
+	color:#999999;
+	margin-top:15px;
+	padding:0px 0px 25px 14px;
+	position:relative;
+}
+.kode-testimonial-about-us .textimonial-caps-muli{
+	background:#fff;
+	position:relative;	
+	z-index:-1;
+	border-top:2px solid;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	padding:45px 15px;
+	margin-bottom:24px;
+}
+.kode-testimonial-about-us p{
+	position:relative;	
+}
+.textimonial-caps-muli p:before{
+	position:absolute;
+	content:"\f10d";
+	top:0px;
+	left:0px;	
+	font-size:99px;
+	font-family:fontawesome;
+	color:rgba(0,0,0,0.1);
+	z-index:-12;
+}
+.kode-testimonial-about-us .textimonial-caps-muli:before{
+	 border-left: 1px solid #e5e5e5;
+    bottom: -14px;
+    content: "";
+    height: 23px;
+    left: 30px;
+    position: absolute;
+    transform: rotate(-50deg);
+    width: 16px;
+}
+.kode-testimonial-about-us .textimonial-caps-muli:after{
+	 border-left: 1px solid #e5e5e5;
+    bottom: -16px;
+    content: "";
+    height: 16px;
+    left: 42px;
+    position: absolute;
+    width: 16px;
+}
+.kode-testimonial-about-us figure{
+	float:left;	
+	margin-right:13px;
+}
+.textimonial-ab-caption{
+	padding:30px 13px 0px;	
+	float:left;
+}
+.textimonial-ab-caption h6{
+	color:#666666;
+	text-transform:uppercase;	
+	margin-bottom:2px;
+}
+.textimonial-ab-caption small{
+	color:#666666;	
+	font-size:14px;
+}	
+	
+/*	=========================================
+			Financial Comming Soon
+	=========================================
+*/
+.financial-comming-soon{
+	float:left;
+	width:100%;
+	background-image:url(https://yettifinancial.com/wp-content/themes/business-hub/images/comming-soon-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;	
+	position:relative;	
+	z-index:99999;
+	text-align:center;
+	padding:50px 0px;
+}
+.financial-comming-soon:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background:rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+	z-index:-1;
+}
+.financial-comming-soon h3{
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:29px;
+}
+.financial-comming-soon > a{
+	display:inline-block;
+	margin-bottom:91px;	
+}
+.financial-comming-soon h1{
+	font-size:60px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:19px;
+}
+.financial-count-down ul{
+	margin-bottom:74px;	
+}
+.financial-count-down ul li{
+	display:inline-block;
+	padding-right:30px;
+}
+.financial-count-down ul li span{
+	position:relative;		
+}
+.financial-count-down ul li span:before{
+	position: absolute;
+	content:":";
+	font-size:80px;
+	right:-30px;
+}
+.financial-count-down ul li:last-child span:before{
+	display:none;	
+}
+.financial-count-down ul li:last-child,
+.kode-social-icons ul li:last-child{
+	padding:0;
+}
+.financial-count-down ul li span{
+	font-size:80px;
+	font-weight:bold;
+	color:#fff;	
+}
+.kode-social-icons,
+.kode-social-icons ul,
+.kode-text-felid,
+.kode-heading-copyrihgt{
+	float:left;
+	width:100%;	
+}
+.kode-social-icons ul li{
+	display:inline-block;	
+	padding-right:30px;
+}
+.kode-social-icons ul li a{
+	display:inline-block;
+	width:76px;
+	height:76px;
+	border-radius:100%;
+	border:1px solid #fff;
+	text-align:center;
+	line-height:76px;
+	color:#fff;
+	background-color:transparent;
+	font-size:30px;	
+}
+.kode-social-icons ul li:hover a{
+	border-color:transparent;
+	color:#fff;
+}
+.kode-social-icons ul{
+	margin-bottom:100px;	
+}
+.kode-text-felid form{
+	display:inline-block;
+	width:20%;
+	position:relative;
+	margin:0 auto;
+	text-align:center;	
+	margin-bottom:78px;
+}
+.kode-text-felid form input{
+	width:100%;
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;	
+	font-size:16px;
+	color:#fff;
+}
+.kode-heading-copyrihgt h6{
+	font-weight:bold;
+	color:#fff;
+	text-transform:capitalize;	
+}
+.kode-heading-copyrihgt h6 b{
+	color:#3e95d0;	
+}	
+.kode-text-felid form button{
+	position:absolute;
+	right:0px;
+	top:6px;	
+	background:transparent;	
+	color:#3e95d0;
+	font-size:22px;
+}
+/*
+	===============================================
+				Financial errors page
+	===============================================
+*/
+
+.kf-404-wrap,
+.kode-financial-errors,
+.kode-financial-error404{
+	float:left;
+	width:100%;	
+}
+.kf-404-wrap,
+.kode-financial-error404{
+	text-align:center;
+}
+.kf-404-wrap h6,
+.kode-financial-error404 h2{
+	font-size:205px;
+	text-transform:uppercase;
+	color:#333333;	
+	display:inline-block;
+	margin-bottom:24px;
+	position:relative;	
+	width:100%;
+}
+.kf-404-wrap h6 span,
+.kode-financial-error404 h3{
+	font-weight:bold;
+	color:#666666;	
+	text-transform:uppercase;	
+	margin-bottom:36px;
+}
+.kf-404-wrap h6:before,
+.kode-financial-error404 h2:before{
+	content:"ERROR";
+	top:20px;
+	text-transform:uppercase;
+	font-size:200px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	position:absolute;
+	color:rgba(102,102,102,0.1);
+	z-index:-1;
+}
+.kode-financial-error404 h2 i{
+	display:inline-block;
+}
+.social-404,
+.social-404 ul,
+.kode-financial-error404 ul{
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+	padding: 0px;
+}
+.social-404 ul li,
+.kode-financial-error404 ul li{
+	display:inline-block;	
+	padding-right:25px;
+}
+
+.social-404 ul li:last-child,
+.kode-financial-error404 ul li:last-child{
+	padding:0px;
+}
+.social-404 ul li a,
+.kode-financial-error404 ul li a{
+	display:inline-block;
+	font-weight:bold;
+	color:#666666;
+	border:1px solid #c8c8c8;
+}
+.social-404 ul li a{
+	border:none; 
+}
+.kf-404-wrap p{
+	line-height: normal;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	margin: 0 0 15px;
+}
+.kf-404-wrap .widget-search{
+	width: 50%;
+	float: none;
+	display:inline-block;
+	margin: 10px auto 25px; 
+}
+.kf-404-wrap h6 span {
+    color: #666666;
+    float: left;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 40px 0 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.kf-404-wrap > h5 {
+    float: left;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 0 27px;
+}
+.kf-404-wrap strong {
+    background: transparent none repeat scroll 0 0;
+    border: 20px solid #0c253c;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    font-size: 195px;
+    height: 157px;
+    line-height: 87px;
+    position: relative;
+    text-align: left;
+    width: 157px;
+    margin: 0 20px;
+}
+.kf-404-wrap strong::before {
+    background: transparent none repeat scroll 0 0;
+    border: 10px solid #0c253c;
+    border-radius: 0 100% 0 0;
+    content: "";
+    height: 110px;
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    width: 110px;
+}
+/*
+	===============================================
+			Financial prettyPhoto
+	===============================================
+*/
+.kode-financial-prettyPhoto{
+	float: left;
+	width:680px;
+	padding: 15px 6px;
+}
+.pp_content_container .pp_fade .pp_details .pp_close{
+   display: inline-block;
+    float: right;
+    position: relative;
+    right: -210px;
+    top: 0px;
+    z-index: 999;
+}
+.pp_content_container .pp_fade .pp_details .pp_close:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background: url(https://yettifinancial.com/wp-content/themes/business-hub/images/banner/cross-prettyphoto.png);
+    background-size: contain;
+	width:15px;
+	height: 15px;
+	padding: 13px;
+	border-radius: 100%;
+}	
+.kode-popo-notification{
+	float: left;
+	width:678px;
+	outline: 40px solid;
+	outline-offset:0px;
+}
+.kode-financial-prettyPhoto figure{
+	 float: left;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+}
+.kode-financial-prettyPhoto figure:before{
+	  bottom: 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -18px;
+    top: 1px;
+    width: 36px;
+    transform: skewX(-11deg) scale(1.2);
+}	
+.kode-prettyphoto-caption{
+	 float: left;
+    padding: 10px 0px 5px;
+    width: 47%;
+}
+.kode-prettyphoto-caption h5{
+	font-weight: bold;
+	color:#fff;
+	margin-bottom: 5px;
+}
+.kode-prettyphoto-caption p,
+.kode-prettyphoto-caption h6{
+	color:#fff;
+}
+.kode-prettyphoto-caption p{
+	margin-bottom: 14px;
+}
+.kode-prettyphoto-caption h6{
+	float: left;
+	padding-right: 28px;
+	padding-top: 3px;
+	margin-bottom: 19px;
+}
+.kode-prettyphoto-caption ul{
+	float: left;
+}
+.kode-prettyphoto-caption ul li{
+	display: inline-block;
+	padding-right: 12px;
+}
+.kode-prettyphoto-caption ul li:last-child{
+	padding-right: 0px;
+}
+.kode-prettyphoto-caption ul li a{
+	display: inline-block;
+	font-size: 16px;
+	color:#fff;
+	width:25px;
+	height: 25px;
+	border-radius: 100%;
+	background-color: #454545;
+	text-align: center;
+	line-height: 25px;
+}
+.kode-prettyphoto-caption .kode-bt-normal{
+	float: left;
+	width:100%;
+}
+.kode-prettyphoto-caption .kode-bt-normal a{
+	display: inline-block;
+	float: left;
+	padding: 10px 20px;
+	background-color: #454545;
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.kode_financial_acordin_fig{
+	float: right;
+}
+/*
+	===============================================
+		financial theme End style
+	===============================================
+*/
+
+
+/*
+	=======================================================================================================================================================================
+			THEME HEADER FOR BUSSINESS                      
+	=======================================================================================================================================================================
+*/
+
+
+.kode-header-financial,
+.kode-financial-topbar,
+.kode-financial-bottom-border,
+.kode-financial-navigaion,
+.kode-financial-logo,
+.kode-financial-logo-and-nav{
+	float:left;
+	width:100%;
+}
+.kode-financial-logo a{
+	display:inline-block;
+	width:80%;
+}
+.kode-header-financial{
+	position:relative;
+	z-index:99999;	
+}
+.kode-financial-bottom-border{
+	position:relative;
+	padding:20px 0 14px;
+	border-bottom:12px solid;
+	margin-bottom:-11px;
+}
+.kode-financial p{
+	color:#fff;
+	text-transform:capitalize;
+}
+.kode-financial-right ul{
+	float:right;
+	text-align:right;
+}
+.kode-financial-right ul li,
+.kode-financial-navigaion nav ul,
+.financial-nav nav ul{
+	float:left;
+}
+.kode-financial-right ul li a{
+	color:#fff;
+	display:inline-block;
+	font-size: 14px;
+}
+.kode-financial-right ul li:first-child a i{
+	padding-left:0px;
+}
+.kode-financial-right ul li a i{
+	font-size:26px;
+	float:left;
+	padding:0px 11px 0px 22px;
+	line-height:20px;
+}
+/*=======================================*/
+/*=======NAVigaion Bar===================*/
+.kode-financial-logo-and-nav{
+	padding:21px 0 10px;
+	box-shadow:0px 10px 10px -10px rgba(0,0,0,0.6);
+	position:relative;
+	z-index:99;
+}
+.navigaion .menu .mein-sub-menu{
+	position: relative;
+}
+nav.navigation ul{
+	margin: 0;
+	padding-left: 0;
+}
+nav.navigation .menu li > ul,
+nav.navigation .menu li .menu{
+	position:absolute;
+	top:100%;
+	min-width:250px;
+	left:0px;
+	background-color:#fff;
+	opacity: 0;
+	z-index:999999;
+	display: block;
+	visibility: hidden;
+}
+nav.navigation .menu-main-menu-container .menu li{
+	position: relative;
+}
+nav.navigation .menu li > ul li ul,
+nav.navigation .menu li .sub-menu ul{
+	visibility:hidden;	
+	opacity:0;
+	left:100%;
+	top: 0;
+}
+
+nav.navigation .menu li:hover > ul,
+nav.navigation .menu li:hover > .sub-menu{
+	visibility:visible;	
+	opacity:1;
+}
+nav.navigation .menu li > ul li,
+nav.navigation .menu li > ul li a,
+nav.navigation .menu li .sub-menu li,
+nav.navigation .menu li .sub-menu li a{
+	float: left;
+	width:100%;
+}
+nav.navigation .menu li > ul li a,
+nav.navigation .menu li .sub-menu li a{
+	padding:8px 5px 11px 14px;
+	display:inline-block;
+	font-size: 14px;
+	padding-left: 13px;
+	font-family: 'open sans';
+}
+nav.navigation .menu li > ul li i,
+nav.navigation .menu li .sub-menu li i{
+	color:#1a9ded;
+	display: none;
+	padding-right:5px;	
+}
+nav.navigation .menu li > ul li,
+nav.navigation .menu li .sub-menu li{
+	float:none;	
+	padding:0px;
+	border-radius:0px 0px 0px 0px;
+	position: relative;
+	margin-right: 0px;
+}
+nav.navigation .menu li ul li:hover,
+nav.navigation .menu li .sub-menu li:hover{
+	padding: 0px;
+}
+nav.navigation .menu li ul li:hover a,
+nav.navigation .menu li .sub-menu li:hover a{
+	display: inline-block;
+	color: #fff;
+	opacity: 1;
+}
+nav.navigation .menu li .sub-menu li:last-child:after,
+nav.navigation .menu li .sub-menu li:last-child:before{
+	display: none;
+}
+nav.navigation .menu li .sub-menu li:hover{
+	border-radius:0px 10px 0px 0px;
+}
+nav.navigation .menu li .sub-menu li:last-child{
+	border:none;	
+}
+nav.navigation .menu li .sub-menu li:hover .sub-menu-enter{
+	visibility:visible;
+	opacity:1;	
+}
+.sub-menu{
+	display:none;	
+}
+nav.navigation .menu li .sub-menu li .sub-menu-enter{
+	position:absolute;
+	right:0px;
+	transform:translateX(220px);
+	top:0px;
+	min-width:220px;
+	background-color:#333;
+	visibility:hidden;
+	opacity:0;		
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 > li:hover .group-megamenu-sami:before{
+	
+}
+.kode-gallery{
+	width: 100%;
+}
+.group-megamenu-sami.blog-mega{
+	margin: 0 0 0 auto;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+.kode-financial-megamenu3 .group-megamenu-sami.blog-mega > li{
+    margin: 0;
+    padding: 0 0 0 30px;
+    text-align: left;
+    width: 33%;
+}
+.kode-financial-navigaion{
+	position:relative;
+	z-index: 9999;
+}
+.kode-financial-navigaion nav ul li{
+	float:left;
+	padding-right:30px;
+	padding-bottom:28px;
+}
+.kode-financial-navigaion nav ul li a{
+	text-transform:uppercase;
+	display:inline-block;
+	color:#282828;
+	padding:18px 14px;
+}
+.kode-financial-navigaion nav ul > li:last-child{
+	padding-right:0px;
+}
+.kode-financial-navigaion nav > ul > li{
+	
+}
+.kode-financial-navigaion nav ul li .sub-menu li{
+	float:left;
+	width:100%;
+}
+.kode-financial-navigaion nav ul li ul li{
+
+	padding-right:0px;
+}
+.kode-financial-navigaion nav ul li .mega-menu{
+	position:absolute;
+	top:100%;
+	left:-32.666%;
+	right:0px;
+	width:1140px;
+	background-color:rgba(0,0,0,0.75);
+	opacity:0;
+	transform:rotateX(0deg) skewX(0deg) translateX(-20px) perspective(100px);
+	visibility:hidden;
+}
+.kode-financial-navigaion nav ul li .mega-menu li{
+}
+.kode-financial-navigaion nav ul .mega-menu .sub-menu,
+.mega-menu-cols{
+	width:100%;
+	float:left;
+}
+.kode-financial-navigaion nav ul .mega-menu li .sub-menu li {
+	padding:0px;
+}
+.mega-menu-cols{
+	padding:30px;
+}
+.kode-financial-navigaion nav ul .mega-menu h4 a{
+	display:inline-block;
+	 border-bottom: 2px solid #fff;
+	 padding:0 6px 9px 4px;
+	 font-weight:bold;
+	 color:#fff;
+	 margin-bottom:14px;
+}
+.kode-financial-navigaion nav ul li .sub-menu li a{
+    color: #fff;
+    display: inline-block;
+	padding:5px 0px;
+	font-size:12px;
+	text-transform:capitalize;
+	transform:translateX(0px);
+}
+.kode-financial-navigaion nav ul li .sub-menu li i{
+	padding-right:5px;
+	color:#fff;
+}
+.kode-financial-navigaion nav ul li .sub-menu li:hover a{
+	transform:translateX(0px);
+}
+
+.financial-mega-menu-effect{
+	padding:0px;
+	margin:-20px auto 0px;
+	opacity:0;
+	transform:translateX(-10px);
+	visibility:hidden;
+}
+.financial-mega-menu-effect.kode-financial-title{
+	padding: 0px;
+	width:100%;
+	margin-bottom: 0px;
+}
+.kode-financial-navigaion nav ul li{
+	padding-bottom:0px;
+}
+.financial-mega-menu-effect span{
+	display:inline-block;
+}
+.kode-financial-navigaion nav ul li:hover .mega-menu{
+	opacity:1;
+	visibility:visible;
+	transform:rotateX(0deg) skewX(0deg) translateX(0px) perspective(100px);
+}
+.kode-financial-navigaion nav ul li:hover .financial-mega-menu-effect{
+	opacity:1;
+	transform:translateX(0px);
+	visibility:visible;
+}
+.kode-mega2-cols h5{
+	color:#fff;
+	display:inline-block;
+	font-weight:bold;
+}
+.kode-mega2-cols{
+	margin:30px 0px 30px 0px;
+}
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion nav ul li .mega-menu{
+}
+.kode-financial-logo-and-nav.nav2 .mega-menu.maga-menu-2{
+
+}
+.hover-menu-caption > h3{
+	font-weight:500;
+	color:#fff;
+	margin-bottom:11px;
+}
+.hover-menu-caption p{
+	margin-bottom:9px;
+}
+.mega-menu .kode-mega2-cols ul li{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:100%;
+}
+.mega-menu .kode-mega2-cols ul li a{
+	padding:0px 0px 10px;
+	margin:0px;
+	color:#fff;
+}
+.kode-text-up-mega{
+	float:left;
+	width:100%;
+	border-bottom:1px solid rgba(255,255,255,0.8);
+	padding-bottom:9px;
+	margin-bottom:13px;
+}
+.kode-text-up-mega small i{
+	padding-right:8px;
+	color:#fff;
+}
+.kode-text-up-mega small {
+	color:#fff;
+}
+.hover-menu-caption button{
+	background: transparent none repeat scroll 0 0;
+}
+.hover-menu-caption button:hover{
+	color:#fff;
+	border-style:dotted;
+}
+.hover-menu-caption button:hover i{
+	color:#fff;
+}
+.mega-menu .kode-mega2-cols ul li a{
+	transform:translateX(0px);
+}
+.mega-menu .kode-mega2-cols ul li:hover a{
+	transform:translateX(5px);
+}
+.maga-menu-2{
+	padding:20px;
+	border-bottom:3px solid;
+	border-top:3px solid;
+}
+.mega-menu3 .mega-menu-cols{
+	padding:0px;
+}
+.mega-menu3 .mega-menu-cols form input:focus{
+	border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.mega-menu3 .mega-menu-cols form input::-webket-placeholder{
+	color:#fff;
+}
+.mega-menu3 .mega-menu-cols form input::-moz-placeholder{
+	color:#fff;
+}
+.mega-menu3 .mega-menu-cols form input{
+	 background-color: transparent;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    width: 100%;
+	margin-bottom:16px;
+}
+.mega-menu3 .mega-menu-cols form button{
+	color:#fff;
+	width:100%;
+	border-radius:4px;
+	padding:6px 0px;
+	text-transform:capitalize;
+	font-size:14px;
+	margin-bottom:0px;
+}
+.mega-menu3 .mega-menu-cols form textarea{
+	margin-bottom:16px;
+	color:#fff;
+}
+.mega-menu3 .mega-menu-cols form textarea::-moz-placeholder{
+	color:#fff;
+}
+.mega-menu3 .mega-menu-cols form textarea::-webkit-placeholder{
+	color:#fff;
+}
+.mega-menu3 li{
+	padding:0px auto;
+	padding-bottom:0px;
+}
+.mega-menu-cols iframe{
+}
+.kode-financial-logo-and-nav .kode-financial-navigaion nav ul li .mega-menu.mega-menu3{
+	padding:0px 0px;
+}
+.mega-menu.mega-menu3 li{
+	padding-bottom:0px;
+}
+.tosilder{
+	display:none;
+}
+/*========padding mega-menu=============*/
+.mega-menu.mega-menu3 .padding-mega-right{
+	padding:15px 15px 0px 0px;
+}
+.mega-menu.mega-menu3 .padding-mega-center{
+	padding:15px 20px 0px 15px;
+}
+.mega-menu.mega-menu3 .padding-mega-left{
+	padding:15px 0 15px 15px;
+}
+.mega-menu3 .mega-menu-cols form textarea{
+	width:100%;
+	resize:none;
+	background:transparent;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height:100%;
+}
+.mega-menu-cols address strong{
+	color:#fff;
+	font-style:normal;
+}
+.mega-menu-cols address{
+	font-style:normal;
+	margin-bottom:30px;
+	color:#fff;
+}
+.mega-menu-cols .address a{
+	padding:0px;
+	font-size:12px;
+	font-style:normal;
+	color:#fff;
+}
+.mega-menu3 .mega-menu-cols > a{
+	display:inline-block;
+	width:100%;
+	color:#fff;
+	padding:6px 0;
+	text-align:center;
+	border-radius:5px;
+}
+.mega-menu-cols .skybule{
+	border:1px solid #2c96e7;
+	margin-bottom:10px;
+}
+.mega-menu-cols .blue{
+	border:1px solid #2c4270;
+}
+.kode-financial-navigaion > a{
+	float:right;
+	padding:10px 25px 9px;
+	text-transform:uppercase;
+	color:#fff;
+	margin-top:9px;
+}
+
+/*====================================================*/
+/*================* HEADER 2 *=====================*/
+/*====================================================*/
+
+.kode-header2-financial,
+.kode-financial-topbar.headertop2{
+	float:left;
+	width:100%;
+}
+.headertop2 .kode-financial-bottom-border{
+	border:none;
+	margin:0px;
+	padding:0px 0px 6px;
+	z-index: 9999;
+}
+
+.headertop2 .kode-financial-bottom-border .kode-financial-right{
+	padding:9px 0 15px;
+}
+.headertop2 .kode-financial-right ul li a i{
+    font-size: 18px;
+    transform: scale(1.2);
+    font-weight: 600;
+}
+.headertop2 .kode-financial-bottom-border:before,
+.headertop2 .kode-financial-bottom-border:after{
+	display:none;
+}
+.kode-financial-topbar.headertop2{
+	position:relative;
+}
+.kode-financial-topbar.headertop2:before{
+	position:absolute;
+	left:0px;
+	right:250px;
+	content:"";
+	border-bottom:10px solid #fff;
+	bottom:0px;
+}
+.kode-financial-topbar.headertop2:after{
+	border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 10px 0 0 20px;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 230px;
+    width: 0;
+}
+.kode-financial-logo-and-nav.nav2{
+	padding:20px 0px 0px;
+	position:relative;
+	box-shadow:none;
+}
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion nav ul > .col-md-3{
+	position:relative;
+} 
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion nav ul > .col-md-3:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	bottom:0px;
+	right:0px;
+	border-right:1px solid #fff;
+	min-height:330px;
+}
+.kode-header2-financial{
+	position:relative;
+	z-index:99999;
+}
+.kode-header2-financial:before{
+	position:absolute;
+	bottom: -10px;
+	left:0px;
+	content:"";
+	border-bottom:10px solid #fff;
+	width:29%;
+}
+.kode-header2-financial:after{
+ border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 10px 14px 0 0;
+    bottom: -10px;
+    content: "";
+    height: 0;
+    left: 29%;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+.headertop-bar-2 ul{
+	float:left;
+	width:100%;
+}
+.headertop-bar-2 ul li{
+	position:relative;
+}
+.headertop-bar-2 ul li a{
+	background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    height: 39px;
+    line-height: 40px;
+    padding: 0 22px;
+    width: 204px;
+}
+.headertop-bar-2 ul li a i{
+	float:right;
+	padding:14px 0px 0px;
+}
+.headertop-bar-2 ul li .kode-dropdwon2{
+	position:absolute;
+	top:100%;
+	left:-20px;
+	right:0px;
+	z-index:9999;
+	text-align:left;
+	float:left;
+	background-color:rgba(0,0,0,0.7);
+	opacity:0;
+	visibility:hidden;
+}
+.headertop-bar-2 ul li:hover ul{
+	visibility:visible;
+	opacity:1;
+	left:0px;
+	z-index:999999;
+}
+.headertop-bar-2 ul li ul li a{
+	color:#fff;
+	width:100%;
+	transform:translateX(0px);
+}
+.headertop-bar-2 ul li ul li:hover a{
+	background-color:rgba(0,0,0,0.2);
+	width:100%;
+	transform:translateX(0px);
+	
+}
+/*====================================================*/
+/*================* HEADER 3 *=====================*/
+/*====================================================*/
+
+.kode-header3-financial .kode-financial-infomation p{
+	color:#999999;
+}
+.kode-header3-financial,
+.kode-up-financial-topbar,
+.kode-financial-logoplus-wrap{
+	float: left;
+	width:100%;
+}
+.kode-financial-infomation,
+.kode-finacial-logo3,
+.kode-up-financial-cols,
+.kode-up-financial-form{
+	float: left;
+}
+.kode-financial-socialicons,
+.kode-financial-searchplus{
+	float: right;
+}
+.kode-financial-socialicons{
+	padding: 2px 0px 0px;
+	margin: 0px;
+	width:auto;
+}
+.kode-financial-socialicons li{
+	float: left;
+	margin-right: 22px;
+	margin-bottom:0px;
+	line-height:normal;
+}
+.kode-financial-socialicons li:last-child{
+	margin:0px;
+}
+.kode-financial-socialicons li a{
+	color:#666;
+}
+
+/*==========Top bar=============*/
+.kode-financial-infomation p{
+	float: left;
+	padding-right: 30px;
+	color:#fff;
+	line-height: normal;
+	margin-bottom: 0px;
+	padding-top: 2px;
+}
+.kode-financial-infomation p i{
+	padding-right: 10px;
+}
+.kode-financial-socialicons ul li a{
+	display: inline-block;
+	color:#999999;
+	position: relative;
+	text-shadow:10px 12px 1px rgba(0, 0, 0, 0);
+}
+.kode-financial-socialicons ul li:hover a{
+	text-shadow:0px 0px 0px rgba(26,157,237,1);
+	color: rgba(26,157,237,1);
+}
+/*==========top 2 bar=============*/
+.kode-finacial-logo3{
+	float: left;
+}
+.kode-finacial-logo3 a,
+.kode-finacial-logo3 a img{
+	display: inline-block;
+	width:100%;
+}
+.kode-up-financial-cols{
+	float: left;
+	width:36%;
+}
+.kode-financial-searchplus{
+	width:65%;
+	padding: 8px 0px 0px;
+}
+.kode-up-financial-form{
+	float: left;
+	width:28%;
+	padding: 3px 0px 0px;
+}
+.kode-up-financial-form form{
+	float: right;
+}
+.kode-up-financial-topbar {
+    padding: 10px 0px;
+    background: #fff;
+}
+.kode-financial-logoplus-wrap{
+	padding: 10px 0 20px;
+}
+/*
+	======================
+*/
+.kode-up-financial-cols span{
+	float: left;
+	width:45px;
+	height: 44px;
+	outline:1px solid #c3c3c3;
+	outline-offset:-1px;
+	line-height: 44px;
+	text-align: center;
+	color:#c3c3c3;
+	font-size: 16px;
+	margin-right: 10px;
+	overflow: hidden;
+	position: relative;
+	cursor:default;
+}
+.kode-up-financial-cols span i{
+	position: relative;
+}
+.kode-up-financial-cols:hover span{
+	color:#fff;
+}
+.kode-up-financial-cols > p{
+	margin-bottom: 0px;
+	line-height: normal;
+}
+.kode-up-financial-cols span:before{
+	position: absolute;
+	content:"";
+	left:0px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	-webkit-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+	width:10%;
+}
+.kode-up-financial-cols:hover span:before{
+	width:100%;
+	-webkit-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+}
+.kode-up-financial-cols h6{
+	font-weight: bold;
+	margin-bottom: 8px;
+	padding-top:1px;
+	cursor:default;
+} 
+.kode-up-financial-form form{
+	position: relative;
+	float: left;
+	width:100%;
+}
+.kode-up-financial-form form input{
+	border:1px solid #d5d5d5;
+	height: 40px;
+	width:100%;
+	font-size: 15px;
+	color:#666;
+	padding: 1px 10px 0px;
+}
+.kode-up-financial-form form button{
+	background-color: transparent;
+    color: #999;
+    font-size: 15px;
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+
+/*
+	========NAVIGAION BAR 3==============
+*/
+
+.kode-up3-financial-navigaion{
+	float: left;
+	width:100%;
+	position: relative;
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 li{
+	float: left;
+	margin-right: 20px;
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 .group-megamenu-sami{
+	padding: 30px 0px;
+	
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 .group-megamenu-sami{
+	visibility: hidden;
+	opacity: 0;
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 > li:last-child{
+	margin:0px;
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 > li > a{
+	color: #fff;
+    display: inline-block;
+    padding: 30px 20px 29.5px;
+}
+.kode-up3-financial-navigaion .kode-financial-megamenu3 > li:hover .group-megamenu-sami{
+	visibility: visible;
+	opacity: 1;
+} 
+.kode-up3-financial-navigaion .kode-financial-megamenu3 > li:hover > a{
+	background-color: rgba(0, 0, 0, 0.4);
+	color:#fff;
+}
+.kode-up3-financial-navigaion .kode-quote-bt{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	color:#fff;
+	height: 100%;
+	float: right;
+	position: relative;
+	z-index: 99;
+	padding: 27px 40px 26px 70px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+.kode-up3-financial-navigaion .kode-quote-bt:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left:34px;
+	right:0px;
+	bottom: 0px;
+	z-index: -1;
+	transform: skewX(-19deg) scale(1.2);
+}
+.kode-up3-financial-navigaion .kode-quote-bt:hover:before
+{
+	opacity: 0.8;
+}
+	/*====================================================*/
+/*================* HEADER 3  ENDS*=====================*/
+/*====================================================*/
+
+/*====================================================*/
+/*================* HEADER 4  STARTS*=================*/
+/*====================================================*/
+.kode-header4-financial,
+.kode-financial-topbar3,
+.kode-financial-update-secndbar{
+	float: left;
+	width:100%;
+}
+ 
+.kode-header4-financial .kode-financial-up-navigaion-4 .kode-financial-socialicons{
+ 	float: right;
+    padding: 29px 0px;
+}
+
+.kode-financial-up-navigaion-4 .kode-financial-megamenu3 .group-columns-financial li a i{
+  float: left;
+    padding: 5px 0 0px;
+    width: 22px;
+}
+.kode-financial-up-navigaion-4 .navigation ul > li > a{
+	color:#666 !important;
+}
+
+.kode-financial-topbar3{
+	padding: 7px 0;
+}
+
+
+.kode-financial-up-navigaion-4 nav ul li .group-megamenu-sami.simple3-mega > li{
+	width:33%;
+}
+.kode-financial-up-navigaion-4 nav ul li .group-megamenu-sami.simple3-mega > li:last-child{
+	margin:0px 0px 0px 0px !important;
+	padding: 0px;
+	width:33%;
+}
+.kode-financial-up-navigaion-4 .kode-mega-title-def > h6{
+	margin-bottom: 20px;
+}
+.kode-financial-up-navigaion-4 .kode-mega-title-def > p{
+	display: none;
+}
+.kode-financial-up-navigaion-4 .kode-financial-megamenu3 .group-megamenu-sami.simple3-mega{
+	padding: 30px 40px;
+}
+.kode-financial-location-plus-info{
+	float: right;
+}
+.kode-financial-top-infomation-rt,
+.kode-financial-top-infomation-rt span,
+.kode-financial-top-infomation-rt p,
+.kode-financial-top-infomation-rt > h6{
+	float: left;
+}
+.kode-financial-top-infomation-rt:last-of-type p{
+	margin-right: 0px;
+}
+.kode-financial-top-infomation-rt span{
+	font-size: 16px;
+	margin-right: 8px;
+	color:#fff;
+	padding-top: 0px;
+}
+.kode-financial-top-infomation-rt > h6 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 3px 0 0px;
+	margin-right: 15px;
+	color:#fff;
+}
+.kode-financial-top-infomation-rt p{
+	color:#fff;
+	padding: 0px 0px;
+	margin-right: 40px;
+	margin-bottom: 0px;
+	line-height: normal;
+}
+.kode-finacial-logow{
+	float: left;
+}
+.kode-blog-thumbnail.kode-ux > img {
+    width: 100%;
+}
+.kode-financial-centersearch,
+.kode-finacial-logow{
+	padding: 14px 0;
+}
+.kode-finacial-logow{
+	padding: 9px 0;
+}
+.kode-finacial-logow a,
+.kode-finacial-logow a img{
+	display: inline-block;
+	width:100%;
+}
+.kode-financial-centersearch,
+.kode-financial-centersearch form{
+	float: left;
+	display: none;
+}
+.kode-financial-centersearch{
+	margin-right: 173px;
+}
+.kode-financial-centersearch form input{
+}
+.kode-financial-centersearch form{
+	position: relative;
+	float: left;
+	width:291px;
+}
+.kode-financial-centersearch form input{
+	border:1px solid #d5d5d5;
+	height: 50px;
+	font-size: 15px;
+	background-color: transparent;
+	color:#fff;
+	width:100%;
+}
+.kode-financial-centersearch form input:-moz-placeholder{color: #fff;}
+.kode-financial-centersearch form input::-moz-placeholder{color: #fff;}
+.kode-financial-centersearch form input::-web-ket-placeholder{
+	color: #fff;
+}
+.kode-financial-centersearch form button{
+	position: absolute;
+	right: 10px;
+	top:25%;
+	background-color: transparent;
+	font-size: 16px;
+	color:#ffffff;
+	margin-top: 0px;
+}
+.kode-financial-searchplus-qoute-bt,
+.kode-qoute-bt-rt{
+	float: right;
+	overflow: hidden;
+}
+.kode-qoute-bt-rt a{
+	  color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px 40px 30px;
+    line-height: normal;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 9999;
+}
+.kode-qoute-bt-rt a:hover{
+	background-color: #f9f9f9 !important;
+}
+/*.kode-qoute-bt-rt a:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left:-10px;
+	bottom:0px;
+	z-index: -1;
+	width:100%;
+	background-color: rgba(255,255,255,0.1);
+	transform: skewX(0deg) translateX(150px) scale(1);
+	opacity: 0;
+}
+.kode-qoute-bt-rt a:hover:before{
+	transform: skewX(0deg) translateX(-10px) scale(1);
+	opacity: 0.3;
+}*/
+.kode-header4-financial .kode-financial-up-navigaion-4{
+	float: left;
+	width:100%;
+	background-color: #f1f1f1;
+}
+.kode-financial-up-navigaion-4 ul{
+	position: relative;
+}
+.kode-financial-up-navigaion-4 ul,
+.kode-financial-up-navigaion-4 .navigaion > ul > li{
+	float: left;
+}
+.kode-financial-up-navigaion-4 .navigaion > ul > li{
+	margin-right: 16px;
+}
+.kode-financial-up-navigaion-4 .navigaion > ul > li:last-child{
+	margin-right: 0px;
+}
+.kode-financial-up-navigaion-4 .navigaion > ul > li > a{
+	display: inline-block;
+	padding: 18px 15px;
+	color:#333;
+}
+.kode-financial-up-navigaion-4 .navigaion ul > li:hover > a{
+	color:#fff;
+}
+.kode-financial-up-navigaion-4 .kode-financial-socialicons{
+	padding: 22px 0;
+}
+.kode-financial-up-navigaion-4 .kode-financial-socialicons ul li{
+	margin-right: 10px;
+}
+.kode-financial-up-navigaion-4 .kode-financial-socialicons ul li:last-child{
+	margin:0px;
+}
+.kode-financial-up-navigaion-4 .kode-financial-socialicons ul li a,
+.footer-financial-logo-socialicons .kode-financial-socialicons ul li a{
+	width:26px;
+	height: 26px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 26px;
+	color:#999999;
+	border-radius: 100%;
+	display: inline-block;
+}
+.kode-financial-up-navigaion-4 .kode-financial-socialicons ul li:hover a{
+	color:#fff;
+	text-shadow:0px 0px 0px rgba(0,0,0,1);
+}
+/*
+==========================================================
+				MEGA MENU  HEADER 4 
+==========================================================
+*/
+.group-megamenu-sami,
+.group-columns-financial{
+	float: left;
+	width:100%;
+}
+.group-megamenu-sami{
+	position: absolute;
+	top:100%;
+	left:0px;
+	right: 0px;
+	width:100%;
+	background-color: #fff;
+	z-index: 999999;
+	padding: 30px 0px;
+}
+.group-columns-financial li a{
+	font-size: 12px;
+	font-weight: 500;
+	color:#999;
+}
+.kode-financial-up-navigaion-4 .group-megamenu-sami.simple3-mega{
+	position: absolute;
+	left:0px;
+}
+.kode-financial-megamenu3 .group-megamenu-sami > li{
+	float: left;
+	/*width:25%;
+	padding-left: 40px;*/
+	margin: 0px;
+	text-align: left;
+	width: 22%;
+    padding: 0px 0px 0px 30px;
+}
+.kode-financial-megamenu3 .group-megamenu-sami > li:last-child,
+.kode-financial-megamenu3 .group-columns-financial li:last-child{
+	padding: 0px;
+	margin: 0px;
+}
+.kode-financial-megamenu3 .group-columns-financial li{
+	float: left;
+	width:100%;
+	margin-bottom: 12px;
+}
+.kode-financial-megamenu3 .group-columns-financial li a i{
+	float: left;
+	width:30px;
+	padding:6px 0px 0px;
+}
+.kode-mega-analytics > figure{
+	position: absolute;
+	bottom:0px;
+}
+.kode-mega-analytics h4{
+ 	text-transform: capitalize;
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	font-size:34px;
+ 	margin-bottom: 20px;
+}
+.kode-mega-title-def h6{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.kode-mega-title-def p{
+	font-size: 11px;
+	color:#999;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.kode-mega-analytics > p{
+	line-height: 24px;
+}
+
+.kode-financial-megamenu3 .group-megamenu-sami > li:last-child{
+	width:30%;
+}
+.kode-financial-megamenu3 .group-megamenu-sami.simple3-mega li{
+	width:25%;
+}
+.kode-financial-megamenu3 .group-megamenu-sami.simple3-mega li:last-child{
+	width:25%;
+	padding: auto;
+	margin: auto;
+}
+.kode-financial-megamenu3 .group-megamenu-sami.simple3-mega > li{
+	padding: 0px 30px 0px 0px;
+}
+.kode-financial-megamenu3 .group-megamenu-sami.simple3-mega li .group-columns-financial li{
+	width:100%;
+}
+.kode-financial-megamenu3 .group-megamenu-sami.simple3-mega{
+	padding: 30px 70px;
+}
+/*
+==========================================================
+				MEGA MENU  HEADER 4 ENDS 
+==========================================================
+*/
+
+/*====================================================*/
+/*================* HEADER 4  ENDS*==================*/
+/*====================================================*/
+.financial-header-5,
+.financial-nav5{
+	float: left;
+	width:100%;
+}
+.financial-header-5 .financial-logo{
+	float: left;
+	padding:14px 0 0;
+	margin-right: 50px;
+}
+.financial-header-5 .financial-nav5 > ul{
+
+}
+.fiancial-searchbar-h5{
+	float: right;
+	padding:  16px 0px 0px;
+	position: relative;
+}
+.fiancial-searchbar-h5 a,
+.fiancial-searchbar-h5 span{
+	float: left;
+	display: inline-block;
+	width:26px;
+	height: 26px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #333;
+	color:#fff;
+	border-radius: 100%;
+	line-height: 26px;
+}
+.fiancial-searchbar-h5 span{
+	margin-right: 15px;
+	cursor:pointer;
+}
+
+
+.financial-header-5 .search-tab{
+	background-color: rgba(0, 0, 0, 0);
+    bottom: -19px;
+    display: block;
+    float: right;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    right: 18%;
+    width: 300px;
+    z-index: 9999;
+}
+.financial-header-5 .search-tab input{
+	width:100%;
+	background: #2f94cf;
+	color:#fff;
+	border:none;
+	 font-size: 16px;
+    padding: 0 10px 0 36px;
+}
+.financial-header-5 .search-tab input::-moz-placeholder{
+	color:#fff;
+	font-style: italic;
+}
+.financial-header-5 .search-tab input::-webket-placeholder{
+	color:#fff;
+	font-style: italic;
+}
+.financial-header-5 .search-tab button{
+	background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-size: 16px;
+    left: 6px;
+    position: absolute;
+    top: 10px;
+}
+.fiancial-searchbar-h5 a:last-child{
+	margin-right: 0px;
+}
+.financial-header-5 .financial-nav5 > ul li{
+	position: relative;
+}
+.financial-header-5 .financial-nav5 ul li > a{
+	 color: #333333;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+}
+.financial-header-5 .kode-financial-navigaion{
+	float: left;
+	width: auto;
+}
+
+
+#kode-responsive-navigation{
+	display:none;
+}
+.kode-navigation-wrapper,
+.navigation ul li{
+	float:left;
+	position: relative;
+	margin-bottom:0px;
+}
+.navigation .menu li a {
+    float: left;
+    line-height: normal;
+    padding: 29px 26px;
+    font-size: 16px;
+}
+#kodecomments{
+	float:left;
+	width:100%;
+}
+.kode-blog-thumbnail.kode-ux img{
+  height: auto;
+  width: 100%;
+}
+
+.kode-textarea textarea {
+    border: 1px solid #999999;;
+    height: 150px;
+    width: 100%;
+}
+#commentform .kode-textarea{
+	 width: 100%;
+	 float:left;
+}
+.kode-sidebar-element > [class*="col-md"] {
+	padding: 0px;
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+.kodeplaning-section .owl-dot > span{
+	display:none;
+}
+.kode-financial-service-blog-2 .container .kode_financial_business_fig:hover .kode_financial_business_caption,
+.kode-financial-service-blog-3 .container .kode_financial_business_fig:hover .kode_financial_business_caption{
+	background-color: transparent;
+}
+.financial-footer-posts i,
+.kode-financial-icons i{
+	color:#FFF;
+}
+section .container .kode_financial_business_fig:hover .kode_financial_business_caption{
+	background-color: transparent;
+}
+.kode_financial_business_caption > a:hover,
+.kode-finacial-planing-service:hover .kode-finacial-col,
+.theme-detail-social-icons ul li:hover a,
+.financial-footer-social-icons ul li:hover a,
+.kode-financial-error404 ul li:hover a,
+.kode-finacial-planing-service:hover a i,
+.kode-financial-rt-mediem-button li a:hover{
+	color:#fff;
+}
+.kode-traders-datail .col-md-6{
+	padding-left:0px;
+	padding-right:0px;
+}
+.alignright.wp-image-118.size-full{
+	margin-bottom:0px;
+}
+.kode-blog-medium .kode-blog-thumbnail.kode-ux{
+	width:100% !important;
+}
+.financial-comment-box-caption a.comment-edit-link{	
+	float:right;
+	padding:5px 10px;
+	width:auto;
+	height:auto;
+	line-height:normal;
+}
+.kode-case-lt-section > figure{
+	margin-top:30px;
+}
+.kode-financial-recent-posts img,
+.kode-financial-sm-slider-min-div img{
+	width:100%;
+	height:auto;
+}
+.financial-comment-box-caption {
+    float: none;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+}
+
+.hotel-masonery-thumb{
+	float: left;
+	width:100%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.hotel-masonery-thumb:before{
+	position: absolute;
+	content:"";
+	left:0px;
+	right: 0px;
+	bottom:0px;
+	top:0px;
+	background-color: rgba(0,0,0,0.0);
+	z-index: 1;
+}
+.hotel-masonery-thumb:hover:before{
+	background-color: rgba(0,0,0,0.6);
+
+}
+.hotel-masonery-thumb .text {
+    left: -50px;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+    transform:translateX(-40px);
+}
+.hotel-masonery-thumb:hover .text{
+	transform:translateX(0px);
+} 
+.hotel-masonery-thumb .text ul li{
+	float: left;
+	margin-bottom: 5px;
+	width:100%;
+}
+.hotel-masonery-thumb .text ul li:hover a{
+	background-color: #fff;
+	color:#333;
+}
+.hotel-masonery-thumb .text ul li a{
+	display: inline-block;
+	color:#fff;
+	width:30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #333;
+}
+.kode-team-grid .columns .kode-finacial-teams-cols{
+	margin-bottom: 40px;
+}
+
+.kode-pagination{
+}
+.kodeplaning-section.owl-carousel.owl-theme.owl-center.owl-loaded {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.kode-financial-informer,
+.kode-gallery ul,
+.owl-carousel{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.kode-content-area .kode-financial-title{
+	width:100%;
+	margin-top: 30px;
+}
+.kode-testimonial-about-us figure > img{
+	border-radius:100%;
+	width:70% !important;
+}
+.kode-admin-post-caption .blog-info i{
+	margin-right:15px;
+}
+.kode-admin-post-caption small{
+	margin-right:15px;
+	margin-top:12px;
+	float:left;
+}
+.blog-info.blog-tag > a{
+	text-transform: capitalize;
+}
+.commentlist .financial-comment-box-caption > h1,
+.commentlist .financial-comment-box-caption > h2,
+.commentlist .financial-comment-box-caption > h3,
+.commentlist .financial-comment-box-caption > h4,
+.commentlist .financial-comment-box-caption > h5,
+.commentlist .financial-comment-box-caption > h6{
+	margin: 20px 0 10px;
+}
+.commentlist .kode-comments-box ul li,
+.commentlist .kode-comments-box ul{
+	list-style-type:initial;
+}
+.kode-financial-banner .flex-direction-nav {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 330px !important;
+}
+.body-wrapper{
+	overflow:hidden;
+}
+
+.header-style-3 .kode-financial-topbar{
+	
+}
+
+
+.aladin_header_style_05.header-style-3 .kode-financial-navigaion .kode-lg-button{
+	background-color: #e33062;
+	color: #fff;
+}
+.aladin_header_style_05.header-style-3 .navigation .menu > li > a{
+	padding: 30px 8px;
+}
+.aladin_header_style_05.header-style-3 .kode-financial-logo-and-nav{
+	padding: 11px 0 0;
+}
+.aladin_header_style_05.header-style-3 .kode-financial-logo{
+	padding: 10px 0;
+}
+.aladin_header_style_05.header-style-3 .kode-financial-navigaion > a{
+	margin: 20px 0px;
+	line-height: normal;
+	padding: 10px 20px;
+	font-weight: 600;
+}
+.aladin_header_style_05.header-style-3 .kode-financial p{
+	padding-top: 0px;
+}
+.kode-financial-right li{
+	line-height: normal;
+	margin-bottom: 0px;
+}
+
+
+.location-select{
+	float: left;
+}
+.kode-financial .selectric{
+	padding: 1px 15px;
+	border:none;
+}
+.kode-financial .selectric .label{
+	min-width: 160px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	line-height: 36px;
+}
+.kode-financial .selectric .button{
+	line-height: 40px;
+	height: auto;
+}
+.kode-financial-right ul li a{
+	margin-right: 20px;
+}
+.kode-financial-right ul li a:last-child{
+	margin-right: 0px;
+}
+.kode-financial-logo-and-nav.kode-navigation-sticky.kf_sticky{
+	padding:0px;
+}

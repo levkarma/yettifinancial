@@ -1,0 +1,36 @@
+jQuery(document).ready(function($) {
+	
+	"use strict";
+	
+	// Sign Up
+    $('form#sign-up').on('submit', function(e){
+        $('form#sign-up p.msg-sign-up').show().text(ajax_signup_object.loadingmessage);
+		$('form#sign-up').addClass('form-working');
+        $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            url: ajax_signup_object.ajaxurl,
+            data: { 
+                'action': 'ajaxsignup', //calls wp_ajax_nopriv_ajaxlogin
+                'nickname': $('form#sign-up #user_name').val(), 
+				'user_email': $('form#sign-up #user_email').val(), 
+				'user_pass': $('form#sign-up #user_password').val(), 
+                'security': $('form#sign-up #security').val(),
+				'security2': $('form#sign-up #security2').val(),
+				'g-recaptcha-response': $('form#sign-up [name="g-recaptcha-response"]').val() 
+			},
+            success: function(data){
+                $('form#sign-up p.msg-sign-up').text(data.message);
+				$('form#sign-up').addClass('form-working');
+                if (data.signup == true){
+                    document.location.href = ajax_signup_object.redirecturl;
+                }else{
+					$('form#sign-up p.msg-sign-up').text(data.message);
+					grecaptcha.reset();
+				}
+            }
+        });
+        e.preventDefault();
+    });
+
+});

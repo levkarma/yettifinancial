@@ -1,0 +1,2025 @@
+/*=====================================================*/
+/*===========Footer Starts one========================*/
+.no-padding{
+	padding:0px;
+}
+/*===========Footer section form========================*/
+footer,
+.kode-financial-footer,
+.kode-entry-mail form{
+	float:left;
+	width:100%;
+}
+.kode-financial-footer{
+	background:#1c9eec;
+	float:left;
+	width:100%;
+	padding:50px 0px;
+}
+.kode-entery-subcribe{
+	float:left;
+	margin-top: -1px;
+}
+.kode-entery-subcribe h2{
+	font-size:30px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:4px;
+}
+.kode-entery-subcribe h5{
+	font-size:17px;
+	color:#fff;
+}
+.kode-entry-mail{
+	overflow: hidden;
+}
+.kode-entry-mail form{
+	position:relative;
+	overflow: hidden;
+}
+.kode-entry-mail form input{
+	width:100%;
+	height:50px;
+	background-color:transparent;
+	color:#fff;
+	position:relative;
+	font-size:14px;
+}
+.kode-entry-mail form button{
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:auto;
+	width:auto;
+	background-color:#ffffff;
+	color:#4d4d4d;
+	font-weight:600;
+	text-transform: capitalize;
+	line-height:20px;
+
+}
+/*======================*/
+.kode-financial-wrap-footer{
+	float:left;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	padding:55px 0px;
+}
+.kode-financial-wrap-footer:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.9);
+}
+.kode-financial-wrap-footer .kode-financial-title{
+	text-align:left;
+	width:100%;
+	padding:0px;
+	margin-bottom:25px;
+}
+.kode-financial-wrap-footer p{
+	margin-bottom:18px;
+}
+.kode-financial-icons i,
+.financial-footer-posts i{
+	width:20px;
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	margin-right:10px;
+}
+.kode-financial-icons li{
+	padding-bottom:10px;
+}
+.kode-financial-wrap-footer .kode-financial-title h2{
+	font-size:18px;
+	color:#fff;
+	margin-top:10px;
+	margin-bottom:2px;
+}
+.kode-financial-wrap-footer .kode-financial-title .left-margin{
+	margin-left:4px;
+}
+.kode-financial-wrap-footer .kode-financial-title span{
+	background-color:#fff;
+	margin-bottom:0px;
+}
+.kode-financial-footer-cols ul li a{
+	display:inline-block;
+	font-size:14px;
+	color:#fff;
+}
+.footer-financial-double-cols{
+	width:50%;
+	float:left;
+}
+.footer-financial-double-cols li{
+	padding-bottom:8px;
+}
+.financial-footer-recent-posts > ul,
+.financial-footer-social-icons{
+	float:left;
+	width:100%;
+}
+.financial-footer-recent-posts li{
+	float:left;
+}
+.financial-footer-posts small{
+	font-size:13px;
+	color:#cccccc;
+}
+.kode-form input[type="text"]{
+	background:rgba(0,0,0,0.2);
+	border:none;
+	height:36px;
+	width:100%;
+	margin-bottom:11px;
+	color:#fff;
+	font-size: 14px;
+}
+.kode-form textarea{
+	resize:none;
+	width:100%;
+	height:85px;
+	background:rgba(0,0,0,0.2);
+	border:none;
+	margin-bottom:22px;
+	color:#fff;
+}
+.kode-form button{
+	width:103px;
+	height:34px;
+	background-color:#1c9eec;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	padding:0px 0px 0px;
+	float:right;
+}
+.financial-footer-posts li small{
+	padding-right:26px;
+}
+.financial-footer-posts{
+	padding-bottom:17px;
+	margin-bottom:15px;
+	border-bottom:1px solid #666666;
+	margin-left: 0px;
+}
+.footer-border ul{
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+
+.financial-footer-social-icons ul li,
+.financial-footer-social-icons ul li a{
+	display:inline-block;
+}
+.financial-footer-social-icons{
+	padding:47px 0px 17px;
+}
+.financial-footer-social-icons ul{
+	text-align:center;
+	border-top:1px solid #666666;
+	border-bottom:1px solid #666666;
+	padding:10px 0px;
+}
+.financial-footer-social-icons ul li a{
+	width:31px;
+	height:31px;
+	border:1px solid #fff;
+	border-radius:100%;
+	background-color:#272727;
+	line-height:31px;
+	font-size:13px;
+	color:#fff;
+	text-align:center;
+	margin-right:5px;
+}
+.kode-linces-copyright{
+	float:left;
+	width:100%;
+}
+.kode-linces-copyright h5 a{
+	color:#55b6f2;
+	text-transform:capitalize;
+}
+.kode-linces-copyright h5{
+	float:left;
+	font-size:16px;
+	color:#fff;
+	width:50%;
+	padding: 5px 0 0;
+	text-transform:capitalize;
+}
+.kode-linces-copyright h4{
+	font-size:14px;
+	color:#fff;
+	float:right;
+	margin-right: 20px;
+    margin-top: 7px;
+}
+.kode-linces-copyright .go-to-up{
+	float:right;
+	text-align:center;
+}
+.kode-linces-copyright .go-to-up a{
+	display:inline-block; 
+	width:22px;
+	height:22px;
+	background-color:#1c9eec;
+	color:#fff;
+	line-height:21px;
+}
+/*
+	=========	Footer 2	============
+*/
+.footer-financial-logo-socialicons,
+.kode-footer-2{
+	float: left;
+	width:100%;
+}
+.kode-footer-2{
+	background-image: url(../images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 30px 0px;
+}	
+.kode-footer-2:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	opacity: 0;
+	left:0px;
+	right: 0px;
+	bottom:0px;
+	opacity: 0.9;
+	/*background:rgba(0, 0, 0, 0.9) linear-gradient(rgba(0, 0, 0, 0.92), rgba(26, 156, 237, 0.5)) repeat 10px 0px;*/
+}
+.footer-financial-logo-socialicons a{
+	float: left;
+	display: inline-block;
+}
+.footer-financial-logo-socialicons a img{
+	width:100%;
+}
+.footer-financial-logo-socialicons p{
+	float: left;
+	width:100%;
+	text-align: left;
+	color:#fff;
+}
+
+.footer-financial-logo-socialicons h5,
+.footer-financial-quickLinks h5,
+.footer-financial-popularpost h5,
+.footer-financial-contactinfo h5{
+	display: inline-block;
+    border-bottom: 1px solid #a2a2a2;
+    float: left;
+    width: 100%;
+}
+.footer-financial-logo-socialicons h5 {
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+}
+.footer-financial-quickLinks h5,
+.footer-financial-popularpost h5,
+.footer-financial-contactinfo h5{
+	 padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.footer-financial-logo-socialicons p{
+	margin-bottom: 25px;
+}
+.footer-financial-logo-socialicons .kode-financial-socialicons,
+.footer-financial-logo-socialicons .kode-financial-socialicons ul,
+.footer-financial-quickLinks,
+.footer-financial-quickLinks ul,
+.footer-financial-popularpost,
+.footer-financial-contactinfo,
+.footer2-financial-cols,
+.up-caption-contect-info{
+	float: left;
+	width:100%;
+}
+.kode-financial-socialicons ul{
+	margin-left: 0px;
+}
+.footer-financial-quickLinks h5,
+.footer-financial-popularpost h5,
+.footer-financial-contactinfo h5{
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#fff;
+}
+.footer-financial-logo-socialicons .kode-financial-socialicons ul li{
+	margin-right: 11px;
+}
+.footer-financial-logo-socialicons .kode-financial-socialicons ul li a{
+	
+	color:#fff;
+	font-size: 14px;
+}
+.footer-financial-logo-socialicons .kode-financial-socialicons ul li:hover a{
+	background-color: #1a9ded;
+}
+.footer-financial-quickLinks ul li{
+	float: left;
+	width:100%;
+	padding: 5px 20px;
+	position: relative;
+	border-bottom: 1px solid #fff;
+}
+.footer-financial-quickLinks ul li:hover::before{
+	left: 5px;
+}
+.footer-financial-quickLinks ul li:hover{
+	
+}
+.footer-financial-quickLinks ul li:before{
+	position: absolute;
+	content:"\f105";
+	font-family: fontawesome;
+	left:0px;
+	font-size:16px;
+	border-radius: 100%;
+	top:4px;
+	color:#fff;
+}
+.footer-financial-quickLinks ul li a{
+	font-size:14px;
+	color:#fff;
+	text-transform: capitalize;
+}
+.footer2-financial-cols{
+	margin-bottom:13px;
+}
+.footer2-financial-cols figure{
+	float: left;
+	margin-right: 15px;	
+	position: relative;
+	overflow: hidden;
+}
+.footer2-financial-cols:hover figure img{
+	transform: scale(1.2);
+}
+.footer2-financial-cols:hover figure figcaption{
+	left:0px;
+	opacity: 1;
+}
+.footer2-financial-cols figure:before{
+	position: absolute;
+	content:"";
+	background-color: rgba(26,157,237,0.5);
+	top:0px;
+	left:0px;
+	right: 0px;
+	bottom:0px;
+	transform:scale(10);
+	opacity: 0;
+	z-index: 999;
+}
+.footer2-financial-cols:hover figure:before{
+	transform:scale(0.9);
+	opacity: 1;
+}
+.footer2-financial-cols figure figcaption{
+	position: absolute;
+	top:50%;
+	left:-100px;
+	right: 0px;
+	margin:-10px auto 0;
+	opacity: 0;
+	text-align: center;
+}
+.footer2-financial-cols figure figcaption a{
+	display: inline-block;
+	color:#fff;
+	font-size: 16px;
+	position: relative;
+	z-index: 999;
+}
+.footer2-financial-cols a,
+.footer2-financial-cols small{
+	color:#97a6b6;
+}
+.footer2-financial-cols a{
+	margin-bottom: 3px;	
+}
+.footer2-financial-cols small{
+	font-size: 12px;
+	float:left;
+}
+.up-caption-contect-info span{
+	display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    left: 0;
+    line-height: 20px;
+    margin-top: -16px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 20px;
+}
+.up-caption-contect-info h6{
+	font-size: 15px;
+	color:#fff;
+	margin-bottom: 4px;
+}
+.up-caption-contect-info p{
+	color:#fff;
+	margin-bottom: 0px;
+}
+.up-caption-contect-info{
+	margin-bottom: 20px;
+	padding-left: 30px;
+	position:relative;
+}
+
+.kode-update-newsletter,
+.kode-up-financial-footer-cols{
+	float: left;
+	width:100%;
+	position: relative;
+}
+.kode-up-financial-footer-cols{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 70px;
+
+}
+.kode-update-newsletter h5{
+	color: #ffffff;
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    padding: 24px 0 0;
+    text-transform: uppercase;
+}
+.kode-update-newsletter form{
+	float: right;
+	position: relative;
+	width:780px;
+	margin-right: 100px;
+}
+.kode-update-newsletter form input{
+	background-color: transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	color:#fff;
+	float: left;
+	font-size: 15px;
+	width:100%;
+}
+.kode-update-newsletter form input::-moz-placeholder{
+	color:#fff;
+}
+.kode-update-newsletter form input:-moz-webkit-placeholder{
+	color:#fff;
+}
+.kode-update-newsletter{
+	padding: 42px 0px 0px;
+}
+.kode-update-newsletter form button{
+	padding:10px 13px;
+	background-color: #1a9ded;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	position: absolute;
+	right:0px;
+	bottom:0px;
+}
+.kode-update-newsletter form button i{
+	padding-right: 5px;
+}
+.kode-update-newsletter form input:focus{
+	border-color:#1a9ded;
+}
+.kode-update-newsletter p{
+	float: left;
+	color:#fff;
+	padding: 8px 0px 0px;
+}
+.kode-update-newsletter a{
+ float: right;
+    display: inline-block;
+    color: #fff;
+    width:38px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #1a9ded;
+    text-align: center;
+}
+.kode-buttom-copyright{
+	float: left;
+	width:100%;
+}
+
+
+/*
+		FOOTER WORDPRESS NEW
+*/
+footer,
+.kode-footer-wordpress,
+.kode-footerbar,
+.wordpress-logical-footer,
+.footer-wpress-cols,
+.kode-fter-cols,
+.kode-wpress-copyright{
+	float: left;
+	width:100%;
+	position:relative;
+
+}
+
+.kode-footerbar,
+.footer-wpress-cols{
+	border-bottom: 1px solid #0c253c;
+}
+.kode-wpress-copyright{
+	border-top: 1px solid #0c253c;
+}
+/*=====*/
+.wordpress-logical-footer{
+	text-align: center;	
+	padding: 18px 0;
+}
+.wordpress-logical-footer a{
+	float: left;
+}
+.wordpress-logical-footer h4{
+	display: inline-block;
+	color:#fff;
+	font-weight: normal;
+	padding: 12px 0 0;
+}
+.wordpress-logical-footer ul{
+	float: right;
+	padding: 6px 0 0;
+	margin:0;
+	list-style: none; 
+	width:auto;
+}
+.wordpress-logical-footer ul li{
+	float: left;
+	margin-right: 14px;
+}
+.wordpress-logical-footer ul li:last-child{
+	margin-right: 0px;
+}
+.wordpress-logical-footer ul li a{
+	background-color: #000;
+	color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 34px;
+}
+.wordpress-logical-footer ul li .blue{
+	background-color: #507cbe;
+}
+.wordpress-logical-footer ul li .skyblue{
+	background-color: #63cdf1;
+}
+.wordpress-logical-footer ul li .black-o{
+	background-color: #4d4f54;
+}
+.wordpress-logical-footer ul li .red{
+	background-color: #f16261;
+}
+/*=====*/
+.kode-fter-cols ul{
+	float: left;
+	width:100%;
+}
+
+.footer-wpress-cols{
+	padding: 60px 0px 0px;
+}
+.kode-widget.widget{
+	margin-bottom:30px;
+}
+.kode-widget h5{
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+.kode-fter-cols h6{
+	font-weight: bold;
+	color:#fff;
+	text-transform: uppercase;
+	margin-bottom:22px; 
+}
+.footer-wpress-cols .widget-title{
+	margin-bottom: 22px;
+}
+.kode-widget p,
+.kode-fter-cols p{
+	color:#fff;
+}
+.kode-widget > a,
+.kode-fter-cols > a{
+	font-size: 14px;
+	color:#fff;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.kode-widget ul li:last-child,
+.kode-fter-cols ul li:last-child{
+	margin-bottom: 0px;
+}
+.kode-widget ul li a,
+.kode-fter-cols ul li a{
+	display: inline-block;
+	font-size: 15px;
+	text-transform: capitalize;
+	transition: all 0.3s ease-in-out;
+}
+.kode-fter-cols form{
+	float: left;
+	width:100%;
+	position: relative;
+	margin-bottom: 8px;
+}
+.kode-fter-cols{
+
+}
+.newsletter-submit{
+	float:left;
+	width:100%;
+	position: relative;
+}
+.kode-widget input,
+.kode-fter-cols form input{
+	float: left;
+	width:100%;
+	padding-left: 43px;
+	margin-bottom: 10px;
+}
+.newsletter-submit i{
+	display: inline-block;
+	width:43px;
+	line-height: 43px;
+	text-align: center;
+	font-size:14px;
+	color:#666;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+.kode-fter-cols form i:after{
+	border-right: 1px solid #666666;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 14px;
+    height: 16px;
+    vertical-align: middle;
+}
+.kode-fter-cols form button{
+	padding: 14px 0;
+	width:100%;	
+	font-size: 16px;
+	color:#fff;
+	background-color: #0f2f4d;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.kode-wpress-copyright{
+	text-align: center;
+	padding: 17px 0 20px;
+}
+.kode-wpress-copyright p{
+	font-size: 14px;
+	color:#fff;
+}
+.kode-fter-cols > a,
+.kode-fter-cols p,
+.kode-fter-cols ul li a,
+.kode-wpress-copyright p,
+.wordpress-logical-footer h4{
+	font-family: 'Open Sans';
+}
+.kode-financial-banner{
+	
+}
+/*
+	====================================
+			Transition Effect
+	====================================
+*/
+
+.kode-finacialService-slider .kodeslider-section .owl-item.active,
+.kode-financial-buttons-medium a,
+.kode-financial-silde a,
+.kode-finacial-planing-service,
+.kode-finacial-planing-service h5,
+.kode-finacial-planing-service p,
+.kode-finacial-planing-service a,
+.kode-finacial-planing-service a i,
+.kode-finacial-planing-service a i:after,
+.kode-finacial-teams-cols .kode-finacial-social-icons ul li,
+.kode-finacial-teams-cols .kode-finacial-social-icons ul,
+.kode-finacial-teams-cols figure figcaption,
+.kode-finacial-teams-cols figure figcaption a,
+.kode-finacial-teams-cols .kode-finacial-social-icons,
+.kode-finacial-teams-cols .kode-finacial-social-icons > a,
+.kode-finacial-teams-cols .kode-finacial-social-icons ul li a,
+.kode-finacial-teams-cols figure:before,
+.kode-financial-pricetable-cols,
+.kode-financial-pricetable-cols .kode-financial-price-bgcolor,
+.kode-financial-pricetable-cols > a,
+.kode-financial-consulting a,
+.kode_financial_work_fig_1 figure,
+.kode_financial_work_caption,
+.kode_financial_work_fig_1 figure:after,
+.kode_financial_work_caption a,
+.kode_financial_view a,
+.kode_financial_business_caption a,
+.kode_financial_business_caption p,
+.kode_financial_business_caption h5,
+.kode_financial_business_caption:before,
+.kode_financial_business_caption,
+.kode_financial_business_fig,
+.kode_financial_read a,
+.headertop-bar-2 ul li > .kode-dropdwon2,
+.headertop-bar-2 ul > li,
+.headertop-bar-2 ul > li > a,
+.headertop-bar-2 ul li > ul li,
+.headertop-bar-2 ul li > ul > li a,
+.kode-financial-services2 .kode-financial-silde:after,
+.kode-financial-services2 .kode-financial-silde:before,
+.kode-financial-blog-home2 figure figcaption,
+.kode-financial-blog-home2 figure figcaption a,
+.button-small a,
+.tabs-services ul li a:before,
+.tabs-services ul li a,
+.tabs-services ul li,
+.tabs-services ul li a:after,
+.kode-Invest-Business-cols,
+.kode-Invest-Business-cols span,
+.kode-Invest-Business-cols h6,
+.kode-Invest-Business-cols p,
+.kode-contect-services2-cols h5,
+.kode-contect-services2-cols ul li:before,
+.kode-contect-services2-cols figure figcaption a,
+.kode-contect-services2-cols,
+.kode-contect-services2-cols > a,
+.kode-contect-services2-cols figure:before,
+.kode-case-3-cols .kode-case3-caption,
+.kode-case-3-cols .kode-case3-caption:before,
+.kode-case-3-cols .kode-case3-caption:after,
+.kode-case-3-cols .kode-case3-caption a i,
+.kode-case3-caption a,
+.kode-case3-caption p,
+.kode-case-studies-blog-4 .kode-financial-blog2-cols figure,
+.kode-case-studies-blog-4 .kode-financial-blog2-cols .kode-financial-blog2-caption,
+.kode-case-studies-blog-4 .kode-financial-blog2-cols .kode-financial-blog2-caption h4,
+.kode-mesnorey-gallery ul li .kode-financial-title,
+.kode-mesnorey-gallery ul li,
+.kode-case-studies-blog-5 .kode-finacial-project-cols,
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption,
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption p,
+.kode-case-studies-blog-5 .kode-finacial-project-cols .kode-finacial-project-caption h6,
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure figcaption,
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure,
+.section-blog01 .blog-page01 .kode-caption-expert a i,
+.section-blog01 .blog-page01 .kode-caption-expert a,
+.section-blog01 .blog-page01 figure,
+.blog-page01 figure figcaption,
+.section-blog02 .kode-financial-blog2-cols figure figcaption,
+.section-blog02 .kode-financial-blog2-cols figure figcaption a,
+.kode-contect-service-cols a,
+.kode-contect-service-cols h6,
+.kode-contect-service-cols h4,
+.kode-contect-service-cols,
+.kode-contect-service-cols span,
+.kode-mesnorey-gallery ul li .kode-financial-title span,
+.kode-our-expert-cols.blog-page01 .kode-caption-expert h3,
+.kode-our-expert-cols.blog-page01 .kode-caption-expert a,
+.kode-our-expert-cols.blog-page01 figure,
+.kode-our-expert.section-blog02 .kode-financial-blog2-cols figure:before,
+.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols,
+.theme-detail-social-icons ul li,
+.theme-detail-social-icons ul li a,
+.financial-footer-social-icons ul li,
+.financial-footer-social-icons ul li a,
+.kode-contect-service-cols:after,
+.kode-contect-service-cols:before,
+.kode-tags-cols ul li a,
+.kode-tags-cols ul li,
+.social-note-list ul li span:before,
+.social-note-list ul li span:after,
+.social-note-list ul li a,
+.social-note-list ul li span,
+.kode-filker-img .kode-filker-gallery-cols figure figcaption,
+.kode-filker-img .kode-filker-gallery-cols figure,
+.kode-filker-img .kode-filker-gallery-cols,
+.kode-filker-img .kode-filker-gallery-cols figure:before,
+.kode-financial-sm-slider-capion ul li,
+.kode-financial-sm-slider-capion ul li a,
+.kode-financial-sm-slider-capion ul li a i,
+.kode-our-expert-cols.blog-page01 figure,
+.kode-our-expert-cols.blog-page01 figure:before,
+.kode-caption-expert.blog-3 small,
+.kode-caption-expert.blog-3 h4:before,
+.kode-caption-expert.blog-3 a,
+.kode-caption-expert.blog-3 a i,
+.kode-our-expert-cols.blog-page03 figure figcaption,
+.kode-our-expert-cols.blog-page03 figure,
+.kode-our-expert-cols.blog-page03 figure:before,
+.kode-our-expert-cols.blog-page03 figure figcaption a,
+.kode-bloger-posts .kode-bloger-caption small b,
+.kode-bloger-posts .kode-bloger-caption h3,
+.kode-bloger-posts .kode-prety-photo-zoom a,
+.kode-our-services02 .kode-extend-cols i,
+.kode-our-services02 .kode-extend-cols h6 a,
+.kode-our-services02 .kode-extend-cols a,
+.kode-our-services02 .kode-extend-cols p,
+.kode-our-services02,
+.kode-our-services02:before,
+.kode-our-services02:after,
+.kode-social-icons ul li a,
+.kode-social-icons ul li,
+.kode-financial-error404 ul li,
+.kode-financial-error404 ul li a,
+.kode-financial-navigaion nav ul li .mega-menu,
+.kode-financial-navigaion nav ul li .financial-mega-menu-effect,
+.kode-financial-navigaion nav ul li .sub-menu li a,
+.kode-financial-navigaion nav ul li .sub-menu li,
+.kode-financial-navigaion nav ul li .sub-menu li i,
+.hover-menu-caption button,
+.mega-menu .kode-mega2-cols ul li,
+.mega-menu .kode-mega2-cols ul li a,
+.kode-financial-services2 .kode-financial-silde,
+.kode-financial-logo-and-nav .kode-financial-navigaion nav ul li .simple-menu,
+.kode-financial-logo-and-nav .kode-financial-navigaion nav ul li .simple-menu li,
+.kode-financial-logo-and-nav .kode-financial-navigaion nav ul,
+.kode-financial-logo-and-nav .kode-financial-navigaion nav ul li .simple-menu li a,
+.kode-financial-rt-mediem-button li a,
+.kode-up-financial-cols span:before,
+.kode-up-financial-cols span,
+.kode-up3-financial-navigaion ul li a,
+.kode-up3-financial-navigaion ul li,
+.kode-financial-socialicons ul li a,
+.kode-financial-socialicons ul li,
+.kode-financial-up-navigaion-4 .navigaion > ul > li,
+.kode-financial-up-navigaion-4 .navigaion ul > li > a,
+.kode-up3-financial-navigaion .kode-quote-bt:before,
+.footer2-financial-cols figure img,
+.footer2-financial-cols figure figcaption,
+.footer2-financial-cols,
+.footer2-financial-cols figure:before,
+.group-columns-financial li a,
+.kode-up3-financial-navigaion .kode-financial-megamenu3 .group-megamenu-sami,
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-prev:after,
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-next:after,
+.pp_pic_holder.pp_default .pp_inline .pp_close,
+.bottom-buttons .owl-item.active .just-styling:before,
+.bottom-buttons .owl-item.active.center .just-styling:before,
+.kode-financial-megamenu3 .group-megamenu-sami.simple3-mega,
+.financial-consultent-caption i:after,
+.financial-consultent-caption i:before,
+.financial-consultent-caption i,
+.kode-financial-pagination ul li a,
+.kode-case-studies-blog-5 .kode-finacial-project-cols figure:before,
+.kode-case-3-cols:before,
+.kode-financial-blog2-cols figure:before,
+nav ul li .simple-menu li:after,
+.kode-financial-service-blog-3 .kode_financial_business_fig figure:before,
+.kode-financial-service-blog-3 .kode_financial_business_fig figure,
+.kode-financial-service-blog-3 .kode_financial_business_fig figure img,
+.kode-request-form form button,
+.kode-finacial-project-cols figure figcaption a,
+.kode-finacial-recent-projects .owl-controls .owl-prev:before,
+.kode-finacial-recent-projects .owl-controls .owl-next:before,
+.kode-update-newsletter form button,
+.footer-financial-quickLinks ul li::before,
+.footer-financial-quickLinks ul li a,
+.footer-financial-quickLinks ul li,
+.financial-banner-3-caption a[title]:after,
+.financial-banner-3-caption a,
+.financial-banner-3-caption a[title],
+.financial-banner-3-caption a:before,
+.kode-case-3-cols img,
+.kode-financial-banner .kode-arrows #slider-prev .bx-prev:before,
+.kode-financial-banner .kode-arrows #slider-next .bx-next:before{
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+}
+/*
+	====================================
+		transition 0.3s DELY 0.3S
+	====================================
+*/
+.kode-financial-blog2-cols .kode-financial-blog2-caption a,
+.kode-financial-service-blog-3 .kode_financial_business_fig .kode-bussiness-caption-gallery p{
+	transition: all 0.3s ease-in-out 0.3s;
+	-webkit-transition: all 0.3s ease-in-out 0.3s;
+	-moz-transition: all 0.3s ease-in-out 0.3s;
+}
+.kode-finacialService-slider .kodeslider-section .owl-item.active,
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols figure figcaption,
+.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-caption,
+.kode-social-icons-home2 .open > .dropdown-menu,
+.kode-team-home2-cols figure:before,
+.kode-team-home2-cols,
+.kode-team-home2-cols .kode-home2-caption,
+.kode-team-home2-cols figure:after,
+.kode-financial-blog-home2 > figure:before,
+.kode-financial-blog-home2 > figure,
+.kode-financial-blog-home2 .kode-financial-blog-caption h5 a,
+.kode-financial-blog-home2 .kode-financial-blog-caption small,
+.kode-financial-blog2-cols:before,
+.kode-financial-service-blog-3 .kode_financial_business_fig .kode-bussiness-caption-gallery,
+.section-blog02 .kode-financial-blog2-cols figure:after,
+.kode-bloger-posts figure:before,
+.kode-bloger-posts figure:after,
+.kode-column2-accodien .accordion-close h6 a,
+.kode-column2-accodien .accordion-close h6,
+.kode-column2-accodien .accordion-close h6 a:before,
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-prev,
+.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-next,
+.owl-carousel .owl-item,
+.kode-qoute-bt-rt a:before,
+.kode-financial-navigaion nav ul li .simple-menu li,
+.kode-financial-navigaion nav ul li .simple-menu li .simple-menu-enter,
+.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion > a
+{
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+/*
+	====================================
+			transition-2s
+	====================================
+*/
+.kode-finacialService-slider .kodeslider-section .owl-item,
+.kode-social-icons-home2 ul li ul,
+.kode-social-icons-home2 li button{
+	transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+}
+
+.kode-finacial-recent-projects .owl-item .kode-finacial-project-cols:before,
+.kode-finacial-recent-projects .owl-item .kode-finacial-project-cols:after{
+	transition: all 3s ease-in-out;
+	-webkit-transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+}
+.kode-social-icons-home2 li .dropdown-menu,
+.kode-financial-blog2-cols .kode-financial-blog2-caption{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.kode-sidebar .widget h2:after, .kode-sidebar-element .widget h2:after {
+    background-color: #999999;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 37px;
+    position: absolute;
+    width: 32px;
+}
+.kode-sidebar .widget h2:before, .kode-sidebar-element .widget h2:before {
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 32px;
+}
+.kode-sidebar .widget h2, .kode-sidebar-element .widget h2 {
+    color: #333333;
+    font-size: 26px;
+    margin-bottom: 15px;
+    padding-bottom: 13px;
+    position: relative;
+	font-size:26px;
+}
+
+.kode-sidebar-element .widget{
+	float:left;
+	width:100%;
+	margin-bottom:30px;
+}
+.kode-sidebar-element [class*="col-md-"] {
+	padding:0px;
+	width:100%;
+}
+.kode-sidebar-element .widget_categories ul li{
+	text-align: right;
+}
+.kode-sidebar-element .widget_categories ul li a{
+	text-align: left;
+	float: left;
+}
+.kode-widget{
+}
+
+
+
+/*Theme test unit*/
+
+
+.pingback{
+  padding: 15px 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+.pingback:first-child{
+  border-top: 1px solid #c7c7c7;
+}
+.comment .kf_comment_wrap{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.kf_comment_wrap figure{
+  height: auto;
+}
+.pingback p{
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+  color: #444444;
+}
+.pingback p a{
+  display: inline-block;
+  box-shadow: 0 1px 0 0 currentcolor;
+  font-weight: normal;
+}
+#reply-title{
+  margin-top:20px !important; 
+}
+.logged-in .detail_heading.kf_comment_list_wrap .kode-textarea{
+  width: 100% !important;
+}
+.kf_comment_list_wrap .navigation{
+  float: left;
+  width: 100%;
+  padding: 15px 0 0px;
+    margin-bottom: 30px;
+}
+.kf_comment_list_wrap .navigation .section-heading{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.kf_comment_list_wrap .nav-previous{
+  float: left;
+  width: 50%;
+    
+}
+.kf_comment_list_wrap .nav-next{
+  float: left;
+  width: 50%;
+}
+.kf_comment_list_wrap .navigation a {
+    float: left;
+    line-height: normal;
+    padding: 10px;
+    text-transform: uppercase;
+    width: auto;
+    color: #000;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    transition: all 0.3s ease-in-out;
+}
+.kf_comment_list_wrap .navigation a:hover{
+    color: #fff;
+}
+.commentlist{
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 0;
+}
+.kode-comments-box ul li{
+	width: 100%;
+	float: left;
+}
+.kode-maintitle{
+	float: left;
+	width: 100%;
+}
+.kode-maintitle h6{
+	float: left;
+	font-size: 20px;
+	text-transform: capitalize;
+	line-height: normal;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: bold;
+}
+.pingback{
+  padding: 15px 0;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+}
+.pingback:first-child{
+  border-top: 1px solid #c7c7c7;
+}
+.kf_comment_wrap figure{
+  height: auto;
+}
+.kf_comment_wrap .kf_comment_des{
+    float: none;
+    overflow: hidden;
+    width: auto;
+}
+.comment-reply-link {
+    color: #fff;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 5px 10px;
+    border: 1px solid #c7c7c7;
+    float: right;
+    text-transform: capitalize;
+}
+.kf_comment_date {
+    border-left: 1px solid #c7c7c7;
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    width: auto;
+}
+.kf_comment_wrap .kf_comment_des p{
+    float: left;
+    width: 100%;
+    margin: 0;
+    text-transform: capitalize;
+}
+.kf_comment_des > h6 {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: -3px;
+    text-transform: capitalize;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+.kf_comment_des > h6 a{
+    transition: all 0.3s ease-in-out;
+}
+.pingback p{
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+  color: #444444;
+}
+.pingback p a{
+  display: inline-block;
+  box-shadow: 0 1px 0 0 currentcolor;
+  font-weight: normal;
+}
+#reply-title{
+  margin-top:20px !important; 
+}
+.kf_property_meta .kode-up-right .selectric p{
+	line-height:normal;
+}
+#kodecomments .commentlist{
+	padding:0px;
+}
+.post-password-form {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+.post-password-form label{
+	width: auto;
+	color: #000;
+	float: left;
+}
+.post-password-form label input[type="password"]{
+  float: left;
+  min-height: auto;
+  height: 41px;
+  width: 100% !important;
+  margin: 10px 0 !important;
+  border: 1px solid #c6c6c6;
+}
+.post-password-form label input[type="password"]::-moz-placeholder{
+	color: #333;
+}
+.post-password-form label input[type="password"]::-webkit-input-placeholder{
+	color: #333;
+}
+.post-password-form input[type="submit"]{
+  color: #000;
+  width:auto;
+  float: left;
+  clear: both;
+  transition:all 0.3s ease-in-out;
+  background: #fff;
+  border: 1px solid #333;
+  min-height: auto;
+  height: 45px;
+}
+.post-password-form input[type="submit"]:hover{
+	background: #000;
+	color: #fff;
+}
+.textwidget select,
+#archives-dropdown--1,
+.postform {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    line-height: normal;
+    text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0 20px;
+}
+.textwidget select option,
+ #archives-dropdown--1 option,
+.postform option{
+	color: #fff;
+}
+.calendar_wrap caption {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.calendar_wrap td,.calendar_wrap th {
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #fff;
+}
+.calendar_wrap table{
+    border-color: #fff;
+}
+.calendar_wrap #prev {
+    font-size: 16px;
+    font-weight: bold;
+}
+.textwidget strong{
+	float: left;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.screen-reader-text{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #fff;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+.rssSummary{
+	color: #fff;
+}
+.widget-title .rsswidget{
+	float: left;
+	width: auto;
+	color: #fff;
+	font-size: 20px;
+	text-transform: capitalize;
+    margin-right: 10px;
+}
+.widget-title{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 7px;
+	color:#fff;
+}
+.widget_rss  li:hover{
+    padding: 0;
+}
+.widget_rss  li:hover a:before,
+.widget_rss  li:hover:before{
+    left: 0;
+}
+.rss-date{
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+/*
+.widget_meta ul,
+.widget_recent_comments ul,
+.widget_recent_entries ul ,
+.widget_categories ul,
+.kode-sidebar .widget_archive ul,
+.widget_archive ul,
+.widget_categories ul{
+	margin-left: 0;
+	padding-left:0; 
+}
+.widget_recent_entries li ,
+.kode-sidebar .widget_archive ul li,
+footer .widget_archive ul li,
+footer .widget_categories ul li{
+    text-align: right;
+    color: #fff;
+    line-height: normal;
+    transition:all 0.3s ease-in-out;
+    float: left;;
+    width: 100%;
+    margin: 0;
+}
+.kode-sidebar .widget_archive ul li:hover,
+footer .widget_archive ul li:hover, 
+footer .widget_categories ul li:hover{
+    padding-left: 20px;
+}
+.widget_recent_comments li a,
+.widget_recent_entries li a,
+.kode-sidebar .widget_categories ul li a,
+.kode-sidebar .widget_archive ul li a,
+footer .widget_archive ul li a,
+footer .widget_categories ul li a{
+    float: left;
+    width: auto;
+    line-height: normal;
+    transition:all 0.3s ease-in-out;
+    text-align: left;
+    margin: 0 0 9px;
+}
+.widget_recent_comments li{
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #97a6b6;
+	padding: 5px 0;
+}
+.widget_recent_comments li a{
+	float: none;
+	display: inline-block;
+    transition:all 0.3s ease-in-out;
+}
+footer #categories-2 ul li a{
+	color: #97a6b6;
+}.widget_categories ul li a:before{
+    transition:all 0.3s ease-in-out;
+}
+/*
+.kode-sidebar .widget_categories ul li a:hover,
+.kode-sidebar .widget_archive ul li a:hover,
+footer .widget_archive ul li a:hover,
+footer .widget_categories ul li a:hover{
+    padding: 0;
+}
+
+.kode-sidebar .textwidget select,
+.kode-sidebar #archives-dropdown--1,
+.kode-sidebar .postform {
+    border: 1px solid #666;
+    transition:all 0.3s ease-in-out;
+}
+.kode-sidebar .calendar_wrap td,
+.kode-sidebar .calendar_wrap th {
+    border-color: #666;
+}
+.kode-sidebar .calendar_wrap table{
+    border-color: #666;
+}
+.kode-sidebar #today,
+.kode-sidebar.widget_calendar table tr td:hover{
+	background: #000;
+	color: #fff !important;
+}
+.kode-sidebar .calendar_wrap #prev:hover a,
+.kode-sidebar.calendar_wrap #next:hover a{
+	color: #fff !important;
+}
+/*
+
+/*changing*/
+/*
+.kode-widget ul li,
+.kode-fter-cols ul li{
+	padding-bottom: 15px;
+}
+
+.kode-sidebar  .widget_recent_comments li a,
+.kode-sidebar  .rssSummary,
+.kode-sidebar .screen-reader-text,
+.kode-sidebar  .textwidget strong,
+.kode-sidebar  .rss-date,
+.kode-sidebar .widget_tag_cloud .tagcloud a,
+.kode-sidebar .widget-title,
+.kode-sidebar .rsswidget,
+.kode-sidebar .widget_archive ul li a:hover, 
+.kode-sidebar .widget_categories ul li a:hover,
+.kode-sidebar .widget_archive ul li:hover > a, 
+.kode-sidebar .widget_categories ul li:hover > a,
+.kode-sidebar .widget_archive ul li:hover::before, 
+.kode-sidebar .widget_categories ul li:hover::before,
+.kode-sidebar .widget_categories ul li,
+.kode-sidebar .widget_archive ul li,
+.kode-sidebar .textwidget select,
+.kode-sidebar #archives-dropdown--1,
+.kode-sidebar .postform,
+.kode-sidebar .textwidget select option,
+.kode-sidebar #archives-dropdown--1 option,
+.kode-sidebar .postform option,
+.kode-sidebar .calendar_wrap td,
+.kode-sidebar .calendar_wrap th,
+.kode-sidebar .widget_meta ul li a,
+.kode-sidebar .widget_recent_entries ul li:hover a,
+.kode-sidebar .widget_meta ul li:hover a,
+.kode-sidebar  .widget_calendar table tr td a,
+.kode-sidebar .calendar_wrap caption {
+    color: #333 !important;
+}*/
+/*sidebar*/
+/*sidebar*/
+
+footer .widget-title{
+	color: #fff;
+}
+.kode-blog-content{
+	float: left;
+	width: 100%;
+}
+.kode-blog-post-img > h1, 
+.kode-blog-post-img  > h2, 
+.kode-blog-post-img  > h3, 
+.kode-blog-post-img  > h4, 
+.kode-blog-post-img  > h5, 
+.kode-blog-post-img  > h6,
+.k-content > h1, 
+.k-content > h2, 
+.k-content > h3, 
+.k-content > h4, 
+.k-content > h5, 
+.k-content > h6,
+.kode-blog-content > h1, 
+.kode-blog-content > h2, 
+.kode-blog-content > h3, 
+.kode-blog-content > h4, 
+.kode-blog-content > h5, 
+.kode-blog-content > h6 {
+	margin: 10px 0 20px;
+}
+.kode-blog-thumbnail{
+	float: left;
+	width: auto;
+}
+.kode-post-title{
+	margin: 10px 0;
+}
+.section-heading{
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+#gallery-1,
+.kode-gallery,
+.gallery,
+.kode-video{
+	float: left;
+	width: 100%;
+}
+.content-wrapper > ul,
+header ul,
+.widget ul{
+	list-style: none;
+}
+.menu-our-services-container{
+	float: left;
+	width:100%;
+}
+.footer-wpress-cols ul{
+	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.blog-detail-thumb,
+.related-post figure,
+.kf-blog-list > figure{
+  float: left;
+  width: auto;
+}
+.kf-blog-list .text {
+    float: left;
+    width: 100%;
+}
+.logged-in .detail_heading.kf_comment_list_wrap .kode-textarea{
+  width: 100% !important;
+}
+.kf_comment_list_wrap .navigation{
+  float: left;
+  width: 100%;
+  padding: 15px 0 0px;
+}
+.kf_comment_list_wrap .navigation .section-heading{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.kf_comment_list_wrap .nav-previous{
+  float: left;
+  width: auto;
+  margin-right: 15px;
+}
+.kf_comment_list_wrap .nav-next{
+  float: left;
+  width: auto;
+}
+.kf_comment_list_wrap .navigation a {
+  float: left;
+  line-height: normal;
+  padding: 10px;
+  text-transform: uppercase;
+  width: auto;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TEST UNIT STYLING*/
+.widget_tag_cloud .tagcloud{
+	margin-left: -5px;
+}
+.widget_tag_cloud .tagcloud a {
+    border: 1px solid;
+    float: left;
+    line-height: normal;
+    font-size: 14px !important;
+    font-weight: normal;
+    padding: 4px 15px 4px;
+    position: relative;
+    text-transform: capitalize;
+    width: auto;
+    margin: 0 0 5px 5px;
+    transition: all 0.3s ease-in-out;
+}
+.widget_rss ul,
+.widget_nav_menu ul,
+.widget_recent_comments ul,
+.widget_recent_entries ul,
+.widget_pages ul,
+.widget_meta ul,
+.widget_archive ul,
+.widget_categories ul {
+    padding: 0;
+    margin:0; 
+}
+.widget_nav_menu ul ul,
+.widget_recent_comments ul ul,
+.widget_recent_entries ul ul,
+.widget_pages ul ul,
+.widget_meta ul ul,
+.widget_archive ul ul,
+.widget_categories ul ul {
+    padding-left: 10px;
+}
+.widget_nav_menu ul li,
+.widget_recent_comments ul li,
+.widget_recent_entries ul li,
+.widget_pages ul li,
+.widget_meta ul li,
+.widget_archive ul li,
+.widget_categories ul li {
+    border-top: 1px solid;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+ 	padding-left: 15px;
+    padding-top: 9px;
+    position: relative;
+    text-align: right;
+    width: 100%;
+    line-height: 18px;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+.widget_recent_entries ul li,
+.widget_recent_comments ul li{
+	border: none;
+	padding:7px 0;
+	margin: 0;
+	text-align: left;
+	text-transform: capitalize;
+}
+.widget_recent_comments ul li a{
+	margin: 5px;
+}
+.widget_nav_menu ul li:hover,
+.widget_pages ul li:hover,
+.widget_meta ul li:hover,
+.widget_archive ul li:hover,
+.widget_categories ul li:hover{
+	padding-left: 20px;
+}
+.widget_nav_menu > ul > li:first-child, 
+.widget_recent_entries > ul > li:first-child,
+.widget_pages > ul > li:first-child,
+.widget_meta > ul > li:first-child,
+.widget_archive > ul > li:first-child,
+.widget_categories > ul > li:first-child{
+	border: none;
+}
+.widget_nav_menu ul li:before,
+.widget_pages ul li:before,
+.widget_meta ul li:before,
+.widget_archive ul li::before,
+.widget_categories ul li::before {
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    font-size: 15px;
+    left: 0;
+    top:auto;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+}
+.widget_nav_menu ul li:hover:before,
+.widget_pages ul li:hover:before,
+.widget_meta ul li:hover:before,
+.widget_archive ul li:hover:before,
+.widget_categories ul li:hover:before{
+	left: 10px;
+}
+.widget_nav_menu ul li a,
+.widget_recent_comments ul li a,
+.widget_recent_entries ul li a,
+.widget_pages ul li a,
+.widget_meta ul li a,
+.widget_archive ul li a,
+.widget_categories ul li a{
+	float: left;
+    line-height: normal;
+    margin: 0 0 11px;
+    text-align: left;
+    font-size: 15px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out 0s;
+    width: auto;
+    white-space: nowrap;
+}
+.widget_recent_entries ul li a,
+.widget_recent_comments ul li a{
+	white-space: normal;
+	float: none;
+	display: inline-block;
+	margin: 0;
+}
+/**/
+.textwidget select,
+#archives-dropdown--1,
+.postform {
+    border: 1px solid;
+}
+.widget.kode-widget cite{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.kode-sidebar-element .widget_tag_cloud .tagcloud a,
+.kode-sidebar-element .textwidget select,
+.kode-sidebar-element #archives-dropdown--1,
+.kode-sidebar-element .postform,
+.kode-sidebar-element .calendar_wrap table,
+.kode-sidebar-element .calendar_wrap td,
+.kode-sidebar-element .calendar_wrap th,
+.kode-sidebar-element .widget_pages ul li,
+.kode-sidebar-element .calendar_wrap td, footer .calendar_wrap th,
+.kode-sidebar-element .textwidget select, footer #archives-dropdown--1, footer .postform,
+.kode-sidebar-element .widget_meta ul li,
+.kode-sidebar-element .widget_archive ul li,
+.kode-sidebar-element .widget_categories ul li
+{
+	border-color:#333;
+}
+.kode-sidebar-element  .widget_nav_menu ul li a, 
+.kode-sidebar-element  .widget_recent_comments ul li a, 
+.kode-sidebar-element  .widget_recent_entries ul li a, 
+.kode-sidebar-element  .widget_pages ul li a, 
+.kode-sidebar-element  .widget_meta ul li a, 
+.kode-sidebar-element .widget_archive ul li a, 
+.kode-sidebar-element  .widget_categories ul li a,
+.kode-sidebar-element .kode-widget h5,
+.kode-sidebar-element cite,
+.kode-sidebar-element .rsswidget,
+.kode-sidebar-element #today,
+.kode-sidebar-element .widget_recent_entries ul li,
+.kode-sidebar-element .widget_recent_comments ul li,
+.kode-sidebar-element .widget_tag_cloud .tagcloud a,
+.kode-sidebar-element  #categories-2 ul li a,
+.kode-sidebar-element .widget.kode-widget cite,
+.kode-sidebar-element .widget_tag_cloud .tagcloud a,
+.kode-sidebar-element .widget_recent_comments li a,
+.kode-sidebar-element .rssSummary,
+.kode-sidebar-element .screen-reader-text,
+.kode-sidebar-element .textwidget strong,
+.kode-sidebar-element .rss-date,
+.kode-sidebar-element .widget_tag_cloud .tagcloud a,
+.kode-sidebar-element .rsswidget,
+.kode-sidebar-element .widget_categories ul li,
+.kode-sidebar-element .widget_archive ul li,
+.kode-sidebar-element .textwidget select,
+.kode-sidebar-element #archives-dropdown--1,
+.kode-sidebar-element .postform,
+.kode-sidebar-element .textwidget select option,
+.kode-sidebar-element #archives-dropdown--1 option,
+.kode-sidebar-element  .postform option,
+.kode-sidebar-element  .calendar_wrap td,
+.kode-sidebar-element  .widget_meta ul li a,
+.kode-sidebar-element .widget_archive ul li a,
+.kode-sidebar-element  .widget_calendar table tr td a,
+.kode-sidebar-element  .calendar_wrap caption {
+    color: #333 ;
+}
+.kode-sidebar-element  .widget_nav_menu ul li:hover > a, 
+.kode-sidebar-element  .widget_recent_comments ul li:hover > a, 
+.kode-sidebar-element  .widget_recent_entries ul li:hover > a, 
+.kode-sidebar-element  .widget_pages ul li:hover a, 
+.kode-sidebar-element  .widget_tag_cloud .tagcloud a:hover,
+.kode-sidebar-element  .rsswidget:hover,
+.kode-sidebar-element  .widget_archive li:hover > a,
+.kode-sidebar-element  .widget_categories li:hover > a,
+.kode-sidebar-element  .widget_meta li:hover > a{
+	color: #666 !important;
+}
+.kode-sidebar-element  .calendar_wrap th,
+footer .calendar_wrap th{
+	color: #fff;
+}
+footer .widget_tag_cloud .tagcloud a,
+footer .textwidget select,
+footer #archives-dropdown--1,
+footer .postform,
+footer .calendar_wrap table,
+footer .calendar_wrap td,
+footer .calendar_wrap th,
+footer .widget_pages ul li,
+footer .calendar_wrap td, footer .calendar_wrap th,
+footer .textwidget select, footer #archives-dropdown--1, footer .postform,
+footer .widget_meta ul li,
+footer .widget_archive ul li,
+footer .widget_categories ul li
+{
+	border-color:#e9e9e9;
+}
+/*TEST UNIT STYLING*/
+footer .widget_nav_menu ul li a, 
+footer .widget_recent_comments ul li a, 
+footer .widget_recent_entries ul li a, 
+footer .widget_pages ul li a, 
+footer .widget_meta ul li a, 
+footer .widget_archive ul li a, 
+footer .widget_categories ul li a,
+footer cite,
+footer .rsswidget,
+footer #today,
+footer .widget_recent_entries ul li,
+footer .widget_recent_comments ul li,
+footer .widget_tag_cloud .tagcloud a,
+#categories-2 ul li a,
+footer .widget.kode-widget cite,
+footer .widget_tag_cloud .tagcloud a,
+footer .widget_recent_comments li a,
+footer .rssSummary,
+footer .screen-reader-text,
+footer .textwidget strong,
+footer .rss-date,
+footer .widget_tag_cloud .tagcloud a,
+footer .rsswidget,
+footer .widget_categories ul li,
+footer .widget_archive ul li,
+footer .textwidget select,
+footer #archives-dropdown--1,
+footer .postform,
+footer .textwidget select option,
+footer #archives-dropdown--1 option,
+footer .postform option,
+footer .calendar_wrap td,
+footer .widget_meta ul li a,
+footer .widget_calendar table tr td a,
+footer .kode-fter-cols p,
+footer .textwidget,
+footer #nav_menu-2 ul li:before,
+footer .calendar_wrap caption {
+    color: #fff ;
+}
+
+footer .widget_nav_menu ul li:hover > a, 
+footer .widget_recent_comments ul li:hover > a, 
+footer .widget_recent_entries ul li:hover > a, 
+footer .widget_pages ul li:hover a, 
+footer .widget_tag_cloud .tagcloud a:hover,
+footer .rsswidget:hover,
+footer .widget_archive li:hover > a,
+footer .widget_categories li:hover > a,
+footer .widget_meta li:hover > a{
+	color: #fff !important;
+}
+
+
+
+
+
+.footer2-finacial-caption{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	margin-top: -7px;
+}
+.kode-footer-2 .widget_businesshub_compact_contact_widget .widget-title,
+.kode-footer-2 .widget_businesshub_popular_post_widget .widget-title,
+.kode-footer-2 .widget_text .widget-title,
+.style-2 .kode-financial-wrap-footer .widget-title{
+	margin-bottom: 40px;
+}
+.sub-menu{
+
+}
+.kode-financial-logo-and-nav.nav2 .navigation ul li ul li:hover a,
+.navigation ul.sub-menu > li:hover > a,
+.navigation ul.children > li:hover > a{
+
+}
+
+
+.kode-financial-logo-and-nav.nav2 .navigation ul li ul li ul {
+	top:228px !important;
+}
+.kode-header2-financial .navigation .menu li a{
+	padding: 20px 6px 34px;
+}
+.kode-header2-financial ul{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+.kode-header2-financial .kode-financial-logo-and-nav.nav2{
+	padding-top: 10px;
+}
+.header-style-3 .navigation .menu li a{
+	padding: 24px 8px 30px;
+}
+.header-style-3 .kode-financial-logo-and-nav{
+	padding: 21px 0 0;
+}
+.header-style-3 .kode-financial-logo-and-nav{
+
+}
+.header-style-3 .kode-financial-topbar p{
+	margin-bottom: 0px;
+	line-height: normal;
+	padding-top: 4px;
+}
+.header-style-3 ul {
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#nav_menu-2 ul li{
+	padding-top: 13px;
+}
+.kode-footer-2 ul,
+.style-2 ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.kode-footer-2 .kode-financial-icons,
+.style-2 .kode-financial-icons{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+.kode-footer-2 .widget_businesshub_compact_contact_widget,
+.kode-footer-2 .widget_text,
+.kode-footer-2 .widget_businesshub_popular_post_widget,
+.kode-footer-2 .widget_businesshub_popular_post_widget,
+.kode-footer-2 .widget_nav_menu,
+.style-2 .widget_businesshub_newsletter_widget,
+.style-2 .widget_businesshub_popular_post_widget,
+.style-2 .widget_businesshub_popular_post_widget,
+.style-2 .widget_nav_menu{
+	padding-top: 25px;
+}
+.kode-footer-2 .kode-update-newsletter form input{
+	height: 40px;
+	padding: 0px;
+}
+.kode-footer-2 .kode-update-newsletter form{
+	padding-top: 8px;
+}
+#businesshub_popular_post_widget-2 .widget-title{
+	margin-bottom: 30px;
+}
+.financial-footer-recent-posts {
+    float: left;
+    padding: 7px 0 0;
+    width: 100%;
+}
+.kode-footer-2 .kode-financial-wrap-footer p,
+.style-2 .kode-financial-wrap-footer p{
+	margin-bottom: 4px;
+}
+.kode-footer-2 .kode-form input[type="text"],
+.style-2 .kode-form input[type="text"]{
+	padding-left: 10px;
+}
+.kode-footer-2 .kode-financial-icons i,
+.style-2 .kode-financial-icons i,
+.style-2 .financial-footer-posts i{
+	float: left;
+	padding-top: 6px;
+}
+
+.kode-footer-2 .kode-up-financial-footer-cols{
+	padding-bottom: 0px;
+}
+
+.kode-financial-logo{
+	padding: 8px 0 9px;
+}
+
+.header-sticky .kf_sticky .logo,.header-sticky  .kf_sticky,.header-sticky  .kf_sticky .navbar-nav > li,.header-sticky  .kf_sticky .kd-search{
+		-webkit-transition: all 0.4s ease-in-out;
+	   -moz-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	     -o-transition: all 0.4s ease-in-out;
+	        transition: all 0.4s ease-in-out;
+}
+
+.header-sticky  #kode-header.kf_sticky,
+.header-sticky  .kf_sticky{
+	position:fixed;
+	top:0px;
+	background:#111;
+	left:0px;
+	z-index:999999;
+}
+.header-sticky  #kode-header.kf_sticky{
+	border-bottom:1px solid #333;
+}

@@ -1,0 +1,1476 @@
+.kf_shortcode_outer_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	padding-bottom:35px;
+	margin-bottom:35px;
+	border-bottom:1px solid #e1e1e1;	
+}
+/*
+	  ==============================================================
+		   ShortCode Heading Css Start
+	  ==============================================================
+*/
+.kode_shortcode_hdg{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 25px;	
+}
+.kode_shortcode_hdg h4{
+	font-weight:600;
+	text-transform:uppercase;
+	display:inline-block;
+	border-bottom:1px solid #e1e1e1;
+	padding-bottom:15px;
+}
+/*
+	  ==============================================================
+		   Accordian ShortCode Css Start
+	  ==============================================================
+*/
+.kf_property_accord{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kode_goal_wrap{
+	margin-bottom:10px;
+	float:left;
+	width:100%;	
+}
+.kode_goal_wrap .accordion{
+	padding:15px 30px;
+	box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.27);
+	cursor:pointer;
+	font-weight:bold;
+}
+.kode_goal_wrap .accordion{
+	background-color:#f5f5f5;	
+}
+.kode_goal_wrap  h6{
+	color:#222222;
+	text-transform:capitalize;	
+}
+.kode_goal_wrap .accordion-close h6:after{
+	content:"\f105";
+	font-family:fontawesome;
+	float:right;
+	font-size:20px;
+}
+.goal_heading span{
+	float:right;
+}
+.goal_des,
+.goal_des ul{
+	float:left;
+	width:100%;	
+	list-style:none;
+}
+.goal_des ul{
+	padding:15px 20px 5px;	
+}
+.goal_des ul li{
+	line-height:25px;	
+}
+.goal_des ul li:before{
+	content:"\f10c";
+	font-family:fontawesome;
+	font-size:10px;
+	margin-right:10px;
+	vertical-align:middle;	
+}
+.kode_goal_wrap .accordion-open h6{
+	color:#fff;	
+}
+.kode_goal_wrap .accordion-open h6:after{
+	content:"\f107";
+	font-family:fontawesome;
+	float:right;
+	font-size:20px;	
+}
+.kf_property_accord .kode_goal_wrap:last-child{
+	margin-bottom:0px;	
+}
+.goal_heading.accordion.accordion-open{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Tab ShortCode Css Start
+	  ==============================================================
+*/
+.kf_shortcode_tab{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-top:4px;	
+}
+/*
+	  ==============================================================
+		   Heading ShortCode Css Start
+	  ==============================================================
+*/
+.kf_shortcode_hdg_list{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kf_shortcode_hdg_list h2,
+.kf_shortcode_hdg_list h3,
+.kf_shortcode_hdg_list h4,
+.kf_shortcode_hdg_list h5,
+.kf_shortcode_hdg_list h6{
+	text-transform:uppercase;	
+}
+/*
+	  ==============================================================
+		   Social Icon ShortCode Css Start
+	  ==============================================================
+*/
+.kf_shortcode_social ul{
+	border:0px;
+	text-align:left;
+	padding:0px;
+	margin:0px 0px 20px;	
+}
+.kf_shortcode_social .kf_foo_social_icon .list-item-div{
+	text-align:center;	
+}
+.kf_shortcode_social2{
+	float:left;
+	width:100%;	
+}
+.kf_shortcode_social2 .list-item-div{
+	display:inline-block;
+	position:relative;	
+}
+.kf_shortcode_social2 .list-item-div a{
+	display:block;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	border:2px solid #828282;
+	color:#828282;
+	font-size:16px;
+	line-height:40px;
+	text-align:center;
+	margin-right:3px;	
+}
+ul.kf_shortcode_social2 .list-item-div:hover a{
+	color:#fff;	
+}
+.kf_shortcode_social .kf_top_social_icon{
+	float:left;	
+}
+.kf_shortcode_social .kf_top_social_icon .list-item-div a{
+	color:#828282;	
+}
+/*
+	  ==============================================================
+		   Button ShortCode Css Start
+	  ==============================================================
+*/
+.kf_button_wrap,
+.kf_shortcode_link{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kf_button_wrap{
+	margin:0px 0px 10px;	
+}
+.kode_link_3{
+	display:inline-block;
+	position:relative;
+	color:#828282;
+	font-size:16px;
+	text-transform:uppercase;
+	border:1px solid rgba(77,77,77,0.64);
+	background:none;
+	font-weight:600;	
+}
+.kode_link_3:hover{
+	color:#fff;
+}
+.kode-size-small{
+	padding:7px 15px;	
+}
+.kode-size-medium{
+	padding:9px 15px;
+}
+.kode-size-large{
+	padding:12px 15px;	
+}
+.kode_link_1{
+	display:inline-block;
+	position:relative;
+	color:#929292;
+	font-size:16px;
+	text-transform:uppercase;
+	border:1px solid rgba(77,77,77,0.64);
+	font-weight:600;
+	border-radius:3px;	
+}
+.kode_link_2{
+	display:inline-block;
+	position:relative;
+	color:#929292;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:600;
+	border-bottom:1px solid #dbdbdb;
+	padding-bottom:3px;	
+}
+.kode_link_1:hover{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Icon Box Type 02 ShortCode Css Start
+	  ==============================================================
+*/
+.kf_shortcode_outer_wrap.kf_icon_type_2{
+	padding-bottom:5px;	
+}
+.kf-action7 {
+    float: left;
+    margin-bottom: 70px;
+    padding: 100px 0 73px;
+    width: 100%;
+}
+.kf-action7_hdg {
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.kf-action7_hdg h2 {
+    color: #111111;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.kf-action7_detail {
+    float: left;
+    width: 100%;
+	margin-bottom:40px;
+}
+.kf-action7_detail:last-child {
+    margin-bottom: 0;
+}
+.kf-action7_content {
+    float: left;
+    text-align: center;
+    width: 100%;
+	margin-bottom:30px;
+}
+.kf-action7_content a {
+    border: 1px solid #e8e8e8;
+    border-radius: 100%;
+    display: inline-block;
+	color:#999999;
+    font-size: 40px;
+    height: 87px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 87px;
+	position:relative;
+	line-height: 94px;
+}
+.kf-action7_content h6 {
+    font-weight: bold;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.kf-action7_content:hover a{
+	color:#fff;	
+}
+/*
+	  ==============================================================
+		   Icon Box Type 03 ShortCode Css Start
+	  ==============================================================
+*/
+.pet_love{
+	float:left;
+	width:100%;
+}
+.pet_love_hdg{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.pet_love_hdg h3{
+	font-size:30px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px;
+	color:#323232;
+	margin-bottom:7px;
+}
+.pet_love_hdg span{
+	font-size:20px;
+	color:#000000;
+}
+.pet_love_content{
+	float:left;
+	width:100%;
+}
+.col-md-4.pet_kode {
+    padding: 0;
+}
+.pet_love_content ul{
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:100%;
+}
+.pet_love_content{
+	list-style:none;
+	position:relative;
+	margin-bottom:35px;
+}
+.pet_love_content:hover span{
+	color:#fff;	
+}
+.pet_love_content_list{
+	float:none;
+	width:100%;
+	text-align:right;
+	padding-right: 119px;
+}
+.pet_love_content_list h6 > a{
+	display:block;	
+}
+.pet_love_content_list h6{
+	margin:0px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.pet_love_content_list p{
+	text-align:right;
+	word-break:break-all;
+}
+.pet_love_content_list.pet_1 p{
+	text-align:left;	
+}
+.pet_love_content span {
+    float: right;
+	width:87px;
+	height:87px;
+	text-align:center;
+	border:1px solid #e4e4e4;
+	border-radius:100%;
+	position:absolute;
+	top:0px;
+	right:0px;
+	font-size:40px;
+	color:#666666;
+}
+.pet_love_content.kode-icon-left span{
+	float:right;
+	left:0px;
+}
+.kf-action7_content a::before,
+.pet_love_content span::before{
+	border: 1px solid #e4e4e4;
+    border-radius: 100%;
+    bottom: 0;
+    color: #666666;
+    content: "";
+    font-size: 40px;
+    height: 75px;
+    left: 5px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 5px;
+    width: 75px;
+    z-index: -1;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+	-moz-transform:scale(0);
+	-ms-transform:scale(0);
+	-o-transform:scale(0);
+}
+.kf-action7_content:hover a::before,
+.pet_love_content ul li:hover span::before{
+	opacity:1;
+	color:#fff;
+}
+.pet_love_content ul li:hover span{
+	color:#fff;
+}
+.pet_love_content span i{
+	line-height:80px;
+}
+.pet_love_content_list.pet_1 {
+    margin: auto;
+    padding: 0 0 0 100px;
+    text-align: left;
+}
+.pet_love_content.pet_2 span { 
+    left: 0;
+}
+/*
+	  ==============================================================
+		   Price Table ShortCode Css Start
+	  ==============================================================
+*/
+.kf_price_table{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;
+	border:1px solid #e1e3e2;
+}
+.kf_price_table h3{
+	font-weight:600;
+	text-transform:uppercase;
+	padding:35px;
+}
+.kf_table_price{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:35px 20px;
+}
+.kf_table_price::before{
+	content:"";
+	position:absolute;
+	bottom:-8px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:18px;
+	height:18px;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+.kf_table_price h2{
+	font-size:40px;
+	color:#fff;
+	font-weight:bold;
+	margin:0px 0px 5px;
+	text-transform:capitalize;
+}
+.kf_table_price span{
+	font-size:16px;
+	color:#fff;
+	text-transform:capitalize;
+}
+.kf_prdct_featured_wrap{
+	float:left;
+	width:100%;
+	position:relative;
+	padding:40px 20px;
+}
+ul.kf_product_featured_list{
+	float:left;
+	width:100%;
+	margin:0px 0px 30px;
+	padding:0px;
+}
+ul.kf_product_featured_list li{
+	position:relative;
+	display:inline-block;
+	width:100%;
+}
+ul.kf_product_featured_list li a{
+	display:block;
+	font-size:15px;
+	padding:8px 0px;
+	color:#666666;
+}
+.kf_prdct_featured_wrap a.kf_link_1{
+	border-radius:0px;
+	border:1px solid #e1e3e2;
+}
+.custom-btn i{
+	margin-left:10px;
+}
+
+
+
+/*
+	  ============================================================
+		   Submitting Add Wrap Start
+	  ============================================================
+*/
+.kf_submit_add_outer_wrap,
+.kf_step_outer_wrap,
+.kf_submit_add_hdg,
+.kf_step_1_des,
+.kf_submit_field,
+.kf_submit_field_btn{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:left;	
+}
+.kf_submit_add_hdg{
+	padding:20px;	
+}
+.kf_submit_add_hdg h5,
+.kf_submit_add_hdg h6{
+	display:inline-block;
+	color:#666666;
+	font-weight:bold;
+	text-transform:uppercase;	
+	font-size:14px;
+}
+.kf_submit_add_hdg h5{
+	float:left;
+	font-size:16px;
+	color:#fff;
+}
+.kf_submit_add_hdg h6{
+	float:right;
+	color:#fff;
+}
+.kf_author_icon_detail h6{
+	font-size:14px;
+}
+/*
+	  ============================================================
+		   Submitting Add Wrap End
+	  ============================================================
+*/
+/*
+	  ============================================================
+		   Submitting Step 1 Wrap Start
+	  ============================================================
+*/
+/*Step 1 CSS*/
+.submit_margin_bottom{
+	margin:0px 0px 25px;	
+}
+.kf_step_1_des{
+	padding:25px 25px 0px 25px;
+	border:1px solid #edf2f5;	
+}
+.kf_submit_field h6{
+	text-transform:capitalize;
+	margin:0px 0px 10px;
+	font-weight:bold;
+	font-size:15px;
+}
+.kf_submit_field input[type="text"]{
+	width:100%;
+	height:43px;
+	border:1px solid #edf2f5;
+	margin:0px 0px 25px;
+	padding:8px 15px;	
+}
+.kf_submit_field .kf_step2_field input[type="text"]{
+	margin:0px 0px 0px;
+}
+.kf_submit_field textarea{
+	margin-bottom:25px;
+	height:150px;
+}
+/*Editor CSS*/
+.kf_submit_field #statusbar{
+	display:none;	
+}
+.kf_submit_field .Editor-editor{
+	height:180px;	
+}
+.kf_submit_field #menuBarDiv, #statusbar{
+	background-image:none;
+	background-color:#edf2f5;
+	border-radius:0px;
+	border:0px;	
+}
+.kf_submit_field .btn-default{
+	background:none;
+	border:0px;	
+}
+.kf_submit_field .btn-group span.caret{
+	display:none;	
+}
+.kf_submit_field .row-fluid.Editor-container{
+	margin:0px 0px 25px;	
+}
+/*File Upload CSS*/
+.kf_submit_field .uploadFile{
+	background-color:#edf2f5;	
+}
+.kf_submit_field > span{
+	display:inline-block;
+	height:43px;
+	padding:10px 25px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:capitalize;
+	position: absolute;
+    top: 26px;
+    right: 0;	
+}
+.kode-sidebar .kode-financial-title,
+.kode-widget .kode-financial-title,
+.kode-sidebar-element .kode-financial-title{
+	width:100%;
+	text-align: left;
+}
+.kode-sidebar .kode-financial-title .widget-title,
+.kode-widget .kode-financial-title .widget-title,
+.kode-sidebar-element .kode-financial-title .widget-title{
+	color:#333;
+}
+.kode-sidebar .kode-financial-title span,
+.kode-widget .kode-financial-title span,
+.kode-sidebar-element .kode-financial-title span{
+	margin-left: 3px;
+}
+.kf_submit_field input[type="file"]{
+	position: absolute;
+    top: 26px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+	width:147px;
+	height:43px;
+}
+.kf_submit_field span:hover{
+	background-color:#000;
+}
+/*Btn CSS*/
+.kf_submit_field_btn{
+	text-align:center;	
+	display:inline-block;
+}
+.kf_submit_field_btn .previous,
+.kf_submit_field_btn .next,
+.kf_submit_field_btn .submit{
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-bottom:2px solid #13b1bc;
+	padding:10px 0px;
+	border:0px;
+	min-width:195px;	
+	width:auto;
+}
+.kf_submit_field_btn .previous:hover,
+.kf_submit_field_btn .next:hover,
+.kf_submit_field_btn .submit:hover{
+	background-color:#000;
+}
+/*
+	  ============================================================
+		   Submitting Step 1 Wrap End
+	  ============================================================
+*/
+
+/*
+	  ============================================================
+		   Submitting Step 2 Wrap Start
+	  ============================================================
+*/
+.kf_step2_field{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 25px;	
+}
+.kf_step2_field label{
+	position:absolute;
+	top:22px;
+	left:10px;
+	color:#666666;
+	z-index:10;	
+}
+.kf_step2_field .chosen-container-single .chosen-single{
+	width:100%;
+	border:1px solid #edf2f5;
+	background:none;
+	height:43px;
+	box-shadow:none;
+	padding:8px 50px 8px 40px;
+	color:#666666;
+	font-size:15px;
+	border-radius:0px;
+}
+.kf_step2_field .chosen-container-single .chosen-single div{
+	background:none;	
+}
+.kf_step2_field .chosen-container-single .chosen-single div b::before{
+	content:"\f0d7";
+	top:10px;	
+}
+/*Active CSS*/
+.kf_step2_field .chosen-with-drop{
+	background-color:#edf2f5;	
+}
+.kf_step2_field .chosen-with-drop .chosen-single div{
+	background-color:#e7eef2;	
+}
+/*
+	  ============================================================
+		   Submitting Step 2 Wrap End
+	  ============================================================
+*/
+
+/*
+	  ============================================================
+		   Submitting Step 3 Wrap Start
+	  ============================================================
+*/
+.kf_step_3_des,
+.kf_step_3_des ul{
+	float:left;
+	width:100%;
+	position:relative;	
+	padding:0px;
+	list-style:none;
+}
+.kf_step_3_des ul li{
+	width:100%;
+	position:relative;
+	float:left;	
+}
+.kf_step_3_des ul li label{
+	color:#666666;
+	font-weight:bold;	
+}
+.kf_step_3_des ul li input[type=checkbox] { 
+	display:none; 
+}
+.kf_step_3_des ul li input[type=checkbox] + label:before {
+	display: inline-block;
+	margin:0px 12px 0px 0px;
+}
+.kf_step_3_des ul li input[type=checkbox] + label:before { 
+	content: ""; 
+	font-family:fontawesome; 
+	border:2px solid #d7dfe7;
+	width:15px;
+	height:15px;
+} 
+.kf_step_3_des ul li input[type=checkbox]:checked + label:before { 
+	content: ""; 
+	font-family:fontawesome; 
+	background-image:url(../images/checkbox.png);
+	width:15px;
+	height:15px;
+	border:0px;
+}
+/*
+	  ============================================================
+		   Submitting Step 3 Wrap End
+	  ============================================================
+*/
+
+/*
+	  ============================================================
+		   Submitting Step 4 Wrap Start
+	  ============================================================
+*/
+.kf_submit_field label{
+	position:absolute;
+	top:15px;
+	left:10px;	
+}
+.kf_submit_field.kf_step_4 input[type="text"]{
+	padding:8px 25px;	
+}
+/*
+	  ============================================================
+		   Submitting Step 4 Wrap End
+	  ============================================================
+*/
+
+/*
+	  ============================================================
+		   Submitting Step 5 Wrap Start
+	  ============================================================
+*/
+.kf_submitting_map{
+	float:left;
+	width:100%;
+	position:relative;	
+}
+.kf_submitting_map .map-canvas{
+	min-height:300px;
+	margin:0px 0px 25px;	
+}
+/*
+	  ============================================================
+		   Submitting Step 5 Wrap End
+	  ============================================================
+*/
+
+/*
+	  ============================================================
+		   Submitting Step 7 Wrap Start
+	  ============================================================
+*/
+.kf_term_condition h5,
+.kf_term_condition h6{
+	color:#666666;
+	font-weight:bold;
+	margin:0px 0px 10px;	
+}
+/*
+	  ============================================================
+		   Submitting Step 7 Wrap End
+	  ============================================================
+*/
+
+/*
+	  ============================================================
+		   Submitting Step 8 Wrap Start
+	  ============================================================
+*/
+.kf_term_condition h5,
+.kf_term_condition h6{
+	color:#666666;
+	font-weight:bold;
+	margin:0px 0px 10px;	
+}
+.kf_term_condition h6{
+	margin-bottom:20px;
+}
+.kf_term_condition h5{
+	margin-bottom:20px;
+}
+.kf_term_condition p{
+	margin:0px 0px 10px;
+}
+.kf_term_checkbox{
+	float:left;
+	width:100%;
+	position:relative;
+	margin:0px 0px 20px;
+}
+/*
+	  ============================================================
+		   Submitting Step 8 Wrap End
+	  ============================================================
+*/
+
+/*form styles*/
+#msform {
+	text-align: center;
+}
+#msform fieldset {
+	box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+	padding:0px;
+	text-align:center;
+}
+#progressbar li {
+	color: #666;
+	text-transform: capitalize;
+	width: 15%;
+	display:inline-block;
+	position: relative;
+	text-align:center;
+	font-size:17px;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 50px;
+	line-height: 50px;
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	background: #666;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: -50%;
+	top: 27px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*
+	  ============================================================
+		   Steps Jquery Wrap End
+	  ============================================================
+*/
+.chosen-container{
+	width:100% !important;
+}
+.kf_sign_in_field{
+	margin-top:15px;
+}
+.kf_sign_in_field > input {
+    float: left;
+    height: auto;
+    margin-right: 10px;
+    width: auto;
+}
+
+
+.medium-btn,
+.large-btn,
+.small-btn,
+.btn-3{
+    display: inline-block;
+    background-color:#fff;
+    color: #333333; 
+   padding: 13px 30px;
+   font-weight: bold;
+   line-height: 14px;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+.small-btn{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    color:#fff;
+}
+.medium-btn{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    color:#fff;
+}
+.large-btn{
+     color:#fff;
+}
+.btn-3{
+    border:1px solid #e3e3e3;
+}
+.medium-btn:hover,
+.large-btn:hover,
+.small-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.rw-sentence span{
+    font-size: 48px;
+    font-weight: normal;
+}
+.rw-words{
+    display: inline;
+    text-indent: 10px;
+}
+.rw-words-1 span{
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    color: #6b969d;
+    -webkit-animation: rotateWord 18s linear infinite 0s;
+    -ms-animation: rotateWord 18s linear infinite 0s;
+    animation: rotateWord 18s linear infinite 0s;
+    left: 0;
+    right: 0;
+    margin:auto; 
+}
+.rw-words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+    color: #6b889d;
+}
+.rw-words-1 span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+    -ms-animation-delay: 6s; 
+    animation-delay: 6s; 
+    color: #6b739d; 
+}
+.rw-words-1 span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+    color: #7a6b9d;
+}
+.rw-words-1 span:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+    -ms-animation-delay: 12s; 
+    animation-delay: 12s; 
+    color: #8d6b9d;
+}
+.rw-words-1 span:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+    -ms-animation-delay: 15s; 
+    animation-delay: 15s; 
+    color: #9b6b9d;
+}
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+    5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+    20% { opacity: 0; -webkit-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+    5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+    20% { opacity: 0; -ms-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+    5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+    20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@media screen and (max-width: 768px){
+    .rw-sentence { font-size: 18px; }
+}
+@media screen and (max-width: 320px){
+    .rw-sentence { font-size: 9px; }
+}
+/*==============TOP BAR LEFT Right ==========================*/
+
+.kode-financial-bottom-border:before{
+    bottom: -12px;
+    content: "";
+    height: 12px;
+    left: -12px;
+    margin: 0 auto 0 0;
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 12px 12px 0;
+	border-color: transparent #0583d1 transparent transparent;
+}
+.kode-financial-bottom-border:after{
+	 background: #fff none repeat scroll 0 0;
+    border-color: #0583d1 transparent transparent;
+    border-style: solid;
+    border-width: 11px 12px 0 0;
+    bottom: -12px;
+    box-shadow: 20px 20px 0 20px #fff;
+    content: "";
+    height: 0;
+    margin: 0 auto 0 0;
+    position: absolute;
+    right: 22px;
+
+}
+/*==============TOP BAR LEFT Right ends==========================*/
+
+/*===================Buttons=====================================*/
+
+.bottom-buttons button{
+	width:285px;
+	height:68px;
+	display:inline-block;
+	color:#fff;
+	position:relative;
+	text-align:center;
+	line-height:70px;
+	margin:0 -2px;
+	/*border:1px solid #fff;*/
+	z-index: 999999;
+	 font-size: 18px;
+    text-transform: uppercase;
+}
+.kode-silder .bottom-buttons .owl-stage-outer{
+	overflow: visible !important;
+}
+.bottom-buttons .owl-item.current{
+	position:relative;
+	display:inline-block;
+}
+.bottom-buttons .owl-stage-outer .owl-stage{
+	transform:none !important; 
+}
+.bottom-buttons .owl-item.active .just-styling:before{
+	top:0px;
+	opacity: 0;
+}
+.bottom-buttons .owl-item.active:hover .just-styling.blue:before,
+.bottom-buttons .owl-item.center .just-styling.blue:before{
+	position:absolute;
+	content:"";
+	top:-8px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 9px 8px 9px;
+	border-color: transparent transparent #0583d1 transparent;
+	opacity: 1;
+}
+.bottom-buttons .owl-item.active:hover .just-styling.skybule:before,
+.bottom-buttons .owl-item.center .just-styling.skybule:before{
+	position:absolute;
+	content:"";
+	top:-8px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 9px 8px 9px;
+	border-color: transparent transparent #38b4ff transparent;
+	opacity: 1;
+}
+/*=======================================*/
+.kode-financial-buttons-medium,
+.kode-form-button,
+.button-small{
+	float:left;
+	width:100%;
+}
+.kode-financial-buttons-medium.white-bg a:hover,
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center .kode-financial-silde > a:hover,
+.kode-case3-caption a:hover{
+	background:#fff;
+}
+.kode-financial-buttons-medium a:hover,
+.kode-financial-consulting a:hover,
+.button-small a:hover{
+	border-color:transparent;
+}
+.kode-financial-consulting-section .kode-financial-consulting a:hover{
+	background:#fff;
+
+}
+.kode-financial-buttons-medium a{
+	font-size:16px;
+}
+.kode-financial-buttons-medium a,
+.kode-financial-consulting a,
+.kode-banner2-caption > a,
+.kode-financial-accordian-button2 a{
+	display:inline-block;
+	padding:11px 20px 10px;
+	text-align:center;
+	font-size: 16px;
+	border:1px solid #fff;
+	color:#fff;
+}
+.kode-form-button a{
+	display:inline-block;
+	/*width:167px;
+	height:51px;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:53px;*/
+	padding: 15px 22px;
+	text-transform: uppercase;
+	color:#fff;
+	font-weight:600;
+	text-align:center;
+}
+.button-small a,
+.kode-financial-error404 ul li a{
+	text-align:center;
+	display:inline-block;
+	border:1px solid #fff;
+	font-weight:bold;
+	color:#fff;
+	padding: 14px 20px;
+	line-height: normal;
+	text-transform: uppercase;
+	
+}
+.kode-financial-pricetable-cols > a{
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+	width:170px;
+	height:47px;
+	border:1px solid #d1d1d1;
+	line-height:43px;
+	text-align:center;
+	display:inline-block;
+	padding: 0px 26px 0px;
+	text-transform:capitalize;
+}
+/*=============background color==========*/
+.blue{
+	background-color:#1a9ded;
+}
+.skybule{
+	background-color:#38b4ff;
+}
+/*========================================*/
+/*==========HEADING STYLE=================*/
+.kode-financial-title{
+	text-align:center;
+	margin:0px auto 17px;
+	width:100%;
+}
+.kode-financial-title h6{
+	color:#666666;
+	font-style:italic;
+	margin-bottom:19px;
+	line-height: 12px;
+}
+.kode-financial-title h2{
+	font-size:30px;
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:8px;
+}
+.kode-financial-title span{
+	position:relative;
+	width:5px;
+	height:5px;
+	display:inline-block;
+}
+.kode-financial-title p{
+	margin-top:9px;
+}
+
+.dosts-white{
+	background-color:#fff;
+}
+.dosts-black{
+	background-color:#666666;
+}
+.dosts-dark-black{
+	background-color:#333;
+}
+/*
+	================================
+		PAGINATIONS
+	================================
+*/
+.kode-pagination,
+.kode-financial-pagination,
+.kode-financial-pagination ul{
+	float: left;
+	width:100%;
+}
+.kode-pagination,
+.kode-financial-pagination ul{
+	text-align: center;
+}
+.kode-financial-pagination ul li{
+	display: inline-block;
+}
+.page-links .page-links-title{
+	float: left;
+	line-height: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333;
+	margin-right: 15px;
+}
+
+.kode-pagination .page-numbers,
+.page-links span,
+.kode-financial-pagination ul li a   {
+	border: 1px solid #d7d8d8;
+    border-radius: 3px;
+    color: #717171;
+    display: inline-block;
+    font-size: 14px;
+    height: 33px;
+    line-height: 32px;
+    margin: 0 3px 0 0;
+    text-align: center;
+    width: 33px;
+    transition: all 0.3s ease-in-out;
+}
+.page-links .page-links-title{
+	padding:0px;
+	border-radius:none;
+	border:none;
+	margin-right:10px;
+	width:auto;
+}
+.kode-pagination .page-numbers:last-child{
+	margin: 0;
+}
+.kode-pagination span{
+
+}
+.page-links span:hover{
+	color: #fff;
+	background: #000;
+}
+.kode-pagination .current{
+	color:#fff;
+}
+.kode-pagination .prev,
+.kode-pagination .next{
+	height: auto;
+	line-height: 24px;
+	width: auto;
+	padding: 5px 10px 4px;
+	line-height: normal;
+	background: transparent;
+}
+/*.kode-pagination .page-numbers.prev:hover,
+.kode-pagination .page-numbers.next:hover{
+	background: transparent;
+	color:#666;
+}*/
+.kode-financial-pagination ul li sub{
+	color:#666;
+}
+.kode-pagination .next,
+.kode-pagination span,
+.kode-pagination .page-numbers:hover{
+	background-color: #1a9ded;
+	color:#fff;
+	border-color:transparent;
+}
+
+
+
+
+/*
+===========================================
+	Banner inner styleing
+==========================================
+*/
+
+#sync1 .item{
+    padding: 0px 0px;
+    margin: 0px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+#sync2 .item{
+    float: left;
+    padding: 0px 0px;
+    margin: 0px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1{
+  font-size: 18px;
+}
+#sync2 .synced .item{
+  background: #0c83e7;
+  float: left;
+}
+.kode-silder .container #sync2 .owl-item.active {
+	float: left;
+}
+#sync2 .owl-nav.disabled{
+	display: none;
+}
+/*
+===========================================
+	Banner inner styleing ends
+==========================================
+*/
+
+/*===============================================*/
+/*============= Place holder colors==============*/
+/*===============================================*/
+
+.kode-input-texting input::-webkit-input-placeholder,
+.kode-form-section:-moz-input-placeholder,
+.kode-input-texting input:-moz-placeholder,
+.kode-input-texting input::-moz-placeholder,
+.kode-input-texting input:-ms-input-placeholder {
+   color:#ffffff;
+}
+.kode-financial-footer .kode-entry-mail form input::-webkit-input-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input:-moz-input-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input:-moz-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input::-moz-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input:-ms-input-placeholder {color:#fff;}
+
+
+.kode-form-section:-moz-input-placeholder{
+	color:#ffffff;
+}
+.kode-input-texting input::-webkit-input-placeholder {
+   color:#ffffff;
+}
+.kode-input-texting input:-moz-placeholder { /* Firefox 18- */
+  color:#ffffff;
+}
+.kode-input-texting input::-moz-placeholder {  /* Firefox 19+ */
+   color:#ffffff; 
+}
+.kode-input-texting input:-ms-input-placeholder {  
+   color:#ffffff;
+}
+.kode-form-wrap-input input:-moz-input-placeholder{
+	color:#ffffff;
+}
+.kode-form-wrap-input input::-webkit-input-placeholder {
+   color:#ffffff;
+}
+.kode-form-wrap-input input:-moz-placeholder { /* Firefox 18- */
+  color:#ffffff;
+}
+.kode-form-wrap-input input::-moz-placeholder {  /* Firefox 19+ */
+   color:#ffffff; 
+}
+.kode-form-wrap-input input:-ms-input-placeholder {  
+   color:#ffffff;
+}

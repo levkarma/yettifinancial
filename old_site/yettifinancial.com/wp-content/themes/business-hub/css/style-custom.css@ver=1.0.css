@@ -1,0 +1,401 @@
+.kode-finacial-logow img{width:400px}
+kode-finacial-logow img{height:120px}
+.kode-navigation-wrapper{font-family:Raleway}
+.kode-caption-title, .kode-caption-text, h1, h2, h3, h4, h5, h6{font-family:Raleway}
+body,p{font-family:Open Sans}
+body{font-size:14px}
+h1{font-size:62px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:15px}
+.navigation ul > li > a, .navbar-nav > li > a{color:#592428 !important}
+.kode-linksection, .kode-modren-btn{border-color:#020202 !important}
+.kode-linksection, .kode-modren-btn{background:#2f94cf !important}
+.navigation ul > li:hover > a{background-color:#592428 !important}
+.navigation ul.sub-menu > li:hover > a, .navigation ul.children > li:hover > a{background-color:#2f94cf !important}
+.navigation ul > li:hover > a, .navbar-nav > li:hover{color:#000000 !important}
+.navigation .sub-menu, .navigation .children, .navbar-nav .children{background:#592428 !important}
+.navigation .menu .sub-menu li:hover a:before, .navigation .sub-menu li:hover a:before, .navbar-nav .children li:hover a:before{ color:#ffffff !important }
+.navigation ul li ul > li:hover > a, .navbar-nav li ul > li:hover > a{ color:#ffffff !important }
+.navigation .sub-menu li a, .navigation .children li a, .navbar-nav .children li a{ color:#666666 !important }
+body { background-color: #ffffff;  }
+.kode-financial-wrap-footer{ opacity: 0.6;  }
+.kode-financial-wrap-footer{ background-color: #39291c;  }
+.kode-financial-wrap-footer{background:url(../../../uploads/2017/02/generations1920.jpg);background-size: cover;float: left;position: relative;width: 100%;}.kode-financial-wrap-footer{background-image:url(../../../uploads/2017/02/generations1920.jpg);}.kode-finacial-logow{margin-top: 5px;  }
+
+						/*
+							===========================================
+								Blue BACKGROUND-COLOR transparent
+							===========================================
+						*/
+
+						.kode-financial-service-blog-2 .container .kode_financial_business_fig:hover .kode_financial_business_caption,
+						.kode-financial-service-blog-3 .container .kode_financial_business_fig:hover .kode_financial_business_caption{
+							background-color: transparent;
+						}
+
+						/*
+							====================================
+									Font Color Drakblue
+							====================================
+						*/
+
+						.kode_financial_read a:hover,
+						.green-banner-caption h2,
+						.kode-financial-blog-home2:hover .kode-financial-blog-caption h5 a,
+						.kode-testimonial-home2-caption h6,
+						.home2-footerform .kode-entry-mail form button,
+						.kode-financial-up-navigaion-4 .kode-mega-title-def h6,
+						.kode-financial-up-navigaion-4 .kode-financial-megamenu3 .group-columns-financial li a i,
+						.kode-financial-up-navigaion-4 .kode-financial-megamenu3 .group-columns-financial li:hover a,
+						.kode-financial-blog-caption h5,
+						.kode-download-paket ul li a i,
+						.kode-Invest-Business-cols:hover span,
+						.kode-contect-services2-cols:hover h5,
+						.kode-contect-services2-cols:hover ul li:before,
+						.section-blue .kode-testimonial-home2-caption h6,
+						.kode-case-3-cols .kode-case3-caption a:hover i,
+						.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols:hover .kode-financial-blog2-caption h4,
+						.kode-our-expert-cols.blog-page01:hover .kode-caption-expert h3,
+						.kode-our-expert-cols.blog-page01:hover .kode-caption-expert a i,
+						.kode-contect-service-cols:hover a,
+						.kode-entry-mail form button,
+						.financial-comment-sender .kode-comments-box small,
+						.kode-caption-expert.blog-3:hover a,
+						.kode-caption-expert.blog-3:hover a i,
+						.kode-our-services02:hover i,
+						.kode-financial-error404 h2 i,
+						.kode-financial-buttons-medium.white-bg a:hover,
+						.kode-finacialService-slider .kodeslider-section .owl-item.active.center .kode-financial-silde > a:hover,
+						.kode-case3-caption a:hover,
+						.hover-menu-caption button,
+						.hover-menu-caption button i,
+						.mega-menu .kode-mega2-cols ul li:hover a,
+						.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-prev:hover:after,
+						.kode-financial-banner .financial-silder .owl-controls .owl-nav .owl-next:hover:after,
+						.kode-financial-megamenu3 .group-columns-financial li a i,
+						.kode-mega-title-def h6,
+						.kode-financial-navigaion nav ul li .sub-menu li:hover i,
+						.accordin-blue .kode_financial_acordin_row .kode-financial-accordian2.for-accodien.accordian h4:before,
+						.kode-financial-pricetable-cols ul li i,
+						.kode-financial-footer-green .kode-linces-copyright h5 a,
+						.kode_financial_acordin_row .kode-financial-accordian2.for-accodien.accordian h4:before,
+						.kode_financial_accordin_wraper .kode_financial_acordin_row .kode-financial-accordian2 h4:before{color: #ffffff !important;  }
+.financial-footer-posts i,
+						.navigation ul.sub-menu li:hover > a,
+						.navigation ul.children li:hover > a,
+						.kode-financial-icons i{
+							color:#FFF !important;
+						}
+						/*
+							=======================================
+									BACKGROUND-COLOR Drakblue
+							=======================================
+						*/
+						.kode-form-and-brands,
+						.kode-header2-financial .headertop2,
+						.nav2 .kode-financial-navigaion > a:hover,
+						.headertop-bar-2 ul li ul li a,
+						.kode-banner2-caption ol li a,
+						.kode-banner2-caption > a,
+						.kode-financial-latest-blog .owl-controls .owl-prev:hover:before,
+						.kode-financial-latest-blog .owl-controls .owl-next:hover:before,
+						.kode-financial-blog-home2:hover .kode-financial-blog-caption small,
+						.kode-testimonial-section-home2  .owl-controls .owl-prev:hover:before,
+						.kode-testimonial-section-home2  .owl-controls .owl-next:hover:before,
+						.kode_financial_work_caption a:hover,
+						.kode_financial_view a,
+						.kode-financial-service-blog-2 .kode_financial_business_fig .kode_financial_business_caption a:hover,
+						.bar,
+						.kode_financial_span span,
+						.kode-financial-footer.home2-footerform,
+						.kode-financial-logo-and-nav.nav2 .kode-financial-navigaion nav ul li .simple-menu li:hover,
+						.kode-financial-service-h2 .container .kode_financial_business_fig .kode_financial_business_caption,
+						.kode-financial-logo-and-nav .no-touch .dl-menuwrapper li a:hover,
+						.kode-financial-logo-and-nav.nav2 .dl-menuwrapper button:hover,
+						.kode-financial-logo-and-nav.nav2 .dl-menuwrapper button.dl-active,
+						.kode-financial-logo-and-nav.nav2 .dl-menuwrapper ul,
+						.kode-financial-logo-and-nav.nav2 .dl-menuwrapper button,
+						section .container .kode_financial_business_fig .kode_financial_business_caption,
+						.kode-financial-up-navigaion-4.kode-up3-financial-navigaion .dl-menuwrapper button, 
+						.kode-financial-up-navigaion-4.kode-up3-financial-navigaion .dl-menuwrapper button:hover,
+						.kode-financial-up-navigaion-4.kode-up3-financial-navigaion .dl-menuwrapper button.dl-active, 
+						.kode-financial-up-navigaion-4.kode-up3-financial-navigaion .dl-menuwrapper ul,
+						.kode-financial-services2 .kode-financial-silde:hover:after,
+						.kode-financial-update-secndbar,
+						.kode-financial-up-navigaion-4 .navigaion > ul > li:hover > a,
+						.kode-financial-up-navigaion-4 .kode-financial-socialicons > ul > li:hover a,
+						.kode-financial-footer-green .kode-form button,
+						.kode-financial-footer-green .kode-linces-copyright .go-to-up a,
+						.kode-testimonial-section-home2.green-page .owl-controls .owl-dots .owl-dot.active,
+						.kode-financial-footer-green .financial-footer-social-icons ul li:hover a,
+						.kode-finacial-progress-section.home-page2 .progressbar .bar,
+						.kode-finacial-progress-section.home-page2 .progressbar .bar span,
+						.kode-playvideo-service .button-small a:hover,
+						.kode-finacial-counter.home-page2,
+						.dosts-green,
+						.kode-financial-service-blog-3 .container .kode_financial_business_fig .kode_financial_business_caption a:hover,
+						.kode_financial_business_wraper .container .kode_financial_business_fig .kode_financial_business_caption a:hover,
+						.theme-detail-social-icons ul li:hover a,
+						.financial-footer-social-icons ul li:hover a,
+						.kode-financial-error404 ul li:hover a,
+						.kode-finacial-teams-cols:hover .kode-finacial-social-icons ul li:hover a,
+						.kode-finacial-teams-cols:hover .kode-finacial-social-icons > a,
+						.tabs-services ul li:hover a,
+						.kode-download-paket ul li a,
+						.kode-Invest-Business-cols:hover,
+						.kode-contect-services2-cols figure figcaption a:hover,
+						.kode-contect-services2-cols > a,
+						.kode_financial_accordin_wraper.accordin-blue,
+						.kode-testimonial-section-home2.section-blue .owl-controls .owl-prev:hover:before,
+						.kode-testimonial-section-home2.section-blue .owl-controls .owl-next:hover:before,
+						.kode-case-studies-blog-5 .kode-finacial-project-cols figure figcaption a,
+						.kode-contect-us figure figcaption a:before,
+						.kode-contect-address,
+						.kode-contect-button a,
+						.kode-tags-cols ul li:hover a,
+						.kode-financial-replay-message-bottom a,
+						.kode-filker-img .kode-filker-gallery-cols figure:before,
+						.kode-financial-sm-slider-capion ul li:hover a,
+						.kode-caption-expert.blog-3:hover small,
+						.kode-our-expert-cols.blog-page03 figure figcaption a:hover,
+						.kode-column2-accodien .accordion-close .kode-accodien-3title-mark h6 a:before,
+						.kode-column2-accodien .accordion-close h6 a:before,
+						.kode-social-icons ul li:hover a,
+						.kode-finacial-progress-section .progressbar .bar,
+						.appointment-heading h6,
+						.kode-financial-consulting a:hover,
+						.button-small a:hover,
+						.kode-financial-topbar,
+						.kode-finacial-planing-service:hover a i,
+						.hover-menu-caption button:hover,
+						.kode-financial-logo-and-nav .kode-financial-navigaion nav ul li .simple-menu li:hover,
+						.kode-financial-rt-mediem-button li a:hover,
+						.kode-financial-service-blog-3 .container .kode_financial_business_fig figure .kode_financial_business_caption a:hover,
+						.kode-financial-service-blog-3 .container .kode_financial_business_fig .kode_financial_business_caption,
+						.kode-financial-logo-and-nav.nav2 .no-touch .dl-menuwrapper li a:hover,
+						.kode-financial-logo-and-nav .dl-menuwrapper button:hover,
+						.kode-financial-logo-and-nav .dl-menuwrapper button.dl-active,
+						.kode-financial-logo-and-nav .dl-menuwrapper ul,
+						.kode-financial-logo-and-nav .dl-menuwrapper button,
+						.kode-financial-prettyPhoto figure:before,
+						.kode-finacial-progress-section .progressbar .bar span,
+						.kode-prettyphoto-caption,
+						.kode-financial-prettyPhoto,
+						.kode-popo-notification,
+						.kode-up3-financial-navigaion,
+						.kode-footer-2::before,
+						.dl-menuwrapper button .dl-menuwrapper button:hover, .dl-menuwrapper button.dl-active, .dl-menuwrapper ul,
+						.kode-financial-navigaion .kode-lg-button,
+						.kode-update-newsletter form button:hover,
+						.kode_financial_business_caption:before,
+						.kode_financial_business_caption > a:hover,
+						footer .calendar_wrap #today,
+						.kode-financial-silde figure:before,
+						footer .widget_tag_cloud .tagcloud a:hover,
+						.kode-financial-logo-and-nav.nav2 .navigation .children,
+						.kode-financial-logo-and-nav.nav2 .navbar-nav .children,
+						footer.widget_calendar table tr td:hover,
+						.calendar_wrap th,
+						#kode-searchform button, .kode-search-02 button,
+						.kode-blog-list-grid .owl-controls .owl-prev:hover:before,
+						.kode-blog-list-grid .owl-controls .owl-next:hover:before,
+						.button-small a, .kode-financial-error404 ul li a,
+						.kode-finacialService-slider .kodeslider-section .owl-item.active.center .financial-slide-caption > a:hover,
+						.select .selectric-wrapper.selectric-selectpicker .selectric-items{background-color: #ffffff !important;  }
+
+						section .container .kode_financial_business_fig:hover .kode_financial_business_caption{
+							background-color: transparent;
+						}
+						.kode_financial_business_wraper .container .kode_financial_business_fig:hover {
+
+						}
+						/*
+							=======================================
+								BORDER COLOR DRAKBLUE
+							=======================================
+						*/
+						.kode-team-home2-cols:hover figure:after,
+						.kode-financial-blog2-cols:hover:before,
+						.kode-contect-services2-cols:hover figure,
+						.kode-case-studies-blog-5 .kode-finacial-project-cols:hover,
+						.kode-our-expert-cols.blog-page01:hover .kode-caption-expert,
+						.kode-contect-us figure figcaption a,
+						.kode-blockqode,
+						.kode-caption-expert.blog-3:hover h4:before,
+						.kode-financial-bottom-border,
+						.kode-finacial-recent-projects .owl-item.active.center .kode-finacial-project-cols,
+						.kode-financial-pricetable-cols:hover,
+						.kode-contect-services2-cols:hover,
+						.kode-finacial-planing-service:hover .kode-finacial-col,
+						.maga-menu-2,
+						.hover-menu-caption button,
+						.kode_financial_work_fig_1:hover figure,
+						.kode-financial-blog-caption h3:before,
+						.kode-financial-blog-caption p,
+						.kode_financial_work_caption a:hover,
+						.kode_financial_work_caption p:after,
+						footer .widget_tag_cloud .tagcloud a:hover,
+						.kode_financial_business_caption a:hover,
+						.kode-financial-logo-and-nav.nav2 .mega-menu.maga-menu-2,
+						.kode-financial-home2brands .owl-carousel .owl-controls .owl-dot.active  span {border-color: #ffffff !important;  }
+
+						/*
+							====================================
+								Blue OUTLINE-COLOR
+							====================================
+						*/
+						.kode-financial-service-blog-2 .container .kode_financial_business_fig:hover,
+						.kode_financial_business_wraper .container .kode_financial_business_fig:hover,
+						.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols:hover figure,
+						.kode-bloger-posts:hover figure:before,
+						.kode-financial-pricetable-cols:hover,
+						.kode-our-expert-cols.blog-page01 figure:before,
+						.kode-finacial-teams-cols figure,
+						.kode-financial-service-blog-3 .container .kode_financial_business_fig:hover,
+						.kode-popo-notification{outline-color: #ffffff !important;  }
+
+						.kode-team-mumbers-home2.kode-team-blue-home1 .kode-team-home2-cols:hover figure:after{
+							border-color: #ffffff #ffffff -moz-use-text-color;
+						}
+						.kode-team-mumbers-home2.kode-team-blue-home1 .kode-team-home2-cols:hover figure:before{
+							border-color: transparent transparent #ffffff;
+						}
+						.kode-team-mumbers-home2.kode-team-blue-home1 .kode-team-home2-cols:hover .kode-home2-caption{
+							background-color: #ffffff;
+						}
+						.kode-team-mumbers-home2.kode-team-blue-home1 .open > .dropdown-menu{
+							background-color: #ffffff;
+						}
+						.kode-team-blue-home1 .kode-team-home2-cols:hover figure:after{
+							border-left:2px solid #ffffff;
+							border-right:2px solid #ffffff;
+							border-top:2px solid #0A1E31;
+							border-bottom:none;
+						}
+						/*
+							=============================================================
+									COLORs 2
+							=============================================================
+						*/
+						.kode-financial-blog2-cols:hover .kode-financial-blog2-caption > a,
+						.dots-blue,
+						.select .selectric-wrapper.selectric-selectpicker .selectric-items .selectric-scroll ul li:hover,
+						.select .selectric-wrapper.selectric-selectpicker .selectric-items .selectric-scroll ul li.selected,
+						.kode-traders-datail.active figure:before,
+						.kode-our-services02:after,
+						.kode-finacial-project-cols figure figcaption a:hover,
+						.financial-silder-caption .btn-custom,
+						.kode-finacial-teams-cols figure:before,
+						.kode-brand-about-us.kode-form-and-brands:after,
+						.financial-consultent-caption:hover i:after,
+						.home-page-form .selectric-selectric-selectpicker .selectric-items .selectric-scroll ul li:hover,
+						.home-page-form .selectric-selectric-selectpicker .selectric-items .selectric-scroll ul li.selected,
+						.kode-up-financial-cols span:before,
+						.kode-up3-financial-navigaion .kode-quote-bt:before,
+						.kode-financial-topbar3,
+						.kode-testimonial-section-home2.section-blue .owl-controls .owl-dots .owl-dot.active,
+						.kode-qoute-bt-rt a:before,
+						.kode-qoute-bt-rt a,
+						.kode-form-button a,.kode_financial_business_caption
+						.button-small a, .kode-financial-error404 ul li a,
+						.kode-home2-caption,
+						.kode-social-icons-home2 .open > .dropdown-menu,
+						.kode-contect-button input,
+						.kode-sidebar .widget-title:before,
+						.theme-detail-social-icons ul li a,
+						.simple-figure-caption > a:hover,
+						.kode-form-wrap-simple-form form .select span .selectric-items li:hover,
+						.kode-form-wrap-simple-form form .select span .selectric-items li.selected,
+						.kode-form-wrap-simple-form .kode-form-button input,
+						.kode-financial-footer,
+						.kode-caption-expert small,
+						.kode-financial-pricetable-cols:hover > a,
+						.kode-consultant-menu-blog:hover .financial-consultent-caption i,
+						.kode-traders-datail .col-md-6.columns:hover figure:before,
+						.kode-pagination .next, .kode-pagination span, .kode-pagination .page-numbers:hover,
+						.kode-our-expert.section-blog02 .kode-financial-blog2-cols:hover .kode-financial-blog2-caption > a
+						{
+							background-color:#776058 !important;
+						}
+						.kode-footerbar{
+							background-color: #776058;
+
+						}
+						.kode-wpress-copyright{
+							background-color: #ffffff;
+						}
+						.kode-footerbar,
+						.footer-wpress-cols{
+							border-bottom: 1px solid #ffffff !important;
+						}
+						.footer-wpress-cols{
+							background-color: #ffffff;
+						}
+						.kode-up-financial-cols h6,
+						.kode-mega-analytics h4,
+						.widget_categories ul li:hover a,
+						.widget_categories ul li:hover:before,
+						.widget_categories ul li:hover,
+						.kode-financial-pricetable-cols h2,
+						.widget_nav_menu ul li::before, 
+						.widget_pages ul li:before, 
+						.widget_meta ul li:before, 
+						.widget_archive ul li::before, 
+						.widget_categories ul li:before,
+						.kode-caption-expert h6 a,
+						.group-columns-financial li:hover a{
+							color: #776058;
+						}
+						
+						.kode-financial-service-blog-2 .container .kode_financial_business_fig:hover,
+						.kode_financial_business_wraper .container .kode_financial_business_fig:hover,
+						.kode-case-studies-blog-cols-4 .kode-financial-blog2-cols:hover figure,
+						.kode-bloger-posts:hover figure:before,
+						.kode_financial_business_fig:hover,
+						.kode-financial-pricetable-cols:hover,
+						.kode-our-expert-cols.blog-page01 figure:before,
+						.kode-finacial-teams-cols figure,
+						.kode-financial-service-blog-3 .container .kode_financial_business_fig:hover,
+						.kode-popo-notification{
+							outline-color: #ffffff !important;
+						}
+
+						/*
+							====================================
+									DEFUALT COLORS
+							====================================
+						*/
+						.kode-finacial-planing-service:hover .kode-finacial-col,
+						.theme-detail-social-icons ul li:hover a,
+						.financial-footer-social-icons ul li:hover a,
+						.kode-financial-error404 ul li:hover a,
+						.kode-finacial-planing-service:hover a i{
+							color:#fff;
+						}
+
+						.kode-finacial-planing-section-columns .kode-finacial-planing-service:hover a i:after{
+							border-color: transparent transparent #ffffff transparent;
+						}
+						.kode-finacial-planing-section-columns .right-side-plan:hover a i:after{
+							border-color: transparent transparent transparent #ffffff;
+						}
+						.kode-team-home2-cols figure:before{
+						border-color:transparent transparent #776058 !important ;}
+
+						.kode-financial-bottom-border:before{
+						border-color:transparent #776058 transparent transparent !important ;}
+	.kode-financial-bottom-border:after{
+						border-color:#776058 transparent transparent !important;}
+
+						AAA{color: #ffffff !important;  }
+
+						AAAA{background-color: #ffffff !important;  }
+
+						AAAA{border-color: #ffffff;  }
+.kf_login_colum{border-bottom-color: #ffffff !important;  }
+.kf_login_1::before{border-color: #ffffff transparent transparent !important;  }
+.kode_pet_navigation ul.nav li a.current{border-top-color: #ffffff !important;  }
+.woocommerce-content-item .product .product_title.entry-title{ display:none;}.woocommerce-content-item div[itemprop="offers"]{ display:none;}.woocommerce-content-item div[itemprop="offers"]{ display:none;}.woocommerce-content-item .product .related.products{ display:none;}.woocommerce-content-item .product .sku_wrapper{ display:none;}.woocommerce-content-item .product .posted_in{ display:none; !important;}.woocommerce-content-item .product .tagged_as{ display:none !important;}.woocommerce-content-item .product .onsale{ display:none;}
