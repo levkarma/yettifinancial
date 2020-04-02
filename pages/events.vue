@@ -14,26 +14,36 @@
 		</nuxt-link> -->
 		<div class="columns is-centered">
 			<div class="column is-two-thirds">
-				<div class="level is-mobile">
-					<div class="level-left">
-						<div class="level-item">
-							<h1 class="title is-1">Events</h1>
-						</div>
+				<h2 class="content is-size-2 has-text-weight-bold">Upcoming Events</h2>
+				<div class="columns is-multiline event" v-for="event in upcomingEvents">
+					<div class="column is-half">
+						<figure class="image">
+							<img class="flyer" :src="event.featured_image" />
+						</figure>
+					</div>
+					<div class="column is-half content">
+						<h3 v-html="event.event_name"></h3>
+						<p class="is-size-5" v-html="formatDate(event.date).date"></p>
+						<p class="is-size-5" v-html="formatDate(event.date).time"></p>
+						<div v-html="$md.render(event.body)"></div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="columns is-centered event" v-for="event in events">
-			<div class="column is-one-third">
-				<figure class="image">
-					<img class="flyer" :src="event.featured_image" />
-				</figure>
-			</div>
-			<div class="column is-one-third content">
-				<h2 v-html="event.event_name"></h2>
-				<p class="is-size-5" v-html="formatDate(event.date).date"></p>
-				<p class="is-size-5" v-html="formatDate(event.date).time"></p>
-				<div v-html="$md.render(event.body)"></div>
+				<h2 class="content is-size-2 has-top-margin has-text-weight-bold	">
+					Past Events
+				</h2>
+				<div class="columns is-multiline event" v-for="event in oldEvents">
+					<div class="column is-half">
+						<figure class="image">
+							<img class="flyer" :src="event.featured_image" />
+						</figure>
+					</div>
+					<div class="column is-half content">
+						<h3 v-html="event.event_name"></h3>
+						<p class="is-size-5" v-html="formatDate(event.date).date"></p>
+						<p class="is-size-5" v-html="formatDate(event.date).time"></p>
+						<div v-html="$md.render(event.body)"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -44,7 +54,24 @@ export default {
 	name: 'events',
 	computed: {
 		events() {
-			return this.$store.state.events
+			return this.$store.state.events.map(event => {
+				event.dateString = Date.parse(event.date)
+				return event
+			})
+		},
+		oldEvents() {
+			return this.events
+				.filter(event => {
+					return event.dateString < Date.now()
+				})
+				.sort((a, b) => b.dateString - a.dateString)
+		},
+		upcomingEvents() {
+			return this.events
+				.filter(event => {
+					return event.dateString > Date.now()
+				})
+				.sort((a, b) => a.dateString - b.dateString)
 		}
 	},
 	data() {

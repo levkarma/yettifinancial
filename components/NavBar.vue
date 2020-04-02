@@ -45,6 +45,9 @@
 				<nuxt-link to="events" class="navbar-item">
 					Upcoming Events
 				</nuxt-link>
+				<nuxt-link to="frequently-asked-questions" class="navbar-item">
+					FAQ's
+				</nuxt-link>
 			</div>
 
 			<div class="navbar-end">

@@ -16,6 +16,9 @@ export const mutations = {
 	},
 	setEvents(state, events) {
 		state.events = events
+	},
+	setFaqs(state, faqs) {
+		state.faqs = faqs
 	}
 }
 export const getters = {
@@ -67,5 +70,17 @@ export const actions = {
 			return b.valueOf() - a.valueOf()
 		})
 		await commit('setEvents', sortedEvents)
+		//
+		let faqFiles = await require.context(
+			'~/assets/content/faqs/',
+			false,
+			/\.json$/
+		)
+		let faqs = faqFiles.keys().map(key => {
+			let res = faqFiles(key)
+			res.slug = key.slice(2, -5)
+			return res
+		})
+		await commit('setFaqs', faqs)
 	}
 }

@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-
 media_folder: static/img
 public_folder: /img
 collections:
@@ -18,3 +17,13 @@ collections:
       - { label: 'Event Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured Image', name: 'featured_image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Frequently Asked Question'
+    format: 'json'
+    name: 'faqs'
+    folder: 'assets/content/faqs'
+    create: true
+    identifier_field: question
+    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    fields:
+      - { label: 'Question', name: 'question', widget: 'string' }
+      - { label: 'Answer', name: 'answer', widget: 'markdown' }
