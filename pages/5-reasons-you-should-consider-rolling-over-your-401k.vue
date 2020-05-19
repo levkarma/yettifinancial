@@ -89,10 +89,13 @@
 
 <script>
 export default {
-	name: '5-reasons-you-should-consider-rolling-over-your-401k',
+	name: 'five-reasons-you-should-consider-rolling-over',
 
 	data() {
 		return {}
+	},
+	mounted() {
+		document.scrollingElement.scrollTop = 0
 	}
 }
 </script>

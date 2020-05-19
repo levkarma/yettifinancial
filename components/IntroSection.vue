@@ -72,7 +72,7 @@
 						</a>
 						<nuxt-link
 							to="/5-reasons-you-should-consider-rolling-over-your-401k"
-							class="button is-medium is-info is-light is-block has-top-margin"
+							class="button is-medium is-info is-light is-block has-top-margin multi-line-button"
 						>
 							<span>5 Reasons You Should Consider Rolling Over Your 401k</span>
 							<span class="icon"
@@ -117,4 +117,9 @@ export default {
 }
 </script>
 
-<style lang="css" scoped></style>
+<style lang="scss" scoped>
+.multi-line-button {
+	height: auto;
+	white-space: pre-wrap;
+}
+</style>
