@@ -9,7 +9,9 @@
 				>
 					<div class="content">
 						<h2 class="title is-size-3">Contact</h2>
-						<p class="is-size-4">703-362-4773</p>
+						<a href="tel:833-938-8448"
+							><p class="is-size-4">(833)-938-8448</p></a
+						>
 						<p class="is-size-4">{{ yettiFinancialEmail }}</p>
 						<p class="is-size-5">
 							Request a free consultation and/or financial analysis.
