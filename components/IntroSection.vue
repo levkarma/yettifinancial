@@ -50,8 +50,9 @@
 						<nuxt-link
 							to="events"
 							class="button is-medium is-info is-light is-block"
+							v-if="nextEventFormattedDate"
 						>
-							<span>Next Event: Talk on {{ nextEventFormattedDate }}</span>
+							<span>Next Event on {{ nextEventFormattedDate }}</span>
 							<span class="icon"
 								><i class="fas fa-chevron-circle-right"></i
 							></span>
@@ -62,7 +63,7 @@
 							target="_blank"
 						>
 							<span>Watch my free videos!</span><br /><span class="is-size-6"
-								>2.3k Subscribers</span
+								>5k+ Subscribers</span
 							>
 							<span class="icon"
 								><i class="fas fa-chevron-circle-right"></i
@@ -90,6 +91,7 @@ export default {
 		},
 		nextEventFormattedDate() {
 			const futureEvents = getFutureEvents(this.events)
+			if (!futureEvents.length) return null
 			// already sorted
 			const nextEvent = futureEvents.pop()
 			const date = dayjs(nextEvent.date).format('MM/DD')

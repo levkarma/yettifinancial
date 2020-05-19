@@ -15,6 +15,7 @@
 		<div class="columns is-centered">
 			<div class="column is-two-thirds">
 				<h2 class="content is-size-2 has-text-weight-bold">Upcoming Events</h2>
+				<span v-if="!upcomingEvents.length">No events scheduled.</span>
 				<div class="columns is-multiline event" v-for="event in upcomingEvents">
 					<div class="column is-half">
 						<figure class="image">

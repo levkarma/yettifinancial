@@ -3,9 +3,12 @@
 		<div class="columns is-centered">
 			<div class="column content is-two-thirds-desktop">
 				<h1>Frequently Asked Questions</h1>
-				<div v-for="faq in faqs" class="has-top-margin">
+				<div v-for="faq in faqs" v-if="faqs.length" class="has-top-margin">
 					<h2 v-html="faq.question"></h2>
 					<p class="is-size-5" v-html="$md.render(faq.answer)"></p>
+				</div>
+				<div v-if="!faqs.length">
+					Coming soon.
 				</div>
 			</div>
 		</div>

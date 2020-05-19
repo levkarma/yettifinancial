@@ -19,7 +19,6 @@
 						<label class="label">Name</label>
 						<div class="control has-icons-left">
 							<input
-								v-model="name"
 								class="input is-primary"
 								type="text"
 								placeholder="Name"
@@ -34,7 +33,6 @@
 						<label class="label">Email</label>
 						<div class="control has-icons-left">
 							<input
-								v-model="email"
 								class="input is-primary"
 								type="text"
 								placeholder="Email"
@@ -50,7 +48,6 @@
 						<label class="label">Phone Number</label>
 						<div class="control has-icons-left">
 							<input
-								v-model="phoneNumber"
 								class="input is-primary"
 								type="text"
 								placeholder="Phone Number"
@@ -66,10 +63,7 @@
 						<label class="label">What are you most interested in?</label>
 						<div class="control has-icons-left">
 							<div class="select is-primary">
-								<select
-									name="What are you most intersted in?"
-									v-model="whatAreYouMostInterestedIn"
-								>
+								<select name="What are you most intersted in?">
 									<option v-for="option in contact.interestedOptions">{{
 										option
 									}}</option>
@@ -84,10 +78,7 @@
 						<label class="label">Interested in anything else?</label>
 						<div class="control has-icons-left">
 							<div class="select is-primary">
-								<select
-									name="Interested in anything else?"
-									v-model="interestedInAnythingElse"
-								>
+								<select name="Interested in anything else?">
 									<option v-for="option in contact.interestedOptions">{{
 										option
 									}}</option>

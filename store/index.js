@@ -53,34 +53,43 @@ export const getters = {
 
 export const actions = {
 	async nuxtServerInit({ commit }) {
-		let files = await require.context(
-			'~/assets/content/event/',
-			false,
-			/\.json$/
-		)
-		let events = files.keys().map(key => {
-			let res = files(key)
-			res.slug = key.slice(2, -5)
-			return res
-		})
-		let sortedEvents = events.slice()
-		sortedEvents.sort((a, b) => {
-			a = new Date(a.date)
-			b = new Date(b.date)
-			return b.valueOf() - a.valueOf()
-		})
-		await commit('setEvents', sortedEvents)
+		try {
+			let files = await require.context(
+				'~/assets/content/event/',
+				false,
+				/\.json$/
+			)
+
+			let events = files.keys().map(key => {
+				let res = files(key)
+				res.slug = key.slice(2, -5)
+				return res
+			})
+			let sortedEvents = events.slice()
+			sortedEvents.sort((a, b) => {
+				a = new Date(a.date)
+				b = new Date(b.date)
+				return b.valueOf() - a.valueOf()
+			})
+			await commit('setEvents', sortedEvents)
+		} catch (e) {
+			await commit('setEvents', [])
+		}
 		//
-		let faqFiles = await require.context(
-			'~/assets/content/faqs/',
-			false,
-			/\.json$/
-		)
-		let faqs = faqFiles.keys().map(key => {
-			let res = faqFiles(key)
-			res.slug = key.slice(2, -5)
-			return res
-		})
-		await commit('setFaqs', faqs)
+		try {
+			let faqFiles = await require.context(
+				'~/assets/content/faqs/',
+				false,
+				/\.json$/
+			)
+			let faqs = faqFiles.keys().map(key => {
+				let res = faqFiles(key)
+				res.slug = key.slice(2, -5)
+				return res
+			})
+			await commit('setFaqs', faqs)
+		} catch (e) {
+			await commit('setFaqs', [])
+		}
 	}
 }
