@@ -57,9 +57,10 @@
 								><i class="fas fa-chevron-circle-right"></i
 							></span>
 						</nuxt-link>
+
 						<a
 							href="https://www.youtube.com/channel/UCAFPvZSFfyiirNfT2aCrz7g"
-							class="expanding-button is-medium is-info is-light is-block has-top-margin"
+							class="expanding-button is-medium is-info is-light is-block "
 							target="_blank"
 						>
 							<span>Watch my free videos!</span><br /><span class="is-size-6"
@@ -69,6 +70,15 @@
 								><i class="fas fa-chevron-circle-right"></i
 							></span>
 						</a>
+						<nuxt-link
+							to="/5-reasons-you-should-consider-rolling-over-your-401k"
+							class="button is-medium is-info is-light is-block has-top-margin"
+						>
+							<span>5 Reasons You Should Consider Rolling Over Your 401k</span>
+							<span class="icon"
+								><i class="fas fa-chevron-circle-right"></i
+							></span>
+						</nuxt-link>
 					</div>
 				</div>
 			</div>
