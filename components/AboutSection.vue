@@ -12,11 +12,7 @@
 				</div>
 				<div class="columns">
 					<div class="column is-half">
-						<YoutubeVideo
-							:src="
-								'https://www.youtube.com/embed/videoseries?list=PLEMDtyFuzwKajsLKrhwEk9HoL2NVDz5qJ'
-							"
-						/>
+						<YoutubeVideo :src="'https://www.youtube.com/embed/67CJKbeOl7g'" />
 					</div>
 					<div class="column is-half">
 						<div class="content">
