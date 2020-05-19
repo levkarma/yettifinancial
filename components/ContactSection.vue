@@ -91,11 +91,7 @@
 							</span>
 						</div>
 					</div>
-					<input
-						type="submit"
-						class="button is-primary"
-						@click.prevent="submit"
-					/>
+					<input type="submit" class="button is-primary" />
 				</form>
 			</div>
 		</div>
