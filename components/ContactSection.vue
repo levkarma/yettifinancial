@@ -2,7 +2,11 @@
 	<section id="contact" class="section">
 		<div class="columns is-centered">
 			<div class="column is-half">
-				<form action="/" method="post" name="contact-form">
+				<form
+					action="https://formspree.io/myynkngn"
+					method="POST"
+					name="contact-form"
+				>
 					<div class="content">
 						<h2 class="title is-size-3">Contact</h2>
 						<p class="is-size-4">703-362-4773</p>
@@ -19,7 +23,7 @@
 								class="input is-primary"
 								type="text"
 								placeholder="Name"
-								name="name"
+								name="Name"
 							/>
 							<span class="icon is-small is-left">
 								<i class="fas fa-user"></i>
@@ -34,7 +38,7 @@
 								class="input is-primary"
 								type="text"
 								placeholder="Email"
-								name="email"
+								name="Email"
 								required
 							/>
 							<span class="icon is-small is-left">
@@ -50,7 +54,7 @@
 								class="input is-primary"
 								type="text"
 								placeholder="Phone Number"
-								name="phone-number"
+								name="Phone Number"
 								required
 							/>
 							<span class="icon is-small is-left">
@@ -62,7 +66,10 @@
 						<label class="label">What are you most interested in?</label>
 						<div class="control has-icons-left">
 							<div class="select is-primary">
-								<select v-model="whatAreYouMostInterestedIn">
+								<select
+									name="What are you most intersted in?"
+									v-model="whatAreYouMostInterestedIn"
+								>
 									<option v-for="option in contact.interestedOptions">{{
 										option
 									}}</option>
@@ -77,7 +84,10 @@
 						<label class="label">Interested in anything else?</label>
 						<div class="control has-icons-left">
 							<div class="select is-primary">
-								<select v-model="interestedInAnythingElse">
+								<select
+									name="Interested in anything else?"
+									v-model="interestedInAnythingElse"
+								>
 									<option v-for="option in contact.interestedOptions">{{
 										option
 									}}</option>
@@ -93,22 +103,6 @@
 						class="button is-primary"
 						@click.prevent="submit"
 					/>
-					<div
-						class="notification is-warning has-top-margin"
-						v-if="submittingForm"
-					>
-						Sending...
-					</div>
-					<div
-						class="notification is-success has-top-margin"
-						v-if="submittedForm"
-					>
-						Submitted successfully!
-					</div>
-					<div class="notification is-danger has-top-margin" v-if="failedForm">
-						Whoops, the form submission has failed. Please try emailing me
-						directly at {{ yettiFinancialEmail }}.
-					</div>
 				</form>
 			</div>
 		</div>
@@ -124,11 +118,6 @@ export default {
 			submittedForm: false,
 			failedForm: false,
 			yettiFinancialEmail: 'info@yettifinancial.com',
-			name: '',
-			email: '',
-			phoneNumber: '',
-			whatAreYouMostInterestedIn: '',
-			interestedInAnythingElse: '',
 			contact: {
 				interestedOptions: [
 					'FREE Financial Analysis',
@@ -148,30 +137,30 @@ export default {
 	methods: {
 		submit() {
 			this.submittingForm = true
-			axios({
-				method: 'post',
-				url: 'https://homebase.vinmediagroup.com/api/form-submission',
-				headers: { 'Content-Type': 'application/json' },
-				data: JSON.stringify({
-					email: 'levko.k9@gmail.com',
-					form_data: {
-						Name: this.name,
-						Email: this.email,
-						'Phone Number': this.phoneNumber,
-						'What are you most interested in?': this.whatAreYouMostInterestedIn,
-						'Are you interested in anything else?': this
-							.interestedInAnythingElse
-					}
-				})
-			})
-				.then(response => {
-					this.submittingForm = false
-					this.submittedForm = true
-				})
-				.catch(error => {
-					this.submittingForm = false
-					this.failedForm = true
-				})
+			// axios({
+			// 	method: 'post',
+			// 	url: 'https://homebase.vinmediagroup.com/api/form-submission',
+			// 	headers: { 'Content-Type': 'application/json' },
+			// 	data: JSON.stringify({
+			// 		email: 'levko.k9@gmail.com',
+			// 		form_data: {
+			// 			Name: this.name,
+			// 			Email: this.email,
+			// 			'Phone Number': this.phoneNumber,
+			// 			'What are you most interested in?': this.whatAreYouMostInterestedIn,
+			// 			'Are you interested in anything else?': this
+			// 				.interestedInAnythingElse
+			// 		}
+			// 	})
+			// })
+			// 	.then(response => {
+			// 		this.submittingForm = false
+			// 		this.submittedForm = true
+			// 	})
+			// 	.catch(error => {
+			// 		this.submittingForm = false
+			// 		this.failedForm = true
+			// 	})
 		}
 	}
 }
