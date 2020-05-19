@@ -14,7 +14,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'Family First Financial Services & Wealth Strategies'
       },
       { hid: 'keywords', name: 'keywords', content: '' }
     ],
