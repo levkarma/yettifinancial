@@ -2,21 +2,28 @@
 	<section id="contact" class="section">
 		<div class="columns is-centered">
 			<div class="column is-half">
-				<form
-					action="https://formspree.io/myynkngn"
-					method="POST"
-					name="contact-form"
-				>
-					<div class="content">
+				<div class="content">
 						<h2 class="title is-size-3">Contact</h2>
 						<a href="tel:833-938-8448"
 							><p class="is-size-4">(833)-938-8448</p></a
 						>
 						<p class="is-size-4">{{ yettiFinancialEmail }}</p>
-						<p class="is-size-5">
-							Request a free consultation and/or financial analysis.
+						<a href="https://calendly.com/yetti" target="_blank" ><button class="button is-primary">
+							<span>Schedule yourself in my calendar</span>
+						<span class="icon">
+							<i class="fas fa-external-link-alt"></i>											
+						</span>
+						</button>
+						</a>				
+						<p class="is-size-5 has-top-margin">
+							Or request a free consultation and/or financial analysis below.
 						</p>
 					</div>
+				<form
+					action="https://formspree.io/myynkngn"
+					method="POST"
+					name="contact-form"
+				>
 					<div class="field">
 						<label class="label">Name</label>
 						<div class="control has-icons-left">
