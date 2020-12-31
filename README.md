@@ -1,5 +1,9 @@
 # [yettifinancial.info](https://yettifinancial.info)
 
+The client requested an improved site from the current site (still can be viewed (here)[https://yettifinancial.com]). The site is dreadfully slow, has broken links, and a poor mobile version.
+
+All of this was improved upon greatly.
+
 ## Netlify CMS
 
 The client wanted a CMS to add events and questions to the FAQ by themselves.
