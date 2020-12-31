@@ -12,3 +12,17 @@ This is what it looks like:
 An important design feature for me was easily viewing the services and returning back to the homepage. Such smooth navigation made the website feel modern and app-like.
 
 <img src="static/img/yetti-rec-1.gif" alt="static/img/yetti-rec-1.gif" width="200px" />
+
+## Speed Test Improvements
+
+I was very satisfied with the speed improvements using [Google Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/). Note [yettifinancial.com](https://yettifinancial.com) still holds the initial site, as the client did not want to transition this new site to the .com yet.
+
+### Before
+
+![](static/img/yetti-com-speed-desktop.png)
+![](static/img/yetti-com-speed-mobile.png)
+
+### After
+
+![](static/img/yetti-info-speed-desktop.png)
+![](static/img/yetti-info-speed-mobile.png)
