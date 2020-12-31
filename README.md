@@ -11,4 +11,4 @@ This is what it looks like:
 
 An important design feature for me was easily viewing the services and returning back to the homepage. Such smooth navigation made the website feel modern and app-like.
 
-<img src="static/img/yetti-rec-1.gif" alt="static/img/yetti-rec-1.gif" style="zoom:33%;" />
+<img src="static/img/yetti-rec-1.gif" alt="static/img/yetti-rec-1.gif" width="200px" />
