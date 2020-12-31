@@ -6,7 +6,8 @@
           <div class="col-lg-4 col-md-6 footer-info">
             <h3>NewBiz</h3>
             <p>
-              {{ $store.getters.cData('about-us-section.first-sentence') }} {{ $store.getters.cData('about-us-section.body') }}
+              {{ $store.getters.cData('about-us-section.first-sentence') }}
+              {{ $store.getters.cData('about-us-section.body') }}
             </p>
           </div>
 
@@ -25,15 +26,25 @@
             <h4>Contact Us</h4>
             <p>
               {{ $store.getters.cData('locations.first-line-address') }} <br />
-              {{ $store.getters.cData('locations.city') }}, {{ $store.getters.cData('locations.state') }} {{ $store.getters.cData('locations.zip') }}<br />
+              {{ $store.getters.cData('locations.city') }},
+              {{ $store.getters.cData('locations.state') }}
+              {{ $store.getters.cData('locations.zip') }}<br />
               United States <br />
-              <strong>Phone:</strong>{{ $store.getters.cData('locations.phone-number') }}<br />
-              <strong>Email:</strong> {{ $store.getters.cData('locations.email') }}<br />
+              <strong>Phone:</strong
+              >{{ $store.getters.cData('locations.phone-number') }}<br />
+              <strong>Email:</strong>
+              {{ $store.getters.cData('locations.email') }}<br />
             </p>
 
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a :href="$store.getters.cData('social-media-links.facebook-page-url')" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a
+                :href="
+                  $store.getters.cData('social-media-links.facebook-page-url')
+                "
+                class="facebook"
+                ><i class="fa fa-facebook"></i
+              ></a>
               <!-- <a :href="'https://instagram.com/' + $store.getters.cData('social-media-links.instagram-handle').slice(0,-1)" class="instagram"><i class="fa fa-instagram"></i></a> -->
               <a href="#" class="google-plus"
                 ><i class="fa fa-google-plus"></i
